@@ -92,7 +92,7 @@ a:hover {
     position: absolute;
     width: 46%;
     left: 49%;
-    top: 40px;
+    /*top: 40px;*/ /* re-enable when card headers are reintroduced */
 }
 .card .img-holder {
     position: absolute;

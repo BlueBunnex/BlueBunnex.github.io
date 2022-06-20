@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+:root {
+    --ten: #60bdfa; /* var(--color) */ /* 60 30 10 rule */
+    --thirty: #f3f3f3;
+    --thirty-contrast: #666;
+    --sixty: #ffffff;
+    font-family: 'Poppins', sans-serif;
+
+    color: black;
+}
+
+h1 {
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+    cursor: default;
+}
+
+h2 {
+    font-size: 24px;
+    text-align: left;
+    line-height: 0;
+    margin: 42px 0 24px 0;
+}
+
+/* use for translations (those grey boxes) */
+.trans {
+    font-style: normal;
+    font-size: 15px;
+    display: block;
+}
+/*i:before {
+    content: "\a";
+    white-space: pre-wrap;
+}*/
+
+p {
+    text-indent: 2em;
+    text-align: left;
+    padding: 0px 10px;
+    font-size: 14px;
+    /*text-align: justify;
+    text-justify: inter-word;*/
+}
+p i {
+    text-indent: 0;
+}
+p .trans {
+    color: var(--thirty-contrast);
+    background-color: var(--thirty);
+    padding: 6px;
+    border-radius: 8px;
+    width: 100%;
+    margin: 10px 0 0 0;
+    text-indent: 0;
+
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+p .trans a {
+    color: var(--thirty-contrast);
+}
+
+a {
+    text-decoration: none;
+    color: var(--ten);
+}
+a:hover {
+    filter: brightness(80%);
+}
+
+.card {
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--thirty);
+    border-radius: 6px;
+    display: block;
+    margin-bottom: 10px;
+    height: 240px;
+    position: relative;
+    overflow: hidden;
+}
+.card h3 {
+    position: absolute;
+    left: 49%;
+    color: var(--ten);
+    font-weight: 100;
+}
+.card p {
+    position: absolute;
+    width: 46%;
+    left: 49%;
+    top: 40px;
+}
+.card .img-holder {
+    position: absolute;
+    left: 0;
+    width: 47%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.card .img-holder img {
+    width: 100%;
+    transition: 0.4s;
+}
+.card .img-holder:hover img {
+    filter: brightness(70%) blur(1px);
+    /* -webkit-filter: blur(1px); */
+    transform:scale(1.2);
+    -ms-transform:scale(1.2); /* IE 9 */
+    -moz-transform:scale(1.2); /* Firefox */
+    -webkit-transform:scale(1.2); /* Safari and Chrome */
+    -o-transform:scale(1.2); /* Opera */
+}
+.card .img-holder span {
+    position: absolute;
+    top: 80px;
+    left: 64px;
+    font-size: 52px;
+    z-index: 100;
+    color: var(--sixty);
+    transition-duration: 0.4s;
+    opacity: 0;
+}
+.card .img-holder:hover span {
+    opacity: 1;
+}
+.card .imagetag, .card .datetag {
+    color: var(--thirty-contrast);
+    position: absolute;
+    bottom: 0;
+    font-size: 12px;
+}
+.card .imagetag {
+    left: 48.5%;
+}
+.card .datetag {
+    right: 5px;
+}
+
+/* navbar */
+ul {
+    font-size: 16px;
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--thirty);
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+li {
+    float: left;
+}
+li a {
+    transition-duration: 0.2s;
+    display: block;
+    color: var(--thirty-contrast);
+    text-align: center;
+    padding: 8px 20px;
+    text-decoration: none;
+    line-height: 21px;
+}
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+li a.active {
+    color: white;
+    background-color: var(--ten);
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    width: auto;
+    padding: 16px;
+    margin-top: 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    height: 100%;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* columns that float next to each other */
+.left-column, .right-column {
+    padding: 16px;
+    margin: 0px;
+
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+.left-column {
+    padding-right: 0px;
+    float: left;
+    width: 67%;
+}
+.right-column {
+    float: right;
+    width: 33%;
+}
+/* makes the columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+    .left-column, .right-column {
+        width: 100%;
+    }
+    .left-column .wide-display-only, .right-column .wide-display-only { /* left doesn't have anything wide-display-only, but just in case */
+        display: none;
+    }
+}

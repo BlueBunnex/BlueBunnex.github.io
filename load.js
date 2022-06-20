@@ -14,7 +14,7 @@ function loadTheThings() {
                 <span><i class="fa-solid fa-camera"></i> ` + value["images"].length + `</span>
                 <img src="` + value["images"][0] + `">
             </span>
-            <h3>Website updated v1.1</h3>
+            //<h3>header</h3>
             <p>` + value["description"] + readMore + `</p>
             <span class="imagetag"></span>
             <span class="datetag">` + value["date"] + `</span>
@@ -27,11 +27,11 @@ function loadTheThings() {
 
 var blogCards = [
     {
-        "description": "I think it looks pretty cool. Everything is still kinda wip though so this blog isn't being used at the moment...",
-        "date": "05/01/2022",
+        "description": "We are now hosting on Github, which makes updating blog posts very convenient!",
+        "date": "06/20/2022",
         "images": [
             "img/kitsu_.png"
-        ],
-        "page": "404.html"
+        ]
+        //"page": "404.html"
     }
 ]

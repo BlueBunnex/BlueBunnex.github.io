@@ -14,7 +14,6 @@ function loadTheThings() {
                 <span><i class="fa-solid fa-camera"></i> ` + value["images"].length + `</span>
                 <img src="` + value["images"][0] + `">
             </span>
-            //<h3>header</h3>
             <p>` + value["description"] + readMore + `</p>
             <span class="imagetag"></span>
             <span class="datetag">` + value["date"] + `</span>

@@ -67,9 +67,9 @@ function loadTheThings() {
         var readMore = "";
 
         if (value["page"] != null) {
-            readMore = `<a href="` + value["page"] + `" style="font-style: italic;"> Take me there</a>`;
+            readMore = `<a href="` + value["page"] + `" style="font-style: italic; cursor: pointer;"> Take me there...</a>`;
         } else {
-            readMore = `<a onclick="openModal(` + index + `); currentSlide(1);" style="font-style: italic;"> Read more</a>`;
+            readMore = `<a onclick="openModal(` + index + `); currentSlide(1);" style="font-style: italic; cursor: pointer;"> Read more...</a>`;
         }
 
         construct += `

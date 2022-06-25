@@ -6,7 +6,7 @@ function openModal(cardIndex) {
     // retrieve all those slides
     blogCards[cardIndex]["slides"].forEach(function(value, index) {
         allSlides += `<div class="mySlides">
-                    <div class="numbertext">` + index + ` / ` + theLength + `</div>
+                    <div class="numbertext">` + (index + 1) + ` / ` + theLength + `</div>
                     ` + value + `
                     </div>`
     });
@@ -93,10 +93,15 @@ var blogCards = [
         "image": "img/kitsu_.png",
         "image-count": 2,
         "slides": [
-            `<h1>test 1</h1>
-            <img src="img/kitsu_.png" alt="Girl in a jacket" width="500" height="600">`,
-            `<h1>test 2</h1>
-            <img src="img/banner.png" alt="Girl in a jacket" width="700" height="600">`
+            `
+            <h1>test 1</h1>
+            <img src="img/kitsu_.png" alt="Girl in a jacket" width="500" height="600">
+            `,
+            `
+            <h1>test 2</h1>
+            <img src="img/banner.png" alt="Girl in a jacket" width="700" height="600">
+            <p>A nice little caption on how amazing I am at drawing <3</p>
+            `
         ],
         //"page": "404.html"
     }

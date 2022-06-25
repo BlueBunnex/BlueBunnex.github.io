@@ -47,8 +47,8 @@ function loadTheThings() {
         construct += `
         <span class="card">
             <span class="img-holder" onclick="openModal(); currentSlide(1);">
-                <span><i class="fa-solid fa-camera"></i> ` + value["images"].length + `</span>
-                <img src="` + value["images"][0] + `">
+                <span><i class="fa-solid fa-camera"></i> ` + value["image-count"] + `</span>
+                <img src="` + value["image"] + `">
             </span>
             <p>` + value["description"] + readMore + `</p>
             <span class="imagetag"></span>
@@ -64,10 +64,11 @@ var blogCards = [
     {
         "description": "We are now hosting on Github, which makes updating blog posts very convenient!",
         "date": "06/20/2022",
-        "images": [
-            "img/kitsu_.png",
-            "img/banner.png",
-        ]
+        "image": "img/kitsu_.png",
+        "image-count": 1,
+        "content": [
+            
+        ],
         //"page": "404.html"
     }
 ]

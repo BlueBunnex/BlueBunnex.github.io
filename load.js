@@ -1,13 +1,12 @@
 // Open the Modal
 function openModal(cardIndex) {
-    alert(cardIndex);
-    
     var allSlides = "";
+    var theLength = blogCards[cardIndex]["slides"].length;
     
     // retrieve all those slides
     blogCards[cardIndex]["slides"].forEach(function(value, index) {
         allSlides += `<div class="mySlides">
-                    <div class="numbertext">1 / 1</div>
+                    <div class="numbertext">` + index + ` / ` + theLength + `</div>
                     ` + value + `
                     </div>`
     });
@@ -92,12 +91,12 @@ var blogCards = [
         "description": "We are now hosting on Github, which makes updating blog posts very convenient!",
         "date": "06/20/2022",
         "image": "img/kitsu_.png",
-        "image-count": 1,
+        "image-count": 2,
         "slides": [
-            `<h1>meow</h1>
+            `<h1>test 1</h1>
             <img src="img/kitsu_.png" alt="Girl in a jacket" width="500" height="600">`,
-            `<h1>melting?</h1>
-            <img src="img/kitsu_.png" alt="Girl in a jacket" width="700" height="600">`
+            `<h1>test 2</h1>
+            <img src="img/banner.png" alt="Girl in a jacket" width="700" height="600">`
         ],
         //"page": "404.html"
     }

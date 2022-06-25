@@ -2,15 +2,22 @@
 function openModal(cardIndex) {
     alert(cardIndex);
     
-    // load data into the modal
+    var allSlides = "";
+    
+    // retrieve all those slides
+    blogCards[cardIndex]["slides"].forEach(function(value, index) {
+        allSlides += `<div class="mySlides">
+                    <div class="numbertext">1 / 1</div>
+                    ` + value + `
+                    </div>`
+    });
+    
+    // modify inner HTML of modal
     document.getElementById('myModal').innerHTML = `
         <span class="close cursor" onclick="closeModal();">&times;</span>
         <div class="modal-content">
 
-            <div class="mySlides">
-                <div class="numbertext">1 / 1</div>
-                ` + blogCards[cardIndex]["content"][0] + `
-            </div>
+            ` + allSlides + `
 
             <!-- Next/previous controls -->
             <a class="prev" onclick="plusSlides(-1);">&#10094;</a>
@@ -86,7 +93,7 @@ var blogCards = [
         "date": "06/20/2022",
         "image": "img/kitsu_.png",
         "image-count": 1,
-        "content": [
+        "slides": [
             `<h1>meow</h1>
             <img src="img/kitsu_.png" alt="Girl in a jacket" width="500" height="600">`,
             `<h1>melting?</h1>

@@ -1,5 +1,7 @@
 // Open the Modal
-function openModal() {
+function openModal(cardIndex) {
+    alert(cardIndex);
+    
     // load data into the modal
     document.getElementById('myModal').innerHTML = `
         <span class="close cursor" onclick="closeModal();">&times;</span>
@@ -62,7 +64,7 @@ function showSlides(n) {
 function loadTheThings() {
     var construct = "";
 
-    blogCards.forEach(function(value) {
+    blogCards.forEach(function(value, index) {
         var readMore = "";
 
         if (value["page"] != null) {
@@ -71,7 +73,7 @@ function loadTheThings() {
 
         construct += `
         <span class="card">
-            <span class="img-holder" onclick="openModal(); currentSlide(1);">
+            <span class="img-holder" onclick="openModal(` + index + `); currentSlide(1);">
                 <span><i class="fa-solid fa-camera"></i> ` + value["image-count"] + `</span>
                 <img src="` + value["image"] + `">
             </span>

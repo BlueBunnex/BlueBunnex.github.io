@@ -249,6 +249,7 @@ li a.active {
 
 .modal-content p {
     font-size: 18px;
+    line-height: 2;
 }
 
 /* The Close Button */

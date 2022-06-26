@@ -101,6 +101,12 @@ var blogCards = [
             <h1>Behind the scenes</h1>
             <p>I really rushed through making this blog system so that I could use it for this trip. However, it has a few nice features.</p>
             <img src="img/summer_girl.png" alt="Image that's the same as the one I posted on Twitter" width="600">
+            `,
+            `
+            <h1>Behind the scenes</h1>
+            <p>1) In case you didn't notice, you can get to this gallery view by clicking on the image on the blog card. It also shows the amount of images in the blog.</p>
+            <p>2) All blog content is dynamically loaded from a Javascript array (this should be an external JSON file, but whatever). If you don't know what that is, it basically means I just have to put all the stuff I want in this blog into a nice array and it automatically loads it into the webpage. Wow!</p>
+            <p>3) If you hover over the x in the top right to close this gallery, it does a little spin.</p>
             `
         ],
         //"page": "404.html"

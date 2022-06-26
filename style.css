@@ -245,6 +245,9 @@ li a.active {
     padding: 0;
     width: 90%;
     max-width: 1200px;
+}
+
+.modal-content p {
     font-size: 18px;
 }
 

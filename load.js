@@ -16,7 +16,9 @@ function openModal(cardIndex) {
         <span class="close cursor" onclick="closeModal();">&times;</span>
         <div class="modal-content">
 
+            <div style="padding: 20px 120px;">
             ` + allSlides + `
+            </div>
 
             <!-- Next/previous controls -->
             <a class="prev" onclick="plusSlides(-1);">&#10094;</a>
@@ -90,19 +92,27 @@ function loadTheThings() {
 
 var blogCards = [
     {
+        "description": "Leaving for Europe tomorrow, which means I really have to get this website ready for blogging.",
+        "date": "06/26/2022",
+        "image": "img/summer_girl.png",
+        "image-count": 1,
+        "slides": [
+            `
+            <h1>Behind the scenes</h1>
+            <p>I really rushed through making this blog system so that I could use it for this trip. However, it has a few nice features.</p>
+            <img src="img/summer_girl.png" alt="Image that's the same as the one I posted on Twitter" width="600">
+            `
+        ],
+        //"page": "404.html"
+    },
+    {
         "description": "We are now hosting on Github, which makes updating blog posts very convenient!",
         "date": "06/20/2022",
         "image": "img/kitsu_.png",
-        "image-count": 2,
+        "image-count": 1,
         "slides": [
             `
-            <h1>test 1</h1>
-            <img src="img/kitsu_.png" alt="Girl in a jacket" width="500" height="600">
-            `,
-            `
-            <h1>test 2</h1>
-            <img src="img/banner.png" alt="Girl in a jacket" width="700" height="600">
-            <p>A nice little caption on how amazing I am at drawing <3</p>
+            <img src="img/kitsu_.png" alt="Random image for the Github card" width="600">
             `
         ],
         //"page": "404.html"

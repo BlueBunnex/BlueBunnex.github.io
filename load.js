@@ -94,8 +94,8 @@ var blogCards = [
     {
         "description": "First day of travel (to Germany on plane!!) and I already feel like death. I was very tired. Lots of cool photos though!",
         "date": "06/27/2022",
-        "image": "https://drive.google.com/file/d/1j41agOxbqbMwimzxMP8WfOchDMI2wRte/view?usp=sharing",
-        "image-count": 16,
+        "image": "https://drive.google.com/uc?id=1j41agOxbqbMwimzxMP8WfOchDMI2wRte",
+        "image-count": 18,
         "slides": [
             `
             <img src="img/kitsu_.png" alt="Random image for the Github card" width="600">

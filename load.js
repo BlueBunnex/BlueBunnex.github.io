@@ -98,9 +98,28 @@ var blogCards = [
         "image-count": 18,
         "slides": [
             `
-            <img src="https://lh6.googleusercontent.com/6c_iEK6WX5WIec4dSs3RNTO7JHIs8RdqNCpCIE_g352iQchfhz-qd6QpWCi8d8QwdCw=w2400" width="500">
-            Fumo fumo fumo!
+            <p>The trains at the airport were really neat, since they just went between the different parts of the airport. It's like a tiny city! From the outside all you see is the entrance, but it goes really far backwards as well as down.</p>
+            <p>I remember not knowing what the security parts were for (hint: they're for security). Knowing now of all the dangers that humanity poses to itself is really quite sobering. Also I liked putting my stuff on the conveyer, it disappeared into a funny box :3</p>
+            <img src="https://lh4.googleusercontent.com/UZNlDjqlt4qBq_qz1hyeBOekYyA5REpmVi518yZ12-8zgWX8QtowLE6hlOMajwKS6Wo=w2400" width="200">
+            <img src="https://lh5.googleusercontent.com/VNddOP67HQC53ippeFOfSb1A8t55iSFcs99Ne4k3gwiNbaj34Kuw4QL9wg52D768jZs=w2400" width="200">
+            <img src="https://lh3.googleusercontent.com/rCHsJ0tL7ykG3gBasgFhShdKxvgLSnajhDP3vwuQF3PTjZyRoF9E5-MgmegNGuO2Svw=w2400" width="200">
+            `,
             `
+            <p></p>
+            <img src="" width="500">
+            `,
+            `
+            <p></p>
+            <img src="" width="500">
+            `,
+            `
+            <p></p>
+            <img src="" width="500">
+            `,
+            `
+            <p></p>
+            <img src="" width="500">
+            `,
         ]
     },
     {

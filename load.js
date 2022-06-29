@@ -98,7 +98,7 @@ var blogCards = [
         "image-count": 18,
         "slides": [
             `
-            <img src="https://lh6.googleusercontent.com/6c_iEK6WX5WIec4dSs3RNTO7JHIs8RdqNCpCIE_g352iQchfhz-qd6QpWCi8d8QwdCw=w1200-h630-p" width="500">
+            <img src="https://lh6.googleusercontent.com/6c_iEK6WX5WIec4dSs3RNTO7JHIs8RdqNCpCIE_g352iQchfhz-qd6QpWCi8d8QwdCw=w1200-h630-p" width="300" height="600">
             Fumo fumo fumo!
             `
         ]

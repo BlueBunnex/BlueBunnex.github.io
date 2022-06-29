@@ -92,6 +92,17 @@ function loadTheThings() {
 
 var blogCards = [
     {
+        "description": "First day of travel (to Germany on plane!!) and I already feel like death. I was very tired. Lots of cool photos though!",
+        "date": "06/27/2022",
+        "image": "https://drive.google.com/file/d/1j41agOxbqbMwimzxMP8WfOchDMI2wRte/view?usp=sharing",
+        "image-count": 16,
+        "slides": [
+            `
+            <img src="img/kitsu_.png" alt="Random image for the Github card" width="600">
+            `
+        ]
+    },
+    {
         "description": "Leaving for Europe tomorrow, which means I really have to get this website ready for blogging.",
         "date": "06/26/2022",
         "image": "img/summer_girl.png",
@@ -108,8 +119,7 @@ var blogCards = [
             <p>2) All blog content is dynamically loaded from a Javascript array (this should be an external JSON file, but whatever). If you don't know what that is, it basically means I just have to put all the stuff I want in this blog into a nice array and it automatically loads it into the webpage. Wow!</p>
             <p>3) If you hover over the x in the top right to close this gallery, it does a little spin.</p>
             `
-        ],
-        //"page": "404.html"
+        ]
     },
     {
         "description": "We are now hosting on Github, which makes updating blog posts very convenient!",

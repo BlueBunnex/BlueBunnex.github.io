@@ -94,11 +94,11 @@ var blogCards = [
     {
         "description": "First day of travel (to Germany on plane!!) and I already feel like death. I was very tired. Lots of cool photos though!",
         "date": "06/27/2022",
-        "image": "arrival_fumo.png",
+        "image": "img/arrival_fumo.png",
         "image-count": 18,
         "slides": [
             `
-            <a href="https://lh6.googleusercontent.com/6c_iEK6WX5WIec4dSs3RNTO7JHIs8RdqNCpCIE_g352iQchfhz-qd6QpWCi8d8QwdCw=w2400?source=screenshot.guru"> <img src="https://lh6.googleusercontent.com/6c_iEK6WX5WIec4dSs3RNTO7JHIs8RdqNCpCIE_g352iQchfhz-qd6QpWCi8d8QwdCw=w1200-h630-p" /></a>
+            <a href="https://lh6.googleusercontent.com/6c_iEK6WX5WIec4dSs3RNTO7JHIs8RdqNCpCIE_g352iQchfhz-qd6QpWCi8d8QwdCw=w2400?source=screenshot.guru"><img src="https://lh6.googleusercontent.com/6c_iEK6WX5WIec4dSs3RNTO7JHIs8RdqNCpCIE_g352iQchfhz-qd6QpWCi8d8QwdCw=w1200-h630-p" /></a>
             Fumo fumo fumo!
             `
         ]

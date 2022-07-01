@@ -95,13 +95,14 @@ var blogCards = [
     {
         "description": "Goodness those mountains are massive. From Austria, off we head to Budapest, Hungary's capital. There's some weird stuff along the way...",
         "date": "06/30/2022",
-        "image": "img/austria.png",
+        "image": "img/austria.jpg",
         "image-count": 18,
         "slides": [
             `
             Just look at those mountains. Bigger in-person, mind you.
             <img src="https://lh3.googleusercontent.com/OBy7SRr7BN2VUU5OUWtsaAibNyZXWmP6eI3fnfs00Q5OPnN2Xkvc7U8cyptnfu4dnnY=w2400" width="600">
-            `
+            `,
+            `test`
         ],
         //"page": "404.html"
     },

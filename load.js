@@ -93,16 +93,86 @@ function loadTheThings() {
 // https://www.labnol.org/embed/google/drive/
 var blogCards = [
     {
-        "description": "Goodness those mountains are massive. From Austria, off we head to Budapest, Hungary's capital. There's some weird stuff along the way...",
+        "description": "Moving through Austria, and there's some weird stuff along the way... Also if you speak German, Japanese, or Chinese read more (if you don't then still read more <3)",
         "date": "06/30/2022",
         "image": "img/austria.jpg",
         "image-count": 18,
         "slides": [
             `
-            Just look at those mountains. Bigger in-person, mind you.
+            <p>Just look at those mountains. Bigger in-person, mind you.</p>
+            <p>I forgot to mention in the previous post, but the trees in Europe are different than in the US. Sometimes they remind me of photos of Africa for some reason.</p>
             <img src="https://lh3.googleusercontent.com/OBy7SRr7BN2VUU5OUWtsaAibNyZXWmP6eI3fnfs00Q5OPnN2Xkvc7U8cyptnfu4dnnY=w2400" width="600">
             `,
-            `test`
+            `
+            <h1>POPPY PLAYTIME??</h1>
+            in Austria?? omgo mg<br>why didn't I buy this bro omg >w<
+            <img src="https://lh5.googleusercontent.com/nsjC7oskUZYAGyL6zZxcI14GFsD-t4Kku08RzszEA36JDG1q6tT74reHBYLhsd5UbOk=w2400" width="600">
+            BOTTOM TEXT
+            `,
+            `
+            <p>this is the second vending machine we've seen with something weird in it. shirts this time, reading "I <3 Hallstatt" or something. no reflection this time because I geniously stood two steps to the right, <i>crazy</i></p>
+            <img src="https://lh6.googleusercontent.com/3vSRuS4PuO9Jn7V1R9UrGN2Xaa55XpCUV54t-3vPxqwIzo2YMTsEUPse9zvEg21duxE=w2400" width="600">
+            `,
+            `
+            <p>I mainly just photographed this because it had Japanese. Guess what it says!!!! Now that I'm looking at it I'm positive it only says "Hallstatts first salt," without the word shop... if you're Japanese correct me if I'm wrong <3</p>
+            <img src="https://lh3.googleusercontent.com/DEJPw0s34VXe-cUe1ze4boAR2Fol0HGCF75u89PHzBPx4xmtfihKvO463wPdcaaWhF8=w2400" width="600">
+            `,
+            `
+            <p>This is the "fitness salad," which was funny because I was able to fitness salad up my--</p>
+            <p>throat</p>
+            <p>Pretty sure that's veal on there, as in baby cow?? That kinda sucks man, hard L</p>
+            <img src="https://lh4.googleusercontent.com/_DHJMK8ubsjxyU7xMy9qqFbjS_CNZTL46T_uI8dis9SaXaHrLNMRyY_UnoOvAIfVdrI=w2400" width="600">
+            `,
+            `
+            <p>Some random garbage someone made into an art cabinet. Lots of computer parts from way back, like that broken mouse at the bottom. It has a ball on the bottom... and a wheel? Is that the scroll wheel sticking out the bottom??</p>
+            <p>As for the multiple languages, since I'm learning Chinese, I'm curious: I can read the second Chinese character, huà, it means something around "speech," but what's that first one? DM me <a href="https://twitter.com/kitsumitsu46">@kitsumitsu46</a> <3</p>
+            <img src="https://lh6.googleusercontent.com/1dxmA5IBRwPuJK914uc3GyE9FflkZPMg8bkz3NO0vEaYlZMWaO92WO2FNPqIj1qR0mQ=w2400" width="400">
+            <img src="https://lh3.googleusercontent.com/8i_vDIY6383xsJphz5OT2Ep67K10_kbItt2JpJCMXLlLJ6fOUIJqdlqzAVUWKwtPy7Q=w2400" width="400">
+            `,
+            `
+            <p>there was a cat, wonder if it frequents this... flower shop</p>
+            <img src="https://lh6.googleusercontent.com/_AF_x8bvblEQ9iKdSfUYZNeujHBQbZ384JnmwqD7pug9XzLxpGzsZ-I0ezBbZIZMJvw=w2400" width="600">
+            `,
+            `
+            <p>only photographed this because I could read the Chinese!!</p>
+            <p>...not that first part, the second one (Chinese speakers if you're still reading help me out here)</p>
+            <img src="https://lh6.googleusercontent.com/rjipZSEWLsvk8UIZxHkZfD85qwD0Ps9K1JxUoc1Tc8cJziWtLC9qW3hjhFAztiVc4xY=w2400" width="600">
+            `,
+            `
+            <p>Stairs with a lot of languages reading "time travel"--even Hungarian, which I can read. "Utazás az időben" translates to "travel in the time." I found that neat, at least. As for Japanese, they are a bit more direct... Also Korean still gives me shivers (I think we passed some people speaking it and I remembered back to it's phonology and wasn't actually scared I'm just playing it up)</p>
+            <img src="https://lh4.googleusercontent.com/PBefR__41PSK02nJRbu0Td8hnVbCVBun75VFr-QuIdq8dlZmdl_ztiUckz6IAe6tg1k=w2400" width="600">
+            `,
+            `
+            I lost...
+            <img src="https://lh4.googleusercontent.com/krTTULg73pl7C1NSHWdTl4dFCpeNUvOjB8wpIoG0sC2vukLEHhuEG_BYtyCiqwoPcPI=w2400" width="600">
+            chess people will comment which color I was (and how trash I am)
+            `,
+            `
+            <p>Just a nice view. Before this, we got icecream, I got lemon. Afterwards, we also got icecream, and I got green apple (apfel!). That was a really good flavour...</p>
+            <p>By the way, I'm actually standing by a church. There was a cramped room you had to pay to enter (I think), and inside there was just hundreds of human skulls all facing you, with the names of the person inked on them, many with designs like snakes. Each skull was in various stages of calcification... Underneath the tables they were on were straight up bones lined up like books, and in the back the skulls that were unnamed were tossed willy-nilly into a pile. Evidently there was a sign saying to not take photos. It was really eerie, some of the skulls were ancient...</p>
+            <img src="https://lh5.googleusercontent.com/ReT20Dy8-9gfpFl26MMjoWPVav4qinkkOIQBamhC1eC_pmtZhGINfPYF1N8YwnQq1O8=w2400" width="600">
+            `,
+            `
+            <p>wouldn't it be cool if you made this your OC and got laughed at by me specifically</p>
+            <img src="https://lh5.googleusercontent.com/-ZOUhY8OxQtiox7utb4Ee8neP4Vtvf56cQ3c2HmuqRB6jhYHTNBoBGGMpem5J9j8HdI=w2400" width="600">
+            `,
+            `
+            <p>Ok, Germans, your turn. What does <3-lich mean? It seems really interesting because thinking about it, it could be a few things. "With heart"? "Hearting"? This isn't the only time I saw it, either--it was in the hotel too on the whiteboard.</p>
+            <p>Another thing that doesn't have a picture but is related, is that when I went in the hotel poolroom there was big text on the wall with German and English: "Pool and spa rules." In German though, I realized that since "pool rules" and "spa rules" were one word due to German compounding, they wrote something along the lines of "pool- and sparules" with a hyphen to indicate that it's split from the rest of the word. I thought that was super cool.</p>
+            <img src="https://lh3.googleusercontent.com/Rn9xrktkC1-4GftXIikHVEiSe4Jdr2W-fOn4NrbcCnflJraP9TDv2d83mssy5Fufnkw=w2400" width="600">
+            `,
+            `
+            <p>Erdnüssen snack, which just means "earth nut"--peanut. Look at that nutri-score... at least they're honest. It tasted like a D, too...</p>
+            <img src="https://lh5.googleusercontent.com/PuPlzh4uVMPLqk8Thhl77siLMBwC6kg5b7QtItCcYzTDTui0ZJVzMdMPtGfRXLodahs=w2400" width="600">
+            `,
+            `
+            <p>Went to the glacier, though it was so foggy that driving up was quite scary (the drops are crazy). It passed after a while, leaving a view of... glaciers? Where are they???</p>
+            <p>There was also another icecream cone statue up here, no I did not get a third icecream. Also skilifts that weren't running; This place is a ski zone in the winter. Those mountains look crazy to ski!</p>
+            <p>There were cows too, and fences that were mildly electrified. Sometimes made a zapping sound--youch! No pictures of the cows, though. Only really saw one while going back down, and by then I was sick of taking photos. You'll get to see some cows in the next post about going to Hungary, though!</p>
+            <img src="https://lh4.googleusercontent.com/wiOcsB1k9lFtfSA_B2fwdA_GbJLgBzQfAM6xI4QVk8bR7M1NuthL-eOMFv3YHCAR-_M=w2400" width="300">
+            <img src="https://lh3.googleusercontent.com/nD2qtVXAMv2yhwnzFGnWbuZhZwyQAUHqliAXeXTCSkkHXgW6qq-Hq_uWDkCYJqCWYPY=w2400" width="300">
+            <img src="https://lh5.googleusercontent.com/pkq5sxCR98ZJ4S8jpb8uBA1zAW2ChFKk74O3kmTLkWcXC7V1iKZQwBeSnVHxRmKoUsQ=w2400" width="300">
+            `
         ],
         //"page": "404.html"
     },

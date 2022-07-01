@@ -90,7 +90,21 @@ function loadTheThings() {
     document.getElementById('insert-cards-here').innerHTML = construct;
 }
 
+// https://www.labnol.org/embed/google/drive/
 var blogCards = [
+    {
+        "description": "Goodness those mountains are massive. From Austria, off we head to Budapest, Hungary's capital. There's some weird stuff along the way...",
+        "date": "06/30/2022",
+        "image": "img/austria.png",
+        "image-count": 18,
+        "slides": [
+            `
+            Just look at those mountains. Bigger in-person, mind you.
+            <img src="https://lh3.googleusercontent.com/OBy7SRr7BN2VUU5OUWtsaAibNyZXWmP6eI3fnfs00Q5OPnN2Xkvc7U8cyptnfu4dnnY=w2400" width="600">
+            `
+        ],
+        //"page": "404.html"
+    },
     {
         "description": "First day of travel (to Germany on plane!!) and I already felt like death. I was very tired. Lots of cool photos though!",
         "date": "06/27/2022",
@@ -147,7 +161,7 @@ var blogCards = [
             <p>This is the end slide <3 if you have any comments go to my twitter <a href="https://twitter.com/kitsumitsu46">@kitsumitsu46</a> I would love to hear from you <3<3<3</p>
             <img src="https://lh6.googleusercontent.com/A7bpOpotLTZmK0v0xdGTY3lTcP7b2odUYKP88ttQckLb3mOnoPFwr1YBGaTJrvR9S8A=w2400" width="400">
             <img src="https://lh3.googleusercontent.com/weM44Teg8t5joDE_ME9KJWKmWJk7UQ7aBunzESOsvX64sB9qOjk1I0VYKhcD8CDmUok=w2400" width="400">
-            <p>vorboten</p>
+            <p>verboten</p>
             `,
         ]
     },

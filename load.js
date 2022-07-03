@@ -99,8 +99,83 @@ var blogCards = [
         "image-count": 25,
         "slides": [
             `
-            This yogurt is only one tick more nutritious than those packing peanut snacks... and it didn't taste good either!!
+            <p>A little breakfast before leaving the hotel. This yogurt is only one tick more nutritious than those packing peanut snacks... and it didn't taste good either!!</p>
             <img src="https://lh5.googleusercontent.com/Mc1UEY5THEGPNq6Y4JrFBkRBH-D8QFdlLBooocjJDYGumB7glrKcRJx7vjIHRJB01ls=w2400" width="600">
+            `,
+            `
+            <p>This is the elevator that was in the hotel. You can see inside it when it's not called. Also there's a limit of four people, though trying to cram that many in there may not be the best idea. Our room was on the fifth floor, the highest, too...</p>
+            <img src="https://lh3.googleusercontent.com/E1PuecUMCFJgZtm7aKZmpxEaL5CFOWi8LJmTEwDesyN9HBB4eZb9bjO1Y4WWn0bW0-4=w2400" width="400">
+            <img src="https://lh6.googleusercontent.com/gqRwMmTdwJv_T7E_DGH-Agd-5qUlEjhiad2g_5StHNMmVGv4V99ESeRNCfr_Es6p0Bo=w2400" width="400">
+            `,
+            `
+            <p>Here's the cow I promised <3 there's more animals where this came from, but that will have to wait till next time since I've already got two days of pictures backlogged for this episode</p>
+            <img src="https://lh3.googleusercontent.com/fwcrvdqVgTUUrQNu8EV213yR4msPJFSM-QZyv_KI8ZafMiyEX5m3_iQntbjtbu2PrQ0=w2400" width="600">
+            `,
+            `
+            <p>Eco friendly--might as well use all that incredibly rural land for something. I mean I know environmental conservation exists, yeah ok</p>
+            <p>You know what while we're on the topic of rural, the amount of animals here really encourages like, a <i>ton</i> of flies to just get up in my face, my goodness. While I'm writing this there's a fly that's bugging me and it's actually stressing me the hell out my gosh ;~;</p>
+            <img src="https://lh4.googleusercontent.com/jVvOKpqC6LjwrN6VUjHdHHm_4OsjRHePKWwOKSlFAv0TYTzGJmFoWiIgBoE24jyg3cM=w2400" width="400">
+            <img src="https://lh5.googleusercontent.com/HbO1MBw-p7belYpornzYZbhmH12BuN2FJJYP4IobdYGDDyZBbtDQnw9HVYv4-_yUUoM=w2400" width="400">
+            `,
+            `
+            <p>I got the málna icecream (the first a is pronounced kinda like "ah," and the second kinda like "uh," I'd put <a src="https://en.wikipedia.org/wiki/International_Phonetic_Alphabet">IPA transcription</a> but no one cares)</p>
+            <img src="https://lh3.googleusercontent.com/vAr0ughBgklWZv5h8d-UVU-fesZfKRd9E3WSCWwefq5H4h1WHzNYk1IVCmbtuDh6ICs=w2400" width="600">
+            `,
+            `
+            <p>there was a door that just opened to stairs in the icecream shop. this was how you're supposed to get to the <del>backrooms</del> restroom</p>
+            <img src="https://lh3.googleusercontent.com/jbEUBYVrIoZ7kOclOYsx4Wjtxs2ik2esWuynWSHWeCRP40Cf0YrXpdh6kMH7Egl2DFE=w2400" width="300">
+            <img src="https://lh3.googleusercontent.com/qgFZslLeo7kEiDcc7B2LOwkPRJveOBxCSxDD9fZR1qymZPALAoEMfJvO7NIb0PGRF2Q=w2400" width="300">
+            <img src="https://lh3.googleusercontent.com/BeRHC2Ar9BA9e18z97L0QdZ8TCMhFiM38XZlWSJYN0n93bbgB8LxcaQyenNL64IHRKQ=w2400" width="300">
+            `,
+            `
+            <p>So slight background, at home I'm usually spoken to in Hungarian, though I never really learned writing (it's dead easy, near-completely phonemic), and so I was shocked when I was told that the word for bathroom (pronounced "veh-tseh") is spelt WC. It's not an acronym of a word that actually exists in Hungarian, it's just loaned in. That's like if English had "TV" but the word "television" was German or something. That's actually killing me dude</p>
+            <p>Oh by the way we visited this gigantic church and I only photographed the bathroom sign, coool</p>
+            <img src="https://lh5.googleusercontent.com/3EJX_NdHWbGfB1oBotkw-2ArpHVjT5ZabV8UW_kygTekDxo5JNqutcgSekaibT-OZmY=w2400" width="600">
+            `,
+            `
+            <p>a view from (ableit outside) the church grounds into the city/whatever that kind of water is called. Ignore the peach flying in from the left about to conk me in the noggin</p>
+            <img src="https://lh3.googleusercontent.com/PErFyT8CvnHcHKnEOjWaHD8Ee1pVPFD-JQas0hic0L9wwhXBbrOpPhP5zOcaFtfdObM=w2400" width="600">
+            `,
+            `
+            <p>We went to a restaurant but I was more tired than hungry, so I just ordered a plate of tomatoes. The waiter gave such a face, and asked (in Hungarian) if I knew that that was a side dish. I like tomatoes, ok?</p>
+            <p>Another person who was with me got a beef stew, and it was like what, 2000 forint? Like 10ish dollars? Maybe a bit more than that. That thing could've fed four people--they didn't finish it. At least I finished my tomatoes >:3</p>
+            <img src="https://lh5.googleusercontent.com/ReXHEG6Ne4NY_8a0ox98ZOOui91WHtEEh5i1oNQMheN4BzadzorFhB4Ivodtl9_2FPQ=w2400" width="600">
+            `,
+            `
+            <p>The apartment we went to was such a surprise, considering the exterior complex looked like windows were busted out (they weren't, just some were foggy glass and some were so clear you'd think they weren't there). It was really quaint. Side note: why do these apartments keep putting the toilet separate from the sink? Like, in different, adjacent rooms?</p>
+            <img src="https://lh3.googleusercontent.com/KCtSYP01aqqRFg2wMP0XkS_70PX_btcdkfXjy9FylHyZpUQb2z7J7p6wWbpdmek70tE=w2400" width="400">
+            <img src="https://lh4.googleusercontent.com/MZ64CuccC_IECkLMBWejmPQSRewhgFpDhwzPld6fi0qRpTALIWywhznEfPTrs1slPB0=w2400" width="400">
+            `,
+            `
+            <p>This was on the wall of the apartment too. Can you find the three countries that previous residents added? (answers on next slide)</p>
+            <img src="https://lh4.googleusercontent.com/nPZsu53lshDTCsFRnsaZZ7GAVHWFKkj65D4laesN7vwOBxLVLupSBD40P2Yt28CXyuE=w2400" width="800">
+            `,
+            `
+            <p>here they are (I lied there were only two haha)</p>
+            <img src="https://lh4.googleusercontent.com/gPCwml0g8lCTuhPfKIqJ0kSjus1RzFPqjmv_i0t8WcpfV6KH6aNs0gl51dzVfI8BVHc=w2400" width="400">
+            <img src="https://lh3.googleusercontent.com/yTlUqTFmrT3wTF2XTQ9GdBCRSzXMZ-_Y4MLXxoLnGoO3uMXVmX7_KIV5qiQ7NWOYpMY=w2400" width="400">
+            `,
+            `
+            <p>guess what this building is for, you'll never get it <button onClick="alert('it's a horse stable (no I didn't see inside I was just told)')">click for answer</button></p>
+            <img src="https://lh6.googleusercontent.com/EKDCMZcndV9dPBCvOJvOoRlPGuKFaYeU_ZmS08G6rM_dY--bJk2sntZcsmPwCh8Vemw=w2400" width="600">
+            `,
+            `
+            <p>I had to walk to get this in weather that felt like I was being cheese gratered by flaming car tires my goodness</p>
+            <img src="https://lh5.googleusercontent.com/1U-k6APGDVszlWrbfhykcOotTENqA-o1udoy1tquOaR_DiY8zcFKsV7c2ZoIae7cddY=w2400" width="600">
+            `,
+            `
+            <p>Went to a big indoor marketplace, was nice. So many stalls with fruits, vegetables, baked goods, and meat oh my gosh. Side note I accidently ate horse for dinner (I neither noticed at the time nor thought it tasted funny, it was just a single sausage slide, it was really good and a bit oily?)</p>
+            <img src="https://lh5.googleusercontent.com/8fBA3cNvMdL_-1WrkgsZc-fKIVguqmMr6EhZzHJxk0pimiitYaUc03mPigGpvNaBE20=w2400" width="300">
+            <img src="https://lh6.googleusercontent.com/Mcesv8bkS0Kcu1lo0rCmRxWPqtfVwJQ_toMfQADG_vrx9MvOuOJFR4uDtTgV6SxcYjU=w2400" width="300">
+            <img src="https://lh5.googleusercontent.com/x17uSO6VOJFZZT7oPgvubPL-sMZikYha-kFVd7f-jySp9MiomP2YPH5UnEm-FAUjkMA=w2400" width="300">
+            `,
+            `
+            <p>no one else in the car noticed this</p>
+            <img src="https://lh5.googleusercontent.com/kqqrST8jii5Ji90tViSl-_a9mzS4ZouHp_3vWBsaxywNtM-D4JEyzEWSC-hArCIpXb0=w2400" width="600">
+            `,
+            `
+            <p>that's it for this time. next time expect a lot of animals as I visit some relatives who have a lot of animals 'cause this is a rural country I guess</p>
+            <img src="https://lh6.googleusercontent.com/WN7nVXCnyVT2AnWZ-U5MYB4oGNCaBZBdijndC9KRVilDVfsgxquIEqXYYs-bj7I5GYg=w2400" width="600">
             `
         ],
         //"page": "404.html"

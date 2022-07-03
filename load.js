@@ -93,6 +93,19 @@ function loadTheThings() {
 // https://www.labnol.org/embed/google/drive/
 var blogCards = [
     {
+        "description": "Travelling to Hungary and staying in Budapest for a bit. Having been here before, everything feels familiar, though the amount of sunflowers is alarming.",
+        "date": "07/01/2022",
+        "image": "img/hungary1.jpg",
+        "image-count": 25,
+        "slides": [
+            `
+            This yogurt is only one tick more nutritious than those packing peanut snacks... and it didn't taste good either!!
+            <img src="https://lh5.googleusercontent.com/Mc1UEY5THEGPNq6Y4JrFBkRBH-D8QFdlLBooocjJDYGumB7glrKcRJx7vjIHRJB01ls=w2400" width="600">
+            `
+        ],
+        //"page": "404.html"
+    },
+    {
         "description": "Moving through Austria, and there's some weird stuff along the way... Also if you speak German, Japanese, or Chinese read more (if you don't then still read more <3)",
         "date": "06/30/2022",
         "image": "img/austria.jpg",

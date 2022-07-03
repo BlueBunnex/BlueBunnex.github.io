@@ -105,9 +105,8 @@ var blogCards = [
             `,
             `
             <h1>POPPY PLAYTIME??</h1>
-            in Austria?? omgo mg<br>why didn't I buy this bro omg >w<
+            in Austria?? omgo mg<br>why didn't I buy this bro omg >w<<br>
             <img src="https://lh5.googleusercontent.com/nsjC7oskUZYAGyL6zZxcI14GFsD-t4Kku08RzszEA36JDG1q6tT74reHBYLhsd5UbOk=w2400" width="600">
-            BOTTOM TEXT
             `,
             `
             <p>this is the second vending machine we've seen with something weird in it. shirts this time, reading "I <3 Hallstatt" or something. no reflection this time because I geniously stood two steps to the right, <i>crazy</i></p>
@@ -143,9 +142,9 @@ var blogCards = [
             <img src="https://lh4.googleusercontent.com/PBefR__41PSK02nJRbu0Td8hnVbCVBun75VFr-QuIdq8dlZmdl_ztiUckz6IAe6tg1k=w2400" width="600">
             `,
             `
-            I lost...
+            I lost...<br>
             <img src="https://lh4.googleusercontent.com/krTTULg73pl7C1NSHWdTl4dFCpeNUvOjB8wpIoG0sC2vukLEHhuEG_BYtyCiqwoPcPI=w2400" width="600">
-            chess people will comment which color I was (and how trash I am)
+            <br>chess people will comment which color I was (and how trash I am)
             `,
             `
             <p>Just a nice view. Before this, we got icecream, I got lemon. Afterwards, we also got icecream, and I got green apple (apfel!). That was a really good flavour...</p>

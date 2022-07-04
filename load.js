@@ -93,6 +93,18 @@ function loadTheThings() {
 // https://www.labnol.org/embed/google/drive/
 var blogCards = [
     {
+        "description": "Happy Fourth of July, from not-America (sorry Canadians that I didn't point out your celebration, but you don't care do you). I took pictures of more animals btw",
+        "date": "07/04/2022",
+        "image": "img/hungary2.jpg",
+        "image-count": 24,
+        "slides": [
+            `
+            <p>There were a bunch of sticky notes on a wall giving compliments to the homeowner of the apartment we were staying in (and now leaving). Many were in English, some were in Hungarian. Guess what I wrote it in (that last bit is my Chinese name btw, I put the bit in parenthesis because my name doesn't use the primary pronounciation of that character...)</p>
+            <img src="https://lh3.googleusercontent.com/rcwZUJrdQYDrm3cg82BQGEXEQ5-7bikReLf2cvxp_DQjGRXTYa5Je6do87LwR-MGZIg=w2400" width="600">
+            `
+        ]
+    },
+    {
         "description": "Travelling to Hungary and staying in Budapest for a bit. Having been here before, everything feels familiar, though the amount of sunflowers is alarming.",
         "date": "07/01/2022",
         "image": "img/hungary1.jpg",

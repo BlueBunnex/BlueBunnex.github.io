@@ -96,11 +96,76 @@ var blogCards = [
         "description": "Happy Fourth of July, from not-America (sorry Canadians that I didn't point out your celebration, but you don't care do you). I took pictures of more animals btw",
         "date": "07/04/2022",
         "image": "img/hungary2.jpg",
-        "image-count": 24,
+        "image-count": 23,
         "slides": [
             `
-            <p>There were a bunch of sticky notes on a wall giving compliments to the homeowner of the apartment we were staying in (and now leaving). Many were in English, some were in Hungarian. Guess what I wrote it in (that last bit is my Chinese name btw, I put the bit in parenthesis because my name doesn't use the primary pronounciation of that character...)</p>
+            <p>There were a bunch of sticky notes on a wall giving compliments to the homeowner of the apartment we were staying in (and now leaving). Many were in English, some were in Hungarian. As for me... (that last bit is my Chinese name btw, I put the bit in parenthesis because my name doesn't use the primary pronounciation of that character...)</p>
             <img src="https://lh3.googleusercontent.com/rcwZUJrdQYDrm3cg82BQGEXEQ5-7bikReLf2cvxp_DQjGRXTYa5Je6do87LwR-MGZIg=w2400" width="600">
+            `,
+            `
+            <p>Visited the first of a few relatives. As such, the upcoming few images are the chickens and ducks that I was definitely frightening by being remotely near them. The two ducks (racing ducks?) I was chasing around and they did not like that. I must have done that like five times...</p>
+            <img src="https://lh6.googleusercontent.com/mrS4eh36P6rQYCuOqJWNItkSTHD02qTxUfMKz4i7rBgHBUbWc5Z4mnyGyC6_1NIcOCQ=w2400" width="600">
+            `,
+            `
+            small chickens and not small chickens<br>
+            <img src="https://lh5.googleusercontent.com/onMoTxIFK70TzcLHG97IKK7tG28KQmXFt0MOSG7x3q0mBadYbfGD5W8-N8pNOo6-qx0=w2400" width="400">
+            <img src="https://lh6.googleusercontent.com/NwXMv7Zj9q-fIpunbsrTN1KNnXpjaYAfAM-NE8tuNjgprnjbMuBCFj7lTxmD1kCy0uw=w2400" width="400">
+            `,
+            `
+            <p>those are the duck's eggs. I also found one lying in some corner out in the sun. both the ducks are female, and apparently the eggs aren't eaten, so they kinda just sit around. poor duckies</p>
+            <img src="https://lh5.googleusercontent.com/YdUgoF56P11ZVQtTdtPrLs3Lr1ZyT7Ubh4sdIs8YH7kuD-tGGdKdqgZ1WvY1kNDqKHg=w2400" width="600">
+            `,
+            `
+            tomato eggs<br>
+            <img src="https://lh3.googleusercontent.com/RIQ1VcQbbaRa4J5zElqoTmwfOeAOTlS38ib88jnm3MgAfSePq7I4QXVJXcjRxF0vPIE=w2400" width="600">
+            `,
+            `
+            <p>ducks were shillin' underneath the tractor and I scared them off, kind of surprised me because I was just photographing the tractor and they were suddenly under it</p>
+            <img src="https://lh4.googleusercontent.com/2yR7o4T92cSvwXoRVRNqLQkJ0QOiTgxZxV78yDKDmjguX98SRnUZKBHK2YQFJwKErdo=w2400" width="400">
+            <img src="https://lh6.googleusercontent.com/X4f3_ojrr5KwIQL1uL2ucc3TJgULkROWyW6HcZdaH3yhBTrbvagNnvdK8DaUkRao3Eg=w2400" width="400">
+            `,
+            `
+            <p>there was also a dog (partially deaf, or fully deaf it's kinda hard to tell with animals). You gotta admit that I'm kinda crazy at photography (why, yes! I <i>am</i> open to compliments in my dms)</p>
+            <img src="https://lh5.googleusercontent.com/lsvAuJh-gL0-1KUYTwtR7-0J6CEG_aOvT5_fNFyyXmhw-MoDN8CyMQcqM2pDYfsED1A=w2400" width="400">
+            <img src="https://lh3.googleusercontent.com/sux-g7d2x8KPc2Y9mN3_4Xjb_Bn2Yu3G8qyleLpnRsDNX9IvJpHIymORZIA2tuOxBIE=w2400" width="400">
+            `,
+            `
+            <p>Decommissoned jet and heli that they just threw in the middle of a roundabout in the middle of Nowhere, Hungary. At least they're eye-catching. I think the jet is an SR-something</p>
+            <img src="https://lh5.googleusercontent.com/U5lPtEifh5i5hV8D4u44yBHY6qAJBn1DZ6xiGGWbe8-DnXxAO4UVGtHedN3ODfZju2I=w2400" width="400">
+            <img src="https://lh5.googleusercontent.com/JuubiPuNkkeu_CON2pX7HwivYBraN5sKlUD0CMUaj5jGpr7O6a7-rmSlpgXywLrIze4=w2400" width="400">
+            `,
+            `
+            <p>Okay, real talk here. I got these macarons in lieu of icecream (which was fine, they were good) BUT the fact that they were brittle really shocked me at first. Usually the ones from trader joes are nice and chewy, the outside shell and cream inside both. This completely crumbled in my mouth, and also it wasn't cold (like the trader joes ones, which is refridgerated), so I was mildly disappointed since it was actually scalding outside.</p>
+            <p>Now, I thought that my favourite dessert were macarons. Maybe I only like the "fake" macarons? It's not that the brittle ones were bad, but I just like chewing on my macaron like it's a piece of raw meat--I'm kinda a predator like that, rawr~</p>
+            <p>Also, that yellow one was quite nice. It was coconuty... piña colada?</p>
+            <img src="https://lh4.googleusercontent.com/0TlHwTm5u-8l06-w0z_Bryos1RCqpUVIFOfQT8DINjuiFgW82lDoKEmzgrLwcVsNMvw=w2400" width="600">
+            `,
+            `
+            <p>Other relatives had these five week old pups, and I know how much people like those. They play-fought a lot, approached me and then just sat down a lot, and slept the most (if you're curious, you'll be disappointed to learn that I did not pet them, because there was a chance they had worms)</p>
+            <img src="https://lh4.googleusercontent.com/Gukp4WScTds6W3TU1QKUF-Wk7PCfTdP2cOoQYFqdIbRS6zb6V2vVb1T711WNl_GuA9w=w2400" width="400">
+            <img src="https://lh4.googleusercontent.com/teElEBaLe9YOGm9exwnjfsfK1yIPlEMOm27vV9uQiZcXsaiEagSjBEmksjMpbrVl_8U=w2400" width="400">
+            `,
+            `
+            <img src="https://lh5.googleusercontent.com/wdJKvsmbjaN4mFn62sqxFlBcxd4OmYwtW5QFv7p_6V64wEhheDedjuEQVW2YPT7vOQ8=w2400" width="400">
+            <img src="https://lh6.googleusercontent.com/88H5K09VKMcsQH38z8DGnBPx7j2J3WJifmwz-p2n9sEnGDHVvV-Zpk3V1KIh3M5HkOU=w2400" width="400">
+            `,
+            `
+            <img src="https://lh5.googleusercontent.com/CPM-xsxlg8Tn-AguQ9UlRP3Aqs_mCutLdrjOOqE8SnwdvFDGKe7YALeoFJyA0JsD7n4=w2400" width="400">
+            <img src="https://lh4.googleusercontent.com/2-h_6wvuwHou-SuCPjOKHtkD2L01gbDsLin5f5Q8Ct7vrLQkNJi7_pVEsnIj2avvKJw=w2400" width="400">
+            `,
+            `
+            all tuckered out<br>
+            <img src="https://lh5.googleusercontent.com/BsqCivEvwRxbfWBXmMcAxHQZAudtxbfVwA8l68vlAIcuAo1Yr2sz4mcYbFV7ofR2pIU=w2400" width="600">
+            `,
+            `
+            <p>The chickens liked to hop on you while you knelt down. At one point I had two chickens on me, but you're not getting any photos of that :3</p>
+            <img src="https://lh5.googleusercontent.com/KaGX6_x58j5hG2taf_wFX-gYPtm15c70T7_dSs6UO_pFUSstLH68pKT4cQ_ZzgNjHCI=w2400" width="600">
+            `,
+            `
+            <p>After that, I stayed in the hotel room for the rest of the day. I was extremely tired... Youtube shorts is more relaxing than sleep though so</p>
+            <p>Everyone else got McDonalds, and I got a Hungarian exclusive: the McFarm. It's like a McDouble but with pork? It was noticably salty. It was good though! The vanilla milkshake also tasted like whipped cream.</p>
+            <p>That's it for Hungary, though! Tomorrow we'll be packing up and going off to the next destination, Croatia! I literally know nothing about that country other than it has beaches. PS, I don't like the beach.</p>
+            <img src="https://lh5.googleusercontent.com/8jo2dKjmyuy6j9ovgF2Tsp3wVnBa0dJZbl3wBoI5OYdMnOq7UT_4C2xMq-KeQpS2En8=w2400" width="600">
             `
         ]
     },
@@ -168,7 +233,7 @@ var blogCards = [
             <img src="https://lh3.googleusercontent.com/yTlUqTFmrT3wTF2XTQ9GdBCRSzXMZ-_Y4MLXxoLnGoO3uMXVmX7_KIV5qiQ7NWOYpMY=w2400" width="400">
             `,
             `
-            <p>guess what this building is for, you'll never get it <button onClick="alert('it's a horse stable (no I didn't see inside I was just told)')">click for answer</button></p>
+            <p>guess what this building is for, you'll never get it <button onClick="alert('it's a horse stable (no I didn't see inside, I was just told that)');">click for answer</button></p>
             <img src="https://lh6.googleusercontent.com/EKDCMZcndV9dPBCvOJvOoRlPGuKFaYeU_ZmS08G6rM_dY--bJk2sntZcsmPwCh8Vemw=w2400" width="600">
             `,
             `

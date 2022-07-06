@@ -93,6 +93,20 @@ function loadTheThings() {
 // https://www.labnol.org/embed/google/drive/
 var blogCards = [
     {
+        "description": "I hate the beach; Guess what Croatia has~ (if you said icecream at every corner then that's not the answer but it's so so true)",
+        "date": "07/06/2022",
+        "image": "img/croatia1.jpg",
+        "image-count": 25,
+        "slides": [
+            `
+            <p>This car ride across Hungary to Croatia made me discover Buddhism and my inner self worth.</p>
+            <p>Just kidding I'm still mentally rolling around in a crater on mars B)</p>
+            <img src="https://lh3.googleusercontent.com/WnM_RLMfZxnmeNsRMVZdRS3LFzRHCZocl9nE3N75VmNkN9PoYXtows8LrXJ4-k3mesE=w2400" width="600">
+            `
+        ],
+        //"page": "404.html"
+    },
+    {
         "description": "Happy Fourth of July, from not-America (sorry Canadians that I didn't point out your celebration, but you don't care do you). I took pictures of more animals btw",
         "date": "07/04/2022",
         "image": "img/hungary2.jpg",

@@ -101,10 +101,87 @@ var blogCards = [
             `
             <p>This car ride across Hungary to Croatia made me discover Buddhism and my inner self worth.</p>
             <p>Just kidding I'm still mentally rolling around in a crater on mars B)</p>
-            <img src="https://lh3.googleusercontent.com/WnM_RLMfZxnmeNsRMVZdRS3LFzRHCZocl9nE3N75VmNkN9PoYXtows8LrXJ4-k3mesE=w2400" width="600">
+            <img src="https://lh3.googleusercontent.com/WnM_RLMfZxnmeNsRMVZdRS3LFzRHCZocl9nE3N75VmNkN9PoYXtows8LrXJ4-k3mesE=w2400" width="200">
+            `,
             `
-        ],
-        //"page": "404.html"
+            vroom vroom<br>
+            <img src="https://lh4.googleusercontent.com/L2_I7yD4ZFlTKcM-UJCfpLdQbzXUojG0lXkwAlVxaz7A1crvlMYoLjsfGrINNgYKNTY=w2400" width="600">
+            `,
+            `
+            <p>Stepping out of the car after that drive was like stepping into a new world--Croatia, specifically. It kinda like South Carolina except you can understand the locals a little more. Also a perfect time to show off my sunhat with a pretty pink bow I put on it! Not that I have a photo of that. Maybe next time</p>
+            <img src="https://lh3.googleusercontent.com/7Nn0M8pwySFr8fVjjb8iD18BPoa3dXQomFHkW4waBIxb3NNFcgs6_wZ1ijDs2lPF5ig=w2400" width="600">
+            `,
+            `
+            <h1>sus</h1>
+            amongus<br>
+            <img src="https://lh6.googleusercontent.com/pf_RtUQAy8mR12_83DaMFby4pAwvi4MbOYEF6jdNU5LvJ3RB2B-DfohqLlLHn2BsSwA=w2400" width="600">
+            `,
+            `
+            <p>My first Croatian meal, the Quattro Stagioni, which translates to "four seasons." I have yet to find out which quarter represents which season. The only cheese one is winter, right? Are the sardines spring, autumn? Is it even in order?? Anyway, I think this might have been an Italian restaurant (it was called Trattoria Lili...)</p>
+            <img src="https://lh6.googleusercontent.com/-_QbZxJ2N1Tp8AfA5vNcUAz2AY2fDkmMeatoMwXfCOgh2aBNnyn64jiUASV7ldXRjAY=w2400" width="600">
+            `,
+            `
+            <p>The markets have so many oils, goodness. I got raspberries, and I held them under water for a bit to get them nice and clean. After draining them though, a little bug crawled out from behind one, and so I picked up that berry and began rotating it to keep it on top, which was really tricky as I was at the same time getting my phone to take a photo. I made the photo, which proved really tricky (not showing it because it's super poor quality and you can barely see the buggy). The buggy proceeded to fall, but I still felt pretty accomplished.</p>
+            <img src="https://lh6.googleusercontent.com/FUAcy7Nu62xN3ilItvhRAHxh1Bw67TLfFGRZZaL1giM95Sxu1ojvWfYs3rU_DoWUWOw=w2400" width="400">
+            <img src="https://lh4.googleusercontent.com/4VEjmEitnAIymkoRMOTt2OG6qbUq1SxzyPriSMUGio3pcbJaY6jECaDYv6xG_0KfEw0=w2400" width="400">
+            `,
+            `
+            <p>I was originally excited when I saw this, as I have a bidet feature installed on my toilet at home. However, looking at this... contraption... I realized that this looked really funky and decided against operating it. Oh well...</p>
+            <img src="https://lh4.googleusercontent.com/zqswWbfp1xpqsKXvaxaDs8OZKOsQqaP2dGwD1cgMM7bAJI9srFzoCVljdIhYTm9hys0=w2400" width="600">
+            `,
+            `
+            <h1>the hell?</h1>
+            troll comic? hello kitty?? big bang theory??? fortnite???????<br>
+            <img src="https://lh5.googleusercontent.com/VqLTBBqpf2OAOe2W4GtI-U_Lkg6r01uTdBFpYzQFNx2QBmFM03Iv9EN0MrNNsa8-2Gs=w2400" width="400">
+            <img src="https://lh6.googleusercontent.com/C2EiH3Y-mrj-ip8sH-Ke7qJQIUnUWNeUUnrYIDN5XV-iC73MIwzTFKoerw-9JK0sjrw=w2400" width="400">
+            `,
+            `
+            worn city vibe<br>
+            <img src="https://lh5.googleusercontent.com/Vf7mxkTHtoFrlfRmpTOnJvMl1WK2Il7KHlmT_PUPGmJYNtKkX_cptd0GZCZ-p7UWpKo=w2400" width="600">
+            `,
+            `
+            <p>There was this little outpost fort thing, and it looks very quaint for what it was probably used for.</p>
+            <img src="https://lh4.googleusercontent.com/BGIHeu4jDummcmwyVuUZ1kDl4V0GmX20fiQPUKxG4Uu73-RszTkm0hfBGhOo8tO2DPM=w2400" width="300">
+            <img src="https://lh4.googleusercontent.com/lW5QXMuixinRPDdmC4polE_kKPqH-NPTAbDZL4S12Fl3Ba_tiuksV6VwOGgCYs5SLes=w2400" width="300">
+            <img src="https://lh3.googleusercontent.com/OmolEz7qneCkz_H9quPVKyVek124tlvOuZ15aMLem3GbjiEtlyoWt5FR5edWeOJLgpo=w2400" width="300">
+            `,
+            `
+            <p>Listen, I don't like the beach. Salt water sucks. So does sand. Irritating, ok? I'm <i>gonna</i> go in the water before leaving Croatia, but... just photos for now <3</p>
+            <img src="https://lh5.googleusercontent.com/8sPdsceOr99R_bhxqeIu6TbyvMwC302x9dfwRlOhWqOL-7GZ7UwXujMkGCo8tOtyV7s=w2400" width="400">
+            <img src="https://lh5.googleusercontent.com/kC6VSSyfJyq1vhbDi4bUyPVtkHH3VDUZq26YpIn20-YzCbWQAbnK3py8gQqRrfSAAPU=w2400" width="400">
+            `,
+            `
+            <p>Let's play a game of... which of these was the side dish?!? On the left... a small serving of truffle pasta, and on the right... a tuna salad (like, a salad with tuna). They were both tasty and I finished neither, sorry</p>
+            <img src="https://lh5.googleusercontent.com/CZSE6-zNbdBeu55B8bKSHYnPad6jKpmP3DuR89UxNX4Fglbj1Qg7ZQajvEVMdCyoZZw=w2400" width="400">
+            <img src="https://lh5.googleusercontent.com/mVm2rXh8l--UWGbwesGJ6SYf5JR_MruLzj2MlZyIrb2ytDivFzTbHutOhvr6rULCxrg=w2400" width="400">
+            `,
+            `
+            <p>While I was dreading having not finished my food at the table, look who showed up! They apparently slipped and fell on their tush before scrambling back up, though I didn't see it. And for those of you asking, I'm not referring to the guy in the top left. Weirdos.</p>
+            <img src="https://lh3.googleusercontent.com/9qoAx_aMmXoiJUmBffjQt1ViepOTG0VsobqtJKq3dS6ZdlDR_CqRUfksCkJvC55tMqY=w2400" width="600">
+            `,
+            `
+            water, so calming, anyway get me out of here it burns just standing here<br>
+            <img src="https://lh3.googleusercontent.com/TeybMLXeGARr6RMrEYGxG1G0qGb0VJF_PnZoREQYoCymY6XfWw0qBI0DXn-9RdAhSGQ=w2400" width="600">
+            `,
+            `
+            <p>Tiny boats, but not the smallest I've seen. I've crewed both smaller and larger sailboats before, though I guess not ones of this size...</p>
+            <img src="https://lh4.googleusercontent.com/_hReZ92Tr0PuBvMuiDcACm8HIDq8Nhhdf5B9QMngeV6jXxoufwUqFCe7hWzWN3mMddU=w2400" width="400">
+            <img src="https://lh4.googleusercontent.com/cPMH9oN6Y1k7TJ5ruKECLVEt2deFqeqldI9W_6uJx_hpbMcqEb5BRfHDNV_BhA6q9ks=w2400" width="400">
+            <br>and just look at those barnacles on that line, sheesh
+            `,
+            `
+            <p>Not the first gelato I had today; This one is mango and lemon. <i>Super</i> yummy.</p>
+            <img src="https://lh4.googleusercontent.com/SeiviEWUfDnNyHshbnTC3EmCqpm1Vj2UT9ICoxpmblrD-xrz1ktLbfcafoaBS6KxoeU=w2400" width="600">
+            `,
+            `
+            <p>I ate a šiš at a fast food place (pictured). Listen, the bread was the best part of this. It was so chewy, like a good flatbread, but thick... Also ate two palačinke (crêpe) with chocolate syrup, nutella, and icecream. It was so hot at first! They make 'em to order, which is neat! When we have them at home, they're cooled, so it's different. Also with jam. Mm. This is good too though <3</p>
+            <img src="https://lh3.googleusercontent.com/EIk_zdKjPyLO9_HzsVP1khq4RiiFYC6I9Qio2oa5lIANStgECx3Zhjq3tkgHuiuQtQM=w2400" width="600">
+            `,
+            `
+            <p>Meet me next time as I try and scrape the rest of Croatia out from the barrel and lather it into another post. Expect poppy playtime and beaches. Thanks for reading by the way! <3 <3</p>
+            <img src="https://lh5.googleusercontent.com/qPjC-XX1V-2oGePfc2ay6lomhQYr9cwivhJGN4DiZ607uddDmgQv8trXl8cQMafZ37I=w2400" width="600">
+            `
+        ]
     },
     {
         "description": "Happy Fourth of July, from not-America (sorry Canadians that I didn't point out your celebration, but you don't care do you). I took pictures of more animals btw",

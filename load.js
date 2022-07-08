@@ -99,8 +99,69 @@ var blogCards = [
         "image-count": 23,
         "slides": [
             `
-            <p>para</p>
-            <img src="img/kitsu_.png" width="600">
+            <p>Potential fox cult! I thought it was a cute design. This is actually directly to an old amphitheatre (colluseum), which is...</p>
+            <img src="https://lh5.googleusercontent.com/mk9ydT4ViGC6WXSMWi6ikht7JuW8xC_WmF_Bd94ky7Qmo6h19P3G6Ms6c7Kx45jNWGA=w2400" width="600">
+            `,
+            `
+            <p>...this.</p>
+            <img src="https://lh6.googleusercontent.com/aLsQyFKoGctvihhAmxe3WXdXs9zmjPF7LrKxbSQ2Pipm-b5Baw8CmeTgOrB0EKO5LZc=w2400" width="300">
+            <img src="https://lh3.googleusercontent.com/_GdPv-O_zgJZcRwx1DPxE9u3AiRSZNl0hRkYJdxki02y_EzKpJR7xUzX9v5mgFlcVG8=w2400" width="300">
+            <img src="https://lh4.googleusercontent.com/OlXq676LkabLQrg8tyzduumn-VclOiixJBhslXwKu4Cdz2Rf5tKT2hTHxeZ0Uw4bfCw=w2400" width="300">
+            `,
+            `
+            <p>Courtesy of one of my parents, here's a photo of me taking that previous photo. Back reveal...</p>
+            <img src="https://lh5.googleusercontent.com/iZqCuHESgUoAUIaPzUb55NyzB-fMkDc6JzdGYGPrqkL-o4vSBCa__NPTPrmNxj7pEyQ=w2400" width="450">
+            `,
+            `
+            <p>There was a little cave underneath the colluseum with signs talking about the importance of archeology. This was the most interesting one for me. There was a little sign with English (Croatia, remember) that read of how people used to live in caves, and connecting that to how a Japanese rover or something found a cave on Mars that could potentially be used for future astronauts to live in. I just like stuff about space!</p>
+            <img src="https://lh5.googleusercontent.com/ZNnK5WxOSMna68Hx9WWnk1FoR8cGJiC8B-iHJ4zibrqWWpq-x9FORkm2hpRbWExbgew=w2400" width="600">
+            `,
+            `
+            <p>Is this why the public domain exists? So I can walk down the street and find a vendor selling spider poppy playtime dancing cactus?</p>
+            <img src="https://lh5.googleusercontent.com/HykSuTbAOSAC9dXBx2St-9LN4yo_6ebnBgzRb09y8z-HuhAyRQAKCRWU1UaGtmj6FPc=w2400" width="600">
+            `,
+            `
+            <p>I feel like a kindergartener looking at this.</p>
+            <img src="https://lh4.googleusercontent.com/HogYvfd2sE4vDdUmD9qkETmpNsHtGWj3IQ4-OyxcIbB9pg4qFin4O3nK5slsX-sn0N0=w2400" width="600">
+            `,
+            `
+            <p>Handcuffed, blindfolded, and gagged, you are shoved into a tiny box of a room and unblinded. Your eyes are strained against a harsh light. In front of you, on a button panel, you are presented with two options. Do you da? Or do you ne?</p>
+            <img src="https://lh5.googleusercontent.com/sB2FovW9jKZ8yQAK7lSjy4OQ15vR0wi-_FXZ_L-2M9_yM2owtnLCrE1xSfqOpotXS3c=w2400" width="600">
+            `,
+            `
+            <p>Fox cult struck again! I was honestly surprised to see this, especially within eyeshot of the previous one. Still cute!!</p>
+            <img src="https://lh4.googleusercontent.com/4CZvesCr2xlq7hGEEMmxCOfv33rfExa3sEOEAJft355kUqoI8p2tobT6nK5K1P61fCE=w2400" width="600">
+            `,
+            `
+            <p>Didn't show this last blog when I had arrived due to how many images there were already, but this is what each floor of the apartment looked like. It's almost like they made a one storey building in the medieval era and added a new floor every hundred years... reminds me of JoJo actually</p>
+            <img src="https://lh3.googleusercontent.com/LyH7kOxBbron9QiJ82J1vFUBWuVdQJwAEptktvqQOiPn1h9fey6emQJV0AOBFYoK5U0=w2400" width="200">
+            <img src="https://lh3.googleusercontent.com/ck3HRyeoUNVjtDSGNPupnWHQz8WFBcCDBGvzZDF5fZHEXd1FzHUiPKBMjAoNgEjufQ4=w2400" width="200">
+            <img src="https://lh6.googleusercontent.com/J2DHKtIxV2LS-cuJZC_mNlRctLQKWT7ulOS0zf2i6JvSrTvnkToqyKFdHfWt3AVMX_4=w2400" width="200">
+            <img src="https://lh6.googleusercontent.com/_S5DJEgLOf7e3J-6OYPOfQx0s8fgYrx7OUQZyKsLjzx9sXzj5uAkaOEySrlSPgLKxQw=w2400" width="200">
+            `,
+            `
+            <p>Authentic Croatian pizza! I had all mushrooms; The pizza was called a "pizza funghi" in Croatian. I like fungi...</p>
+            <img src="https://lh3.googleusercontent.com/1Zu0cGahGmawuMk_-vAz3gXdQZJpX-xUdBD1_i7sx1ks-N2CpkU7F-E32LATX85Z8lU=w2400" width="400">
+            <img src="https://lh3.googleusercontent.com/1Q7bhZeerWRyYATjkW2IMeC9F9ijbWM80l9rxz-7z08PkHOdmdUTCNIRch_MHTViBwY=w2400" width="400">
+            `,
+            `
+            <p>We also went to the beach and I proceeded to bash rocks against a piece of dead coral to reveal the treasures inside. Look, a pistachio!</p>
+            <img src="https://lh5.googleusercontent.com/B6L3S-rb-LV760hYHYH-E3PS2NeDprqx0BsyNGQ5KoY2L0OFf1qqjsxBYRk_IaFrJGc=w2400" width="400">
+            <img src="https://lh6.googleusercontent.com/BtQaGUOWPnOPslsUsNBOGfRVMdlpyr9k98f60Xkve2qGaGBKegmn2De6a7W42M8z9bE=w2400" width="400">
+            `,
+            `
+            <p>For lunch I had fried squid. Lemon makes it sooo good... and since Croatia is a coastal kinda place, seafood is probably a good idea to eat here, I've been told...</p>
+            <img src="https://lh6.googleusercontent.com/4KfNhhVLhHhNZ3BAiDO5AsEqIquw6HkksnR88HLGfkd2MJmM148UthnzjQlBJxzQH8s=w2400" width="600">
+            `,
+            `
+            <p>Here's dinner! The menu had some interesting things, and I'll let you look yourself, but the context for the first one is that "arugula" is translated to "rocket." Interesting!</p>
+            <img src="https://lh5.googleusercontent.com/eAD5D9__4SNEoAFjtV228ti4MY3IWir6Svhp_vIcrdhBjDErySO-8wQpta2KrKTnH_8=w2400" width="400">
+            <img src="https://lh4.googleusercontent.com/tCWft-nl0m_NnUdzmZyCrh3oQznmgVCu4v5RZeCg-lkbl_VpDJEscCY-DsQt5XKKRvo=w2400" width="400">
+            `,
+            `
+            <p>That's all. Next we're going to Italy! More pizza...</p>
+            <img src="https://lh6.googleusercontent.com/gh1VdNw_XhfD-Xt1QjqbjI_tMxNN5kcgA7WNQNTIdcvvHT71bWdjCWYMslhXXqxyFfU=w2400" width="400">
+            <img src="https://lh3.googleusercontent.com/fuQQzvzPUhO7TlSS1pPPFIKkt6N3WMea8wKKKCNSXo74Sry5eHKW-8XE8cJ2H1iRJEw=w2400" width="400">
             `
         ]
     },

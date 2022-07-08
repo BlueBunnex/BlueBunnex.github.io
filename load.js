@@ -93,6 +93,18 @@ function loadTheThings() {
 // https://www.labnol.org/embed/google/drive/
 var blogCards = [
     {
+        "description": "I am a lazy person, so most of these pictures are of places I didn't really wanna be and also food. Yum!",
+        "date": "07/08/2022",
+        "image": "img/croatia2.jpg",
+        "image-count": 23,
+        "slides": [
+            `
+            <p>para</p>
+            <img src="img/kitsu_.png" width="600">
+            `
+        ]
+    },
+    {
         "description": "I hate the beach; Guess what Croatia has~ (if you said icecream at every corner then that's not the answer but it's so so true)",
         "date": "07/06/2022",
         "image": "img/croatia1.jpg",

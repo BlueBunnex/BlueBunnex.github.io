@@ -99,9 +99,88 @@ var blogCards = [
         "image-count": 26,
         "slides": [
             `
-            <p></p>
-            <img src="" width="600">
+            <p>It's 10:20 at night right now so I'm gonna do this really fast, ok?? Here's some cruise ships we passed, look water</p>
+            <img src="https://lh3.googleusercontent.com/Zl_Dq2-AwEWsQbnHaZFumikfP-1BwIp4EtY0w_FbrzM1w5zju73XSkZAxtMwIiQvLrE=w2400" width="600">
             `,
+            `
+            <p>Had a sandwhich (mozzerella and tomato! yummy despite no meat) also there were no umbrellas up because of the light breeze, which was cool. Also vespids on the food, eating the food? WOAH</p>
+            <img src="https://lh5.googleusercontent.com/vpROnqTk9Rr4CsQpPKtmUD-t9VfRKQ9mxjXVinq610t1vEMm3fCB9EKvDncWdMzyL1w=w2400" width="400">
+            <img src="https://lh3.googleusercontent.com/x0edSi2rijriIyWFeEfYHoOPpRhEwnBiC0frTubu8s-NzoV34wTSqeXfIYoh5-Kyr4U=w2400" width="400">
+            `,
+            `
+            <p>Went to castle, did not really like it! But heres a bird, some tunnels (which were only reached after climbing a very large amount of stairs) and some trees that bent... towards the sun? (and also the water's edge...) that's my working thewory at least.</p>
+            <img src="https://lh6.googleusercontent.com/96G717nefg6G4jXOCFK9PKXkfWHIypcSjovSZEaNHmTm3eC89rRCp_HwNz9Cw2O4nhs=w2400" width="300">
+            <img src="https://lh3.googleusercontent.com/i2yq1zq3N3GaHo_893Pp33-GxX6VMuJhdubFJQFMZEQshYIaFtiBbUImZXoHcEmwG_A=w2400" width="300">
+            <img src="https://lh5.googleusercontent.com/h4Q19Tx-3Pc3E_faHsQRjRTN3x2PhxOOr1tvHWnpx3bhAGPvGbC9Ahe7_93ZbTteTH8=w2400" width="300">
+            `,
+            `
+            <p>The hotel had a very Italian looking dog. Look at its eyes!</p>
+            <p>"Look, baby, I know we've both had a few rounds but I'm just trying to have a good time, eh? C'mere, *chuckles* *long drag from dog cigar*"</p>
+            <img src="https://lh4.googleusercontent.com/Hxt6glQCH-CvNEH2wf6POpw6dB-uPHvWvOvBa8px1tCMcDzaBLWTgS0CpRDsdZyJGoo=w2400" width="600">
+            <br>(dm for rp <3)
+            `,
+            `
+            <p>butter, also the cicadas were actually popping off in italy at this time, they were loud. One (and by that I mean two) flew past me onto a tree when I initially exited the car. Mating!.. I think? Get a room??</p>
+            <img src="https://lh5.googleusercontent.com/qoMxSMTffhoZky108x-ox7E1rkX0agDmadUt_oPDz8vI_0lcEnyem1I4tcGLP8TBqH4=w2400" width="600">
+            `,
+            `
+            <p>okish pizza, the crust was a bit bitter and I also don't like bell peppers much, that's on me my bad</p>
+            <p>Also pizza blanca or something someone else got... huh... very oily</p>
+            <img src="https://lh5.googleusercontent.com/X_9_-3TpQMobbbg5rHY1YxqLz1TPlfSz5hCUrgMPCnVOXWJ2KHq4tDJeXn3bZZlDqZI=w2400" width="300">
+            <img src="https://lh6.googleusercontent.com/pePvk8m9lx4W8DvVJHi00U5A_DEFrrtkSgyT2S8XpMyTQdFYWcCySfEMskuGc2U0PN0=w2400" width="300">
+            <img src="https://lh5.googleusercontent.com/6Gn3sdHHM0Vg0RrsqQSvugIQmtfmYvrWogNtJ4mNArTO6V2Ur98wWptsNjKWnpzkxTE=w2400" width="300">
+            `,
+            `
+            <p>breakfast in bed (I had already started, I had just woke up ok?) the rings in the middle are pizza flavoured. Also didn't taste great! Italy is disappointing... but this single experience of me being heavily bored and stressed in the apartment for a few days without wifi and only 240p videos running on data probably doesn't sum up Italy well. I also dislike beaches! Sorry Italians~</p>
+            <img src="https://lh5.googleusercontent.com/WhoS7t8rzvURZa64LcerU1BLtnR3cP1BbqKT47RMVOSaVFme6uL3fSPjOu1zDJH_w6s=w2400" width="600">
+            `,
+            `
+            <p>Now <i>this</i> is what I'm talking about. JoJo pt5 reference?? Doppio yoooooo</p>
+            <img src="https://lh6.googleusercontent.com/-GfHeNuJjcOBLo1B4u8ultIMfKrNI3MQcdJT8dCbhfZp2TYRzKqGgpeCDWJ1upNabA4=w2400" width="600">
+            `,
+            `
+            <p>Went to a large ancient structure like you usually do, and stood around watching youtube videos (#Isuck). Anyway, why did they paint pillars onto this wall?</p>
+            <p>More wasps too they're really everywhere. Additionally out this grating (that was super precarious to be taking photos from) there was a lot of algae growing in the moat, and pidgeons; There's a few in this photo, look in the middle on that perch.</p>
+            <img src="https://lh6.googleusercontent.com/59VHyDY6hiL20eIiK75R4w14LqSjCde4-pg07pg5fHc36TdapTy1QjRHpwX1MCYFT2Q=w2400" width="300">
+            <img src="https://lh3.googleusercontent.com/VSXMg18MGEhsVWN5Ts7uWsh7nXT0cAl1MPjWUC63v17_nkPMHK_2FyhGqBxHQ2tNqlA=w2400" width="300">
+            <img src="https://lh5.googleusercontent.com/4if_m6HQ156mq2VdwoM9qU-ixlU2nU6jRKtp_TKXQ5OBnIdizmkloi5_r_vFVYUqEWE=w2400" width="300">
+            `,
+            `
+            <h1>ew</h1>
+            <img src="https://lh6.googleusercontent.com/VlfvdyEEX9X1W20q-xk3lpVGtHRsvvzd_qnK3OaExb3VwQgEThV128ojKsOdvjXRXvU=w2400" width="600">
+            `,
+            `
+            <p>Dinner! A drink of spezi (cola and orange soda, a European thing I guess) and a calzone that was literally just a folded pizza, omg it was massive</p>
+            <img src="https://lh6.googleusercontent.com/sgN8j0D_QziYtJjBIWJzQxRrVCIDaADn0UIfXpMRsUln20z1qBlaOBsOu72nNpJwcZU=w2400" width="300">
+            <img src="https://lh5.googleusercontent.com/iO0WTc1LufgbgR2tMkI3sRq3s83bL_hzBIZAgFVLIjBv7uRkbOcH1LVi5mPM7bIjhP8=w2400" width="300">
+            <img src="https://lh5.googleusercontent.com/r-ijuvPyij_-hzOwDFCy5c-nx4ujQHMsuUlHGj_NU401CTPSg7_3-uVRYgZZ7qZjFEY=w2400" width="300">
+            `,
+            `
+            <p>...does that say bussy?</p>
+            <p>(this was in every icecream on the menu)</p>
+            <img src="https://lh3.googleusercontent.com/2sShityJJTTEdiH3tscUJMJRd-gykkxRTYnniYzLNskcRfOcWbeD-ch0d2K0MSMUaZs=w2400" width="600">
+            `,
+            `
+            <p>yeah I got mixed fruit instead, mm healthy even though it still destroyed my stomach after that calzone I'm actually gonna throw up--</p>
+            <img src="https://lh6.googleusercontent.com/z7ga05PQs2iPFazpbQPLaGE1qzuNcuROmWwqV6m0yFvnx1q9ekG6nEsBpGHiG_Ee1bU=w2400" width="600">
+            `,
+            `
+            <p>shib</p>
+            <img src="https://lh5.googleusercontent.com/QIdupPXjlF1uoZNIX2SyDeLBb4F9ecRbQJ_vTrtVyV2ZKDSMpbLiW84UdnaO8kG-bss=w2400" width="600">
+            `,
+            `
+            <h1>NO posing like one of your french girls</h1>
+            <br>(this is italy)<br>
+            <img src="https://lh3.googleusercontent.com/7uiBkRYRBFI7QCV4yBqjHijnpINyA4BklfOzUTDKf0nNDI-GDxWuTPyVMgfJz7nxIAY=w2400" width="600">
+            `,
+            `
+            <p>Roads in this country are actually crazy, like roller coasters. Up we go, up this mountain, then back down, but make sure to never go straight! And only 1.5 lanes. Don't forget: trucks are totally chill just passin' through here too! You might pass by so close you can hear the devil whispering on the driver's shoulder that brought him here, but that's fine!</p>
+            <img src="https://lh5.googleusercontent.com/FU2QVdNAq9QCF1f22AHJTCmJbDsp3Bmj_vdZVhoD4scAdwmsOcwekJn1Yn7kgDZhbgQ=w2400" width="600">
+            `,
+            `
+            <p>Last image, ok I'm done. I'm so tired, it's... 10:50 pm. Next time I'll be posting on Italy again, but pretending it's Switzerland (slight booking error, the hotel is 14km from a Swiss landmark we'd like to visit, but not by road, and not in Switzerland). Thanks for reading, I'm gonna watch Youtube shorts and then pass out.</p>
+            <img src="https://lh4.googleusercontent.com/hIqhYgwx4tdqLxoa-G2VnRPBeWYDVwFM0tUteWcu4kLur7F-UUwZghHRqWfnYYQPrtA=w2400" width="600">
+            `
         ]
     },
     {

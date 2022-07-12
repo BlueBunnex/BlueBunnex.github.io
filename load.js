@@ -93,6 +93,18 @@ function loadTheThings() {
 // https://www.labnol.org/embed/google/drive/
 var blogCards = [
     {
+        "description": "Italian is my least favourite language I've heard so far. Their pizza isn't good either! It was bitter! #croatiakindacool",
+        "date": "07/11/2022",
+        "image": "img/italy.jpg",
+        "image-count": 26,
+        "slides": [
+            `
+            <p></p>
+            <img src="" width="600">
+            `,
+        ]
+    },
+    {
         "description": "I am a lazy person, so most of these pictures are of places I didn't really wanna be and also food. Yum!",
         "date": "07/08/2022",
         "image": "img/croatia2.jpg",

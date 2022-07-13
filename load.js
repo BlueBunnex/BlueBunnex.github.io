@@ -99,8 +99,68 @@ var blogCards = [
         "image-count": 19,
         "slides": [
             `
-            <p>yawn</p>
-            <img src="img/kitsu_.png" width="600">
+            <p>Visited a castle in... Italy. Fort? I don't really know what it was. It was really small, tall, and bare though. Kinda like--</p>
+            <img src="https://lh5.googleusercontent.com/Iyyu-xBPt5oV9BLGqqQrlfkY9fB06hSHPgu1RG8KnvFlkLgCB8NzxB3ISm6MQPEZOf8=w2400" width="400">
+            <img src="https://lh6.googleusercontent.com/q_mtowxyfwY36pDnaRhFo7l5x01y3mf0-Rzo4CS0SMZb9mzDPZihnrhQOBgATfnrDvg=w2400" width="400">
+            `,
+            `
+            <p>As I navigated down from the top of the fort (an ok view I guess) I spied a few eggs in this cranny by the stairs! I actually went back up in order to snap this photo. Those seagulls...</p>
+            <img src="https://lh5.googleusercontent.com/-aWvHqXBsEnAoVq7ldImg0HLBLFrFiVMrOwQc2kxuZJPGKGRUTwKEe1EullxrN-sqjs=w2400" width="600">
+            `,
+            `
+            <p>Got some gelato at this Chinese restaurant, in Italy. What a trip. I can read that by the way! And if it weren't for summer break I would remember how to write it too!</p>
+            <img src="https://lh6.googleusercontent.com/Nt5ENObR2C1pOqYqXLzOjvMxwymsBvjiMTUTLRmzDt0zKtl3c-YwT2BbFG44wZCySjI=w2400" width="400">
+            <img src="https://lh4.googleusercontent.com/wSaHtfG4puX-GaKObkPlcbldRBwbF45lYxydTS2hhznTZMtSHAnmdOXmphFlOneIsAY=w2400" width="400">
+            `,
+            `
+            <p>More ducks, takin' a stroll</p>
+            <img src="https://lh4.googleusercontent.com/9pKHQl9__9qWrphPj8NuSqoc5apN6IFXOvPjUM1eEmnT1AhegHE_d-vu4TreTpFPtvY=w2400" width="600">
+            `,
+            `
+            <p>...Have you heard of this? Those characters on the bottom left are popular in Russia I believe... is this, like, a Europe thing?</p>
+            <p>Leo kinda looks like a furry, not that that's a bad thing <3 why they gotta be blue though</p>
+            <img src="https://lh4.googleusercontent.com/d4iHDMZvYKUjW20m1SvPcXhE8481ERecPVtXQax8A6lAoP30djQ5xkud0Pzoxus55K4=w2400" width="600">
+            `,
+            `
+            <p>Burger and icecream at some German wurst place (in Italy, wow) and it was really good. There was a foosball table right behind our seat, and so naturally I crushed everyone who played against me every time, for a total of three wins. I stand undefeated. It was really fun! The last game was really close, we were down three but came back. I can almost sympathize with those people who watch sports, but no I can't</p>
+            <img src="https://lh6.googleusercontent.com/u8rgBg3G6qW7GVBrrOKY8MA2NuVr-8AM0CxJ8KCENsyZUlNYSYqtL_iH4CkidZkc4bs=w2400" width="400">
+            <img src="https://lh4.googleusercontent.com/Y2iAHbNOSa1IcqfkTe9MhrIGsPBqOwEKUIijTMNIsPuBSLXjW3E_EsfsD9_Rq7AYPK0=w2400" width="400">
+            `,
+            `
+            <p>Tunes and tunnels. The hotel we ended up in had a gym, actually, with treadmills that ramped up up to 15 degrees, and went way too fast. There was also boxing gear, but importantly I need to get an exercise ball now (they are fun)</p>
+            <img src="https://lh5.googleusercontent.com/OvL9fhXMP3pHHRO4XT6M9taiqftK1pmvQDbzySGyTjVEnZ2jatF0_ZoIniBfyGgk15I=w2400" width="600">
+            `,
+            `
+            <p>Set this to your lockscreen and then dm me a photo of your phone with this as the lockscreen to me in my dms of your phone</p>
+            <img src="https://lh3.googleusercontent.com/e3W3t241qd-o7rYA_45K6any5jPfhW4vDTGgFV1u204t5PEM-7RZ-3ewiSkuEs9oKfQ=w2400" width="600">
+            `,
+            `
+            <p>Got a vegan burger. That drink in the top left is actually the appetizer, an apple + carrot + celery smoothie. It was good!... and the best part of the meal, considering the potato and chickpea patty on that burger was... not edible. It was sweet... the steak fries were bussin though</p>
+            <p>Also yes that is a screw holding the burger together (it's plastic, and like five inches). The ketchup packets didn't actually open when you ripped them, so it was useful for stabbing that.</p>
+            <img src="https://lh6.googleusercontent.com/Xz359Va0QE9452cXDquBPdykyHWM8knnkacbwWS82MwhFYBmpMN7WSxj6RU0N5FlCDQ=w2400" width="600">
+            `,
+            `
+            <p>Bowling at that same restaraunt. It was inside the building (we ate outside) and down the stairs that were labeled with a bathroom sign... huh. There was a whole arcade down there. Unrelated, I need to improve my air hockey skills.</p>
+            <img src="https://lh5.googleusercontent.com/rfk-DNFFGKz0bTfTcW6r31GYaaM50VxvZrCof3i_5q0vnZZjvhXI9zeNXjOW9daJoiI=w2400" width="600">
+            `,
+            `
+            <p>Next day, went to... another German restaurant, in Switzerland this time... and this was behind it? I think it's... an apartment??</p>
+            <img src="https://lh5.googleusercontent.com/wa2dK2oZ7dY2BUe7_3AiAuCFfeT7ZwJ3fIgHPh6nk6l2C8o0dxNlLVNg_RtohLjhLm0=w2400" width="600">
+            `,
+            `
+            <p>Curry wurst; A bit too sweet for me. I also had some chicken nuggets and this icecream... not a good idea. Tummy hurty</p>
+            <img src="https://lh4.googleusercontent.com/rSh9-bc5I4C8jcgDBXoHf6v3khUqPNLLQpGKAQ58YoKHFVn3NpUQGpSGp66rGKhd68k=w2400" width="400">
+            <img src="https://lh4.googleusercontent.com/uybwtq3bwOOrsKAw99vIumv9pJNNe_m-LYBMkMMcALG5tfzYFsyUnCqO1oGuayG7dI0=w2400" width="400">
+            `,
+            `
+            <p>Swiss town that was boring in my opinion. THere's a castle up there? Also blue tomato, don't look inside (it's not actually blue).</p>
+            <img src="https://lh6.googleusercontent.com/xVHuUDTt8VRl52OHxprYYSoqW7jL5wMx8J0oDsSRvTyepH3WBSNCtG0G2Uqd8HizEcw=w2400" width="400">
+            <img src="https://lh4.googleusercontent.com/EfsHo5_H67ZJlSSp7UAgexsTr_JyDRa3My5e3lh0V8uW7xoG3t5ov8MhYIGwlPZDPLI=w2400" width="400">
+            `,
+            `
+            <h1>public giant waffle maker</h1>
+            <p>Yeah that's all I got. Turns out not having your own language makes you boring as a nation. Just kidding! I've been bored this entire time. I hope you like my blogs regardless... but if you have any suggestions (not like you do) let me know <3</p>
+            <img src="https://lh4.googleusercontent.com/zszU-T26M2mY0bDgbmmlciHmVv28FcjqW3Ap-ul_YI5pjwymOyqVfMWaoqfi9g1-elY=w2400" width="600">
             `
         ]
     },

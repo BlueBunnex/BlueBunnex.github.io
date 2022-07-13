@@ -93,6 +93,18 @@ function loadTheThings() {
 // https://www.labnol.org/embed/google/drive/
 var blogCards = [
     {
+        "description": "Just passing through Switzerland for a night. And by that, I mean the Swiss part of Italy, because that's where the hotel is. So half of this is about Italy...",
+        "date": "07/13/2022",
+        "image": "img/swiss.jpg",
+        "image-count": 19,
+        "slides": [
+            `
+            <p>yawn</p>
+            <img src="img/kitsu_.png" width="600">
+            `
+        ]
+    },
+    {
         "description": "Italian is my least favourite language I've heard so far. Their pizza isn't good either! It was bitter! #croatiakindacool",
         "date": "07/11/2022",
         "image": "img/italy.jpg",

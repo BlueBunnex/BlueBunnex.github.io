@@ -26,9 +26,15 @@ h2 {
 
 /* use for translations (those grey boxes) */
 .trans {
+    padding: 12px;
+    margin: 12px;
+    margin-top: 20px;
+    border-radius: 4px;
     font-style: normal;
     font-size: 15px;
     display: block;
+    text-align: left;
+    background: var(--thirty);
 }
 /*i:before {
     content: "\a";

@@ -7,11 +7,18 @@
         <link rel="stylesheet" href="style.css">
         <script src="load.js"></script>
         <meta charset="UTF-8">
-        <style>
-            /* put local css here <3 */
+        <style> /* put local css here <3 */
+            
             .char {
                 height: 320px; text-align: left; display: inline-block; width: 100%; background: white; border-style: solid; border-radius: 6px; border-width: 2px; border-color: lightgrey; padding: 0px; overflow: hidden;
             }
+            .char:hover {
+                background: var(--ten);
+            }
+            .char-header {
+                background-position: right center; padding: 5px; display: inline-block; background-size: cover; width: 100%; height: 80px;
+            }
+            
         </style>
     </head>
     <body style="margin: 0; text-align: center; background-attachment: fixed; background-color: black; background-image: url('img/bg.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center center;">
@@ -52,7 +59,7 @@
                 <!-- Bing He -->
                 <span class="char">
 
-                    <div style="background-image: url('img/universe/Binghe_sprite.png'); background-position: right center; padding: 5px; display: inline-block; background-size: cover; width: 100%; height: 80px;">
+                    <div class="char-header" style="background-image: url('img/universe/Binghe_sprite.png');">
                         <h2>Bing He</h2>
                     </div>
 
@@ -67,7 +74,7 @@
                 <!-- Willow -->
                 <span class="char">
                     
-                    <div style="background-image: url('img/universe/Willow_sprite.png'); background-position: right center; padding: 5px; display: inline-block; background-size: cover; width: 100%; height: 80px;">
+                    <div class="char-header" style="background-image: url('img/universe/Willow_sprite.png');">
                         <h2>Willow</h2>
                     </div>
 

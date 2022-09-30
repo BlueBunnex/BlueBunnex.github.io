@@ -24,6 +24,32 @@ h2 {
     margin: 42px 0 24px 0;
 }
 
+/* buttons on my profile card leading to other websites */
+.cutebutton {
+    border: none;
+    border-radius: 5px;
+    background-color: var(--ten);
+
+    color: var(--sixty);
+    font-size: 14px;
+    font-weight: 600;
+
+    padding: 6px;
+    margin: 2px;
+
+    width: 100%;
+
+    text-align: center;
+
+    transition-duration: 0.2s;
+    transition-property: background;
+}
+
+.cutebutton:hover {
+    background: blue;
+    cursor: pointer;
+}
+
 /* use for translations (those grey boxes) */
 .trans {
     padding: 12px;

@@ -103,50 +103,17 @@ a:hover {
     filter: brightness(80%);
 }
 
-.card {
-    border-style: solid;
-    border-width: 2px;
-    border-color: var(--thirty);
-    border-radius: 6px;
-    display: block;
-    margin-bottom: 10px;
-    height: 240px;
-    position: relative;
-    overflow: hidden;
-}
-.card .img-holder {
-    position: absolute;
-    left: 0;
+/* image board */
+#insert-here img {
     width: 100%;
-    overflow: hidden;
+    border-radius: 4px;
+}
+
+/*
+#insert-here img:hover {
     cursor: pointer;
 }
-.card .img-holder img {
-    width: 100%;
-    transition: 0.4s;
-}
-.card .img-holder:hover img {
-    filter: brightness(70%) blur(1px);
-    /* -webkit-filter: blur(1px); */
-    transform:scale(1.2);
-    -ms-transform:scale(1.2); /* IE 9 */
-    -moz-transform:scale(1.2); /* Firefox */
-    -webkit-transform:scale(1.2); /* Safari and Chrome */
-    -o-transform:scale(1.2); /* Opera */
-}
-.card .img-holder span {
-    position: absolute;
-    top: 80px;
-    left: 64px;
-    font-size: 52px;
-    z-index: 10;
-    color: var(--sixty);
-    transition-duration: 0.4s;
-    opacity: 0;
-}
-.card .img-holder:hover span {
-    opacity: 1;
-}
+*/
 
 /* navbar */
 ul {

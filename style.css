@@ -114,22 +114,10 @@ a:hover {
     position: relative;
     overflow: hidden;
 }
-.card h3 {
-    position: absolute;
-    left: 49%;
-    color: var(--ten);
-    font-weight: 100;
-}
-.card p {
-    position: absolute;
-    width: 46%;
-    left: 49%;
-    /*top: 40px;*/ /* re-enable when card headers are reintroduced */
-}
 .card .img-holder {
     position: absolute;
     left: 0;
-    width: 47%;
+    width: 100%;
     overflow: hidden;
     cursor: pointer;
 }
@@ -158,18 +146,6 @@ a:hover {
 }
 .card .img-holder:hover span {
     opacity: 1;
-}
-.card .imagetag, .card .datetag {
-    color: var(--thirty-contrast);
-    position: absolute;
-    bottom: 0;
-    font-size: 12px;
-}
-.card .imagetag {
-    left: 48.5%;
-}
-.card .datetag {
-    right: 5px;
 }
 
 /* navbar */

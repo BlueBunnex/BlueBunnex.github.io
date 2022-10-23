@@ -31,18 +31,7 @@ h2 {
     height: 20px;
     line-height: 25px;
     color: var(--thirty-contrast);
-}
-
-#header:hover .English {
-    display: none;
-}
-
-#header .Chinese {
-    display: none;
-}
-
-#header:hover .Chinese {
-    display: inline;
+    cursor: pointer;
 }
 
 #header span {
@@ -52,7 +41,7 @@ h2 {
 }
 
 #header span span {
-    padding-left: 0px; /* gotta counter the span rule set above */
+    padding-left: 0px; /* gotta counter the span rule that was set above */
     border-bottom: 24px solid var(--ten);
     border-left: 16px solid transparent;
     height: 0px;

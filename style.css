@@ -24,6 +24,43 @@ h2 {
     margin: 42px 0 24px 0;
 }
 
+/* header at top of page */
+#header {
+    text-align: center;
+    font-weight: 600;
+    height: 20px;
+    line-height: 25px;
+    color: var(--thirty-contrast);
+}
+
+#header:hover .English {
+    display: none;
+}
+
+#header .Chinese {
+    display: none;
+}
+
+#header:hover .Chinese {
+    display: inline;
+}
+
+#header span {
+    color: var(--ten);
+    position: relative;
+    padding-left: 36px;
+}
+
+#header span span {
+    padding-left: 0px; /* gotta counter the span rule set above */
+    border-bottom: 24px solid var(--ten);
+    border-left: 16px solid transparent;
+    height: 0px;
+    width: 1px;
+    position: absolute;
+    top: 10px; 
+}
+
 /* buttons on my profile card leading to other websites */
 .cutebutton {
     border: none;

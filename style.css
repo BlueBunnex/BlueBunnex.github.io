@@ -34,7 +34,7 @@ h2 {
     cursor: pointer;
 }
 
-#header span {
+#header .English span, #header .Chinese span {
     color: var(--ten);
     position: relative;
     padding-left: 36px;

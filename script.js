@@ -1,10 +1,9 @@
-var isEnglish = true;
+//var isEnglish = true;
                 
 function translate() {
-  isEnglish = !isEnglish;
+  //isEnglish = !isEnglish;
 
-  alert(isEnglish);
+  alert("test <3");
 }
 
 // also make sure to set all Chinese to "display: none;" on page load
-alert("functional");

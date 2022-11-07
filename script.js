@@ -1,6 +1,6 @@
 //var isEnglish = true;
                 
-function translate() {
+function swaparoo() {
   //isEnglish = !isEnglish;
 
   alert("test <3");

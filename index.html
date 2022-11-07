@@ -14,8 +14,19 @@
         <!-- center stuff area -->
         <div style="width: 100%; max-width: 750px; display: inline-block; text-align: center; background: var(--sixty); padding: 0px; box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
             
+           <!-- to Chinese translation feature (when you click header) -->
+            <script>
+                var isEnglish = true;
+                
+                function translate() {
+                    isEnglish = !isEnglish;
+                    
+                    alert(isEnglish);
+                }
+            </script>
+            
             <!-- header -->
-            <h1 id="header" unselectable="on" onclick="alert('hi')">
+            <h1 id="header" unselectable="on" onclick="translate();">
 
                 <div class="English">
                     <span>
@@ -24,12 +35,12 @@
                         kitsumitsu</span>.de
                 </div>
 
-                <!-- <div class="Chinese">
+                <div class="Chinese">
                     <span>
                         <span style="left: 15px;"></span>
                         <span style="left: -1px;"></span>
                         七醋米醋</span>.的
-                </div> -->
+                </div>
 
             </h1>
 

@@ -7,3 +7,4 @@ function translate() {
 }
 
 // also make sure to set all Chinese to "display: none;" on page load
+alert("functional");

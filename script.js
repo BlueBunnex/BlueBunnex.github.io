@@ -1,9 +1,9 @@
-//var isEnglish = true;
+var isEnglish = true;
                 
-function swaparoo() {
-  //isEnglish = !isEnglish;
+function translatePage() {
+  isEnglish = !isEnglish;
 
-  alert("test <3");
+  alert("you found a secret! " + isEnglish);
 }
 
 // also make sure to set all Chinese to "display: none;" on page load

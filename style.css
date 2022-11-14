@@ -76,8 +76,7 @@ h2 {
     cursor: pointer;
 }
 
-/* use for translations (those grey boxes) */
-.trans {
+.text-block {
     padding: 12px;
     margin: 12px;
     margin-top: 20px;
@@ -88,10 +87,6 @@ h2 {
     text-align: left;
     background: var(--thirty);
 }
-/*i:before {
-    content: "\a";
-    white-space: pre-wrap;
-}*/
 
 p {
     text-indent: 2em;

@@ -13,8 +13,9 @@ body {
     margin: 0;
     text-align: center;
     background-attachment: fixed;
-    background-color: black;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('img/bg.png'); background-size: 320px;
+    background-color: #25649f;
+    /*background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('img/bg.png');*/
+    background-size: 320px;
     background-repeat: repeat;
     background-position: center center;   
 }
@@ -227,100 +228,4 @@ li a.active {
     .left-column .wide-display-only, .right-column .wide-display-only { /* left doesn't have anything wide-display-only, but just in case */
         display: none;
     }
-}
-
-/* The Modal (background) */
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 20;
-    padding-top: 100px;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: black;
-}
-
-/* Modal Content */
-.modal-content {
-    position: relative;
-    background-color: var(--sixty);
-    margin: auto;
-    padding: 0;
-    width: 90%;
-    max-width: 1200px;
-}
-
-.modal-content p {
-    font-size: 18px;
-    line-height: 2;
-}
-
-/* The Close Button */
-.close {
-    color: var(--sixty);
-    position: absolute;
-    top: 10px;
-    right: 25px;
-    font-size: 35px;
-    font-weight: bold;
-    transition-duration: 0.25s;
-}
-
-.close:hover, .close:focus {
-    color: var(--thirty);
-    text-decoration: none;
-    cursor: pointer;
-    transform: rotate(90deg);
-}
-
-/* Hide the slides by default */
-.mySlides {
-    display: none;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 0;
-    width: auto;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    transition: 0.6s ease;
-    user-select: none;
-    -webkit-user-select: none;
-
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
-/* Position the "prev button" to the left */
-.prev {
-    left: 0;
-    border-radius: 0 3px 3px 0;
-}
-
-/* Position the "next button" to the right */
-.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-    color: black;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-    left: 42px;
 }

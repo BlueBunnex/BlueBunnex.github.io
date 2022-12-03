@@ -68,7 +68,7 @@ h2 {
 /* buttons on my profile card leading to other websites */
 .cutebutton {
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     background-color: var(--ten);
 
     color: var(--sixty);
@@ -81,13 +81,14 @@ h2 {
     width: 100%;
 
     text-align: center;
+    text-decoration: none;
 
     transition-duration: 0.2s;
     transition-property: background;
 }
 
 .cutebutton:hover {
-    background: blue;
+    background: var(--thirty-contrast);
     cursor: pointer;
 }
 

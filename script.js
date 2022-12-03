@@ -27,6 +27,3 @@ function translatePage() {
   }
   
 }
-
-// also make sure to set all Chinese to "display: none;" on page load
-translatePage();

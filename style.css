@@ -144,11 +144,13 @@ a:hover {
 #insert-here img {
     width: 100%;
     border-radius: 4px;
+    
+    transition-duration: 0.2s;
 }
 
 #insert-here img:hover {
     cursor: pointer;
-    filter: brightness(50%);
+    filter: brightness(70%);
 }
 
 /* navbar */

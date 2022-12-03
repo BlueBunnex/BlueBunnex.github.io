@@ -149,7 +149,8 @@ a:hover {
 }
 
 #insert-here img:hover {
-    cursor: pointer;
+    /*cursor: pointer;*/
+    
     filter: brightness(70%);
 }
 

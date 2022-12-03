@@ -81,7 +81,6 @@ h2 {
     width: 100%;
 
     text-align: center;
-    text-decoration: none;
 
     transition-duration: 0.2s;
     transition-property: background;
@@ -146,11 +145,10 @@ a:hover {
     border-radius: 4px;
 }
 
-/*
 #insert-here img:hover {
     cursor: pointer;
+    filter: brightness(50%);
 }
-*/
 
 /* navbar */
 ul {

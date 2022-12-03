@@ -87,7 +87,7 @@ h2 {
 }
 
 .cutebutton:hover {
-    background: var(--thirty-contrast);
+    background: #408ec9; /* should probably make a variable --ten-dark */
     cursor: pointer;
 }
 

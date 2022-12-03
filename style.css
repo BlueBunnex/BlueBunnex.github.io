@@ -68,7 +68,7 @@ h2 {
 /* buttons on my profile card leading to other websites */
 .cutebutton {
     border: none;
-    border-radius: 8px;
+    border-radius: 6px;
     background-color: var(--ten);
 
     color: var(--sixty);
@@ -104,10 +104,11 @@ h2 {
 }
 
 p {
-    text-indent: 2em;
+    /*text-indent: 2em;*/
     text-align: left;
     padding: 0px 10px;
     font-size: 14px;
+    
     /*text-align: justify;
     text-justify: inter-word;*/
 }

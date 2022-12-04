@@ -142,10 +142,11 @@ a:hover {
 
 /* image board */
 #insert-here div {
+    z-index: 11;
     width: 100%;
     padding: 0px;
-    position: relative;
     
+    position: relative;
     border-radius: 4px; /* doesn't work for some reason, but still gonna leave it here */
     overflow-x: hidden;
     overflow-y: scroll;
@@ -159,6 +160,10 @@ a:hover {
     position: absolute;
     left: 5%;
     top: 0;
+}
+
+#insert-here div:hover p {
+    display: none;
 }
 
 #insert-here div img {

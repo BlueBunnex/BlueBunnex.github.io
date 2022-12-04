@@ -156,6 +156,7 @@ a:hover {
     z-index: 10;
     width: 90%;
     color: white;
+    display: none;
     
     position: absolute;
     left: 5%;
@@ -163,7 +164,7 @@ a:hover {
 }
 
 #insert-here div:hover p {
-    display: none;
+    display: block;
 }
 
 #insert-here div img {

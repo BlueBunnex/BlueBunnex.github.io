@@ -141,14 +141,20 @@ a:hover {
 }
 
 /* image board */
-#insert-here img {
+#insert-here span {
     width: 100%;
     border-radius: 4px;
+    padding: 0px;
+    overflow: hidden;
     
     transition-duration: 0.2s;
 }
 
-#insert-here img:hover {
+#insert-here span img {
+    width: 100%;
+}
+
+#insert-here span:hover img {
     /*cursor: pointer;*/
     
     filter: brightness(70%);

@@ -143,21 +143,22 @@ a:hover {
 /* image board */
 #insert-here span {
     width: 100%;
-    border-radius: 4px;
     padding: 0px;
-    overflow: hidden;
     
-    transition-duration: 0.2s;
+    border-radius: 4px; /* doesn't work for some reason, but still gonna leave it here */
+    overflow: hidden;
 }
 
 #insert-here span img {
     width: 100%;
+    
+    transition-duration: 0.2s;
 }
 
 #insert-here span:hover img {
     /*cursor: pointer;*/
     
-    filter: brightness(70%);
+    filter: brightness(50%) blur(8px);
 }
 
 /* navbar */

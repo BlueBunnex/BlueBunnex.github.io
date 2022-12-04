@@ -154,11 +154,14 @@ a:hover {
 #insert-here div span {
     z-index: 10;
     width: 90%;
+    height: 90%;
+    padding: 12px;
+    text-align: left;
     color: white;
     display: none;
     
     position: absolute;
-    left: 2%;
+    right: 0;
     top: 0;
     
     overflow-x: hidden;

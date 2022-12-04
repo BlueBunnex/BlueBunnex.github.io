@@ -148,15 +148,10 @@ a:hover {
     
     position: relative;
     border-radius: 4px;
-    overflow-x: hidden;
-    overflow-y: scroll;
+    overflow: hidden;
 }
 
-#insert-here div:hover {
-    background-color: black;
-}
-
-#insert-here div p {
+#insert-here div span {
     z-index: 10;
     width: 90%;
     color: white;
@@ -165,9 +160,12 @@ a:hover {
     position: absolute;
     left: 2%;
     top: 0;
+    
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
-#insert-here div:hover p {
+#insert-here div:hover span {
     display: block;
 }
 

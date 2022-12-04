@@ -141,6 +141,13 @@ a:hover {
 }
 
 /* image board */
+#insert-here {
+    max-width: 830px;
+    display: block;
+    column-count: 2;
+    gap: 6px;
+}
+
 #insert-here div {
     z-index: 11;
     width: 100%;

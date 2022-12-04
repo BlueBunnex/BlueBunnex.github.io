@@ -147,7 +147,7 @@ a:hover {
     padding: 0px;
     
     position: relative;
-    border-radius: 4px; /* doesn't work for some reason, but still gonna leave it here */
+    border-radius: 4px;
     overflow-x: hidden;
     overflow-y: scroll;
 }
@@ -196,7 +196,7 @@ ul {
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
-    z-index: 10;
+    z-index: 99;
 }
 li {
     float: left;

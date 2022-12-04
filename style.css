@@ -144,14 +144,24 @@ a:hover {
 #insert-here span {
     width: 100%;
     padding: 0px;
+    position: relative;
     
     border-radius: 4px; /* doesn't work for some reason, but still gonna leave it here */
     overflow: hidden;
-    
+}
+
+#insert-here span p {
+    z-index: 10;
+    width: 90%;
     color: white;
+    
+    position: absolute;
+    left: 5%;
+    top: 10px;
 }
 
 #insert-here span img {
+    z-index: 9;
     width: 100%;
     
     transition-duration: 0.2s;

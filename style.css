@@ -152,6 +152,10 @@ a:hover {
     overflow-y: scroll;
 }
 
+#insert-here div:hover {
+    background-color: black;
+}
+
 #insert-here div p {
     z-index: 10;
     width: 90%;
@@ -159,7 +163,7 @@ a:hover {
     display: none;
     
     position: absolute;
-    left: 5%;
+    left: 2%;
     top: 0;
 }
 

@@ -141,33 +141,34 @@ a:hover {
 }
 
 /* image board */
-#insert-here span {
+#insert-here div {
     width: 100%;
     padding: 0px;
     position: relative;
     
     border-radius: 4px; /* doesn't work for some reason, but still gonna leave it here */
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
-#insert-here span p {
+#insert-here div p {
     z-index: 10;
     width: 90%;
     color: white;
     
     position: absolute;
     left: 5%;
-    top: 10px;
+    top: 0;
 }
 
-#insert-here span img {
+#insert-here div img {
     z-index: 9;
     width: 100%;
     
     transition-duration: 0.2s;
 }
 
-#insert-here span:hover img {
+#insert-here div:hover img {
     /*cursor: pointer;*/
     
     filter: brightness(50%) blur(1px);

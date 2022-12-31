@@ -156,6 +156,8 @@ a:hover {
     position: relative;
     border-radius: 4px;
     overflow: hidden;
+    
+    cursor: pointer;
 }
 
 #insert-here div span {
@@ -172,7 +174,7 @@ a:hover {
     top: 0;
     
     overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-y: auto; /* scroll but only when necessary */
 }
 
 #insert-here div:hover span {

@@ -143,15 +143,15 @@ a:hover {
 /* image board */
 #insert-here {
     max-width: 830px;
-    display: grid;
     gap: 6px;
+    
+    display: grid;
     grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
     grid-template-rows: masonry;
     
     /* old system didn't fill in the right order */
     /*display: block;
-    column-count: 2;
-    gap: 6px;*/
+    column-count: 2;*/
 }
 
 #insert-here div {

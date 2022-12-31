@@ -125,7 +125,13 @@
                     function insertImage(filename, passage) {
                         var construct = "";
                         
-                        construct += '<div><img src="img/imgboard/' + filename + '"><span>' + passage + '</span></div>';
+                        construct += `
+                            <div onclick="window.open('img/imgboard/
+                            ` + filename + `
+                            ','_blank')"><img src="img/imgboard/
+                            ` + filename + `
+                            "><span>` + passage + `</span></div>
+                        `;
                         
                         document.getElementById('insert-here').innerHTML += construct;
                     }

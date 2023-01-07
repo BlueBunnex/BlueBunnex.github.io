@@ -164,7 +164,7 @@ a:hover {
     border-radius: 4px;
     overflow: hidden;
     
-    cursor: pointer;
+    cursor: alias;
 }
 
 #insert-here div span {

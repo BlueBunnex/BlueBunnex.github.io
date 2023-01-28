@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="style.css">
         <script src="load.js"></script>
         <meta charset="UTF-8">
-        <style> /* put local css here <3 */
+        <style>
             
             .char {
                 height: 270px;
@@ -22,22 +22,7 @@
                 padding: 0px;
                 overflow: hidden;
                 
-                transition-property: background, color;
                 transition-duration: 200ms;
-            }
-            .char:hover {
-                background: var(--ten);
-                color: white;
-                cursor: pointer;
-            }
-            
-            .char .char-header {
-                background-position: right 100%;
-                padding: 5px;
-                display: inline-block;
-                background-size: 130%;
-                width: 100%;
-                height: 80px;
             }
             
         </style>
@@ -69,35 +54,31 @@
             </span>
 
             <!-- content -->
-            <div style="padding: 10px; display: block; column-count: 3; gap: 10px;">
+            <div style="padding: 10px; display: block; column-count: 1; gap: 10px;">
 
                 <!-- Bing He -->
                 <span class="char">
 
-                    <div class="char-header" style="background-image: url('img/universe/Binghe_sprite.png');">
-                        <h2>Bing He</h2>
-                    </div>
+                    <h2>Bing He</h2>
 
-                    <div style="padding: 5px;">
+                    <span>
                         Species: Bat<br>
                         Likes: Sleeping
                         <p>Bing He (冰河) in Chinese means "ice river."</p>
-                    </div>
+                    </span>
 
                 </span>
 
                 <!-- Willow -->
                 <span class="char">
                     
-                    <div class="char-header" style="background-image: url('img/universe/Willow_sprite.png');">
-                        <h2>Willow</h2>
-                    </div>
+                    <h2>Willow</h2>
 
-                    <div style="padding: 5px;">
+                    <span>
                         Species: Rabbit<br>
                         Likes: Food
                         <p>In order to stay healthy, Willow has been attending a gym.</p>
-                    </div>
+                    </span>
 
                 </span>
 

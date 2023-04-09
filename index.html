@@ -122,7 +122,9 @@
                         var construct = "";
                         
                         construct += `
-                            <div onclick="window.open('img/imgboard/` + filename + `','_blank')"><img src="img/imgboard/` + filename + `"><span>` + passage + `</span></div>
+                            <div style="transform: translateY(` + '0' + `);"
+                            onclick="window.open('img/imgboard/` + filename + `','_blank')"><img src="img/imgboard/` + filename + `"><span>` + passage + `</span>
+                            </div>
                         `;
                         
                         document.getElementById('insert-here').innerHTML += construct;

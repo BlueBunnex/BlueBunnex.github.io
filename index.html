@@ -134,7 +134,7 @@
                         }
                         if (difference > 0) { difference = 0; }
 
-                        difference *= 1; // convert from pixels to percentage
+                        difference *= 0.5; // convert from pixels to percentage
                         
                         // insert the card at the proper translation
                         var construct = "";
@@ -150,9 +150,9 @@
 
                         // find the newly inserted card and add its height to the corresponding variable
                         if (onLeft) {
-                            leftHeight = document.getElementById('card_' + currIndex).offsetHeight;
+                            leftHeight += document.getElementById('card_' + currIndex).offsetHeight;
                         } else {
-                            rightHeight = document.getElementById('card_' + currIndex).offsetHeight;
+                            rightHeight += document.getElementById('card_' + currIndex).offsetHeight;
                         }
 
                         // flip side and increment currIndex for next insert

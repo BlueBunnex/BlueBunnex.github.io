@@ -132,7 +132,7 @@
                         } else {
                             difference = rightHeight - leftHeight;
                         }
-                        if (difference > 0) { difference = 0; }
+                        if (difference > 0 || currIndex == 1) { difference = 0; }
 
                         difference *= 0.15; // convert from pixels to percentage
                         

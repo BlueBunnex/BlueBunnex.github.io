@@ -146,13 +146,13 @@
                         
                         document.getElementById('insert-here').innerHTML += construct;
 
-                        if (onLeft) {
-                            cachedLeftHeight = document.getElementById('card_' + currIndex).offsetHeight;
-                        } else {
+                        if (onRight) {
                             var rightHeight = document.getElementById('card_' + currIndex).offsetHeight;
                             
                             // calculate new offset
                             offset = cachedLeftHeight - rightHeight + offset;
+                        } else {
+                            cachedLeftHeight = document.getElementById('card_' + currIndex).offsetHeight;
                         }
 
                         // flip side and increment currIndex for next insert

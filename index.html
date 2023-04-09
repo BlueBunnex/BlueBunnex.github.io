@@ -118,16 +118,28 @@
                 <!-- procedural loading -->
                 <script>
                     
+                    var leftHeight = 0;
+                    var rightHeight = 0;
+                    var onLeft = true;
+                    
                     function insertImage(filename, passage) {
+                        // calculate height as a NEGATIVE percentage
+                        var height = 0;
+                        
+                        // insert the card at the proper height
                         var construct = "";
                         
                         construct += `
-                            <div style="transform: translateY(` + '0' + `);"
+                            <div style="transform: translateY(` + height + `%);"
                             onclick="window.open('img/imgboard/` + filename + `','_blank')"><img src="img/imgboard/` + filename + `"><span>` + passage + `</span>
                             </div>
                         `;
                         
                         document.getElementById('insert-here').innerHTML += construct;
+
+                        // flip side for next insert
+                        alert(onLeft);
+                        onLeft = !onLeft;
                     }
                     
                     // Similar to many species of jellyfish, Mae's Fish are solitary and more or less cruise along unpropelled (though throughout the lower atmosphere instead of water), only making use of their fins when agitated or spawning. Their ability to process aerosolized toxins into solid waste as a byproduct of their feeding style, coupled with their unintrusive nature, makes them common among lunar terraforming projects' first legs. As a result of their convergently evolved swim-bladders, Mae's Fish can maintain altitude at a local gravity of up to 0.2G!

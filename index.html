@@ -118,23 +118,21 @@
                 <!-- procedural loading -->
                 <script>
                     
-                    var leftHeight = 0;
-                    var rightHeight = 0;
-                    var onLeft = true;
+                    // basically, for every layer, only one side actually needs to be pushed down
+
+                    var cachedLeftHeight = 0;
+                    var offset = 0; // if negative, change left side - if positive, change right side
+                    var onRight = false;
                     var currIndex = 0;
                     
                     function insertImage(filename, passage) {
-                        // calculate height difference as a NEGATIVE percentage
+
+                        // check if this side should be offset
                         var difference = 0;
-
-                        if (onLeft) {
-                            difference = leftHeight - rightHeight;
-                        } else {
-                            difference = rightHeight - leftHeight;
+                            
+                        if (offset > 0 == onRight) {
+                            difference = Math.abs(offset) * -0.15; // conversion from pixels to percentage
                         }
-                        if (difference > 0 || currIndex == 1) { difference = 0; }
-
-                        difference *= 0.15; // convert from pixels to percentage
                         
                         // insert the card at the proper translation
                         var construct = "";
@@ -148,17 +146,19 @@
                         
                         document.getElementById('insert-here').innerHTML += construct;
 
-                        // find the newly inserted card and add its height to the corresponding variable
                         if (onLeft) {
-                            leftHeight += document.getElementById('card_' + currIndex).offsetHeight;
+                            cachedLeftHeight = document.getElementById('card_' + currIndex).offsetHeight;
                         } else {
-                            rightHeight += document.getElementById('card_' + currIndex).offsetHeight;
+                            var rightHeight = document.getElementById('card_' + currIndex).offsetHeight;
+                            
+                            // calculate new offset
+                            offset = cachedLeftHeight - rightHeight + offset;
                         }
 
                         // flip side and increment currIndex for next insert
-                        alert(onLeft + " / " + currIndex + " / " + leftHeight + " / " + rightHeight);
-                        onLeft = !onLeft;
+                        onRight = !onRight;
                         currIndex++;
+                        
                     }
                     
                     // Similar to many species of jellyfish, Mae's Fish are solitary and more or less cruise along unpropelled (though throughout the lower atmosphere instead of water), only making use of their fins when agitated or spawning. Their ability to process aerosolized toxins into solid waste as a byproduct of their feeding style, coupled with their unintrusive nature, makes them common among lunar terraforming projects' first legs. As a result of their convergently evolved swim-bladders, Mae's Fish can maintain altitude at a local gravity of up to 0.2G!

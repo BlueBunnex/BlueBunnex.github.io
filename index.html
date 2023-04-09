@@ -131,7 +131,7 @@
                         var difference = 0;
                             
                         if (offset > 0 == onRight) {
-                            difference = Math.abs(offset) * -0.15; // conversion from pixels to percentage
+                            difference = Math.abs(offset) * -0.3; // conversion from pixels to percentage
                         }
                         
                         // insert the card at the proper translation
@@ -152,6 +152,7 @@
                             // calculate new offset
                             offset = cachedLeftHeight - rightHeight + offset;
                         } else {
+                            // store left side height for later
                             cachedLeftHeight = document.getElementById('card_' + currIndex).offsetHeight;
                         }
 

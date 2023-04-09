@@ -121,25 +121,44 @@
                     var leftHeight = 0;
                     var rightHeight = 0;
                     var onLeft = true;
+                    var currIndex = 0;
                     
                     function insertImage(filename, passage) {
-                        // calculate height as a NEGATIVE percentage
-                        var height = 0;
+                        // calculate height difference as a NEGATIVE percentage
+                        var difference = 0;
+
+                        if (onLeft) {
+                            difference = leftHeight - rightHeight;
+                        } else {
+                            difference = rightHeight - leftHeight;
+                        }
+                        if (difference > 0) { difference = 0; }
+
+                        difference *= 1; // convert from pixels to percentage
                         
-                        // insert the card at the proper height
+                        // insert the card at the proper translation
                         var construct = "";
                         
                         construct += `
-                            <div style="transform: translateY(` + height + `%);"
+                            <div id="card_` + currIndex + `"
+                            style="transform: translateY(` + difference + `%);"
                             onclick="window.open('img/imgboard/` + filename + `','_blank')"><img src="img/imgboard/` + filename + `"><span>` + passage + `</span>
                             </div>
                         `;
                         
                         document.getElementById('insert-here').innerHTML += construct;
 
-                        // flip side for next insert
-                        alert(onLeft);
+                        // find the newly inserted card and add its height to the corresponding variable
+                        if (onLeft) {
+                            leftHeight = document.getElementById('card_' + currIndex).offsetHeight;
+                        else {
+                            rightHeight = document.getElementById('card_' + currIndex).offsetHeight;
+                        }
+
+                        // flip side and increment currIndex for next insert
+                        alert(onLeft + " / " + currIndex + " / " + leftHeight + " / " rightHeight);
                         onLeft = !onLeft;
+                        currIndex++;
                     }
                     
                     // Similar to many species of jellyfish, Mae's Fish are solitary and more or less cruise along unpropelled (though throughout the lower atmosphere instead of water), only making use of their fins when agitated or spawning. Their ability to process aerosolized toxins into solid waste as a byproduct of their feeding style, coupled with their unintrusive nature, makes them common among lunar terraforming projects' first legs. As a result of their convergently evolved swim-bladders, Mae's Fish can maintain altitude at a local gravity of up to 0.2G!

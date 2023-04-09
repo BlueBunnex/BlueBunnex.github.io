@@ -142,16 +142,18 @@ a:hover {
 
 /* image board */
 #insert-here {
-    max-width: 830px;
     gap: 6px;
     
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: masonry;
     
     /* old system didn't fill in the right order */
     /*display: block;
     column-count: 2;*/
+    
+    /*max-width: 830px;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));*/
 }
 
 #insert-here div {

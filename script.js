@@ -25,7 +25,6 @@ function getCookie(cname) {
 // page translation code
 
 var isEnglish = getCookie("language") === "English";
-alert(getCookie("language") + " / English? " + isEnglish);
                 
 function translatePage() {
   isEnglish = !isEnglish;
@@ -62,4 +61,7 @@ function updatePageTranslation() {
   }
 }
 
-updatePageTranslation();
+document.addEventListener('DOMContentLoaded', function() {
+  // once the page loads, ensure the correct language content is displayed
+  updatePageTranslation();
+}, false);

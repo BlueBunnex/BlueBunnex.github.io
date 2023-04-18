@@ -25,6 +25,7 @@ function getCookie(cname) {
 // page translation code
 
 var isEnglish = getCookie("language") === "English";
+alert(getCookie("language") + " / English? " + isEnglish);
                 
 function translatePage() {
   isEnglish = !isEnglish;

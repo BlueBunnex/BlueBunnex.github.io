@@ -29,6 +29,11 @@ var isEnglish = getCookie("language") === "English";
 function translatePage() {
   isEnglish = !isEnglish;
   
+  // update page
+  updatePageTranslation();
+}
+
+function updatePageTranslation() {
   var enDisplay;
   var cnDisplay;
   
@@ -43,8 +48,8 @@ function translatePage() {
     enDisplay = "none";
     cnDisplay = "block";
   }
+
   
-  // update page
   var en = document.getElementsByClassName("English");
   for (var i = 0; i < en.length; i++) {
      en.item(i).style.display = enDisplay;
@@ -55,3 +60,5 @@ function translatePage() {
      cn.item(i).style.display = cnDisplay;
   }
 }
+
+updatePageTranslation();

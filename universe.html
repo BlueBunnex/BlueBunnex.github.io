@@ -8,67 +8,6 @@
         <script src="script.js"></script>
         <meta charset="UTF-8">
         <style>
-            
-            .char {
-                height: 200px;
-                padding-left: 30px;
-                text-align: left;
-                display: inline-block;
-                width: 93%;
-                color: black;
-                background-color: var(--thirty);
-                
-                border-radius: 4px;
-                border-style: solid;
-                border-width: 2px;
-                border-color: lightgrey;
-                
-                overflow: hidden;
-                position: relative;
-                
-                transition-duration: 200ms;
-            }
-            
-            .char div {
-                width: calc(100% - 230px);
-                height: 100%;
-                overflow-y: auto;
-                position: absolute;
-                right: 0;
-                top: 0;
-            }
-            
-            .char div h2 {
-                margin-top: 32px;
-            }
-            
-            .char p {
-                text-indent: 2em;
-            }
-            
-            .char img {
-                height: 100%;
-                position: absolute;
-                top: 50%;
-                transform: translateY(-50%);
-                left: 0;
-            }
-            
-            #char-holder h1 {
-                margin: 0 0 8px 0;
-                padding: 8px 0;
-                border-radius: 4px;
-                font-size: 1.7em;
-                display: block;
-                width: 100%;
-                color: white;
-                
-                background-blend-mode: darken;
-                background-color: rgba(0, 0, 0, 0.3);
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-            }
 
             th {
                 text-align: right;
@@ -130,13 +69,10 @@
                 <li><a href="assets.html">Assets</a></li>
             </ul>
 
-            <span class="text-block">
-                The kitsumitsuverse is a collection of original characters that I post drawings of on Twitter. You may include them in your own work provided you give due credit, and preferrably mention me <a href="https://twitter.com/kitsumitsu46">@kitsumitsu46</a>!
-            </span>
-
             <!-- content -->
             <div style="padding: 16px; display: flex; flex-wrap: wrap;">
                 
+                <!-- left selection area -->
                 <span style="background: var(--thirty); flex: 25%; border-radius: 4px; padding: 4px; margin-right: 8px; text-align: left;">
                     <ol>
                         <li>Space OCs
@@ -157,120 +93,57 @@
                             </ol>
                         </li>
                     </ol>
+                    <p>
+                        The kitsumitsuverse is a collection of original characters that I post drawings of on Twitter. You may include them in your own work provided you give due credit, and preferrably mention me <a href="https://twitter.com/kitsumitsu46">@kitsumitsu46</a>!
+                    </p>
                 </span>
                 
+                <!-- right character area -->
                 <span style="flex: 70%;" id="char-holder">
                     
-                    <h1 style="background-image: url('img/universe/spacey_bg.png');">Space OCs</h1>
-                    
-                    <span class="char" id="domba">
+                    <h2>Cpt. Domba</h2>
+                    <table>
+                      <tr>
+                        <th>Likes:</th>
+                        <td>Starry skies at night, cuddling</td>
+                      </tr>
+                      <tr>
+                        <th>Weight:</th>
+                        <td>285lb (earth), 47lb (moon)</td>
+                      </tr>
+                      <tr>
+                        <th>Fluency:</th>
+                        <td><a href="https://docs.google.com/spreadsheets/d/1G0Se0zw0F42vmhmKONKwBINkjtgzfEP486qdCos2YwA/edit?usp=sharing" target="_blank">Ndelendi</a> (native), English (learned), Standard Chinese (learned as part of the New Worlds program)</td>
+                      </tr>
+                    </table>
+                    <p>As the captain of her ship, she can often be found exploring moons as part of the New Worlds program—their reduced gravity has led to her (rather accidentally) putting on some weight. When not working, she likes to take naps in her ship and catch up on Earth media.</p>
+                    <img src="img/universe/domba_sketch_slash_ref.png">
 
-                        <div>
+                    <h2 class="English">Dr. Gao</h2>
+                    <h2 class="Chinese">高医生</h2>
+                    <table>
+                      <tr>
+                        <th>Likes:</th>
+                        <td>Working, listening in on conversations she's not a part of</td>
+                      </tr>
+                      <tr>
+                        <th>Fluency:</th>
+                        <td>Standard Chinese (native)</td>
+                      </tr>
+                    </table>
+                    <p>Assigned to Domba's ship as part of the New Worlds program, Dr. Gao is a talented Chinese scientist, though not a human one. She serves as the Head of R&D—mainly focusing on the acquisition and application of lunar data, though she holds expertise in all sorts of sciences from electrical engineering to biology to medicine. Additionally, she helps solve the problem of <i>who is going to fix the ion thrusters when they go offline.</i></p>
+                    <img src="img/universe/gao.png">
 
-                            <h2>Cpt. Domba</h2>
-
-                            <table>
-                              <tr>
-                                <th>Likes:</th>
-                                <td>Starry skies at night, cuddling</td>
-                              </tr>
-                              <tr>
-                                <th>Weight:</th>
-                                <td>285lb (earth), 47lb (moon)</td>
-                              </tr>
-                              <tr>
-                                <th>Fluency:</th>
-                                <td><a href="https://docs.google.com/spreadsheets/d/1G0Se0zw0F42vmhmKONKwBINkjtgzfEP486qdCos2YwA/edit?usp=sharing" target="_blank">Ndelendi</a> (native), English (learned), Standard Chinese (learned as part of the New Worlds program)</td>
-                              </tr>
-                            </table>
-
-                            <p>As the captain of her ship, she can often be found exploring moons as part of the New Worlds program—their reduced gravity has led to her (rather accidentally) putting on some weight. When not working, she likes to take naps in her ship and catch up on Earth media.</p>
-
-                        </div>
-
-                        <img src="img/universe/domba_sketch_slash_ref.png">
-
-                    </span>
-
-                    <span class="char" id="gao">
-
-                        <div>
-
-                            <h2 class="English">Dr. Gao</h2>
-                            <h2 class="Chinese">高医生</h2>
-
-                            <table>
-                              <tr>
-                                <th>Likes:</th>
-                                <td>Working, listening in on conversations she's not a part of</td>
-                              </tr>
-                              <tr>
-                                <th>Fluency:</th>
-                                <td>Standard Chinese (native)</td>
-                              </tr>
-                            </table>
-
-                            <p>Assigned to Domba's ship as part of the New Worlds program, Dr. Gao is a talented Chinese scientist, though not a human one. She serves as the Head of R&D—mainly focusing on the acquisition and application of lunar data, though she holds expertise in all sorts of sciences from electrical engineering to biology to medicine. Additionally, she helps solve the problem of <i>who is going to fix the ion thrusters when they go offline.</i></p>
-
-                        </div>
-
-                        <img src="img/universe/gao.png">
-
-                    </span>
-                    
-                    <h1 style="background-image: url('img/universe/village_bg.png');">Rural China Softies Village</h1>
-                    
-                    <span class="char" id="xu">
-
-                        <div>
-
-                            <h2 class="English">Xi Xu</h2>
-                            <h2 class="Chinese">昔旭</h2>
-
-                            <table>
-                              <tr>
-                                <th>Weight:</th>
-                                <td>198lb</td>
-                              </tr>
-                            </table>
-
-                            <p>She operates the village drugstore, which basically means leaning back on a plastic chair in a small off-white brick room, drinking, and yelling at people out the window. You know those big coolers with the glass tops they have out the front of gas stations? Her store has one, though for whatever reason it's seldom stocked...</p>
-
-                        </div>
-
-                        <img src="img/universe/xixu.png">
-
-                    </span>
-                    
-                    <!-- 淖骊 (白黑)
-                    <span class="char" id="xiaoma">
-
-                        <div>
-
-                            <h2>Miss Fu Xiaoma</h2>
-                            
-                            (符小马)
-
-                            <table>
-                              <tr>
-                                <th>Likes:</th>
-                                <td>Pibb Xtra®, sitting outside on the bench overlooking the forest whilst pressing her thigh up against another person's</td>
-                              </tr>
-                              <tr>
-                                <th>Weight:</th>
-                                <td>250lb</td>
-                              </tr>
-                            </table>
-
-                            <p style="display: none;">if hard pibb was a thing I would never be sober</p>
-                            <p>Though she's a little slow, Xiaoma is a well-liked face around the village, and she's always happy to help talk through something over a can of Pibb Xtra®. By the way, the rumours spread by the other villagers of her shoving a Pibb Xtra® can up her ass are <i>fake</i>.</p>
-
-                        </div>
-
-                        <img src="img/universe/xiaoma.png">
-
-                    </span>
-                    -->
+                    <h2 class="English">Xi Xu</h2>
+                    <h2 class="Chinese">昔旭</h2>
+                    <table>
+                      <tr>
+                        <th>Weight:</th>
+                        <td>198lb</td>
+                      </tr>
+                    </table>
+                    <p>She operates the village drugstore, which basically means leaning back on a plastic chair in a small off-white brick room, drinking, and yelling at people out the window. You know those big coolers with the glass tops they have out the front of gas stations? Her store has one, though for whatever reason it's seldom stocked...</p>
+                    <img src="img/universe/xixu.png">
                     
                 </span>
 
@@ -279,8 +152,6 @@
             <!-- copyright -->
             <br><br>
             <span style="text-align: center; color: var(--thirty-contrast); font-size: 12px; width: 100%; position: absolute; bottom: 10px; transform: translateX(-50%);">
-                Header backgrounds generated using InvokeAI Stable Diffusion 1.5
-                <br>
                 © 2023 Kitsumitsu46. All Rights Reserved. <i class="fa-solid fa-heart" style="color: pink;"></i>
             </span>
 

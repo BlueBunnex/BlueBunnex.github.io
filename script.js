@@ -24,7 +24,7 @@ function getCookie(cname) {
 
 // page translation code
 
-var isEnglish = getCookie("language") === "English";
+var isEnglish = !(getCookie("language") === "Chinese");
                 
 function translatePage() {
   isEnglish = !isEnglish;

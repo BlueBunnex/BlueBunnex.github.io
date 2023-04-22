@@ -70,7 +70,7 @@
             </ul>
 
             <!-- content -->
-            <div style="padding: 16px; display: flex; flex-wrap: wrap;">
+            <div style="padding: 16px; position: relative;">
 
                 <!-- script for loading characters on button press -->
                 <script>
@@ -82,7 +82,7 @@
                 </script>
                 
                 <!-- left selection area -->
-                <span style="background: var(--thirty); flex: 25%; border-radius: 4px; padding: 4px; margin-right: 8px; text-align: left;">
+                <span style="position: absolute; left: 0; top: 0; background: var(--thirty); border-radius: 4px; padding: 4px; text-align: left;">
                     <ol>
                         <li>Space OCs
                             <ol>
@@ -90,16 +90,16 @@
                                     <a onclick="LoadCharacter('domba')">Cpt. Domba</a>
                                 </li>
                                 <li>
-                                    <a onclick="LoadCharacter('gao')" href="#" class="English">Dr. Gao</a>
-                                    <a onclick="LoadCharacter('gao')" href="#" class="Chinese">高医生</a>
+                                    <a onclick="LoadCharacter('gao')" class="English">Dr. Gao</a>
+                                    <a onclick="LoadCharacter('gao')" class="Chinese">高医生</a>
                                 </li>
                             </ol>
                         </li>
                         <li>Rural China Softies Village
                             <ol>
                                 <li>
-                                    <a onclick="LoadCharacter('xixu')" href="#" class="English">Xi Xu</a>
-                                    <a onclick="LoadCharacter('xixu')" href="#" class="Chinese">昔旭</a>
+                                    <a onclick="LoadCharacter('xixu')" class="English">Xi Xu</a>
+                                    <a onclick="LoadCharacter('xixu')" class="Chinese">昔旭</a>
                                 </li>
                             </ol>
                         </li>
@@ -110,7 +110,7 @@
                 </span>
                 
                 <!-- right character area -->
-                <span style="flex: 70%;" id="char-holder">
+                <span style="position: absolute; right: 0; top: 0; " id="char-holder">
                     
                     <h2>Character name</h2>
                     <p>

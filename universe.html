@@ -75,6 +75,10 @@
                 <!-- script for loading characters on button press -->
                 <script>
 
+                    function LoadCharacter(cid) {
+                        alert(cid);
+                    }
+                    
                 </script>
                 
                 <!-- left selection area -->
@@ -83,26 +87,26 @@
                         <li>Space OCs
                             <ol>
                                 <li>
-                                    <a>Cpt. Domba</a>
+                                    <a onclick="LoadCharacter('domba')">Cpt. Domba</a>
                                 </li>
                                 <li>
-                                    <a class="English">Dr. Gao</a>
-                                    <a class="Chinese">高医生</a>
+                                    <a onclick="LoadCharacter('gao')" href="#" class="English">Dr. Gao</a>
+                                    <a onclick="LoadCharacter('gao')" href="#" class="Chinese">高医生</a>
                                 </li>
                             </ol>
                         </li>
                         <li>Rural China Softies Village
                             <ol>
                                 <li>
-                                    <a class="English">Xi Xu</a>
-                                    <a class="Chinese">昔旭</a>
+                                    <a onclick="LoadCharacter('xixu')" href="#" class="English">Xi Xu</a>
+                                    <a onclick="LoadCharacter('xixu')" href="#" class="Chinese">昔旭</a>
                                 </li>
                             </ol>
                         </li>
                     </ol>
-                    <p><i>
+                    <p style="font-style: italic; color: var(--thirty-contrast); font-size: 10px;">
                         The kitsumitsuverse is a collection of original characters that I post drawings of on Twitter. You may include them in your own work provided you give due credit, and preferrably mention me <a href="https://twitter.com/kitsumitsu46">@kitsumitsu46</a>!
-                    </i></p>
+                    </p>
                 </span>
                 
                 <!-- right character area -->

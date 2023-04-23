@@ -111,7 +111,7 @@
                 <script>
 
                     function LoadCharacter(cid) {
-                        document.getElementById("character-header").src = characterInfo[cid]['name'];
+                        document.getElementById("character-header").innerHTML = characterInfo[cid]['name'];
                         document.getElementById("character-img").src = "img/universe/" + characterInfo[cid]['img'];
                         
                         var construct = "";

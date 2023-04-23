@@ -13,15 +13,26 @@
                 text-align: right;
                 vertical-align: top;
             }
+            
+            #search {
+                position: absolute;
+                left: 16px;
+                top: 16px;
+                width: 188px;
+                background: var(--thirty);
+                border-radius: 4px;
+                padding: 4px;
+                text-align: left;
+            }
 
-            ol {
+            #search ol {
                 list-style-type: circle;
                 list-style-type: none;
                 transform: translateX(-1em);
                 padding-top: 6px;
             }
             
-            ol li {
+            #search ol li {
                 font-weight: 800;
                 
                 width: 100%;
@@ -29,7 +40,7 @@
                 margin-bottom: 4px;
             }
             
-            ol li a {
+            #search ol li a {
                 font-weight: 400;
                 
                 width: 100%;
@@ -95,7 +106,7 @@
                 </script>
                 
                 <!-- left selection area -->
-                <span style="position: absolute; left: 16px; top: 16px; width: 188px; background: var(--thirty); border-radius: 4px; padding: 4px; text-align: left;">
+                <span id="search">
                     <ol>
                         <li>Space OCs
                             <ol>
@@ -124,8 +135,15 @@
                 <!-- right character area -->
                 <span id="character">
                     
-                    <h2>Character name</h2>
+                    <h2>Patty Pecker</h2>
                     <img width="50%" style="float: right;" src="img/universe/domba_sketch_slash_ref.png">
+                    
+                    <h3>Fast Facts</h3>
+                    <ol>
+                        <li>She's a soprano.</li>
+                        <li>She can eat like ten burgers in one sitting if challenged (she'll get a stomach ache afterwards though).</li>
+                    </ol>
+
                     <span id="character-paragraphs">
                         <p>Dorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc accumsan mi eu lacus porttitor feugiat. Mauris eleifend dui lacinia orci lacinia eleifend. Morbi convallis sit amet mauris sed scelerisque. Maecenas arcu libero, laoreet at ultrices at, lobortis in risus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed nec leo vel est dictum vulputate volutpat et lorem. Phasellus elementum elementum mauris ut viverra. Praesent elementum consectetur odio eu finibus. Maecenas ultricies in sem in congue. Nam pellentesque mauris eget odio fermentum, sit amet sollicitudin diam rhoncus. Nulla sit amet orci luctus, aliquet massa eget, suscipit turpis. In id ultrices est, eu fermentum sem. Nulla dictum, nisi nec posuere consequat, massa arcu venenatis est, sit amet vehicula felis purus vitae felis. Etiam sit amet quam dictum purus posuere suscipit.</p>
                     </span>

@@ -115,14 +115,20 @@
                         document.getElementById("character-img").src = "img/universe/" + characterInfo[cid]['img'];
                         
                         var construct = "";
-                        
                         characterInfo[cid]['paragraphs'].forEach(
                             item => {
                                 construct += "<p>" + item + "</p>";
                             }
                         );
-                        
                         document.getElementById("character-paragraphs").innerHTML = construct;
+                        
+                        construct = "<h3>Fast Facts</h3>";
+                        characterInfo[cid]['facts'].forEach(
+                            item => {
+                                construct += "<li>" + item + "</li>";
+                            }
+                        );
+                        document.getElementById("character-facts").innerHTML = construct;
                         
                     }
                     
@@ -184,7 +190,6 @@
                     
                     <h2 id="character-header"><- click a name!</h2>
                     
-                    <h3>Fast Facts</h3>
                     <ol id="character-facts"></ol>
                     
                     <img id="character-img" src="">

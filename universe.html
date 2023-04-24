@@ -57,6 +57,10 @@
                 text-align: left;
             }
             
+            #character-facts h3 {
+                font-size: 18px;
+            }
+            
             #character-facts ul {
                 list-style-type: disc;
                 padding-left: 2em;
@@ -131,7 +135,8 @@
                         if (characterInfo[cid]['facts'] == null) {
                             document.getElementById("character-facts").style.display = "none";
                         } else {
-                            construct = "<h3>Fast Facts</h3><ul>";
+                            construct = "<h3>Stats</h3>Agility: 0<br> Strength: 0<br> Smarts: 0<br>Weight: 185lb"
+                            construct += "<h3>Fast Facts</h3><ul>";
                             characterInfo[cid]['facts'].forEach(
                                 item => {
                                     construct += "<li>" + item + "</li>";

@@ -31,11 +31,11 @@
                 width: 100%;
                 border-radius: 3px;
                 font-size: 15px;
+                transition: background 0.3s;
             }
             
             #search button:hover {
                 background: rgb(0, 0, 0, 0.2);
-                transition-duration: 0.5s;
             }
             
             #character {
@@ -101,39 +101,41 @@
                 <script>
 
                     function LoadCharacter(cid) {
+                        alert(cid);
+                        
                         // character header
                         document.getElementById("character-header").innerHTML = characterInfo[cid]['name'];
                         
-                        // character image (can be null)
-                        if (characterInfo[cid]['img'] == null) {
-                            document.getElementById("character-img").style.display = "none";
-                        } else {
-                            document.getElementById("character-img").src = "img/universe/" + characterInfo[cid]['img'];
-                            document.getElementById("character-img").style.display = "block";
-                        }
+//                         // character image (can be null)
+//                         if (characterInfo[cid]['img'] == null) {
+//                             document.getElementById("character-img").style.display = "none";
+//                         } else {
+//                             document.getElementById("character-img").src = "img/universe/" + characterInfo[cid]['img'];
+//                             document.getElementById("character-img").style.display = "block";
+//                         }
                         
-                        // character paragraphs
-                        var construct = "";
-                        characterInfo[cid]['paragraphs'].forEach(
-                            item => {
-                                construct += "<p>" + item + "</p>";
-                            }
-                        );
-                        document.getElementById("character-paragraphs").innerHTML = construct;
+//                         // character paragraphs
+//                         var construct = "";
+//                         characterInfo[cid]['paragraphs'].forEach(
+//                             item => {
+//                                 construct += "<p>" + item + "</p>";
+//                             }
+//                         );
+//                         document.getElementById("character-paragraphs").innerHTML = construct;
                         
-                        // character facts (can be null)
-                        if (characterInfo[cid]['facts'] == null) {
-                            document.getElementById("character-facts").style.display = "none";
-                        } else {
-                            construct = "<h3>Fast Facts</h3>";
-                            characterInfo[cid]['facts'].forEach(
-                                item => {
-                                    construct += "<li>" + item + "</li>";
-                                }
-                            );
-                            document.getElementById("character-facts").innerHTML = construct;
-                            document.getElementById("character-facts").style.display = "block";
-                        }
+//                         // character facts (can be null)
+//                         if (characterInfo[cid]['facts'] == null) {
+//                             document.getElementById("character-facts").style.display = "none";
+//                         } else {
+//                             construct = "<h3>Fast Facts</h3>";
+//                             characterInfo[cid]['facts'].forEach(
+//                                 item => {
+//                                     construct += "<li>" + item + "</li>";
+//                                 }
+//                             );
+//                             document.getElementById("character-facts").innerHTML = construct;
+//                             document.getElementById("character-facts").style.display = "block";
+//                         }
                         
                     }
                     
@@ -168,17 +170,17 @@
                 <span id="search">
                     
                     <!-- space -->
-                    <button onclick=""><b>Space OCs</b></button>
+                    <button type="button"><b>Space OCs</b></button>
                     
-                    <button onclick="LoadCharacter('domba')">Cpt. Domba</button>
+                    <button type="button" onclick="LoadCharacter('domba')">Cpt. Domba</button>
                     
-                    <button class="English" onclick="LoadCharacter('gao')">Dr. Gao</button>
-                    <button class="Chinese" onclick="LoadCharacter('gao')">高医生</button>
+                    <button type="button" class="English" onclick="LoadCharacter('gao')">Dr. Gao</button>
+                    <button type="button" class="Chinese" onclick="LoadCharacter('gao')">高医生</button>
                     
                     <!-- town -->
-                    <button onclick="LoadCharacter('town')"><b>A Seaside Town</b></button>
+                    <button type="button" onclick="LoadCharacter('town')"><b>A Seaside Town</b></button>
                     
-                    <button onclick="LoadCharacter('patty')">Patty Pecker</button>
+                    <button type="button" onclick="LoadCharacter('patty')">Patty Pecker</button>
                     
                     <p style="font-style: italic; color: var(--thirty-contrast); font-size: 10px;">
                         The kitsumitsuverse is a collection of original characters that I post drawings of on Twitter. You may include them in your own work provided you give due credit, and preferrably mention me <a href="https://twitter.com/kitsumitsu46">@kitsumitsu46</a>!

@@ -126,12 +126,13 @@
                         if (characterInfo[cid]['facts'] == null) {
                             document.getElementById("character-facts").style.display = "none";
                         } else {
-                            construct = "<h3>Fast Facts</h3>";
+                            construct = "<h3>Fast Facts</h3><ol>";
                             characterInfo[cid]['facts'].forEach(
                                 item => {
                                     construct += "<li>" + item + "</li>";
                                 }
                             );
+                            construct += "</ol>";
                             document.getElementById("character-facts").innerHTML = construct;
                             document.getElementById("character-facts").style.display = "block";
                         }
@@ -190,9 +191,9 @@
                     
                     <h2 id="character-header"><- click a name!</h2>
                     
-                    <ol id="character-facts"></ol>
+                    <span class="text-block" id="character-facts"></span>
 
-                    <br><br>
+                    <br><br><br>
                     
                     <img id="character-img" src="">
 

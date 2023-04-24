@@ -102,42 +102,39 @@
                 <script>
 
                     function LoadCharacter(cid) {
-                        alert(cid);
-                        
                         // character header
                         document.getElementById("character-header").innerHTML = characterInfo[cid]['name'];
                         
-//                         // character image (can be null)
-//                         if (characterInfo[cid]['img'] == null) {
-//                             document.getElementById("character-img").style.display = "none";
-//                         } else {
-//                             document.getElementById("character-img").src = "img/universe/" + characterInfo[cid]['img'];
-//                             document.getElementById("character-img").style.display = "block";
-//                         }
+                        // character image (can be null)
+                        if (characterInfo[cid]['img'] == null) {
+                            document.getElementById("character-img").style.display = "none";
+                        } else {
+                            document.getElementById("character-img").src = "img/universe/" + characterInfo[cid]['img'];
+                            document.getElementById("character-img").style.display = "block";
+                        }
                         
-//                         // character paragraphs
-//                         var construct = "";
-//                         characterInfo[cid]['paragraphs'].forEach(
-//                             item => {
-//                                 construct += "<p>" + item + "</p>";
-//                             }
-//                         );
-//                         document.getElementById("character-paragraphs").innerHTML = construct;
+                        // character paragraphs
+                        var construct = "";
+                        characterInfo[cid]['paragraphs'].forEach(
+                            item => {
+                                construct += "<p>" + item + "</p>";
+                            }
+                        );
+                        document.getElementById("character-paragraphs").innerHTML = construct;
                         
-//                         // character facts (can be null)
-//                         if (characterInfo[cid]['facts'] == null) {
-//                             document.getElementById("character-facts").style.display = "none";
-//                         } else {
-//                             construct = "<h3>Fast Facts</h3>";
-//                             characterInfo[cid]['facts'].forEach(
-//                                 item => {
-//                                     construct += "<li>" + item + "</li>";
-//                                 }
-//                             );
-//                             document.getElementById("character-facts").innerHTML = construct;
-//                             document.getElementById("character-facts").style.display = "block";
-//                         }
-                        
+                        // character facts (can be null)
+                        if (characterInfo[cid]['facts'] == null) {
+                            document.getElementById("character-facts").style.display = "none";
+                        } else {
+                            construct = "<h3>Fast Facts</h3>";
+                            characterInfo[cid]['facts'].forEach(
+                                item => {
+                                    construct += "<li>" + item + "</li>";
+                                }
+                            );
+                            document.getElementById("character-facts").innerHTML = construct;
+                            document.getElementById("character-facts").style.display = "block";
+                        }
                     }
                     
                     const characterInfo = {
@@ -153,7 +150,7 @@
                         },
                         'town': {
                             name: "A Seaside Town",
-                            paragraphs: ["A tape recorder placed in the heart of the town would find disappointing results. Though by the seaside, the shore is offset by about half a mile downhill, the gulls rarely fly within earshot, and, perhaps most peculiarly, (very few residents). Yes, this town won't be found on many maps produced outside the area, and for good reason: With its lacking involvement in production, tourism, or culture, the local government is being less than quick to recognize them officially. As one council member hailing from a neighboring township scoffs, "they're lucky to even be called a neighborhood--moreso a collection of sturdy shacks humorously erected on the edge of a small cliff." As a matter of fact--barring the paths footed through the earth between doors--the only public infrastructure in the whole town is a rickety wooden bench for two or three overlooking the cliff and the rocky beach below."]
+                            paragraphs: [`A tape recorder placed in the heart of the town would find disappointing results. Though by the seaside, the shore is offset by about half a mile downhill, the gulls rarely fly within earshot, and, perhaps most peculiarly, (very few residents). Yes, this town won't be found on many maps produced outside the area, and for good reason: With its lacking involvement in production, tourism, or culture, the local government is being less than quick to recognize them officially. As one council member hailing from a neighboring township scoffs, "they're lucky to even be called a neighborhood--moreso a collection of sturdy shacks humorously erected on the edge of a small cliff." As a matter of fact--barring the paths footed through the earth between doors--the only public infrastructure in the whole town is a rickety wooden bench for two or three overlooking the cliff and the rocky beach below.`]
                         },
                         'patty': {
                             name: "Patty Pecker",

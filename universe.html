@@ -25,27 +25,11 @@
                 text-align: left;
             }
 
-            #search ol {
-                list-style-type: circle;
-                list-style-type: none;
-                transform: translateX(-1em);
-                padding-top: 6px;
-            }
-            
-            #search ol li {
-                font-weight: 800;
-                
+            #search button {
+                background: none;
+                border: none;
                 width: 100%;
-                padding: 0;
-                margin-bottom: 4px;
-            }
-            
-            #search ol li a {
-                font-weight: 400;
-                
-                width: 100%;
-                transform: translateX(-19%);
-                cursor: pointer;
+                border-radius: 3px;
             }
             
             #character {
@@ -160,26 +144,18 @@
                 
                 <!-- left selection area -->
                 <span id="search">
-                    <ol>
-                        <li>Space OCs
-                            <ol>
-                                <li>
-                                    <a onclick="LoadCharacter('domba')">Cpt. Domba</a>
-                                </li>
-                                <li>
-                                    <a onclick="LoadCharacter('gao')" class="English">Dr. Gao</a>
-                                    <a onclick="LoadCharacter('gao')" class="Chinese">高医生</a>
-                                </li>
-                            </ol>
-                        </li>
-                        <li>A Seaside Town
-                            <ol>
-                                <li>
-                                    <a onclick="LoadCharacter('patty')">Patty Pecker</a>
-                                </li>
-                            </ol>
-                        </li>
-                    </ol>
+                    
+                    Space OCs
+                    
+                    <button onclick="LoadCharacter('domba')">Cpt. Domba</button>
+                    
+                    <button class="English" onclick="LoadCharacter('gao')">Dr. Gao</button>
+                    <button class="Chinese" onclick="LoadCharacter('gao')">高医生</button>
+                    
+                    A Seaside Town
+                    
+                    <button onclick="LoadCharacter('patty')">Patty Pecker</button>
+
                     <p style="font-style: italic; color: var(--thirty-contrast); font-size: 10px;">
                         The kitsumitsuverse is a collection of original characters that I post drawings of on Twitter. You may include them in your own work provided you give due credit, and preferrably mention me <a href="https://twitter.com/kitsumitsu46">@kitsumitsu46</a>!
                     </p>

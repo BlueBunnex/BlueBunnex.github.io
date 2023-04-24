@@ -135,8 +135,7 @@
                         if (characterInfo[cid]['facts'] == null) {
                             document.getElementById("character-facts").style.display = "none";
                         } else {
-                            construct = "<h3>Stats</h3>Agility: 0<br> Strength: 0<br> Smarts: 0<br>Weight: 185lb"
-                            construct += "<h3>Fast Facts</h3><ul>";
+                            construct = "<h3>Fast Facts</h3><ul>";
                             characterInfo[cid]['facts'].forEach(
                                 item => {
                                     construct += "<li>" + item + "</li>";
@@ -146,6 +145,28 @@
                             document.getElementById("character-facts").innerHTML = construct;
                             document.getElementById("character-facts").style.display = "block";
                         }
+
+                        // table
+                        construct = `
+                        <tr>
+                          <th>Agility:</th>
+                          <td>0</td>
+                        </tr>
+                        <tr>
+                          <th>Strength:</th>
+                          <td>0</td>
+                        </tr>
+                        <tr>
+                          <th>Smarts:</th>
+                          <td>0</td>
+                        </tr>
+                        <tr>
+                          <th>Weight:</th>
+                          <td>185lb</td>
+                        </tr>
+                        `
+                        
+                        document.getElementById("character-table").innerHTML = construct;
                     }
                     
                     const characterInfo = {
@@ -201,7 +222,9 @@
                     
                     <h2 id="character-header"><i class="fa-sharp fa-solid fa-arrow-left fa-beat"></i> click a name!</h2>
                     
-                    <span class="text-block" id="character-facts" style="height: auto; display: none;"></span>
+                    <table id="character-table"></table>
+                    
+                    <span id="character-facts" class="text-block" style="height: auto; display: none;"></span>
                     
                     <img id="character-img" src="">
 

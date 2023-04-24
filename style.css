@@ -290,4 +290,8 @@ li a.active {
         column-count: 1;
         margin-right: 15px;
     }
+    
+    li {
+        float: none;
+    }
 }

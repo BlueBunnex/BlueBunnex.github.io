@@ -57,6 +57,11 @@
                 text-align: left;
             }
             
+            #character-facts ul {
+                list-style-type: disc;
+                padding-left: 2em;
+            }
+            
             #character-img {
                 width: 50%;
                 float: right;
@@ -126,7 +131,7 @@
                         if (characterInfo[cid]['facts'] == null) {
                             document.getElementById("character-facts").style.display = "none";
                         } else {
-                            construct = "<h3>Fast Facts</h3><ul style='list-style-type: disc;'>";
+                            construct = "<h3>Fast Facts</h3><ul>";
                             characterInfo[cid]['facts'].forEach(
                                 item => {
                                     construct += "<li>" + item + "</li>";

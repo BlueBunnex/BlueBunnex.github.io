@@ -123,7 +123,31 @@
 
             <!-- content -->
             <div style="padding: 16px; position: relative;">
+                
+                <!-- left selection area -->
+                <span id="search">
+                    <!-- buttons are automagically filled in above this comment through the even more above script -->
 
+                    <p style="font-style: italic; color: var(--thirty-contrast); font-size: 10px;">
+                        The kitsumitsuverse is a collection of original characters that I post drawings of on Twitter. You may include them in your own work provided you give due credit, and preferrably mention me <a href="https://twitter.com/kitsumitsu46">@kitsumitsu46</a>!
+                    </p>
+                </span>
+                
+                <!-- right character area -->
+                <span id="character">
+                    
+                    <h2 id="character-header"><i class="fa-sharp fa-solid fa-arrow-left fa-beat"></i> click a name!</h2>
+                    
+                    <table id="character-table" style="width: 100%;"></table>
+                    
+                    <span id="character-facts" class="text-block" style="height: auto; display: none;"></span>
+                    
+                    <img id="character-img" src="">
+
+                    <span id="character-paragraphs"></span>
+                    
+                </span>
+                
                 <!-- script for loading characters on button press -->
                 <!-- https://flexiple.com/javascript/loop-through-object-javascript/ -->
                 <script>
@@ -238,30 +262,6 @@
                     document.getElementById("character-table").innerHTML = buttons + document.getElementById("character-table").innerHTML;
                     
                 </script>
-                
-                <!-- left selection area -->
-                <span id="search">
-                    <!-- buttons are automagically filled in above this comment through the even more above script -->
-
-                    <p style="font-style: italic; color: var(--thirty-contrast); font-size: 10px;">
-                        The kitsumitsuverse is a collection of original characters that I post drawings of on Twitter. You may include them in your own work provided you give due credit, and preferrably mention me <a href="https://twitter.com/kitsumitsu46">@kitsumitsu46</a>!
-                    </p>
-                </span>
-                
-                <!-- right character area -->
-                <span id="character">
-                    
-                    <h2 id="character-header"><i class="fa-sharp fa-solid fa-arrow-left fa-beat"></i> click a name!</h2>
-                    
-                    <table id="character-table" style="width: 100%;"></table>
-                    
-                    <span id="character-facts" class="text-block" style="height: auto; display: none;"></span>
-                    
-                    <img id="character-img" src="">
-
-                    <span id="character-paragraphs"></span>
-                    
-                </span>
 
             </div>
 

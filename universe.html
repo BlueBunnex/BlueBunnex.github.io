@@ -165,17 +165,20 @@
                             construct = "";
                             
                             const pairs = Object.entries(characterInfo[cid]['table_data']);
-                            for (let i = 0; i < pairs.length - 1; i += 2) { 
-                                construct += "<tr>";
-                                construct += "<th>" + pairs[i][0] + ":</th><td>" + pairs[i][1] + "</td>";
-                                construct += "<th>" + pairs[i+1][0] + ":</th><td>" + pairs[i+1][1] + "</td>";
-                                construct += "</tr>";
-                            }
-                            if (pairs.length % 2 == 1) { // in case uneven amount, one must enter a row ALONE...
-                                construct += "<tr>";
-                                construct += "<th>" + pairs[pairs.length-1][0] + ":</th><td>" + pairs[pairs.length-1][1] + "</td>";
-                                construct += "</tr>";
-                            }
+                                for (let i = 0; i < pairs.length; i++) { // only does one data pair per row 
+                                    construct += "<tr><th>" + pairs[i][0] + ":</th><td>" + pairs[i][1] + "</td></tr>";
+                                }
+//                             for (let i = 0; i < pairs.length - 1; i += 2) { 
+//                                 construct += "<tr>";
+//                                 construct += "<th>" + pairs[i][0] + ":</th><td>" + pairs[i][1] + "</td>";
+//                                 construct += "<th>" + pairs[i+1][0] + ":</th><td>" + pairs[i+1][1] + "</td>";
+//                                 construct += "</tr>";
+//                             }
+//                             if (pairs.length % 2 == 1) { // in case uneven amount, one must enter a row ALONE...
+//                                 construct += "<tr>";
+//                                 construct += "<th>" + pairs[pairs.length-1][0] + ":</th><td>" + pairs[pairs.length-1][1] + "</td>";
+//                                 construct += "</tr>";
+//                             }
 
                             document.getElementById("character-table").innerHTML = construct;
                             document.getElementById("character-table").style.display = "block";

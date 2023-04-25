@@ -230,27 +230,19 @@
                         }
                     };
 
-                    //(shift in tone/focus to the residence)
+                    // load all info into selection area to be allowed to be selected (rember Space OCs)
+                    var buttons = "";
+                    for (const [key, value] of Object.entries(characterInfo)) {
+                        buttons += `<button type="button" onclick="LoadCharacter('` + key + `')">` + value['name'] + `</button>`;
+                    }
+                    document.getElementById("character-table").innerHTML = buttons + document.getElementById("character-table").innerHTML;
                     
                 </script>
                 
                 <!-- left selection area -->
                 <span id="search">
-                    
-                    <!-- space -->
-                    <button type="button"><b>Space OCs</b></button>
-                    
-                    <button type="button" onclick="LoadCharacter('domba')">Cpt. Domba</button>
-                    
-                    <button type="button" class="English" onclick="LoadCharacter('gao')">Dr. Gao</button>
-                    <button type="button" class="Chinese" onclick="LoadCharacter('gao')">高医生</button>
-                    
-                    <!-- town -->
-                    <button type="button" class="English" onclick="LoadCharacter('town')"><b>A Seaside Town</b></button>
-                    <button type="button" class="Chinese" onclick="LoadCharacter('town')"><b>海边的小镇</b></button>
-                    
-                    <button type="button" onclick="LoadCharacter('patty')">Patty Pecker</button>
-                    
+                    <!-- buttons are automagically filled in above this comment through the even more above script -->
+
                     <p style="font-style: italic; color: var(--thirty-contrast); font-size: 10px;">
                         The kitsumitsuverse is a collection of original characters that I post drawings of on Twitter. You may include them in your own work provided you give due credit, and preferrably mention me <a href="https://twitter.com/kitsumitsu46">@kitsumitsu46</a>!
                     </p>

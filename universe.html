@@ -259,7 +259,7 @@
                     for (const [key, value] of Object.entries(characterInfo)) {
                         buttons += `<button type="button" onclick="LoadCharacter('` + key + `')">` + value['name'] + `</button>`;
                     }
-                    document.getElementById("character-table").innerHTML = buttons + document.getElementById("character-table").innerHTML;
+                    document.getElementById("search").innerHTML = buttons + document.getElementById("character-table").innerHTML;
                     
                 </script>
 

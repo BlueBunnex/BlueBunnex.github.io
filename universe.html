@@ -165,8 +165,16 @@
                             construct = "";
                             
                             const pairs = Object.entries(characterInfo[cid]['table_data']);
-                            for (let i = 0; i < pairs.length; i++) { 
-                                construct = "<tr><th>" + pairs[i][0] + ":</th><td>" + pairs[i][1] + "</td></tr>";
+                            for (let i = 0; i < pairs.length - 1; i += 2) { 
+                                construct += "<tr>";
+                                construct += "<th>" + pairs[i][0] + ":</th><td>" + pairs[i][1] + "</td>";
+                                construct += "<th>" + pairs[i+1][0] + ":</th><td>" + pairs[i+1][1] + "</td>";
+                                construct += "</tr>";
+                            }
+                            if (pairs.length % 2 == 1) { // in case uneven amount, one must enter a row ALONE...
+                                construct += "<tr>";
+                                construct += "<th>" + pairs[pairs.length-1][0] + ":</th><td>" + pairs[pairs.length-1][1] + "</td>";
+                                construct += "</tr>";
                             }
 
                             document.getElementById("character-table").innerHTML = construct;
@@ -182,7 +190,7 @@
                             table_data: {
                                 Likes: "Starry skies at night, cuddling",
                                 Weight: "285lb (earth), 47lb (moon)",
-                                Fluency: "<a href="https://docs.google.com/spreadsheets/d/1G0Se0zw0F42vmhmKONKwBINkjtgzfEP486qdCos2YwA/edit?usp=sharing" target="_blank">Ndelendi</a> (native), English (learned), Standard Chinese (learned as part of the New Worlds program)"
+                                Fluency: `<a href="https://docs.google.com/spreadsheets/d/1G0Se0zw0F42vmhmKONKwBINkjtgzfEP486qdCos2YwA/edit?usp=sharing" target="_blank">Ndelendi</a> (native), English (learned), Standard Chinese (learned as part of the New Worlds program)`
                             }
                         },
                         'gao': {

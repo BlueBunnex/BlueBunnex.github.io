@@ -178,11 +178,11 @@
                     
                     <span id="character-facts" class="text-block"></span>
 
-                    <span id="character-colors" class="text-block">
-                        Colors:
-                        <span style="background: red; display: inline-block; border-radius: 4px; border-style: solid; border-width: 2px; width: 20px; height: 20px;"></span>
-                        <span style="background: green; display: inline-block; border-radius: 4px; border-style: solid; border-width: 2px; width: 20px; height: 20px;"></span>
-                        <span style="background: blue; display: inline-block; border-radius: 4px; border-style: solid; border-width: 2px; width: 20px; height: 20px;"></span>
+                    <span id="character-colors" class="text-block" style="font-size: 18px;">
+                        <span style="margin-right: 10px;">Colors:</span>
+                        <span style="background: red; transform: translateY(4px); display: inline-block; border-radius: 4px; border-style: solid; border-width: 2px; width: 20px; height: 20px;"></span>
+                        <span style="background: green; transform: translateY(4px); display: inline-block; border-radius: 4px; border-style: solid; border-width: 2px; width: 20px; height: 20px;"></span>
+                        <span style="background: blue; transform: translateY(4px); display: inline-block; border-radius: 4px; border-style: solid; border-width: 2px; width: 20px; height: 20px;"></span>
                     </span>
                     
                     <img id="character-img" src="">
@@ -230,6 +230,13 @@
                             document.getElementById("character-facts").innerHTML = construct;
                             document.getElementById("character-facts").style.display = "block";
                         }
+                        
+                        // colors (can be null)
+                        if (characterInfo[cid]['colors'] == null) {
+                            document.getElementById("character-colors").style.display = "none";
+                        } else {
+                            document.getElementById("character-colors").style.display = "block";
+                        }
 
                         // table (can be null)
                         if (characterInfo[cid]['table_data'] == null) {
@@ -266,6 +273,7 @@
                             name: "test character",
                             img: "gothladyIdunno.png",
                             facts: ["Fact1", "Fact2"],
+                            colors: ["hexa"],
                             paragraphs: [
                                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae hendrerit nibh. Vestibulum faucibus placerat scelerisque. Nulla nec dictum mauris. Aliquam erat volutpat. In vel purus risus. Morbi finibus ipsum quis consectetur maximus. Proin non dui lacinia, feugiat dolor ac, ultrices ligula. Phasellus convallis dolor vitae eros lacinia, quis lacinia dui posuere. In hac habitasse platea dictumst. Donec aliquet ante nec leo consequat molestie.",
                                 "Vivamus faucibus nunc a sem dapibus, efficitur hendrerit tellus bibendum. Vivamus placerat et purus tempus venenatis. Nunc elementum neque nec augue sollicitudin faucibus. Morbi accumsan efficitur nisi suscipit maximus. In hac habitasse platea dictumst. Nam dignissim dignissim facilisis. Aliquam et cursus tellus. Morbi nunc augue, ultricies vitae nulla non, volutpat mollis eros. Sed et mauris hendrerit, feugiat justo sit amet, ornare orci."

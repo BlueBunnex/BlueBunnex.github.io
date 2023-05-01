@@ -296,16 +296,16 @@
                     
                     const characterInfo = {
                         'test': {
-                            name: "test character",
+                            name: "Imogen",
                             img: "gothladyIdunno.png",
                             facts: ["Fact1", "Fact2"],
                             colors: ["hexa"],
                             paragraphs: [
-                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae hendrerit nibh. Vestibulum faucibus placerat scelerisque. Nulla nec dictum mauris. Aliquam erat volutpat. In vel purus risus. Morbi finibus ipsum quis consectetur maximus. Proin non dui lacinia, feugiat dolor ac, ultrices ligula. Phasellus convallis dolor vitae eros lacinia, quis lacinia dui posuere. In hac habitasse platea dictumst. Donec aliquet ante nec leo consequat molestie.",
-                                "Name is a juggernaut of a gal. Vivamus faucibus nunc a sem dapibus, efficitur hendrerit tellus bibendum. Vivamus placerat et purus tempus venenatis. Nunc elementum neque nec augue sollicitudin faucibus. Morbi accumsan efficitur nisi suscipit maximus. In hac habitasse platea dictumst. Nam dignissim dignissim facilisis. Aliquam et cursus tellus. Morbi nunc augue, ultricies vitae nulla non, volutpat mollis eros. Sed et mauris hendrerit, feugiat justo sit amet, ornare orci."
+                                "Imogen is a juggernaut of a gal. Growing up in the country on urban-dramas gave her an almost idolatry of city life—guns, police, violence, love, staining her heart and her fashion sense alike. Though out of college with six months of rent prepaid in an apartment quickly discovered to be too cramped for a gal of her scale, a swirling sensation overcame her as she wondered if this was really where she wanted to be. From the twentieth floor the view sure was... different, from what she had grown accustommed to in the country, and—hey, is that a McDonalds?",
+                                "Look out for Imogen's stories in faux-comic posts on my Twitter!"
                             ],
                             table_data: {
-                                Weight: "180lb (210lb after dinner)"
+                                Weight: "180lb"
                             }
                         }
                     };
@@ -313,7 +313,7 @@
                     // load all info into selection area to be allowed to be selected
                     var buttons = "";
                     for (const [key, value] of Object.entries(characterInfo)) {
-                        buttons += `<button type="button" onclick="LoadCharacter('` + key + `')"><i class="fa-solid fa-user"></i> ` + value['name'] + `</button>`;
+                        buttons += `<button type="button" onclick="LoadCharacter('` + key + `')"><i class="fa-solid fa-user" style="margin-right: 8px;"></i> ` + value['name'] + `</button>`;
                     }
                     document.getElementById("search").innerHTML = buttons + document.getElementById("search").innerHTML;
                     

@@ -108,6 +108,20 @@
                 padding-left: 2em;
             }
             
+            #character-colors {
+                font-size: 18px;
+            }
+            
+            #color-cel {
+                transform: translateY(4px);
+                display: inline-block;
+                border-radius: 4px;
+                border-style: solid;
+                border-width: 1px;
+                width: 20px;
+                height: 20px;
+            }
+            
             #character-img {
                 width: 40%;
                 float: right;
@@ -178,11 +192,11 @@
                     
                     <span id="character-facts" class="text-block"></span>
 
-                    <span id="character-colors" class="text-block" style="font-size: 18px;">
+                    <span id="character-colors" class="text-block">
                         <span style="margin-right: 10px;">Colors:</span>
-                        <span style="background: red; transform: translateY(4px); display: inline-block; border-radius: 4px; border-style: solid; border-width: 2px; width: 20px; height: 20px;"></span>
-                        <span style="background: green; transform: translateY(4px); display: inline-block; border-radius: 4px; border-style: solid; border-width: 2px; width: 20px; height: 20px;"></span>
-                        <span style="background: blue; transform: translateY(4px); display: inline-block; border-radius: 4px; border-style: solid; border-width: 2px; width: 20px; height: 20px;"></span>
+                        <span class="color-cel" style="background: red;"></span>
+                        <span class="color-cel" style="background: green;"></span>
+                        <span class="color-cel" style="background: blue;"></span>
                     </span>
                     
                     <img id="character-img" src="">

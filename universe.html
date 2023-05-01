@@ -9,6 +9,9 @@
         <meta charset="UTF-8">
         <style>
             
+            /*
+                <i class='tooltip fa-solid fa-circle-question'><span>Tooltip text.</span></i>
+            */
             .tooltip {
                 position: relative;
                 color: var(--thirty-contrast);
@@ -248,64 +251,18 @@
                         }
                     }
                     
-                    // remember 高医生 and 海边的小镇
                     const characterInfo = {
-//                         'space': {
-//                             is_header: true,
-//                             name: "Space OCs",
-//                             paragraphs: [
-//                                 `A conworld for all my space OCs. Cpt. Domba is the hottest yessir~`
-//                             ]
-//                         },
-//                         'domba': {
-//                             name: "Cpt. Domba",
-//                             img: "domba_sketch_slash_ref.png",
-//                             paragraphs: ["As the captain of her ship, she can often be found exploring moons as part of the New Worlds program—their reduced gravity has led to her (rather accidentally) putting on some weight. When not working, she likes to take naps in her ship and catch up on Earth media."],
-//                             table_data: {
-//                                 Likes: "Starry skies at night, cuddling",
-//                                 Weight: "285lb (earth), 47lb (moon)",
-//                                 Fluency: `<a href="https://docs.google.com/spreadsheets/d/1G0Se0zw0F42vmhmKONKwBINkjtgzfEP486qdCos2YwA/edit?usp=sharing" target="_blank">Ndelendi</a> (native), English (learned), Standard Chinese (learned as part of the New Worlds program)`
-//                             }
-//                         },
-//                         'gao': {
-//                             name: "Dr. Gao",
-//                             img: "gao.png",
-//                             paragraphs: ["Assigned to Domba's ship as part of the New Worlds program, Dr. Gao is a talented Chinese scientist, though not a human one. She serves as the Head of R&D—mainly focusing on the acquisition and application of lunar data, though she holds expertise in all sorts of sciences from electrical engineering to biology to medicine. Additionally, she helps solve the problem of <i>who is going to fix the ion thrusters when they go offline.</i>"],
-//                             table_data: {
-//                                 Likes: "Working, listening in on conversations she's not a part of",
-//                                 Fluency: "Standard Chinese (native)"
-//                             }
-//                         },
-                        'town': {
-                            is_header: true,
-                            name: "A Seaside Town",
-                            img: "pp_haws.png",
+                        'test': {
+                            is_header: false,
+                            name: "test character",
+                            img: "gao.png",
+                            facts: ["Fact1", "Fact2"],
                             paragraphs: [
-                                `A tape recorder placed in the heart of this town would find disappointing results. Though by the seaside, the shore is offset by about half a mile downhill, the gulls rarely fly within earshot, and, perhaps most peculiarly, there is a distinct lack of towngoers. Yes, this town won't be found on many maps produced outside the area, and for good reason: With its lacking involvement in production, tourism, or culture, the local government is being less than quick to recognize them officially. As one council member hailing from a neighboring township scoffs, "they're lucky to even be called a neighborhood--moreso a collection of sturdy shacks humorously erected on the edge of a small cliff." As a matter of fact--barring the paths footed through the earth between doors--the only public infrastructure in the whole town is a rickety wooden bench for two or three overlooking the cliff and the rocky beach below.`,
-                                `Nevertheless, these peculiarities are guarded passionately by what townsfolk there are—albeit for varying reasons. One Patty Pecker, a resident of the town, commented "I know everyone. I'm always away in someone's house having dinner, or talking about stuff; things like that." She revealed that she used to live in Eberdon (located South-Eastward to the town), and that even though there were "so many houses, and shops, and the streets were narrow and cozy," "no one wanted to see me."`
-                            ]
-                        },
-                        'patty': {
-                            name: "Patty Pecker",
-                            img: "pp.png",
-                            facts: ["She's a soprano.", "She can eat like ten burgers in one sitting if challenged (she'll get a stomach ache afterwards though)."],
-                            paragraphs: [
-                                "Patty's the kind of person who likes to take her time. She's slow to get out of bed, she's slow to get dressed, and when you ask her a question she might seem to just keep on doing what she's doing—only to turn to you a minute later with her answer. She's not tired—quite the opposite, she's always giddy and a boisterous personality around the town—just she doesn't see any reason to rush.",
-                                "Now, this is in direct contrast to her relationship to food. She loves to have friends there with her to talk with, but friends present or not, she always has to have four meals a day, at exactly the same every day. Breakfast, lunch, dinner, dessert. And when Rider keeps her up on their sleepovers, she's prone to incessantly snacking."
+                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae hendrerit nibh. Vestibulum faucibus placerat scelerisque. Nulla nec dictum mauris. Aliquam erat volutpat. In vel purus risus. Morbi finibus ipsum quis consectetur maximus. Proin non dui lacinia, feugiat dolor ac, ultrices ligula. Phasellus convallis dolor vitae eros lacinia, quis lacinia dui posuere. In hac habitasse platea dictumst. Donec aliquet ante nec leo consequat molestie.",
+                                "Vivamus faucibus nunc a sem dapibus, efficitur hendrerit tellus bibendum. Vivamus placerat et purus tempus venenatis. Nunc elementum neque nec augue sollicitudin faucibus. Morbi accumsan efficitur nisi suscipit maximus. In hac habitasse platea dictumst. Nam dignissim dignissim facilisis. Aliquam et cursus tellus. Morbi nunc augue, ultricies vitae nulla non, volutpat mollis eros. Sed et mauris hendrerit, feugiat justo sit amet, ornare orci."
                             ],
                             table_data: {
-                                Weight: "171lb",
-                                Chang_Number: "1 <i class='tooltip fa-solid fa-circle-question'><span>The Chang Number is a measure of the perceived abnormality in length<br>of a character's torso. The scale is non-linear, being based off of<br>the log of base-2, starting at 1 and going on to infinity.</span></i>"
-                            }
-                        },
-                        'rider': {
-                            name: "Rider Black",
-                            img: "rider.png",
-                            facts: ["Her username on Steam is <i>BlackestAzure1,</i> her favourite game being Counter-Strike.", "She doesn't have a gaming chair, simply sitting criss-cross on the carpet below her table."],
-                            paragraphs: ["Though undeniably a little... long, Rider doesn't let this get in the way of her doing what she enjoys most: Playing video games all night long and passing out into a dreamless, drug-induced coma for most of the day. She likes having other residents of the town over, though she doesn't usually go out herself. Actually, she doesn't usually go outside at all."],
-                            table_data: {
-                                Weight: "136lb",
-                                Chang_Number: "5 <i class='tooltip fa-solid fa-circle-question'><span>The Chang Number is a measure of the perceived abnormality in length<br>of a character's torso. The scale is non-linear, being based off of<br>the log of base-2, starting at 1 and going on to infinity.</span></i>"
+                                Weight: "180lb"
                             }
                         }
                     };

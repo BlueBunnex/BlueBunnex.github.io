@@ -53,7 +53,7 @@
                 left: 16px;
                 top: 16px;
                 width: 188px;
-                background: var(--thirty);
+                background: var(--sixty);
                 border-radius: 4px;
                 padding: 4px;
                 padding-top: 12px;
@@ -61,6 +61,8 @@
             }
 
             #search button {
+                font-weight: 600;
+                text-align: left;
                 background: none;
                 border: none;
                 width: 100%;
@@ -285,7 +287,6 @@
                     
                     const characterInfo = {
                         'test': {
-                            is_header: false,
                             name: "test character",
                             img: "gothladyIdunno.png",
                             facts: ["Fact1", "Fact2"],
@@ -303,11 +304,7 @@
                     // load all info into selection area to be allowed to be selected
                     var buttons = "";
                     for (const [key, value] of Object.entries(characterInfo)) {
-                        if (value['is_header'] != null && value['is_header']) {
-                            buttons += `<button type="button" onclick="LoadCharacter('` + key + `')"><b>` + value['name'] + `</b></button>`;
-                        } else {
-                            buttons += `<button type="button" onclick="LoadCharacter('` + key + `')">` + value['name'] + `</button>`;
-                        }
+                        buttons += `<button type="button" onclick="LoadCharacter('` + key + `')"><i class="fa-solid fa-user"></i> ` + value['name'] + `</button>`;
                     }
                     document.getElementById("search").innerHTML = buttons + document.getElementById("search").innerHTML;
                     

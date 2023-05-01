@@ -1,3 +1,9 @@
+// copy-to-clipboard
+
+function clipboard(text) {
+  navigator.clipboard.writeText(text);
+}
+
 // cookies helper functions
 
 function setCookie(cname, cvalue, exdays) {

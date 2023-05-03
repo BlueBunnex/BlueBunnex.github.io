@@ -57,7 +57,7 @@
                 text-align: justify;
                 text-justify: inter-word;
                 text-indent: 2.5em;
-                line-height: 2em;
+                line-height: 1.7em;
             }
             
             #character-table td {
@@ -227,13 +227,13 @@
                             document.getElementById("character-facts").style.display = "block";
                         }
                         
-                        // design (optional)
-                        if (characterInfo[cid]['colors'] == null) {
+                        // design + colors (optional)
+                        if (characterInfo[cid]['design'] == null || characterInfo[cid]['colors'] == null) {
                             document.getElementById("character-design").style.display = "none";
                         } else {
                             construct = `
                                 <h3>Design</h3>
-
+                                <p>` + characterInfo[cid]['design'] + `</p>
                                 <span style="margin-right: 10px;">Palette:</span>
                                 <span id="character-colors">
                             `;
@@ -285,6 +285,7 @@
                             facts: [
                                 "Sarrath city, though located in the arid desert, often doesn't seem that way due to the extreme urbanization and green efforts."
                             ],
+                            design: "A bottom-heavy, coffee-tone rabbit, with an orange and faded purple patterned shawl and thick silver bangles.",
                             colors: [
                                 "#5c2411",
                                 "#f5c5a4",
@@ -301,7 +302,6 @@
                             }
                         }
                     };
-                    // design: bottom-heavy, coffee-tone rabbit... orange and faded purple patterned shawl? THICK SILVER BANGLES
                     // All of a sudden, she was out of college. Though she had already frequently bought new clothes since her admission to college (she had jumped up a few sizes since then, after all), she 
 
                     // load all info into selection area to be allowed to be selected

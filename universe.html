@@ -228,11 +228,14 @@
 
                                 <div id="character-colors">
                                     <span style="margin-right: 10px;">Colors:</span>
-                                    <span class="color-cel" style="background: red;"></span>
-                                    <span class="color-cel" style="background: green;"></span>
-                                    <span class="color-cel" style="background: blue;"></span>
-                                </div>
                             `;
+                            
+                            characterInfo[cid]['colors'].forEach(
+                                item => {
+                                    construct += '<span class="color-cel" style="background: ' + item + ';"></span>';
+                                }
+                            );
+                            construct += "</div>";
                             
                             document.getElementById("character-design").innerHTML = construct;
                             document.getElementById("character-design").style.display = "block";
@@ -277,7 +280,8 @@
                             colors: [
                                 "#5c2411",
                                 "#f5c5a4",
-                                "#795f80"
+                                "#795f80",
+                                "#98ebcd"
                             ],
                             paragraphs: [
                                 "Growing up in the country on urban-dramas gave Purdy an almost insatiable idolatry of city life--guns, police, violence, love, <i>food,</i> filling out her heart and her figure alike. All through college--begrudgingly encaged within her home county--after every day's work she, without fail, would stare out from her verdant, earthly dorm room on a purpling sky, haloing the black towers of the city. <i>Sarrath</i> city.",

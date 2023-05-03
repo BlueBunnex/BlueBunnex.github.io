@@ -226,7 +226,7 @@
                         // character header
                         document.getElementById("character-header").innerHTML = characterInfo[cid]['name'];
                         
-                        // character image (can be null)
+                        // character image (optional)
                         if (characterInfo[cid]['img'] == null || characterInfo[cid]['img'] == "") {
                             document.getElementById("character-img").style.display = "none";
                         } else {
@@ -243,8 +243,8 @@
                         );
                         document.getElementById("character-paragraphs").innerHTML = construct;
                         
-                        // character facts (can be null)
-                        if (characterInfo[cid]['facts'] == null) {
+                        // character facts (optional)
+                        if (characterInfo[cid]['facts'] == null || characterInfo[cid]['facts'].length == 0) {
                             document.getElementById("character-facts").style.display = "none";
                         } else {
                             construct = "<h3>Fast Facts</h3><ul>";
@@ -258,14 +258,14 @@
                             document.getElementById("character-facts").style.display = "block";
                         }
                         
-                        // colors (can be null)
+                        // colors (optional) (rename to design!)
                         if (characterInfo[cid]['colors'] == null) {
                             document.getElementById("character-colors").style.display = "none";
                         } else {
                             document.getElementById("character-colors").style.display = "block";
                         }
 
-                        // table (can be null)
+                        // table (optional)
                         if (characterInfo[cid]['table_data'] == null) {
                             document.getElementById("character-table").style.display = "none";
                         } else {
@@ -298,10 +298,13 @@
                         'test': {
                             name: "unnamed character rn",
                             img: "",
-                            facts: ["The name of her city, Kohara, comes from the Hindu word for fog."],
-                            colors: ["hexa"],
+                            facts: ["Sarrath city, though located in the arid desert, often doesn't seem that way due to the extreme urbanization and green efforts."],
+                            colors: [
+                                "section for colors will be turned into the more general 'Design' section, soon!",
+                                "design: bottom-heavy, coffee-tone rabbit... orange and faded purple patterned shawl? THICK SILVER BANGLES"
+                            ],
                             paragraphs: [
-                                "Growing up in the country on urban-dramas gave her an almost insatiable idolatry of city life--guns, police, violence, love, <i>food,</i> filling out her heart and her figure alike. All through college--begrudgingly encaged within her home county--after every day's work she, without fail, would stare out from her verdant, earthly dorm room on a purpling sky, haloing the black towers of the city. <i>Kohara</i> city.",
+                                "Growing up in the country on urban-dramas gave her an almost insatiable idolatry of city life--guns, police, violence, love, <i>food,</i> filling out her heart and her figure alike. All through college--begrudgingly encaged within her home county--after every day's work she, without fail, would stare out from her verdant, earthly dorm room on a purpling sky, haloing the black towers of the city. <i>Sarrath</i> city.",
                                 "Though, out of college with six months of rent prepaid for in an apartment quickly discovered to be too cramped for a gal of her scale, a swirling sensation overcame her as she wondered if this was really where she wanted to be. From the twentieth floor the view sure was... different, compared to what she had grown accustommed to in the country, and—hey, is that a McDonalds?",
                                 "Look out for her's story in faux-comic posts on my Twitter!"
                             ],
@@ -309,7 +312,7 @@
                                 Weight: "215+lb"
                             }
                         }
-                    };
+                    };// (out of college) Though she had already frequently bought new clothes since her admission to college (she had jumped up a few sizes since then, after all), she ravaged the mall for...
 
                     // load all info into selection area to be allowed to be selected
                     var buttons = "";

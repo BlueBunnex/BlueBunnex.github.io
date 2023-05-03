@@ -170,16 +170,7 @@
                     <div id="character-facts" class="text-block"></div>
 
                     <div id="character-design" class="text-block">
-                        <h3>Design</h3>
-                        
-                        important features include being a hot gamer
-                        
-                        <div id="character-colors">
-                            <span style="margin-right: 10px;">Colors:</span>
-                            <span class="color-cel" style="background: red;"></span>
-                            <span class="color-cel" style="background: green;"></span>
-                            <span class="color-cel" style="background: blue;"></span>
-                        </div>
+                    <!-- contains a div with id=character-colors after generation -->
                     </div>
                     
                     <img id="character-img" src="">
@@ -232,6 +223,18 @@
                         if (characterInfo[cid]['colors'] == null) {
                             document.getElementById("character-design").style.display = "none";
                         } else {
+                            construct = `
+                                <h3>Design</h3>
+
+                                <div id="character-colors">
+                                    <span style="margin-right: 10px;">Colors:</span>
+                                    <span class="color-cel" style="background: red;"></span>
+                                    <span class="color-cel" style="background: green;"></span>
+                                    <span class="color-cel" style="background: blue;"></span>
+                                </div>
+                            `;
+                            
+                            document.getElementById("character-design").innerHTML = construct;
                             document.getElementById("character-design").style.display = "block";
                         }
 
@@ -268,10 +271,13 @@
                         'test': {
                             name: "Purdy",
                             img: "",
-                            facts: ["Sarrath city, though located in the arid desert, often doesn't seem that way due to the extreme urbanization and green efforts."],
+                            facts: [
+                                "Sarrath city, though located in the arid desert, often doesn't seem that way due to the extreme urbanization and green efforts."
+                            ],
                             colors: [
-                                "section for colors will be turned into the more general 'Design' section, soon!",
-                                "design: bottom-heavy, coffee-tone rabbit... orange and faded purple patterned shawl? THICK SILVER BANGLES"
+                                "#5c2411",
+                                "#f5c5a4",
+                                "#795f80"
                             ],
                             paragraphs: [
                                 "Growing up in the country on urban-dramas gave Purdy an almost insatiable idolatry of city life--guns, police, violence, love, <i>food,</i> filling out her heart and her figure alike. All through college--begrudgingly encaged within her home county--after every day's work she, without fail, would stare out from her verdant, earthly dorm room on a purpling sky, haloing the black towers of the city. <i>Sarrath</i> city.",
@@ -282,7 +288,9 @@
                                 Weight: "215+lb"
                             }
                         }
-                    };// All of a sudden, she was out of college. Though she had already frequently bought new clothes since her admission to college (she had jumped up a few sizes since then, after all), she 
+                    };
+                    // design: bottom-heavy, coffee-tone rabbit... orange and faded purple patterned shawl? THICK SILVER BANGLES
+                    // All of a sudden, she was out of college. Though she had already frequently bought new clothes since her admission to college (she had jumped up a few sizes since then, after all), she 
 
                     // load all info into selection area to be allowed to be selected
                     var buttons = "";

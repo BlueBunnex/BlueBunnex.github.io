@@ -88,14 +88,19 @@
                 display: none;
             }
             
+            #character-colors {
+                width: calc(100% - 72px);
+                display: flex;
+            }
+            
             .color-cel {
                 transform: translateY(4px);
                 display: inline-block;
                 border-radius: 4px;
                 border-style: none;
-                width: 20px;
                 height: 20px;
                 margin-right: 2px;
+                flex: 1;
             }
             
             #character-img {
@@ -227,8 +232,8 @@
                             construct = `
                                 <h3>Design</h3>
 
-                                <div id="character-colors">
-                                    <span style="margin-right: 10px;">Palette:</span>
+                                <span style="margin-right: 10px;">Palette:</span>
+                                <span id="character-colors">
                             `;
                             
                             characterInfo[cid]['colors'].forEach(
@@ -236,7 +241,7 @@
                                     construct += '<span class="color-cel" style="background: ' + item + ';"></span>';
                                 }
                             );
-                            construct += "</div>";
+                            construct += "</span>";
                             
                             document.getElementById("character-design").innerHTML = construct;
                             document.getElementById("character-design").style.display = "block";

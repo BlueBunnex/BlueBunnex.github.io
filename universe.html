@@ -12,7 +12,7 @@
             /* search (sidebar) stuff */
             #search {
                 display: inline-block;
-                width: 188px;
+                flex: 0 0 188px;
                 background: var(--sixty);
                 border-radius: 4px;
                 padding: 4px;
@@ -46,7 +46,7 @@
             /* character stuff */
             #character {
                 display: inline-block;
-                width: calc(100% - 193px);
+                flex: 1;
             }
             
             #character p {
@@ -151,7 +151,7 @@
             </ul>
 
             <!-- content -->
-            <div style="padding: 16px; position: relative;">
+            <div style="padding: 16px; display: flex;">
                 
                 <!-- left selection area -->
                 <span id="search">

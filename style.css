@@ -203,40 +203,6 @@ a:hover {
     filter: brightness(50%) blur(1px);
 }
 
-/* navbar (a <ul>) */
-#navbar {
-    font-size: 16px;
-
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: var(--thirty);
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-    z-index: 99;
-}
-#navbar li {
-    float: left;
-}
-#navbar li a {
-    transition-duration: 0.2s;
-    display: block;
-    color: var(--thirty-contrast);
-    text-align: center;
-    padding: 8px 20px;
-    text-decoration: none;
-    line-height: 21px;
-}
-#navbar li a:hover:not(.active) {
-    background-color: #ddd;
-}
-#navbar li a.active {
-    color: white;
-    background-color: var(--ten);
-}
-
 /* Next & previous buttons */
 .prev, .next {
     cursor: pointer;

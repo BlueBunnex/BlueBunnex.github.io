@@ -26,6 +26,8 @@ h1 {
     -ms-user-select: none; /* IE10+/Edge */
     user-select: none; /* Standard */
     cursor: default;
+    
+    font-size
 }
 
 h2 {
@@ -43,6 +45,7 @@ h2 {
     line-height: 25px;
     color: var(--thirty-contrast);
     cursor: pointer;
+    font-size: 24px;
 }
 
 #header span {
@@ -53,12 +56,13 @@ h2 {
 
 #header span span {
     padding-left: 0px; /* gotta counter the span rule that was set above */
-    border-bottom: 24px solid var(--ten);
-    border-left: 16px solid transparent;
+    
+    border-bottom: 18px solid var(--ten);
+    border-left: 10px solid transparent;
     height: 0px;
     width: 1px;
     position: absolute;
-    top: 10px; 
+    top: 7px;
 }
 
 /* buttons on my profile card leading to other websites */

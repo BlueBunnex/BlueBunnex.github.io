@@ -29,7 +29,20 @@ h2 {
     margin: 42px 0 24px 0;
 }
 
-/* header at top of page */
+/* the entire centered area where all the content is */
+#central {
+    min-height: 100vh;
+    width: 100%;
+    max-width: 750px;
+    display: inline-block;
+    text-align: center;
+    background: var(--sixty);
+    padding: 0px;
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+}
+
+/* h1 header at top of page */
 #header {
     -webkit-user-select: none; /* Safari */        
     -moz-user-select: none; /* Firefox */
@@ -239,7 +252,7 @@ a:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* columns that float next to each other */
+/* columns that float next to each other (probably wanna make these ids and not classes...) */
 .left-column, .right-column {
     padding: 0 16px;
     margin: 0px;

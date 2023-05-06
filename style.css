@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 :root {
-    --ten: #ff7373; /* var(--color) */ /* 60 30 10 rule */
+    /* var(--color) */ /* 60 30 10 rule */
+    --ten: #ff7373;
+    --ten-dark: #9c3844;
     --thirty: #fff6f7;
     --thirty-contrast: #ac4669;
     --sixty: #fffefe;
@@ -100,7 +102,7 @@ h2 {
 }
 
 .cutebutton:hover {
-    background: #408ec9; /* should probably make a variable --ten-dark */
+    background: var(--ten-dark);
     cursor: pointer;
 }
 

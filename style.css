@@ -113,7 +113,7 @@ hr {
 }
             
 .search-button:hover {
-    background: rgb(0, 0, 0, 0.2);
+    background: var(--thirty);
     cursor: pointer;
 }
 

@@ -260,9 +260,6 @@ a:hover {
     overflow: hidden;
     height: 100%;
 }
-.left-column:hover {
-    overflow-y: auto;
-}
 .right-column {
     float: right;
     width: 33%;

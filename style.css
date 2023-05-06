@@ -82,6 +82,11 @@ hr {
     top: 7px;
 }
 
+/* specialized buttons */
+#back-button, .search-button, .cutebutton {
+    transition: background 0.2s;
+}
+
 /* button at the top of non-index pages */
 #back-button {
     background-color: var(--ten);
@@ -98,6 +103,7 @@ hr {
 
 #back-button:hover {
     font-weight: 800;
+    background-color: var(--ten-dark);
 }
 
 /* buttons that navigate, whether on index, or universe, or... */
@@ -109,7 +115,6 @@ hr {
     width: 100%;
     border-radius: 3px;
     font-size: 15px;
-    transition: background 0.3s;
 }
             
 .search-button:hover {
@@ -138,9 +143,6 @@ hr {
     width: 100%;
 
     text-align: center;
-
-    transition-duration: 0.2s;
-    transition-property: background;
 }
 
 .cutebutton:hover {

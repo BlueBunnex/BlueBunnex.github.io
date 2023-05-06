@@ -258,6 +258,11 @@ a:hover {
     
     overflow: hidden;
     overflow-y: auto;
+    
+    direction: rtl; /* for scrollbar to be on left */
+}
+.left-column > :not(marquee) {
+    direction: ltr;
 }
 .right-column {
     float: right;

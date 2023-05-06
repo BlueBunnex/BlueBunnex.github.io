@@ -255,6 +255,13 @@ a:hover {
     padding-right: 0px;
     float: left;
     width: 67%;
+    
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+.left-column:hover {
+    overflow-y: auto;
 }
 .right-column {
     float: right;

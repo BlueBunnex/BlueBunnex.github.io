@@ -117,6 +117,10 @@ hr {
     cursor: pointer;
 }
 
+.search-button i {
+    margin-right: 8px;
+}
+
 /* buttons on my profile card leading to other websites */
 /* might wanna hyphenate to match other buttons */
 .cutebutton {

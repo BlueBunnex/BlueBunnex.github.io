@@ -26,22 +26,6 @@
                 height: 3px;
                 margin: 16px 0;
             }
-
-            #search button {
-                font-weight: 600;
-                text-align: left;
-                background: none;
-                border: none;
-                width: 100%;
-                border-radius: 3px;
-                font-size: 15px;
-                transition: background 0.3s;
-            }
-            
-            #search button:hover {
-                background: rgb(0, 0, 0, 0.2);
-                cursor: pointer;
-            }
             
             /* character stuff */
             #character {
@@ -284,7 +268,7 @@
                     // load all info into selection area to be allowed to be selected
                     var buttons = "";
                     for (const [key, value] of Object.entries(characterInfo)) {
-                        buttons += `<button type="button" onclick="LoadCharacter('` + key + `')"><i class="fa-solid fa-user" style="margin-right: 8px;"></i> ` + value['name'] + `</button>`;
+                        buttons += `<button type="button" class="search-button" onclick="LoadCharacter('` + key + `')"><i class="fa-solid fa-user" style="margin-right: 8px;"></i> ` + value['name'] + `</button>`;
                     }
                     document.getElementById("search").innerHTML = buttons + document.getElementById("search").innerHTML;
                     

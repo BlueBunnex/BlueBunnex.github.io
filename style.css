@@ -20,16 +20,6 @@ body {
     background-position: center center;*/
 }
 
-h1 {
-    -webkit-user-select: none; /* Safari */        
-    -moz-user-select: none; /* Firefox */
-    -ms-user-select: none; /* IE10+/Edge */
-    user-select: none; /* Standard */
-    cursor: default;
-    
-    font-size
-}
-
 h2 {
     font-size: 24px;
     text-align: left;
@@ -39,6 +29,11 @@ h2 {
 
 /* header at top of page */
 #header {
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+    
     text-align: center;
     font-weight: 600;
     height: 20px;

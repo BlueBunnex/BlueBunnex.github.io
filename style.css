@@ -29,6 +29,13 @@ h2 {
     margin: 42px 0 24px 0;
 }
 
+hr {
+    background-color: var(--thirty);
+    border: none;
+    height: 3px;
+    margin: 16px 0;
+}
+
 /* the entire centered area where all the content is */
 #central {
     min-height: 100vh;

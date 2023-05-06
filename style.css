@@ -93,6 +93,23 @@ h2 {
     font-weight: 800;
 }
 
+/* buttons that navigate, whether on index, or universe, or... */
+.searchbutton {
+    font-weight: 600;
+    text-align: left;
+    background: none;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    font-size: 15px;
+    transition: background 0.3s;
+}
+            
+.searchbutton:hover {
+    background: rgb(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
 /* buttons on my profile card leading to other websites */
 .cutebutton {
     border: none;

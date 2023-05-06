@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 :root {
-    --ten: #60bdfa; /* var(--color) */ /* 60 30 10 rule */
-    --thirty: #f3f3f3;
-    --thirty-contrast: #666;
+    --ten: #f789bd; /* var(--color) */ /* 60 30 10 rule */
+    --thirty: #fff2f9;
+    --thirty-contrast: #954376;
     --sixty: #ffffff;
+    --darkest: #391c2e;
     font-family: 'Poppins', sans-serif;
 
     color: black;
@@ -13,7 +14,7 @@ body {
     margin: 0;
     text-align: center;
     background-attachment: fixed;
-    background-color: #708090;
+    background-color: var(--darkest);
     /*background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('img/bg.png');*/
     background-size: 320px;
     background-repeat: repeat;

@@ -94,7 +94,7 @@ h2 {
 }
 
 /* buttons that navigate, whether on index, or universe, or... */
-.searchbutton {
+.search-button {
     font-weight: 600;
     text-align: left;
     background: none;
@@ -105,12 +105,13 @@ h2 {
     transition: background 0.3s;
 }
             
-.searchbutton:hover {
+.search-button:hover {
     background: rgb(0, 0, 0, 0.2);
     cursor: pointer;
 }
 
 /* buttons on my profile card leading to other websites */
+/* might wanna hyphenate to match other buttons */
 .cutebutton {
     border: none;
     border-radius: 6px;

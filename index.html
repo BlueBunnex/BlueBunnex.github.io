@@ -44,6 +44,7 @@
                 font-size: 30px;
                 opacity: 0;
                 transition: opacity 0.3s;
+                cursor: pointer;
             }
             
             #lazy-susan-left {
@@ -139,11 +140,11 @@
                 <!-- https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp -->
                 <div id="lazy-susan">
                 
-                    <span id="lazy-susan-left">
+                    <span id="lazy-susan-left" onclick="alert('left!');">
                         <i class="fa-regular fa-arrow-left" style="z-index: 999; position: absolute; top: calc(50% - 18px); left: 10px; color: white;"></i>
                     </span>
                     
-                    <span id="lazy-susan-right">
+                    <span id="lazy-susan-right" onclick="alert('right!');">
                         <i class="fa-regular fa-arrow-right" style="z-index: 999; position: absolute; top: calc(50% - 18px); right: 10px; color: white;"></i>
                     </span>
                     

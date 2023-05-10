@@ -47,13 +47,21 @@
                 cursor: pointer;
             }
             
-            #lazy-susan-left {
-                left: 0;
+            #lazy-susan-left i, #lazy-susan-right i {
+                z-index: 999;
+                position: absolute;
+                top: calc(50% - 18px);
+                color: black;
+                transition-duration: 0.2s;
             }
             
-            #lazy-susan-right {
-                right: 0;
-            }
+            #lazy-susan-left { left: 0; }
+            #lazy-susan-left i { left: 10px; }
+            #lazy-susan-left:hover i { left: 15px; }
+            
+            #lazy-susan-right { right: 0; }
+            #lazy-susan-right i { right: 10px; }
+            #lazy-susan-right:hover i { right: 15px; }
             
             #lazy-susan:hover #lazy-susan-left,
             #lazy-susan:hover #lazy-susan-right {
@@ -139,11 +147,11 @@
                 <div id="lazy-susan">
                 
                     <span id="lazy-susan-left" onclick="shiftSusan(-1);">
-                        <i class="fa-regular fa-arrow-left" style="z-index: 999; position: absolute; top: calc(50% - 18px); left: 10px; color: white;"></i>
+                        <i class="fa-regular fa-arrow-left"></i>
                     </span>
                     
                     <span id="lazy-susan-right" onclick="shiftSusan(1);">
-                        <i class="fa-regular fa-arrow-right" style="z-index: 999; position: absolute; top: calc(50% - 18px); right: 10px; color: white;"></i>
+                        <i class="fa-regular fa-arrow-right"></i>
                     </span>
                     
                     <span style="width: 3%; display: inline-block;"></span> <!-- buffer -->

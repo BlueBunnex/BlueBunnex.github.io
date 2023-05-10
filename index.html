@@ -140,24 +140,32 @@
                 <!-- https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp -->
                 <div id="lazy-susan">
                 
-                    <span id="lazy-susan-left" onclick="alert('left!');">
+                    <span id="lazy-susan-left" onclick="shiftSusan(-1);">
                         <i class="fa-regular fa-arrow-left" style="z-index: 999; position: absolute; top: calc(50% - 18px); left: 10px; color: white;"></i>
                     </span>
                     
-                    <span id="lazy-susan-right" onclick="alert('right!');">
+                    <span id="lazy-susan-right" onclick="shiftSusan(1);">
                         <i class="fa-regular fa-arrow-right" style="z-index: 999; position: absolute; top: calc(50% - 18px); right: 10px; color: white;"></i>
                     </span>
                     
                     <span style="width: 3%; display: inline-block;"></span> <!-- buffer -->
 
-                    <span class="lazy-susan-element" style="background: url('img/banner_test.jpeg');"></span>
-                    <span class="lazy-susan-element" style="background: url('img/banner_test.jpeg');"></span>
-                    <span class="lazy-susan-element" style="background: url('img/banner_test.jpeg');"></span>
-                    <span class="lazy-susan-element" style="background: url('img/banner_test.jpeg');"></span>
+                    <span class="lazy-susan-element" style="background: url('img/placeholder.png');"></span>
+                    <span class="lazy-susan-element" style="background: url('img/haus.jpeg');"></span>
+                    <span class="lazy-susan-element" style="background: url('img/placeholder.png');"></span>
+                    <span class="lazy-susan-element" style="background: url('img/placeholder.png');"></span>
                     
                     <span style="width: 3%; display: inline-block;"></span> <!-- buffer -->
                     
                 </div>
+                
+                <script>
+                    
+                    function shiftSusan(direction) {
+                        alert(direction);
+                    }
+                    
+                </script>
                 
                 <hr style="margin: 8px 0;">
                 

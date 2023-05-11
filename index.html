@@ -45,14 +45,18 @@
                 opacity: 0;
                 transition: opacity 0.3s;
                 cursor: pointer;
+                z-index: 999;
             }
             
             #lazy-susan-left i, #lazy-susan-right i {
-                z-index: 999;
                 position: absolute;
                 top: calc(50% - 18px);
-                color: black;
+                color: white;
+                text-align: center;
+                border-radius: 100%;
                 transition-duration: 0.2s;
+                background: rgba(0, 0, 0, 0.7);
+                width: 30px;
             }
             
             #lazy-susan-left { left: 0; }

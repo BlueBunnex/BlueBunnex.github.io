@@ -32,8 +32,13 @@
                 width: 45%;
                 margin: 0 1px;
                 display: inline-block;
-                border-radius: 4px;
                 cursor: pointer;
+            }
+            
+            .lazy-susan-element img {
+                height: 100%;
+                width: 100%;
+                border-radius: 4px;
             }
             
             #lazy-susan-left, #lazy-susan-right {
@@ -158,22 +163,24 @@
                         <i class="fa-regular fa-arrow-right"></i>
                     </span>
                     
-                    <span style="width: 3%; display: inline-block;"></span> <!-- buffer -->
+                    <div id="lazy-susan-scroll">
+                        <span style="width: 3%; display: inline-block;"></span> <!-- buffer -->
 
-                    <a href="https://steamcommunity.com/profiles/76561199147777041/" target="_blank"><img class="lazy-susan-element" src='img/steam.png'></a>
-                    <a href="https://www.youtube.com/" target="_blank"><img class="lazy-susan-element" src='img/haus.png'></a>
-                    <a href="https://www.youtube.com/" target="_blank"><img class="lazy-susan-element" src='img/placeholder.png'></a>
-                    <a href="https://www.youtube.com/" target="_blank"><img class="lazy-susan-element" src='img/placeholder.png'></a>
-                    
-                    <span style="width: 3%; display: inline-block;"></span> <!-- buffer -->
-                    
+                        <a class="lazy-susan-element" href="https://steamcommunity.com/profiles/76561199147777041/" target="_blank"><img src='img/steam.png'></a>
+                        <a class="lazy-susan-element" href="https://www.youtube.com/" target="_blank"><img src='img/haus.png'></a>
+                        <a class="lazy-susan-element" href="https://www.youtube.com/" target="_blank"><img src='img/placeholder.png'></a>
+                        <a class="lazy-susan-element" href="https://www.youtube.com/" target="_blank"><img src='img/placeholder.png'></a>
+
+                        <span style="width: 3%; display: inline-block;"></span> <!-- buffer -->
+                    </div>
+
                 </div>
                 
                 <script>
                     
                     function shiftSusan(direction) {
-                        const element = document.getElementById("lazy-susan");
-                        element.scrollLeft += 100 * direction;
+                        const element = document.getElementById("lazy-susan-scroll");
+                        element.scrollLeft += 100 * direction; // move sideways by one lazy-susan-element
                     }
                     
                 </script>

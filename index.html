@@ -187,7 +187,7 @@
                         
                         offset += direction;
                         
-                        Math.min(Math.max(0, offset), element.childElementCount - 2);
+                        offset = Math.min(Math.max(0, offset), element.childElementCount - 2);
                         
                         for (const child of element.children) {
                             child.style.transform = "translateX(" + offset * -100 + "%)";

@@ -234,9 +234,7 @@
                     function updateFilter() {
                         var e = document.getElementById("filter");
                         var value = e.value;
-                        var text = e.options[e.selectedIndex].text;
                         alert(value);
-                        alert(text);
                         
                         // for every card, check if it has the tag, if not -> "display: none;"
                     }
@@ -246,8 +244,8 @@
                         // compile all the tags
                         var tagString = " ";
                         
-                        if (tags.length != 0) {
-                            tagString += tags[0] + " ";
+                        for (let i = 0; i < tags.length; i++) { 
+                            tagString += tags[i] + " ";
                         }
                         
                         // insert the card

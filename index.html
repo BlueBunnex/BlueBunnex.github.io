@@ -204,13 +204,13 @@
                 
                 <hr style="margin-top: 8px;">
                 
-                <!-- gallery header bits -->
+                <!-- gallery header -->
                 <h2 style="position: absolute; left: 16px; margin: 0;">
                     <span class="English"><i class="fa-solid fa-images"></i> Gallery</span>
                     <span class="Chinese"><i class="fa-solid fa-images"></i> 图辑</span>
                 </h2>
                 
-                <select name="cars" id="cars">
+                <select id="filter" onchange="updateFilter()" multiple>
                     <option value="volvo">No Filter</option>
                     <option value="saab">BBW</option>
                     <option value="opel">Anthro</option>
@@ -236,6 +236,13 @@
                     var offset = 0; // if negative, change left side - if positive, change right side
                     var onRight = false;
                     var currIndex = 0;
+                    
+                    function updateFilter() {
+                        var e = document.getElementById("filter");
+                        var value = e.value;
+                        var text = e.options[e.selectedIndex].text;
+                        console.log(value, text);
+                    }
                     
                     function insertImage(filename, passage) {
 

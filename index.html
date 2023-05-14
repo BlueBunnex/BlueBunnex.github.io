@@ -180,9 +180,16 @@
                 
                 <script>
                     
+                    int offset = 0;
+                    
                     function shiftSusan(direction) {
                         const element = document.getElementById("lazy-susan-scroll");
-                        element.scrollLeft += direction * element.offsetWidth * 0.5;
+                        
+                        offset += direction;
+                        
+                        for (const child of element.children) {
+                            child.style.transform = "translateX(" + offset * -100 + "%)";
+                        }
                     }
                     
                 </script>

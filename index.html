@@ -212,10 +212,10 @@
                 
                 <select id="filter" onchange="updateFilter()">
                     <option value="none">No Filter</option>
-                    <option value="bbw">BBW</option>
                     <option value="anthro">Anthro</option>
-                    <option value="other-oc">Other's OC</option>
+                    <option value="bbw">BBW</option>
                     <option value="other-drawing">Other's Drawing</option>
+                    <option value="other-oc">Other's OC</option>
                 </select>
 
                 <a href="universe.html" style="position: absolute; right: 0;">
@@ -225,7 +225,7 @@
 
                 <div style="height: 40px;"></div>
 
-                <!-- mason layout -->
+                <!-- cards go here -->
                 <div id="insert-here"></div>
 
                 <!-- procedural loading -->
@@ -233,10 +233,23 @@
                     
                     function updateFilter() {
                         var e = document.getElementById("filter");
-                        var value = e.value;
-                        alert(value);
                         
-                        // for every card, check if it has the tag, if not -> "display: none;"
+                        if (e.value === "none") {
+                            
+                            for (const child of document.getElementById("insert-here").children) {
+                                child.style.display = "inline-block";
+                            }
+                            
+                        } else {
+                            
+                            for (const child of document.getElementById("insert-here").children) {
+                                
+                                // check if it has the tag, if not -> "display: none;"
+                                child.style.display = "none";
+                                
+                            }
+                            
+                        }
                     }
                     
                     function insertImage(filename, tags) {
@@ -271,7 +284,7 @@
                     insertImage("popstar.png", ["bbw"]);
                     insertImage("bing_sweats.png", ["bbw"]);
                     insertImage("Ant_christmas.png", ["other-oc"]);
-                    insertImage("Maggie.png", ["bbw"]);
+                    insertImage("Maggie.png", ["anthro", "bbw"]);
                     insertImage("autumn_fox.png", ["bbw"]);
                     insertImage("Willow.png", []);
                     insertImage("cute_tiger.png", ["anthro"]);

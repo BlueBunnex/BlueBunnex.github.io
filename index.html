@@ -185,7 +185,7 @@
                     
                     function shiftSusan(direction) {
                         const element = document.getElementById("lazy-susan-scroll");
-                        element.scrollLeft += direction * element.offsetWidth / (element.childElementCount - 4);
+                        element.scrollLeft += direction * document.getElementsByClassName("lazy-susan-element")[0].offsetWidth;
                     }
                     
                 </script>
@@ -209,6 +209,13 @@
                     <span class="English"><i class="fa-solid fa-images"></i> Gallery</span>
                     <span class="Chinese"><i class="fa-solid fa-images"></i> 图辑</span>
                 </h2>
+                
+                <select name="cars" id="cars">
+                    <option value="volvo">No Filter</option>
+                    <option value="saab">BBW</option>
+                    <option value="opel">Anthro</option>
+                    <option value="audi">Other's OC</option>
+                </select>
 
                 <a href="universe.html" style="position: absolute; right: 0;">
                     <span class="English">See my OCs <i class="fa-solid fa-right-from-bracket"></i></span>

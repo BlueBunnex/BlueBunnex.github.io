@@ -185,7 +185,7 @@
                     
                     function shiftSusan(direction) {
                         const element = document.getElementById("lazy-susan-scroll");
-                        element.scrollLeft += element.offsetWidth / (element.childElementCount - 2);
+                        element.scrollLeft += direction * element.offsetWidth / (element.childElementCount - 3);
                     }
                     
                 </script>

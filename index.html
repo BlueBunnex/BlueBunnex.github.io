@@ -185,7 +185,7 @@
                     
                     function shiftSusan(direction) {
                         const element = document.getElementById("lazy-susan-scroll");
-                        element.scrollLeft += 100 * direction; // move sideways by one lazy-susan-element
+                        element.scrollLeft += element.offsetWidth / (element.childElementCount - 2);
                     }
                     
                 </script>

@@ -180,12 +180,14 @@
                 
                 <script>
                     
-                    int offset = 0;
+                    var offset = 0;
                     
                     function shiftSusan(direction) {
                         const element = document.getElementById("lazy-susan-scroll");
                         
                         offset += direction;
+                        
+                        Math.min(Math.max(0, offset), element.childElementCount - 2);
                         
                         for (const child of element.children) {
                             child.style.transform = "translateX(" + offset * -100 + "%)";

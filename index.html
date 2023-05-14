@@ -235,18 +235,28 @@
                         var e = document.getElementById("filter");
                         var value = e.value;
                         var text = e.options[e.selectedIndex].text;
-                        console.log(value, text);
+                        alert(value);
+                        alert(text);
+                        
+                        // for every card, check if it has the tag, if not -> "display: none;"
                     }
                     
                     function insertImage(filename, tags) {
+                        
+                        // compile all the tags
+                        var tagString = " ";
+                        
+                        for (tag in tags) {
+                            tagString += tag + " ";
+                        }
                         
                         // insert the card
                         var construct = "";
                         
                         construct += `
-                            <div onclick="window.open('img/imgboard/` + filename + `','_blank')">
+                            <div class="` + tagString + `" onclick="window.open('img/imgboard/` + filename + `','_blank')">
                                 <img src="img/imgboard/` + filename + `">
-                                <span>` + "[tag]" + `</span>
+                                <span>[` + tagString + `]</span>
                             </div>
                         `;
                         

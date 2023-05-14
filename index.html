@@ -210,11 +210,12 @@
                     <span class="Chinese"><i class="fa-solid fa-images"></i> 图辑</span>
                 </h2>
                 
-                <select id="filter" onchange="updateFilter()" multiple>
-                    <option value="volvo">No Filter</option>
-                    <option value="saab">BBW</option>
-                    <option value="opel">Anthro</option>
-                    <option value="audi">Other's OC</option>
+                <select id="filter" onchange="updateFilter()">
+                    <option value="none">No Filter</option>
+                    <option value="bbw">BBW</option>
+                    <option value="anthro">Anthro</option>
+                    <option value="other-oc">Other's OC</option>
+                    <option value="other-drawing">Other's Drawing</option>
                 </select>
 
                 <a href="universe.html" style="position: absolute; right: 0;">
@@ -230,13 +231,6 @@
                 <!-- procedural loading -->
                 <script>
                     
-                    // basically, for every layer, only one side actually needs to be pushed down
-
-                    var cachedLeftHeight = 0;
-                    var offset = 0; // if negative, change left side - if positive, change right side
-                    var onRight = false;
-                    var currIndex = 0;
-                    
                     function updateFilter() {
                         var e = document.getElementById("filter");
                         var value = e.value;
@@ -244,63 +238,35 @@
                         console.log(value, text);
                     }
                     
-                    function insertImage(filename, passage) {
-
-                        // check if this side should be offset
-                        var difference = 0;
-                            
-                        if (offset > 0 == onRight) {
-                            difference = Math.abs(offset) * -0.3; // conversion from pixels to percentage
-                        }
+                    function insertImage(filename, tags) {
                         
-                        // insert the card at the proper translation
+                        // insert the card
                         var construct = "";
                         
                         construct += `
-                            <div id="card_` + currIndex + `"
-                            style="transform: translateY(` + difference + `%);"
-                            onclick="window.open('img/imgboard/` + filename + `','_blank')"><img src="img/imgboard/` + filename + `"><span>` + passage + `</span>
+                            <div onclick="window.open('img/imgboard/` + filename + `','_blank')">
+                                <img src="img/imgboard/` + filename + `">
+                                <span>` + "[tag]" + `</span>
                             </div>
                         `;
                         
                         document.getElementById('insert-here').innerHTML += construct;
-
-                        if (onRight) {
-                            var rightHeight = document.getElementById('card_' + currIndex).offsetHeight;
-                            
-                            // calculate new offset
-                            offset = cachedLeftHeight - rightHeight + offset;
-                        } else {
-                            // store left side height for later
-                            cachedLeftHeight = document.getElementById('card_' + currIndex).offsetHeight;
-                        }
-
-                        // flip side and increment currIndex for next insert
-                        onRight = !onRight;
-                        currIndex++;
                         
                     }
                     
-                    insertImage("kitsugiveaway.png", "Awesome giveaway drawing from Pachikko, watch her streams or something...!");
-                    insertImage("shish.gif", "");
-                    insertImage("maefish.png", "Here, Cpt. Domba is seen playing with a very common alien species: Mae's Fish. Similar to many species of jellyfish, Mae's Fish are solitary and more or less cruise along unpropelled (though throughout the lower atmosphere instead of water), only making use of their fins when agitated or spawning. Their ability to process aerosolized toxins into solid waste as a byproduct of their feeding style, coupled with their unintrusive nature, makes them common among lunar terraforming projects' first legs. As a result of their convergently evolved swim-bladders, Mae's Fish can maintain altitude at a local gravity of up to 0.2G!");
-                    insertImage("Amuk.png", "");
-                    insertImage("fume_chillin.png", "");
-                    insertImage("fume.png", "");
-                    insertImage("popstar.png", "");
-                    insertImage("bing_sweats.png", "");
-                    insertImage("Ant_christmas.png", "For my friend Ant's birthday 2022 <3");
-                    insertImage("Maggie.png", `
-                    You didn't realize it was happening up until it did, but here you are, standing in your apartment with a pretty girl that followed you home.
-                    <br><br>Your friend group had made plans to go to a restaurant, see a movie, and just relax on the town the night following Christmas. Things quickly went off the rails, however, when you bumped into another friend group you barely knew—all women. One of them recognized your friend and suddenly everyone decided (without you) to merge into one big party. Amongst all the new people, one of them stuck out for being dressed excessively scant (you understand that global warming means a warmer Christmas, but this was pushing it)—while also being the biggest of her friends. Though you didn't really know her, you and her had somehow slowly drifted from the others, maybe because both of you didn't like the company of the other's group's friends.
-                    <br><br>Now, she's poking around in the various nooks and crannies of your apartment idly—peeking behind the curtains, into your nightstand, under your bed—as you ruminate on what to do, when she suddenly pokes her head out from behind the bed and says, "You down for somethin'?"
-                    <br><br>You automatically yip, "Yes!" a little too agitatedly, and she smiles.
-                    <br><br>"Take this." She tosses you a reddish bundle of fabric, which unfurls mid-air—it's her skirt. You freak out, but in the split second as it flies towards you you decide to just catch it. You look up, and she pushes her chest over you bed, hiding her bottom half. "I dare ya. Put it on."
-                    <br><br><em>To be continued...</em>
-                    `);
-                    insertImage("autumn_fox.png", "");
-                    insertImage("Willow.png", "");
-                    insertImage("cute_tiger.png", "");
+                    insertImage("kitsugiveaway.png", ["other-drawing"]);
+                    insertImage("shish.gif", []);
+                    insertImage("maefish.png", ["bbw"]);
+                    insertImage("Amuk.png", []);
+                    insertImage("fume_chillin.png", []);
+                    insertImage("fume.png", ["bbw"]);
+                    insertImage("popstar.png", ["bbw"]);
+                    insertImage("bing_sweats.png", ["bbw"]);
+                    insertImage("Ant_christmas.png", ["other-oc"]);
+                    insertImage("Maggie.png", ["bbw"]);
+                    insertImage("autumn_fox.png", ["bbw"]);
+                    insertImage("Willow.png", []);
+                    insertImage("cute_tiger.png", ["anthro"]);
                     
                 </script>
 

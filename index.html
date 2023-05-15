@@ -22,12 +22,8 @@
                 gap: 6px;
 
                 display: grid;
-                grid-template-columns: 1fr 1fr;
+                grid-template-columns: 1fr 1fr 1fr;
                 grid-template-rows: masonry;
-
-                /* old system didn't fill in the right order */
-                /*display: block;
-                column-count: 2;*/
 
                 /*max-width: 830px;
                 grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));*/
@@ -36,7 +32,7 @@
             #insert-here div {
                 z-index: 11; /* abs positioning and high z-index for img on hover... probably overlay tags unless hovering? */
                 width: 100%;
-                height: 200px;
+                aspect-ratio : 1 / 1;
                 padding: 0px;
                 margin: 0;
 

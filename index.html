@@ -17,6 +17,70 @@
         
         <style>
             
+            /* gallery */
+            #insert-here {
+                gap: 6px;
+
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: masonry;
+
+                /* old system didn't fill in the right order */
+                /*display: block;
+                column-count: 2;*/
+
+                /*max-width: 830px;
+                grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));*/
+            }
+
+            #insert-here div {
+                z-index: 11;
+                width: 100%;
+                padding: 0px;
+                margin: -3px 0px;
+
+                position: relative;
+                border-radius: 4px;
+                overflow: hidden;
+
+                cursor: alias;
+            }
+
+            #insert-here div span {
+                z-index: 10;
+                width: 90%;
+                height: 90%;
+                padding: 12px;
+                text-align: left;
+                color: white;
+                display: none;
+
+                position: absolute;
+                right: 0;
+                top: 0;
+
+                overflow-x: hidden;
+                overflow-y: auto; /* scroll but only when necessary */
+            }
+
+            #insert-here div:hover span {
+                display: block;
+            }
+
+            #insert-here div img {
+                z-index: 9;
+                width: 100%;
+
+                transition-duration: 0.2s;
+            }
+
+            #insert-here div:hover img {
+                /*cursor: pointer;*/
+
+                filter: brightness(50%) blur(1px);
+            }
+            
+            /* susan at top of page */
             #lazy-susan {
                 width: 100%;
                 height: 160px;

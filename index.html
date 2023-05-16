@@ -30,7 +30,7 @@
             }
 
             #insert-here div {
-                z-index: 11; /* abs positioning and high z-index for img on hover... probably overlay tags unless hovering? */
+                z-index: 11;
                 width: 100%;
                 aspect-ratio : 1 / 1;
                 padding: 0px;
@@ -43,32 +43,13 @@
                 cursor: alias;
             }
 
-            #insert-here div span {
-                z-index: 10;
-                width: 90%;
-                height: 90%;
-                padding: 12px;
-                text-align: left;
-                color: white;
-                display: none;
-
-                position: absolute;
-                right: 0;
-                top: 0;
-
-                overflow-x: hidden;
-                overflow-y: auto; /* scroll but only when necessary */
-            }
-
-            #insert-here div:hover span {
-                display: block;
-            }
-
             #insert-here div img {
                 position: absolute;
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%, -50%);
+                
+                pointer-events: none;
                 
                 z-index: 9;
                 width: 100%;
@@ -77,9 +58,15 @@
 
                 transition-duration: 0.2s;
             }
-
+            
+            #insert-here div:hover {
+                overflow: visible;
+                z-index: 9999;
+            }
+            
             #insert-here div:hover img {
-                filter: brightness(50%) blur(1px);
+                width: 200%;
+                height:auto;
             }
             
             /* susan at top of page */
@@ -332,10 +319,11 @@
                         // insert the card
                         var construct = "";
                         
+                        // <span><i class="fa-solid fa-tag"></i> [` + tags + `]</span>
+                        
                         construct += `
                             <div class="` + tags + `" onclick="window.open('img/imgboard/` + filename + `','_blank')">
                                 <img src="img/imgboard/` + filename + `">
-                                <span><i class="fa-solid fa-tag"></i> [` + tags + `]</span>
                             </div>
                         `;
                         

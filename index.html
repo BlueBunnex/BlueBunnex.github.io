@@ -19,14 +19,10 @@
             
             /* gallery */
             #insert-here {
-                gap: 6px;
-
                 display: grid;
-                grid-template-columns: 1fr 1fr 1fr;
+                gap: 3px;
                 grid-template-rows: masonry;
-
-                /*max-width: 830px;
-                grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));*/
+                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
             }
 
             #insert-here div {
@@ -59,17 +55,9 @@
                 transition-duration: 0.2s;
             }
             
-            /*
-            #insert-here div:hover {
-                overflow: visible;
-                z-index: 9999;
-            }
-            
             #insert-here div:hover img {
-                width: 200%;
-                height:auto;
+                filter: brightness(50%);
             }
-            */
             
             /* susan at top of page */
             #lazy-susan {

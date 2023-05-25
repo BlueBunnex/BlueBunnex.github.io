@@ -25,10 +25,10 @@ const characterInfo = {
       name: "Ênul",
       img: "kitsu_.png",
       facts: [],
-      design: "widest brightest eyes, foxgirl, pale blue skin, thin, flat, wide hips/fat butt/calves, beret, 'office' skirt",
+      design: "A tall, thin, and flat foxgirl with pale blue skin, wide hips/fat butt/calves, and the widest, brightest eyes. Her default outdoor outfit is a dark turquoise beret... dark turquoise 'office' skirt",
       colors: [
           "#e8ffff",
-          "#76e391"
+          "#39ad87"
       ],
       paragraphs: [
           "(WIP)Ênul has an energetic mind but a tired body--which is to say, she wants so desperately to go out on a walk to a café with a tall, well-built, slightly geeky guy, but is impeded by her inability to function after her tiring office job.",

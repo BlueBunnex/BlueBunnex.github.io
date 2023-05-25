@@ -128,6 +128,7 @@ hr {
 
 .lefted-border .search-button:hover {
     background: var(--thirty-contrast);
+    color: var(--thirty);
 }
 
 /* buttons on my profile card leading to other websites */

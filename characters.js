@@ -27,6 +27,7 @@ const characterInfo = {
       facts: [],
       design: "widest brightest eyes, foxgirl, pale blue skin, thin, flat, wide hips/fat butt/calves, beret, 'office' skirt",
       colors: [
+          "#e8ffff",
           "#76e391"
       ],
       paragraphs: [

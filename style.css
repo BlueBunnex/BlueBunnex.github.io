@@ -126,6 +126,10 @@ hr {
     margin-right: 8px;
 }
 
+.lefted-border .search-button:hover {
+    background: var(--thirty-contrast);
+}
+
 /* buttons on my profile card leading to other websites */
 /* might wanna hyphenate to match other buttons */
 .cutebutton {

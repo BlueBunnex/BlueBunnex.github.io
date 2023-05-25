@@ -25,7 +25,7 @@ const characterInfo = {
       name: "Ênul",
       img: "kitsu_.png",
       facts: [],
-      design: "A tall, thin, and flat foxgirl with pale blue skin, wide hips/fat butt/calves, and the widest, brightest eyes. Her default outdoor outfit is a dark turquoise beret... dark turquoise 'office' skirt",
+      design: "A tall, thin, and flat fox-featured woman with pale blue skin, wide hips/fat butt/calves, and the widest, brightest eyes. Her hair is black and often tied into a chignon. To work, she wears a white dress shirt, turquoise beret, and turquoise pencil skirt.",
       colors: [
           "#e8ffff",
           "#39ad87"

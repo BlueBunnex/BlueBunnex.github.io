@@ -28,9 +28,8 @@ const characterInfo = {
       design: "widest brightest eyes, foxgirl, pale blue skin, thin, flat, wide hips/fat butt/calves, beret, 'office' skirt",
       colors: [],
       paragraphs: [
-        "(WIP) Ênul is frankly sick of hearing the word 'diagnosed.'",
-        "Her Findr profile lists her as 'energetic but sleepy.' She has since stopped using photos that had her lower half in them.",
-        "She reckons that if she found a man that would _ with her, then that would be nice. She told this to her doctor, but he just told her to remain cautious."
+        "(WIP)",
+        "But lately her Findr profile has featured a growing number of photos of solely her lower half."
       ],
       table_data: {
           Weight: "130lb"

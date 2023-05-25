@@ -26,10 +26,12 @@ const characterInfo = {
       img: "kitsu_.png",
       facts: [],
       design: "widest brightest eyes, foxgirl, pale blue skin, thin, flat, wide hips/fat butt/calves, beret, 'office' skirt",
-      colors: [],
+      colors: [
+          "#76e391"
+      ],
       paragraphs: [
-        "(WIP)Ênul has an energetic mind but a tired body--which is to say, she wants so desperately to go out on a walk to a café with a tall, well-built, slightly geeky guy, but is impeded by her inability to function after her tiring office job.",
-        "But lately her Findr profile has featured a growing number of photos of solely her lower half."
+          "(WIP)Ênul has an energetic mind but a tired body--which is to say, she wants so desperately to go out on a walk to a café with a tall, well-built, slightly geeky guy, but is impeded by her inability to function after her tiring office job.",
+          "But lately her Findr profile has featured a growing number of photos of solely her lower half."
       ],
       table_data: {
           Weight: "130lb"

@@ -28,7 +28,7 @@ const characterInfo = {
       design: "widest brightest eyes, foxgirl, pale blue skin, thin, flat, wide hips/fat butt/calves, beret, 'office' skirt",
       colors: [],
       paragraphs: [
-        "(WIP)",
+        "(WIP)Ênul has an energetic mind but a tired body--which is to say, she wants so desperately to go out on a walk to a café with a tall, well-built, slightly geeky guy, but is impeded by her inability to function after her tiring office job.",
         "But lately her Findr profile has featured a growing number of photos of solely her lower half."
       ],
       table_data: {

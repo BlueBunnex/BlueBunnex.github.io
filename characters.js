@@ -35,6 +35,7 @@ const characterInfo = {
           "But lately her Findr profile has featured a growing number of photos of solely her lower half."
       ],
       table_data: {
+          IPA: "[eː.ɲul]",
           Weight: "130lb"
       }
   }

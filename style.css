@@ -3,9 +3,9 @@
     /* var(--color) */ /* 60 30 10 rule */
     --ten: #ff7373;
     --ten-dark: #c75260;
-    --thirty: #fff6f7;
+    --thirty: #0fffff;
     --thirty-contrast: #ac4669;
-    --sixty: #fffefe;
+    --sixty: #ffffff;
     font-family: 'Poppins', sans-serif;
 
     color: black;

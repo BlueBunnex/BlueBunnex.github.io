@@ -22,6 +22,43 @@ body {
     background-position: center center;*/
 }
 
+p {
+    /*text-indent: 2em;*/
+    text-align: left;
+    padding: 0px 10px;
+    font-size: 15px;
+    
+    /*text-align: justify;
+    text-justify: inter-word;*/
+}
+p i {
+    text-indent: 0;
+}
+p .trans {
+    color: var(--thirty-contrast);
+    background-color: var(--thirty);
+    padding: 6px;
+    border-radius: 8px;
+    width: 100%;
+    margin: 10px 0 0 0;
+    text-indent: 0;
+
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+p .trans a {
+    color: var(--thirty-contrast);
+}
+
+a {
+    text-decoration: none;
+    color: var(--ten);
+}
+a:hover {
+    filter: brightness(80%);
+}
+
 h2 {
     font-size: 24px;
     text-align: left;
@@ -170,43 +207,6 @@ hr {
 .lefted-border {
     border-left: 3px solid var(--ten);
     background: var(--thirty);
-}
-
-p {
-    /*text-indent: 2em;*/
-    text-align: left;
-    padding: 0px 10px;
-    font-size: 14px;
-    
-    /*text-align: justify;
-    text-justify: inter-word;*/
-}
-p i {
-    text-indent: 0;
-}
-p .trans {
-    color: var(--thirty-contrast);
-    background-color: var(--thirty);
-    padding: 6px;
-    border-radius: 8px;
-    width: 100%;
-    margin: 10px 0 0 0;
-    text-indent: 0;
-
-    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-    box-sizing: border-box;         /* Opera/IE 8+ */
-}
-p .trans a {
-    color: var(--thirty-contrast);
-}
-
-a {
-    text-decoration: none;
-    color: var(--ten);
-}
-a:hover {
-    filter: brightness(80%);
 }
 
 /* columns that float next to each other (probably wanna make these ids and not classes...) */

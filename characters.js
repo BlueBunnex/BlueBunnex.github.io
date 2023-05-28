@@ -36,7 +36,7 @@ const characterInfo = {
           "The people of Ênuldred believe Lungwort to be a flower that garners the power of Ênul, growing best in the cooler temperatures of the fall. It is said that planting the flower outside one's home brings good luck to the household."
       ],
       table_data: {
-          IPA: "[eː.ɲul], [eː.ɲul.dʁɛd]",
+          IPA: "[ˈeː.ɲul], [ˈeː.ɲulˌdʁɛt]",
           Weight: "130lb"
       }
   }

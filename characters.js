@@ -32,7 +32,7 @@ const characterInfo = {
           "#ffd700"
       ],
       paragraphs: [
-          "(WIP) Ênul is like, a literal angel. She rules over her domain of Ênuldred, or something."
+          "(WIP) Ênul is like, a literal angel. She rules over her domain of Ênuldred, a snowy landscape of a small but stable population. As an being of fertility, she helps ensure the people of Ênuldred are able to produce enough crop to survive."
       ],
       table_data: {
           IPA: "[eː.ɲul]",

@@ -28,10 +28,11 @@ const characterInfo = {
       design: "A tall, thin, and flat angel with pale blue skin and wide hips/fat butt/calves. She wears a pencil skirt.",
       colors: [
           "#e8ffff",
-          "#39ad87"
+          "#39ad87",
+          "#ffd700"
       ],
       paragraphs: [
-          "(WIP)Ênul is like, a literal angel or something? idk I'm working on it"
+          "(WIP) Ênul is like, a literal angel. She rules over her domain of Ênuldred, or something."
       ],
       table_data: {
           IPA: "[eː.ɲul]",

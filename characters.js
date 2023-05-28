@@ -25,14 +25,13 @@ const characterInfo = {
       name: "Ênul",
       img: "kitsu_.png",
       facts: [],
-      design: "A tall, thin, and flat fox-featured woman with pale blue skin, wide hips/fat butt/calves, and the widest, brightest eyes. Her hair is black and often tied into a chignon. To work, she wears a white dress shirt, turquoise beret, and turquoise pencil skirt.",
+      design: "A tall, thin, and flat angel with pale blue skin and wide hips/fat butt/calves. She wears a pencil skirt.",
       colors: [
           "#e8ffff",
           "#39ad87"
       ],
       paragraphs: [
-          "(WIP)Ênul has an energetic mind but a tired body--which is to say, she wants so desperately to go out on a walk to a café with a tall, well-built, slightly geeky guy, but is impeded by her inability to function after her tiring office job.",
-          "But lately her Findr profile has featured a growing number of photos of solely her lower half."
+          "(WIP)Ênul is like, a literal angel or something? idk I'm working on it"
       ],
       table_data: {
           IPA: "[eː.ɲul]",

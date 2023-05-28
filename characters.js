@@ -25,18 +25,18 @@ const characterInfo = {
       name: "Ênul",
       img: "kitsu_.png",
       facts: [],
-      design: "A tall, thin, and flat angel with pale blue skin and wide hips/fat butt/calves. She wears a pencil skirt.",
+      design: "A tall, thin, and flat angel with pale blue skin and wide hips/fat butt/calves. She wears a (golden?) pencil skirt.",
       colors: [
           "#e8ffff",
           "#39ad87",
           "#ffbf00"
       ],
       paragraphs: [
-          "(WIP) Ênul is like, a literal angel. She rules over her domain of Ênuldred, a snowy landscape of a small but stable population. As an being of fertility, she helps ensure the people of Ênuldred are able to produce enough crop to survive. When Ênuldred is in high times, so too is this prosperity reflected in her body, which grows broader and grander--her chest, thighs, and even her belly growing outwards.",
+          "(WIP) Ênul is an angel. She rules over her domain of Ênuldred, a snowy landscape of a small but stable population. As an being of fertility, she helps ensure the people of Ênuldred are able to produce enough crop to survive. When Ênuldred is in high times, so too is this prosperity reflected in her body, which grows broader and grander--her breast, thighs, and even her belly growing outwards.",
           "The people of Ênuldred believe Lungwort to be a flower that garners the power of Ênul, growing best in the cooler temperatures of the fall. It is said that planting the flower outside one's home brings good luck to the household."
       ],
       table_data: {
-          IPA: "[eː.ɲul]",
+          IPA: "[eː.ɲul], [eː.ɲul.dʁɛd]",
           Weight: "130lb"
       }
   }

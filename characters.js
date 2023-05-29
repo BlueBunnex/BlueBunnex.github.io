@@ -33,6 +33,7 @@ const characterInfo = {
       ],
       paragraphs: [
           "(WIP) Ênul is an angel. She rules over her domain of Ênuldred, a snowy landscape of a small but stable population. As an being of fertility, she helps ensure the people of Ênuldred are able to produce enough crop to survive. When Ênuldred is in high times, so too is this prosperity reflected in her body, which grows broader and grander--her breast, thighs, and even her belly growing outwards.",
+          "As an angel, Ênul does not possess reproductive organs or 'privates,' and has yet to acclimate to the human concept of 'nudity'--what clothes she does where moreso an expression of artistic beauty than a practical outfit. Being aware of this, she is always wary to appear before her subjects.",
           "The people of Ênuldred believe Lungwort to be a flower that garners the power of Ênul, growing best in the cooler temperatures of the fall. It is said that planting the flower outside one's home brings good luck to the household."
       ],
       table_data: {

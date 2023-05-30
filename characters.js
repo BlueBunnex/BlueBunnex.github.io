@@ -27,7 +27,7 @@ const characterInfo = {
       facts: [
           "The people of Ênuldred believe Lungwort to be a flower that garners the power of Ênul, growing best in the cooler temperatures of the fall. It is said that planting the flower outside one's home welcomes prosperity."
       ],
-      design: "(WIP) A tall, thin, and flat angel with a fat butt. Her hair is a dark brown-black, her skin of a pale peachy sort. She often wears a golden pencil skirt, gold bracelets, and a wool shawl that highlights her underboob.",
+      design: "(WIP) A tall, thin, and flat angel with a fat butt. Her hair is a dark brown-black, her skin of a pale peachy sort. She is always adorned with gold—her pencil skirt, bracelets, and headband. Additionally, she wears a wool shawl that highlights her underboob.",
       colors: [
           "#ffbf00",
           "#3b1e1c"

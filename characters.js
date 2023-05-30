@@ -25,10 +25,8 @@ const characterInfo = {
       name: "Ênul",
       img: "kitsu_.png",
       facts: [],
-      design: "A tall, thin, and flat angel with pale blue skin and wide hips/fat butt/calves. Her hair is a dark brown-black. She often wears a golden pencil skirt, gold bracelets, and a white bra-thing.",
+      design: "A tall, thin, and flat angel with a fat butt. Her hair is a dark brown-black, her skin of a pale peachy sort. She often wears a golden pencil skirt, gold bracelets, and a white shawl that highlights her underboob.",
       colors: [
-          "#e8ffff",
-          "#39ad87",
           "#ffbf00",
           "#170d0c"
       ],

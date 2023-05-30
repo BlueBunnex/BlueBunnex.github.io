@@ -23,7 +23,7 @@ const characterInfo = {
   },
   'enul': {
       name: "Ênul",
-      img: "kitsu_.png",
+      img: "enulsketch.png",
       facts: [
           "The people of Ênuldred believe Lungwort to be a flower that garners the power of Ênul, growing best in the cooler temperatures of the fall. It is said that planting the flower outside one's home brings good luck to the household."
       ],

@@ -25,11 +25,12 @@ const characterInfo = {
       name: "Ênul",
       img: "kitsu_.png",
       facts: [],
-      design: "A tall, thin, and flat angel with pale blue skin and wide hips/fat butt/calves. She wears a (golden?) pencil skirt.",
+      design: "A tall, thin, and flat angel with pale blue skin and wide hips/fat butt/calves. Her hair is a dark brown-black. She often wears a golden pencil skirt, gold bracelets, and a white bra-thing.",
       colors: [
           "#e8ffff",
           "#39ad87",
-          "#ffbf00"
+          "#ffbf00",
+          "#170d0c"
       ],
       paragraphs: [
           "Ênul is an angel. She rules over her domain of Ênuldred, a snowy landscape of a small but stable population. As an being of fertility, she helps ensure the people of Ênuldred are able to produce enough crop to survive. When Ênuldred is in high times, so too is this prosperity reflected in her body, which grows broader and grander—her breast, thighs, and even her belly growing outwards.",

@@ -25,12 +25,12 @@ const characterInfo = {
       name: "Ênul",
       img: "enulsketch.png",
       facts: [
-          "The people of Ênuldred believe Lungwort to be a flower that garners the power of Ênul, growing best in the cooler temperatures of the fall. It is said that planting the flower outside one's home brings good luck to the household."
+          "The people of Ênuldred believe Lungwort to be a flower that garners the power of Ênul, growing best in the cooler temperatures of the fall. It is said that planting the flower outside one's home welcomes prosperity."
       ],
-      design: "A tall, thin, and flat angel with a fat butt. Her hair is a dark brown-black, her skin of a pale peachy sort. She often wears a golden pencil skirt, gold bracelets, and a white shawl that highlights her underboob.",
+      design: "(WIP) A tall, thin, and flat angel with a fat butt. Her hair is a dark brown-black, her skin of a pale peachy sort. She often wears a golden pencil skirt, gold bracelets, and a wool shawl that highlights her underboob.",
       colors: [
           "#ffbf00",
-          "#170d0c"
+          "#3b1e1c"
       ],
       paragraphs: [
           "Ênul is an angel. She rules over her domain of Ênuldred, a snowy landscape of a small but stable population. As an being of fertility, she helps ensure the people of Ênuldred are able to produce enough crop to survive. When Ênuldred is in high times, so too is this prosperity reflected in her body, which grows broader and grander—her breast, thighs, and even her belly growing outwards.",

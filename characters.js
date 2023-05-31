@@ -21,8 +21,8 @@ const characterInfo = {
           Weight: "245lb"
       }
   },
-  'penny': {
-      name: "Penny (WIP)",
+  'wip': {
+      name: "wip character",
       img: "none.png",
       facts: [],
       design: "long full pear hair, shortstock, boob freckles, a nice suit with a big window?",

@@ -20,27 +20,5 @@ const characterInfo = {
       table_data: {
           Weight: "245lb"
       }
-  },
-  'marilyn': {
-      name: "Marilyn Sugar",
-      img: "none.png",
-      facts: [],
-      design: "Long dense curly hair, shortstock, boob freckles, a nice suit with a big window? She's peppy, bright, and comfortable being overweight.",
-      colors: [],
-      paragraphs: [],
-      table_data: {
-          Weight: "280lb"
-      }
-  },
-  'kane': {
-      name: "Kane Sugar",
-      img: "none.png",
-      facts: [],
-      design: "much taller than Marilyn",
-      colors: [],
-      paragraphs: [],
-      table_data: {
-          Weight: "140lb"
-      }
   }
 };

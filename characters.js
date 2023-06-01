@@ -21,15 +21,26 @@ const characterInfo = {
           Weight: "245lb"
       }
   },
-  'wip': {
-      name: "wip character",
+  'marilyn': {
+      name: "Marilyn Sugar",
       img: "none.png",
       facts: [],
-      design: "long full pear hair, shortstock, boob freckles, a nice suit with a big window?",
+      design: "long dense curly hair, shortstock, boob freckles, a nice suit with a big window?",
       colors: [],
       paragraphs: [],
       table_data: {
           Weight: "a lot of lb"
+      }
+  },
+  'kane': {
+      name: "Kane Sugar",
+      img: "none.png",
+      facts: [],
+      design: "much taller than Marilyn",
+      colors: [],
+      paragraphs: [],
+      table_data: {
+          Weight: "not a lot of lb"
       }
   }
 };

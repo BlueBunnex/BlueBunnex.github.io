@@ -29,7 +29,7 @@ const characterInfo = {
       colors: [],
       paragraphs: [],
       table_data: {
-          Weight: "a lot of lb"
+          Weight: "280lb"
       }
   },
   'kane': {
@@ -40,7 +40,7 @@ const characterInfo = {
       colors: [],
       paragraphs: [],
       table_data: {
-          Weight: "not a lot of lb"
+          Weight: "140lb"
       }
   }
 };

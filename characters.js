@@ -3,7 +3,7 @@ const characterInfo = {
       name: "Purdy",
       img: "purdy.png",
       facts: [
-          "Sarrath city, though located in the arid desert, often doesn't seem that way due to the extreme urbanization and green efforts."
+          "Her city of Sarrath is located in the arid desert. She works for the Sarrath Green Development (SGD), though her position in management has her working inside most of the time."
       ],
       design: "A shortstock dark-skinned woman with curt blonde hair. Her default outfit is a dark maroon crop-top sweater, clean white jean shorts and thigh highs, and thick silver bangles on her wrists. Resting :3 face.",
       colors: [
@@ -13,9 +13,9 @@ const characterInfo = {
           "#ffedab"
       ],
       paragraphs: [
-          "I only have sentence segments so lore is still WIP"
+          "I only have sentence segments so lore is still WIP",
           "...she flaunted herself from the mall newly changed and carrying a hefty bag in each hand, if not feeling a little overexposed, the flabby folds of her belly muffin-topping out from above her jeans.",
-          "...with six months of rent prepaid for in an apartment quickly discovered to be too cramped for a gal of her scale... (hallway-clogging?)",
+          "...with six months of rent prepaid for in an apartment quickly discovered to be too cramped for a gal of her scale... (hallway-clogging?)"
       ],
       table_data: {
           Weight: "245lb"

@@ -25,7 +25,7 @@ const characterInfo = {
       name: "Marilyn Sugar",
       img: "none.png",
       facts: [],
-      design: "long dense curly hair, shortstock, boob freckles, a nice suit with a big window?",
+      design: "Long dense curly hair, shortstock, boob freckles, a nice suit with a big window? She's peppy, bright, and comfortable being overweight.",
       colors: [],
       paragraphs: [],
       table_data: {

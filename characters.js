@@ -1,7 +1,7 @@
 const characterInfo = {
   'purdy': {
       name: "Purdy",
-      img: "purdy.png",
+      img: "purdy_thicks.png",
       facts: [
           "Her city of Sarrath is located in the arid desert. She works for the Sarrath Green Development Company (SGDC), though her position in management has her working inside most of the time.",
           "Her favourite food is the thick-crust curry pizza from Izza's Pizzas."
@@ -19,7 +19,7 @@ const characterInfo = {
           "...with six months of rent prepaid for in an apartment quickly discovered to be too cramped for a gal of her scale... (hallway-clogging?)"
       ],
       table_data: {
-          Weight: "245lb"
+          Weight: "460lb"
       }
   }
 };

@@ -26,7 +26,7 @@ const characterInfo = {
     name: "wip dragon oc",
       img: "none.png",
       facts: [],
-      design: 'fluffy dragon that protects her den, evil and confident and tough and agile, water-bloated and breaths water, floral green to light blue gradient, big tail, heavy eyeshadow, pan, "How am I supposed to rule when my hiPS ARE BIGGER THAN MY HOARD"',
+      design: 'fluffy dragon that protects her den, evil and confident and tough and agile, water-bloated and breaths water, poof-a-floof hair, floral bra, green to light blue gradient, big tail, heavy eyeshadow, pan, "How am I supposed to rule when my hiPS ARE BIGGER THAN MY HOARD"',
       colors: [
         "#40db4d",
         "#9cf2ff"

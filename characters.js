@@ -26,12 +26,14 @@ const characterInfo = {
     name: "Samantha",
       img: "none.png",
       facts: [],
-      design: 'fluffy dragon that protects her den, evil and confident and tough and agile, water-bloated and breaths water, poof-a-floof hair, floral bra, green to light blue gradient, big tail, heavy eyeshadow, "How am I supposed to rule when my hiPS ARE BIGGER THAN MY HOARD"',
+      design: 'A fluffy water-bloated dragon that breaths water. Blue poof-a-floof hair, deep blue lipstick, floral bra (daisies), green to light blue gradient, big tail, heavy eyeshadow.',
       colors: [
-        "#40db4d",
+        "#98f5bb",
         "#9cf2ff"
       ],
-      paragraphs: [],
+      paragraphs: [
+          '(WIP) She protects her den. She is confident and tough and agile. "How am I supposed to rule when my hiPS ARE BIGGER THAN MY HOARD!?"'
+      ],
       table_data: {
           Gender: "Female",
           Orientation: "Pansexual",

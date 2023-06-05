@@ -193,10 +193,6 @@ hr {
     padding: 5px;
 }
 
-.lefted-border p {
-    padding-left: 8px;
-}
-
 /* columns that float next to each other (probably wanna make these ids and not classes...) */
 .left-column, .right-column {
     padding: 0 16px;

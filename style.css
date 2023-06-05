@@ -190,6 +190,11 @@ hr {
 .lefted-border {
     border-left: 3px solid var(--ten);
     background: var(--thirty);
+    padding: 5px;
+}
+
+.lefted-border p {
+    padding-left: 8px;
 }
 
 /* columns that float next to each other (probably wanna make these ids and not classes...) */

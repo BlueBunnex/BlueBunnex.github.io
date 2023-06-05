@@ -26,7 +26,7 @@ const characterInfo = {
     name: "Samantha",
       img: "none.png",
       facts: [],
-      design: 'A fluffy water-bloated dragon that breaths water. Blue poof-a-floof hair, deep blue lipstick, floral bra (daisies), green to light blue gradient, big tail, heavy eyeshadow.',
+      design: 'A fluffy water-bloated dragon that breaths water. Blue poof-a-floof hair, heavy deep blue lipstick and eyeshadow. Floral bra (daisies), descending green to light blue gradient, big tail.',
       colors: [
         "#98f5bb",
         "#9cf2ff"

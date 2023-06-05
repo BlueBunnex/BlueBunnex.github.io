@@ -146,6 +146,11 @@ hr {
     color: var(--thirty);
 }
 
+.lefted-border .search-button i {
+    width: 16px;
+    text-align: center;
+}
+
 /* buttons on my profile card leading to other websites */
 /* might wanna hyphenate to match other buttons */
 .cutebutton {

@@ -26,7 +26,7 @@ const characterInfo = {
     name: "Samantha",
       img: "none.png",
       facts: [
-          "She has the ability to purify any liquid that she consumes into crystal clear water, and spit it out again like a hose."
+          "She has the ability to purify any liquid that she consumes into crystal clear water, then spit it out again like a hose."
       ],
       design: 'A fluffy water-bloated dragon that breaths water. Blue poof-a-floof hair, heavy deep blue lipstick and eyeshadow. Floral bra (daisies), descending green to light blue gradient, big tail.',
       colors: [
@@ -34,9 +34,9 @@ const characterInfo = {
         "#9cf2ff"
       ],
       paragraphs: [
-          '(WIP) She protects her den. Contrary to her appearance she is strong, tough, and agile, for she exercises moderately and eats very well. Her belly can stretch to accomodate an enourmous amount of water. "How am I supposed to rule when my hiPS ARE BIGGER THAN MY HOARD!?"',
           "Her personality is a switch: If the second person is submissive then she rises to fill the role of leader and acts very confidently, but if the second person is dominant then she remains mellow and coy. If she's with more than one person who are all submissive, it may take longer for her confidence to rise enough to lead the group.",
-          "Being so tall, Sam has trouble fitting into most buildings not expressely designed to accomodate dragons, but that hasn't stopped her from trying yet—always convincing herself that she's small enough for the door, only for her massive butt to wedge into the frame right as she thinks she's through."
+          "Being so tall, Sam has trouble fitting into most buildings not expressely designed to accomodate dragons, but that hasn't stopped her from trying yet—always convincing herself that she's small enough for the door, only for her massive butt to wedge into the frame right as she thinks she's through.",
+          '(WIP) She protects her den. Contrary to her appearance she is strong, tough, and agile, for she exercises moderately and eats very well. Her belly can stretch to accomodate an enourmous amount of water. "How am I supposed to rule when my hiPS ARE BIGGER THAN MY HOARD!?"'
       ],
       table_data: {
           Gender: "Female",

@@ -39,7 +39,8 @@ const characterInfo = {
           Gender: "Female",
           Orientation: "Pansexual",
           Weight: "varies based on water carried",
-          Height: "8'1\""
+          Height: "8'1\"",
+          Likes: "Chilidogs with lots of mayo, kisses, belly rubs"
       }
   }
 };

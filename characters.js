@@ -34,7 +34,7 @@ const characterInfo = {
       paragraphs: [
           "Her personality is a switch: If the second person is submissive then she rises to fill the role of leader and acts very confidently, but if the second person is dominant then she remains mellow and coy. If she's with more than one person who are all submissive, it may take longer for her confidence to rise enough to lead the group.",
           '(WIP) She protects her den. Contrary to her appearance she is strong, tough, and agile, for she exercises moderately and eats very well. Her belly can stretch to accomodate an enourmous amount of water. "How am I supposed to rule when my hiPS ARE BIGGER THAN MY HOARD!?"',
-          "Being so tall she has trouble fitting into most buildings not expressely designed to accomodate dragons, but that hasn't stopped her from trying yet—always thinking that she can <i></i> get through this one this time, only for her fat butt to wedge into the frame with a creak."
+          "Being so tall, Sam has trouble fitting into most buildings not expressely designed to accomodate dragons, but that hasn't stopped her from trying yet—always convincing herself that she's small enough for the door, only for her massive butt to wedge into the frame right as she thinks she's through."
       ],
       table_data: {
           Gender: "Female",

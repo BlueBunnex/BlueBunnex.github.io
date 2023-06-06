@@ -38,7 +38,8 @@ const characterInfo = {
       table_data: {
           Gender: "Female",
           Orientation: "Pansexual",
-          Weight: "varies based on water carried"
+          Weight: "varies based on water carried",
+          Height: "8'1\""
       }
   }
 };

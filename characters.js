@@ -32,6 +32,7 @@ const characterInfo = {
         "#9cf2ff"
       ],
       paragraphs: [
+          "Her personality is a switch: If the second person is submissive then she rises to fill the role of leader and acts very confidently, but if the second person is dominant then she remains mellow and coy. If she's with more than one person who are all submissive, it may take longer for her confidence to rise enough to lead the group.",
           '(WIP) She protects her den. She is confident and tough and agile. "How am I supposed to rule when my hiPS ARE BIGGER THAN MY HOARD!?"'
       ],
       table_data: {

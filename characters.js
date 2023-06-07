@@ -28,7 +28,7 @@ const characterInfo = {
       facts: [
           "She has the ability to purify any liquid that she consumes into crystal clear water, then spit it out again like a hose."
       ],
-      design: 'A fluffy water-bloated dragon that breaths water. Blue poof-a-floof hair, heavy deep blue lipstick and eyeshadow. Red bra with daisies, turquoise scaley belly and tail, blue furry arms and legs.',
+      design: 'A fluffy water-bloated dragon that breaths water. Heavy deep blue lipstick and eyeshadow, turquoise scaley belly and tail, blue furry arms and legs. Currently wears only a red swimsuit with daisies.',
       colors: [
         "#98f5bb",
         "#9cf2ff"

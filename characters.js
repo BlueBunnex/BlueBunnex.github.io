@@ -26,7 +26,8 @@ const characterInfo = {
     name: "Samantha",
       img: "big_samantha.png",
       facts: [
-          "She has the ability to purify any liquid that she consumes into crystal clear water, then spit it out again like a hose. For this purpose, her belly, breasts, and hips can stretch to accomodate an enourmous amount of water."
+          "She has the ability to purify any liquid that she consumes into crystal clear water, then spit it out again like a hose. For this purpose, her belly, breasts, and hips can stretch to accomodate an enourmous amount of water.",
+          "As a dragon, she has the instinctive compulsion to amass and maintain a horde of treasure. Living in human society, this results in a large pile of trinkets shoved in one corner of her room."
       ],
       design: 'A fluffy water-bloated dragon that breaths water. Heavy deep blue lipstick and eyeshadow, turquoise scaley belly and tail, blue furry arms and legs. Currently wears only a red swimsuit with daisies.',
       colors: [
@@ -37,7 +38,7 @@ const characterInfo = {
       paragraphs: [
           "Her personality is a switch: If the second person is submissive then she rises to fill the role of leader and acts very confidently, but if the second person is dominant then she remains mellow and coy. If she's with more than one person who are all submissive, it may take longer for her confidence to rise enough to lead the group.",
           "Being so tall, Sam has trouble fitting into most buildings not expressely designed to accomodate dragons, but that hasn't stopped her from trying yet—always convincing herself that she's small enough for the door, only for her massive butt to wedge into the frame right as she thinks she's through.",
-          '(WIP) She protects her den. Contrary to her appearance she is strong, tough, and agile, for she exercises moderately and eats very well. "How am I supposed to rule when my hiPS ARE BIGGER THAN MY HOARD!?"'
+          'Contrary to her appearance she is strong, tough, and agile, for she exercises moderately and eats very well.'
       ],
       table_data: {
           Gender: "Female",
@@ -47,4 +48,4 @@ const characterInfo = {
           Likes: "Chilidogs with lots of mayo, kisses, belly rubs"
       }
   }
-};
+}; // "How am I supposed to rule when my hiPS ARE BIGGER THAN MY HOARD!?"

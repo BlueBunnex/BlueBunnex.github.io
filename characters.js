@@ -26,7 +26,7 @@ const characterInfo = {
     name: "Samantha",
       img: "big_samantha.png",
       facts: [
-          "She has the ability to purify any liquid that she consumes into crystal clear water, then spit it out again like a hose. Her belly as well as her breasts and hips can stretch to accomodate an enourmous amount of water for this purpose."
+          "She has the ability to purify any liquid that she consumes into crystal clear water, then spit it out again like a hose. For this purpose, her belly, breasts, and hips can stretch to accomodate an enourmous amount of water."
       ],
       design: 'A fluffy water-bloated dragon that breaths water. Heavy deep blue lipstick and eyeshadow, turquoise scaley belly and tail, blue furry arms and legs. Currently wears only a red swimsuit with daisies.',
       colors: [

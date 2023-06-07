@@ -24,11 +24,11 @@ const characterInfo = {
   },
   'samantha': {
     name: "Samantha",
-      img: "none.png",
+      img: "big_samantha.png",
       facts: [
           "She has the ability to purify any liquid that she consumes into crystal clear water, then spit it out again like a hose."
       ],
-      design: 'A fluffy water-bloated dragon that breaths water. Blue poof-a-floof hair, heavy deep blue lipstick and eyeshadow. Floral bra (daisies), descending green to light blue gradient, big tail.',
+      design: 'A fluffy water-bloated dragon that breaths water. Blue poof-a-floof hair, heavy deep blue lipstick and eyeshadow. Red bra with daisies, turquoise scaley belly and tail, blue furry arms and legs.',
       colors: [
         "#98f5bb",
         "#9cf2ff"

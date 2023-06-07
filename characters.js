@@ -30,8 +30,9 @@ const characterInfo = {
       ],
       design: 'A fluffy water-bloated dragon that breaths water. Heavy deep blue lipstick and eyeshadow, turquoise scaley belly and tail, blue furry arms and legs. Currently wears only a red swimsuit with daisies.',
       colors: [
-        "#98f5bb",
-        "#9cf2ff"
+        "#cfffe1",
+        "#81d6e3",
+        "#222b5e"
       ],
       paragraphs: [
           "Her personality is a switch: If the second person is submissive then she rises to fill the role of leader and acts very confidently, but if the second person is dominant then she remains mellow and coy. If she's with more than one person who are all submissive, it may take longer for her confidence to rise enough to lead the group.",

@@ -2,11 +2,10 @@
 :root {
     /* var(--color) */ /* 60 30 10 rule */
     --ten: #82d9aa;
+    --ten-dark: #55a885; /* for hover effect */
     --thirty: #e8ffef;
     --thirty-contrast: #46ac6b;
     --sixty: #ffffff;
-    
-    --ten-dark: #c75260; /* what is this for */
     
     font-family: 'Poppins', sans-serif;
     color: black;

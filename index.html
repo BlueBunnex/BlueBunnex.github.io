@@ -161,39 +161,16 @@
                 <span style="text-align: left; display: inline-block; width: 100%; border-radius: 6px; padding: 0px; overflow: hidden;">
             
                     <!-- profile -->
-                    <img src="img/holly_pfp.png" alt="My Awesome Profile Picture" style="border-radius: 50%; width: 100%;">
-        
-                    <!-- heart button (idk what purpose this serves) -->
-                    <script>
-                            
-                            var hearted = false;
-                            
-                            function heart() {
-                                hearted = !hearted;
-                                
-                                if (hearted) {
-                                    document.getElementById("no-heart").style.display = "none";
-                                    document.getElementById("yes-heart").style.display = "inline";
-                                } else {
-                                    document.getElementById("no-heart").style.display = "inline";
-                                    document.getElementById("yes-heart").style.display = "none";
-                                }
-                            }
-                            
-                        </script>
-                        
-                        <button class="cutebutton" onclick="heart();" style="white-space: nowrap;" type="button">
-                            <i id="no-heart" class="fa-regular fa-heart" style="display: inline;"></i>
-                            <i id="yes-heart" class="fa-solid fa-heart" style="display: none;"></i>
-                            Heart!
-                        </button>
+                    <img src="img/holly_pfp.png" style="border-radius: 50%; width: 100%;">
                     
-                    <!-- brief description + links -->
+                    <!-- brief description + links to other pages -->
                     <!--<h2 style="color: black; font-size: 14px;"><i class="fa-solid fa-user"></i> About Me</h2>-->
                     
                     <div style="margin-top: 8px; padding: 0px 5px;">
                         
-                        <p class="lefted-border" style="padding-left: 8px; font-size: 14px; color: var(--thirty-contrast);">hi I'm kitsumitsu I draw things and learn Chinese</p>
+                        <p class="lefted-border" style="padding-left: 8px; font-size: 14px; color: var(--thirty-contrast);">
+                            hi I'm kitsumitsu I draw things and learn Chinese
+                        </p>
                         
                         <!-- nav field -->
                         <div class="lefted-border" style="margin: 12px 0;">
@@ -201,6 +178,31 @@
                         </div>
                         
                     </div>
+                    
+                    <!-- heart button (idk what purpose this serves) -->
+                    <script>
+                            
+                        var hearted = false;
+
+                        function heart() {
+                            hearted = !hearted;
+
+                            if (hearted) {
+                                document.getElementById("no-heart").style.display = "none";
+                                document.getElementById("yes-heart").style.display = "inline";
+                            } else {
+                                document.getElementById("no-heart").style.display = "inline";
+                                document.getElementById("yes-heart").style.display = "none";
+                            }
+                        }
+
+                    </script>
+
+                    <button class="cutebutton" onclick="heart();" style="white-space: nowrap;" type="button">
+                        <i id="no-heart" class="fa-regular fa-heart" style="display: inline;"></i>
+                        <i id="yes-heart" class="fa-solid fa-heart" style="display: none;"></i>
+                        Heart!
+                    </button>
         
                 </span>
 

@@ -170,12 +170,6 @@
                         
                         <p class="lefted-border" style="padding-left: 8px; font-size: 14px; color: var(--thirty-contrast);">hi I'm kitsumitsu I draw things and learn Chinese</p>
                         
-                        <button class="cutebutton" onclick="heart();" style="white-space: nowrap;" type="button">
-                            <i id="no-heart" class="fa-regular fa-heart" style="display: inline;"></i>
-                            <i id="yes-heart" class="fa-solid fa-heart" style="display: none;"></i>
-                            Heart!
-                        </button>
-                        
                         <script>
                             
                             var hearted = false;
@@ -186,13 +180,19 @@
                                 if (hearted) {
                                     document.getElementById("no-heart").style.display = "none";
                                     document.getElementById("yes-heart").style.display = "inline";
-                                else {
+                                } else {
                                     document.getElementById("no-heart").style.display = "inline";
                                     document.getElementById("yes-heart").style.display = "none";
                                 }
                             }
                             
                         </script>
+                        
+                        <button class="cutebutton" onclick="heart();" style="white-space: nowrap;" type="button">
+                            <i id="no-heart" class="fa-regular fa-heart" style="display: inline;"></i>
+                            <i id="yes-heart" class="fa-solid fa-heart" style="display: none;"></i>
+                            Heart!
+                        </button>
                         
                     </div>
         
@@ -277,7 +277,7 @@
                 <select id="filter" onchange="updateFilter()">
                     <option value="none">No Filter</option>
                     <option value="anthro">Anthro</option>
-                    <option value="chubby">Chubby</option>
+                    <option value="plus-size">Plus Size</option>
                     <option value="oc-purdy">Purdy (OC)</option>
                     <option value="other-drawing">Other's Drawing</option>
                     <option value="other-oc">Other's OC</option>
@@ -338,15 +338,15 @@
                         
                     }
                     
-                    insertImage("purdy.png", "anthro chubby oc-purdy");
+                    insertImage("purdy.png", "anthro plus-size oc-purdy");
                     insertImage("kitsugiveaway.png", "other-drawing");
                     insertImage("shish.gif", "");
                     insertImage("Amuk.png", "");
                     insertImage("fume_chillin.png", "");
-                    insertImage("popstar.png", "chubby");
+                    insertImage("popstar.png", "plus-size");
                     insertImage("Ant_christmas.png", "other-oc");
-                    insertImage("Maggie.png", "anthro chubby");
-                    insertImage("autumn_fox.png", "anthro chubby");
+                    insertImage("Maggie.png", "anthro plus-size");
+                    insertImage("autumn_fox.png", "anthro plus-size");
                     insertImage("Willow.png", "");
                     insertImage("cute_tiger.png", "anthro");
                     

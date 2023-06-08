@@ -4,7 +4,6 @@
     --ten: #82d9aa;
     --ten-dark: #55a885; /* for hover effect */
     --thirty: #edf2ee;
-    --thirty-contrast: red; /* wanna remove, replace with black */
     --sixty: #ffffff;
     
     font-family: 'Poppins', sans-serif;
@@ -75,7 +74,7 @@ hr {
     font-weight: 600;
     height: 20px;
     line-height: 25px;
-    color: var(--thirty-contrast);
+    color: var(--ten-dark); /* only actually applies to the .de portion */
     cursor: pointer;
     font-size: 24px;
 }

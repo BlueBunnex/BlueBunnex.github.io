@@ -3,8 +3,8 @@
     /* var(--color) */ /* 60 30 10 rule */
     --ten: #82d9aa;
     --ten-dark: #55a885; /* for hover effect */
-    --thirty: #e8ffef;
-    --thirty-contrast: #46ac6b;
+    --thirty: #edf2ee;
+    --thirty-contrast: red; /* wanna remove, replace with black */
     --sixty: #ffffff;
     
     font-family: 'Poppins', sans-serif;

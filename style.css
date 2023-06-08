@@ -141,8 +141,15 @@ hr {
     margin-right: 8px;
 }
 
+/* region with a left stripe and background */
+.lefted-border {
+    border-left: 3px solid var(--ten);
+    background: var(--thirty);
+    padding: 5px;
+}
+
 .lefted-border .search-button:hover {
-    background: var(--thirty-contrast);
+    background: var(--ten-dark);
     color: var(--thirty);
 }
 
@@ -185,12 +192,6 @@ hr {
     display: block;
     text-align: left;
     background: var(--thirty);
-}
-
-.lefted-border {
-    border-left: 3px solid var(--ten);
-    background: var(--thirty);
-    padding: 5px;
 }
 
 /* columns that float next to each other (probably wanna make these ids and not classes...) */

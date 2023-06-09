@@ -188,8 +188,6 @@
                             document.getElementById("no-nsfw").style.display = "inline";
                             document.getElementById("yes-nsfw").style.display = "none";
                         }
-                        
-                        alert(hearted);
                     }
                     
                 </script>
@@ -221,8 +219,14 @@
                             
                             for (const child of document.getElementById("insert-here").children) {
                                 
-                                // check if it has the tag, if not -> "display: none;"
-                                if (child.className.indexOf(e.value) == -1) {
+                                // check if it is allowed by nsfw AND has the tag
+                                let isBlocked = child.className.indexOf("nsfw") != -1;
+                                
+                                if (isBlocked && nsfwEnabled) {
+                                    isBlocked = false;
+                                }
+                                
+                                if (isBlocked || child.className.indexOf(e.value) == -1) {
                                     child.style.display = "none";
                                 } else {
                                     child.style.display = "inline-block";

@@ -243,7 +243,7 @@
                                 }
                                 
                                 // check if it is allowed by nsfw AND has the tag
-                                if (isBlocked || child.className.indexOf(e.value) == -1) {
+                                if (child.className.length != 0 && (isBlocked || child.className.indexOf(e.value) == -1)) {
                                     child.style.display = "none";
                                 } else {
                                     child.style.display = "inline-block";
@@ -289,7 +289,7 @@
                     insertImage("cute_tiger.png", "anthro nsfw");
                     
                     // insert n number of blank cels to make it look cleaner
-                    for (let i = 0; i < 13; i++) { 
+                    for (let i = 0; i < 43; i++) { 
                         document.getElementById('insert-here').innerHTML += "<div style='cursor: default;'></div>";
                     }
                     

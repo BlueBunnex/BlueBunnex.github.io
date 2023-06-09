@@ -233,9 +233,12 @@
                             
                         } else {
                             
-                            for (const child of document.getElementById("insert-here").children) {
+                            var children = document.getElementById("insert-here").children;
+                            for (var i = children.length - 1; i >= 0; i--) {
                                 
-                                // if we reach a blank cell stop further scanning
+                                var child = children[i];
+                                
+                                // if we reach a blank cell stop further scanning (we have to traverse "backwards" for this)
                                 if (child.className.length != 0) {
                                     break;
                                 }

@@ -211,17 +211,18 @@
                     function updateFilter() {
                         var e = document.getElementById("filter");
                         
-                        // get the NSFW blocked status
-                        let isBlocked = child.className.indexOf("nsfw") != -1;
-                                
-                        if (isBlocked && nsfwEnabled) {
-                            isBlocked = false;
-                        }
-                        
                         if (e.value === "none") {
                             
                             for (const child of document.getElementById("insert-here").children) {
                                 
+                                // get the NSFW blocked status
+                                let isBlocked = child.className.indexOf("nsfw") != -1;
+
+                                if (isBlocked && nsfwEnabled) {
+                                    isBlocked = false;
+                                }
+                                
+                                // allow it to display as long as it isn't blocked
                                 if (isBlocked) {
                                     child.style.display = "none";
                                 } else {
@@ -232,6 +233,13 @@
                         } else {
                             
                             for (const child of document.getElementById("insert-here").children) {
+                                
+                                // get the NSFW blocked status
+                                let isBlocked = child.className.indexOf("nsfw") != -1;
+
+                                if (isBlocked && nsfwEnabled) {
+                                    isBlocked = false;
+                                }
                                 
                                 // check if it is allowed by nsfw AND has the tag
                                 if (isBlocked || child.className.indexOf(e.value) == -1) {

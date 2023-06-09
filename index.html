@@ -173,13 +173,23 @@
                     <option value="other-drawing">Other's Drawing</option>
                     <option value="other-oc">Other's OC</option>
                 </select>
+                
+                <script>
+                    
+                    var nsfwEnabled = false;
+                    
+                    toggleNSFW() {
+                        nsfwEnabled = !nsfwEnabled;
+                        alert(nsfwEnabled);
+                    }
+                    
+                </script>
 
-                <!--
-                <a href="universe.html" style="position: absolute; right: 0;">
-                    <span class="English">See my OCs <i class="fa-solid fa-right-from-bracket"></i></span>
-                    <span class="Chinese">看一看我人物 <i class="fa-solid fa-right-from-bracket"></i></span>
+                <a href="javascript:toggleNSFW()" style="position: absolute; right: 0; white-space: nowrap;">
+                    <span class="English">Show Saucy </span>
+                    <span class="Chinese">苹果 </span>
+                    <i class="fa-regular fa-square"></i>
                 </a>
-                -->
 
                 <div style="height: 40px;"></div>
 

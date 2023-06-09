@@ -235,6 +235,11 @@
                             
                             for (const child of document.getElementById("insert-here").children) {
                                 
+                                // if we reach a blank cell stop further scanning
+                                if (child.className.length != 0) {
+                                    break;
+                                }
+                                
                                 // get the NSFW blocked status
                                 let isBlocked = child.className.indexOf("nsfw") != -1;
 
@@ -243,7 +248,7 @@
                                 }
                                 
                                 // check if it is allowed by nsfw AND has the tag
-                                if (child.className.length != 0 && (isBlocked || child.className.indexOf(e.value) == -1)) {
+                                if (isBlocked || child.className.indexOf(e.value) == -1) {
                                     child.style.display = "none";
                                 } else {
                                     child.style.display = "inline-block";

@@ -178,15 +178,15 @@
                     
                     var nsfwEnabled = false;
                     
-                    toggleNSFW() {
+                    function toggleNSFW() {
                         nsfwEnabled = !nsfwEnabled;
                         alert(nsfwEnabled);
                     }
                     
                 </script>
 
-                <a onclick="toggleNSFW();" style="position: absolute; right: 0;">
-                    <span class="English">Show Saucy </span><span class="Chinese">苹果 </span><i class="fa-regular fa-square"></i><i class="fa-regular fa-square-check"></i>
+                <a href="javascript:toggleNSFW()" style="position: absolute; right: 0;">
+                    NSFW <i class="fa-regular fa-square"></i><i class="fa-regular fa-square-check"></i>
                 </a>
 
                 <div style="height: 40px;"></div>

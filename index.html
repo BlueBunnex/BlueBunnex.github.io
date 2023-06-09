@@ -180,13 +180,24 @@
                     
                     function toggleNSFW() {
                         nsfwEnabled = !nsfwEnabled;
-                        alert(nsfwEnabled);
+                        
+                        if (nsfwEnabled) {
+                            document.getElementById("no-nsfw").style.display = "none";
+                            document.getElementById("yes-nsfw").style.display = "inline";
+                        } else {
+                            document.getElementById("no-nsfw").style.display = "inline";
+                            document.getElementById("yes-nsfw").style.display = "none";
+                        }
+                        
+                        alert(hearted);
                     }
                     
                 </script>
 
-                <a href="javascript:toggleNSFW()" style="position: absolute; right: 0;">
-                    NSFW <i class="fa-regular fa-square"></i><i class="fa-regular fa-square-check"></i>
+                <a href="javascript:toggleNSFW()" style="position: absolute; right: 0; white-space: nowrap;">
+                    NSFW 
+                    <i id="no-nsfw" class="fa-regular fa-square" style="display: inline;"></i>
+                    <i id="yes-nsfw" class="fa-regular fa-square-check" style="display: none;"></i>
                 </a>
 
                 <div style="height: 40px;"></div>

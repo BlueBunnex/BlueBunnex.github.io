@@ -63,17 +63,20 @@
             
             /* mini headers in bio */
             .mini-header {
+                position: relative;
                 border-top-style: solid;
                 border-width: 2px;
                 border-color: var(--ten);
-                padding-top: 4px;
                 font-weight: 800;
                 color: var(--ten);
             }
             
-            /*.mini-header span { 
-                style with a line going through later
-            }*/
+            .mini-header span {
+                position: absolute;
+                top: -13px;
+                background: white;
+                left: 10px;
+            }
             
         </style>
 
@@ -120,7 +123,7 @@
                             <span>About Me</span>
                         </div>
                         
-                        <p class="lefted-border" style="padding-left: 8px; font-size: 14px; margin-top: 4px;">
+                        <p class="lefted-border" style="padding-left: 8px; font-size: 14px;">
                             hi I'm kitsumitsu. I draw cute, bbw, & furry stuff and do other stuff sometimes, like 3D model, compose music, and learn Chinese.
                         </p>
                         
@@ -129,7 +132,7 @@
                         </div>
                         
                         <!-- nav field -->
-                        <div class="lefted-border" style="margin: 4px 0 12px 0;">
+                        <div class="lefted-border" style="margin: 12px 0;">
                             <button onclick="location.href='assets.html';" type="button" class="search-button"><i class="fa-solid fa-shapes"></i> Assets</button>
                         </div>
                         

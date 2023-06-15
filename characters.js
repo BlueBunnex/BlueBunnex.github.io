@@ -1,4 +1,13 @@
 const characterInfo = {
+  'julia': {
+      name: "Julianna Lotusheart",
+      img: null,
+      facts: [],
+      design: "A purple goth witch tigress. She's chill and moody.",
+      colors: [],
+      paragraphs: [],
+      table_data: {}
+  },
   'purdy': {
       name: "Purdy",
       img: "purdy_thicks.png",
@@ -13,16 +22,10 @@ const characterInfo = {
           "#f0ffff",
           "#ffedab"
       ],
-      paragraphs: [
-          "lore is still WIP, the following are just some sentence segments I like",
-          "...she flaunted herself from the mall newly changed and carrying a hefty bag in each hand, if not feeling a little overexposed, the flabby folds of her belly muffin-topping out from above her jeans.",
-          "...with six months of rent prepaid for in an apartment quickly discovered to be too cramped for a gal of her scale... (hallway-clogging?)"
-      ],
-      table_data: {
-          Weight: "460lb"
-      }
+      paragraphs: [],
+      table_data: {}
   },
-  'samantha': {
+  'sam': {
     name: "Samantha",
       img: "big_samantha.png",
       facts: [
@@ -44,8 +47,11 @@ const characterInfo = {
           Gender: "Female",
           Orientation: "Pansexual",
           Weight: "varies based on water carried",
-          Height: "8'1\"",
-          Likes: "Chilidogs with lots of mayo, kisses, belly rubs"
+          Height: "8'1\""
       }
   }
-}; // "How am I supposed to rule when my hiPS ARE BIGGER THAN MY HOARD!?"
+};
+// "...she flaunted herself from the mall newly changed and carrying a hefty bag in each hand, if not feeling a little overexposed, the flabby folds of her belly muffin-topping out from above her jeans.",
+// "...with six months of rent prepaid for in an apartment quickly discovered to be too cramped for a hallway-clogging gal like herself..."
+
+// "How am I supposed to rule when my hiPS ARE BIGGER THAN MY HOARD!?"

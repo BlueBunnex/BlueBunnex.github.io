@@ -1,15 +1,17 @@
 const characterInfo = {
   'julia': {
       name: "Julianna Lotusheart",
+      tagline: "goth witch tigress",
       img: null,
       facts: [],
-      design: "A purple goth witch tigress. She's chill and moody. She wears a black loose croptop, pencil skirt (uh not yet) and some other stuff.",
+      design: "She's chill and moody. She wears a black loose croptop, pencil skirt (uh not yet) and some other stuff.",
       colors: [],
       paragraphs: [],
       table_data: {}
   },
   'purdy': {
       name: "Purdy",
+      tagline: "peppy city gal",
       img: "purdy.png",
       facts: [
           "Her city of Sarrath is located in the arid desert. She works for the Sarrath Green Development Company (SGDC), though her position in management has her working inside most of the time.",
@@ -26,7 +28,8 @@ const characterInfo = {
       table_data: {}
   },
   'sam': {
-    name: "Samantha",
+      name: "Samantha",
+      tagline: "big water dragon",
       img: "big_samantha.png",
       facts: [
           "She has the ability to purify any liquid that she consumes into crystal clear water, then spit it out again like a hose. For this purpose, her belly, breasts, and hips can stretch to accomodate an enourmous amount of water.",

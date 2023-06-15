@@ -242,7 +242,7 @@
                     // load all info into selection area to be allowed to be selected
                     var buttons = "";
                     for (const [key, value] of Object.entries(characterInfo)) {
-                        buttons += `<button type="button" class="search-button" onclick="LoadCharacter('` + key + `')"><i class="fa-solid fa-user"></i> ` + value['name'] + `</button>`;
+                        buttons += `<button type="button" class="search-button" onclick="LoadCharacter('` + key + `')"><i class="fa-solid fa-user"></i> ` + value['name'] + `<br><span style="font-weight: 400;">tagline goes here</span></button>`;
                     }
                     document.getElementById("search").innerHTML = buttons + document.getElementById("search").innerHTML;
                     

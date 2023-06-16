@@ -2,9 +2,9 @@ const characterInfo = {
   'julia': {
       name: "Julianna Lotusheart",
       tagline: "goth witch tigress",
-      img: null,
+      img: "julia.png",
       facts: [],
-      design: "She's chill and moody. She wears a black loose croptop, pencil skirt (uh not yet) and some other stuff.",
+      design: "She's sleepy and moody, though chill once you get to know her. She wears a black loose croptop, pencil skirt (uh not yet) and some other stuff.",
       colors: [],
       paragraphs: [],
       table_data: {}

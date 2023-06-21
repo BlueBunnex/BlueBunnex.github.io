@@ -7,9 +7,9 @@ const characterInfo = {
           "When she has trouble sleeping, she likes a little midnight hot chocolate.",
           "Her favourite food is a fried chicken sandwich with pickles and mayo."
       ],
-      design: 'A tan~brown wolf that is a little overweight. She has purple-yellow heterochromia. She is boisterous, well-intentioned, and colorful in nature.',
+      design: 'A tan~brown wolf that is a little overweight. She has purple-yellow heterochromia. She is boisterous, well-intentioned, and colorful in nature, but gets ticked off when she feels like she's being pushed around.',
       colors: [
-          "#705548"
+          "#9c7767"
       ],
       paragraphs: [],
       table_data: {

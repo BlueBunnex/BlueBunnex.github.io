@@ -4,15 +4,13 @@ const characterInfo = {
       tagline: "snuggly chocolate wolf",
       img: "cacao0.png",
       facts: [
-        "When she has trouble sleeping, she likes a little hot chocolate and snuggles in bed to help settle in.",
-        "She loves all things horror. Games, movies, even art. Nevermind she doesn't have the guts to enjoy any of it without someone to grab onto right beside her."
+          "When she has trouble sleeping, she likes a little hot chocolate and snuggles in bed to help settle in.",
+          "She loves all things horror. Games, movies, even art. Nevermind she doesn't have the guts to enjoy any of it without someone to grab onto right beside her."
       ],
       design: 'A tan wolf that is a little pudgey. Her belly and cheeks are extra fluffy. She has purple-yellow heterochromia which is mirrored by the bows in her hair.',
       colors: [],
       paragraphs: [
-        "Cacao is the type of person to yell commands when taking your photo. That is to say two things—one, that she is quite stubborn and a little bossy; and two, that she takes pride in her photography. Framing, shutter speed, color correction are all skills she boasts about using to others.",
-        "Though Cacao seems to be an unamiable woman, in truth she is simply a little too boisterous for her own good.",
-        "One subject she especially enjoys is night photography."
+          "Cacao is the type of person to yell commands when taking your photo. That is to say two things—one, that she is, compared to most, at least a little stubborn; and two, that she takes pride in her photography."
       ],
       table_data: {
           Identity: "Woman",
@@ -22,5 +20,4 @@ const characterInfo = {
       }
   }
 };
-// even somewhat coy notes flavour her dialogue
-// appealing to the little bit of goth in her (which are her words, not mine)
+// she is boisterous, well-intentioned, and colorful

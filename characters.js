@@ -9,7 +9,7 @@ const characterInfo = {
       ],
       design: 'A tan~brown wolf that is a little overweight. She has purple-yellow heterochromia. She is boisterous, well-intentioned, and colorful in nature.',
       colors: [
-          "#875740"
+          "#705548"
       ],
       paragraphs: [],
       table_data: {

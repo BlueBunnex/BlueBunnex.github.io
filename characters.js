@@ -4,20 +4,16 @@ const characterInfo = {
       tagline: "snuggly chocolate wolf",
       img: "cacao0.png",
       facts: [
-          "When she has trouble sleeping, she likes a little hot chocolate and snuggles in bed to help settle in.",
-          "She loves all things horror. Games, movies, even art. Nevermind she doesn't have the guts to enjoy any of it without someone to grab onto right beside her."
+          "When she has trouble sleeping, she likes a little midnight hot chocolate.",
       ],
-      design: 'A tan wolf that is a little pudgey. Her belly and cheeks are extra fluffy. She has purple-yellow heterochromia which is mirrored by the bows in her hair.',
+      design: 'A tan~brown wolf that is a little overweight. She has purple-yellow heterochromia. She is boisterous, well-intentioned, and colorful in nature.',
       colors: [],
-      paragraphs: [
-          "Cacao is the type of person to yell commands when taking your photo. That is to say two things—one, that she is, compared to most, at least a little stubborn; and two, that she takes pride in her photography."
-      ],
+      paragraphs: [],
       table_data: {
           Identity: "Woman",
-          Orientation: "Pansexual",
+          Orientation: "Straight",
           Weight: "Over",
           Height: "Short"
       }
   }
 };
-// she is boisterous, well-intentioned, and colorful

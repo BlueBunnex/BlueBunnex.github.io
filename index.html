@@ -124,7 +124,7 @@
                         </div>
                         
                         <p class="lefted-border" style="margin: 14px 0; padding-left: 8px; font-size: 14px;">
-                            hi I'm kitsumitsu. I draw bbw & furry and do other stuff sometimes like 3D model, compose music, and learn Chinese.
+                            hi I'm kitsumitsu. I draw sfw bbw & furry content and do other stuff sometimes like 3D model, compose music, and learn Chinese.
                         </p>
                         
                         <div class="mini-header">
@@ -135,8 +135,7 @@
                             <button onclick="location.href='https://cohost.org/kitsumitsu';" type="button" class="search-button"><i class="fa-solid fa-up-right-from-square"></i> My Cohost Page</button>
                             <button onclick="location.href='universe.html';" type="button" class="search-button" style="white-space: nowrap;">
                                 <i class="fa-solid fa-users"></i>
-                                My OCs 
-                                <span style="font-size: 10px; transform: translate(-2px, -4px); display: inline-block;">18+</span>
+                                My OCs
                             </button>
                             <button onclick="location.href='assets.html';" type="button" class="search-button"><i class="fa-solid fa-shapes"></i> Assets</button>
                         </div>
@@ -144,32 +143,6 @@
                         <div class="mini-header" style="margin-bottom: 10px;"></div>
                         
                     </div>
-                    
-                    <!-- heart button
-                    <script>
-                            
-                        var hearted = false;
-
-                        function heart() {
-                            hearted = !hearted;
-
-                            if (hearted) {
-                                document.getElementById("no-heart").style.display = "none";
-                                document.getElementById("yes-heart").style.display = "inline";
-                            } else {
-                                document.getElementById("no-heart").style.display = "inline";
-                                document.getElementById("yes-heart").style.display = "none";
-                            }
-                        }
-
-                    </script>
-
-                    <button class="cutebutton" onclick="heart();" style="white-space: nowrap;" type="button">
-                        <i id="no-heart" class="fa-regular fa-heart" style="display: inline;"></i>
-                        <i id="yes-heart" class="fa-solid fa-heart" style="display: none;"></i>
-                        Heart!
-                    </button>
-                    -->
         
                 </div>
 
@@ -201,38 +174,12 @@
                     <option value="none">No Filter</option>
                     <option value="anthro">Anthro</option>
                     <option value="plus-size">Plus Size</option>
-                    <option value="oc-julia">Julianna Lotusheart (OC)</option>
-                    <option value="oc-purdy">Purdy (OC)</option>
-                    <option value="oc-sam">Samantha (OC)</option>
-                    <option value="other-drawing">Other's Drawing</option>
-                    <option value="other-oc">Other's OC</option>
+                    <option value="masc">Male</option>
+                    <option value="fem">Female</option>
                 </select>
 
-                <!-- NSFW toggle -->
-                <script>
-                    
-                    var nsfwEnabled = false;
-                    
-                    function toggleNSFW() {
-                        nsfwEnabled = !nsfwEnabled;
-                        
-                        if (nsfwEnabled) {
-                            document.getElementById("no-nsfw").style.display = "none";
-                            document.getElementById("yes-nsfw").style.display = "inline";
-                        } else {
-                            document.getElementById("no-nsfw").style.display = "inline";
-                            document.getElementById("yes-nsfw").style.display = "none";
-                        }
-                        
-                        updateFilter();
-                    }
-                    
-                </script>
-
-                <a href="javascript:toggleNSFW()" style="position: absolute; right: 0; white-space: nowrap;">
-                    NSFW 
-                    <i id="no-nsfw" class="fa-regular fa-square" style="display: inline;"></i>
-                    <i id="yes-nsfw" class="fa-regular fa-square-check" style="display: none;"></i>
+                <a href="google.com" style="position: absolute; right: 0; white-space: nowrap;">
+                    google :3
                 </a>
 
                 <div style="height: 40px;"></div>
@@ -250,19 +197,8 @@
                             
                             for (const child of document.getElementById("insert-here").children) {
                                 
-                                // get the NSFW blocked status
-                                let isBlocked = child.className.indexOf("nsfw") != -1;
-
-                                if (isBlocked && nsfwEnabled) {
-                                    isBlocked = false;
-                                }
-                                
-                                // allow it to display as long as it isn't blocked
-                                if (isBlocked) {
-                                    child.style.display = "none";
-                                } else {
-                                    child.style.display = "inline-block";
-                                }
+                                // allow it to display
+                                child.style.display = "inline-block";
                             }
                             
                         } else {
@@ -274,15 +210,8 @@
                                     break;
                                 }
                                 
-                                // get the NSFW blocked status
-                                let isBlocked = child.className.indexOf("nsfw") != -1;
-
-                                if (isBlocked && nsfwEnabled) {
-                                    isBlocked = false;
-                                }
-                                
-                                // check if it is allowed by nsfw AND has the tag
-                                if (isBlocked || child.className.indexOf(e.value) == -1) {
+                                // check if it has the tag
+                                if (child.className.indexOf(e.value) == -1) {
                                     child.style.display = "none";
                                 } else {
                                     child.style.display = "inline-block";
@@ -308,27 +237,7 @@
                         
                     }
 
-                    insertImage("julia.png", "anthro plus-size oc-julia nsfw");
-                    insertImage("LotusKittenger.png", "anthro oc-julia nsfw");
-                    insertImage("vappy.png", "anthro plus-size other-oc nsfw"); // @hypervap
-                    insertImage("big_samantha.png", "anthro plus-size oc-sam nsfw");
-                    insertImage("maxis.png", "anthro plus-size other-oc nsfw"); // @DorkyOreosaurus
-                    insertImage("purdy_thicks.png", "plus-size oc-purdy nsfw");
-                    insertImage("purdy_touch.png", "plus-size oc-purdy nsfw");
-                    insertImage("purdy.png", "anthro plus-size oc-purdy nsfw");
-                    insertImage("kitsugiveaway.png", "other-drawing");
-                    insertImage("shish.gif", "default");
-                    insertImage("maefish.png", "plus-size nsfw");
-                    insertImage("Amuk.png", "default");
-                    insertImage("fume_chillin.png", "default"); // need to put something because otherwise it's mistaken as being a blank cell
-                    insertImage("fume.png", "plus-size nsfw");
-                    insertImage("popstar.png", "plus-size nsfw");
-                    insertImage("bing_sweats.png", "plus-size nsfw");
-                    insertImage("Ant_christmas.png", "other-oc");
-                    insertImage("Maggie.png", "anthro plus-size nsfw");
-                    insertImage("autumn_fox.png", "anthro plus-size nsfw");
-                    insertImage("Willow.png", "nsfw");
-                    insertImage("cute_tiger.png", "anthro nsfw");
+                    //insertImage("julia.png", "anthro plus-size oc-julia nsfw");
                     
                     // insert n number of blank cels to make it look cleaner
                     for (let i = 0; i < 43; i++) { 

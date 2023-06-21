@@ -1,10 +1,10 @@
 const characterInfo = {
   'cacao': {
       name: "Cacao",
-      tagline: "",
+      tagline: "snuggly chocolate wolf",
       img: null,
       facts: [],
-      design: 'A tan wolf that is a little pudgey.',
+      design: 'A tan wolf that is a little pudgey. Heterochromic purple-yellow.',
       colors: [],
       paragraphs: [],
       table_data: {

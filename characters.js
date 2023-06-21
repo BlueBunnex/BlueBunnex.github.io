@@ -10,9 +10,9 @@ const characterInfo = {
       design: 'A tan wolf that is a little pudgey. Her belly and cheeks are extra fluffy. She has purple-yellow heterochromia which is mirrored by the bows in her hair.',
       colors: [],
       paragraphs: [
-        "Cacao is the type of person to yell commands when taking your photo. That is to say two things--one, that she is quite stubborn and maybe a little bossy; and two, that she takes pride in her photography. Framing, shutter speed, color correction are all skills she boasts about using to others.",
-        "One subject she especially enjoys is night photography.",
-        "But Cacao isn't all bark. Truly, at home, she almost seems like a different person. Coy..."
+        "Cacao is the type of person to yell commands when taking your photo. That is to say two things—one, that she is quite stubborn and maybe a little bossy; and two, that she takes pride in her photography. Framing, shutter speed, color correction are all skills she boasts about using to others.",
+        "But Cacao isn't all bark—at home, she almost seems like a different person.",
+        "One subject she especially enjoys is night photography."
       ],
       table_data: {
           Identity: "Woman",
@@ -22,3 +22,4 @@ const characterInfo = {
       }
   }
 };
+// even somewhat coy notes flavour her dialogue

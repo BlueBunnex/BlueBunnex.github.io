@@ -6,7 +6,7 @@ const characterInfo = {
       facts: [
         "When she has trouble sleeping, she likes a little hot chocolate and snuggles in bed to help settle in."
       ],
-      design: 'A tan wolf that is a little pudgey. Purple-yellow heterochromia.',
+      design: 'A tan wolf that is a little pudgey. Her belly and cheeks are extra fluffy. Purple-yellow heterochromia.',
       colors: [],
       paragraphs: [],
       table_data: {

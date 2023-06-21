@@ -2,7 +2,7 @@ const characterInfo = {
   'cacao': {
       name: "Cacao",
       tagline: "snuggly chocolate wolf",
-      img: null,
+      img: "cacao0.png",
       facts: [
         "When she has trouble sleeping, she likes a little hot chocolate and snuggles in bed to help settle in.",
         "She loves all things horror. Games, movies, even art. Nevermind she doesn't have the guts to enjoy any of it without someone to grab onto right beside her."
@@ -23,3 +23,4 @@ const characterInfo = {
   }
 };
 // even somewhat coy notes flavour her dialogue
+// appealing to the little bit of goth in her (which are her words, not mine)

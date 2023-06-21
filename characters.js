@@ -3,8 +3,10 @@ const characterInfo = {
       name: "Cacao",
       tagline: "snuggly chocolate wolf",
       img: null,
-      facts: [],
-      design: 'A tan wolf that is a little pudgey. Heterochromic purple-yellow.',
+      facts: [
+        "When she has trouble sleeping, she likes a little hot chocolate and snuggles in bed to help settle in."
+      ],
+      design: 'A tan wolf that is a little pudgey. Purple-yellow heterochromia.',
       colors: [],
       paragraphs: [],
       table_data: {

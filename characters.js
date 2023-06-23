@@ -3,6 +3,7 @@ const characterInfo = {
       name: "Cacao",
       tagline: "snuggly chocolate wolf",
       img: "cacao0.png",
+      reference: "cacao_ref.png",
       facts: [
           "When she has trouble sleeping, she likes a little midnight hot chocolate. Or when it's cold out. Or any time, really.",
           "Her favourite food is a fried chicken sandwich with pickles and mayo."

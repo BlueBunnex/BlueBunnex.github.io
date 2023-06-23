@@ -81,6 +81,7 @@
             
             #character-design {
                 display: none;
+                position: relative;
             }
             
             #character-colors {
@@ -218,8 +219,12 @@
                             construct = `
                                 <h3>Design</h3>
                                 <p>` + characterInfo[cid]['design'] + `</p>
+                                
+                                <!-- ref sheet button -->
+                                <a href="img/universe/cacao_ref.png" style="position: absolute; top: 12px; right: 16px;">Reference Sheet <i class="fa-solid fa-right-to-bracket"></i></a>
+
+                                <!-- palette -->
                                 <span style="margin-right: 6px; font-weight: 800;">Palette:</span>
-                                <a href="img/universe/cacao_ref.png" style="position: absolute; top: 16px; right: 16px;">Reference Sheet <i class="fa-solid fa-right-to-bracket"></i></a> <!-- ref sheet button -->
                                 <span id="character-colors">
                             `;
                             

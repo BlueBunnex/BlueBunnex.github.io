@@ -83,6 +83,17 @@
                 display: none;
                 position: relative;
             }
+
+            #character-design a {
+                color: var(--ten-dark);
+                position: absolute; 
+                top: 12px; 
+                right: 16px;
+            }
+
+            #character-design a:hover {
+                text-decoration: underline;
+            }
             
             #character-colors {
                 width: calc(100% - 72px);
@@ -221,7 +232,7 @@
                                 <p>` + characterInfo[cid]['design'] + `</p>
                                 
                                 <!-- ref sheet button -->
-                                <a href="img/universe/cacao_ref.png" style="position: absolute; top: 12px; right: 16px;">Reference Sheet <i class="fa-solid fa-right-to-bracket"></i></a>
+                                <a href="img/universe/cacao_ref.png">Reference Sheet <i class="fa-solid fa-right-to-bracket"></i></a>
 
                                 <!-- palette -->
                                 <span style="margin-right: 6px; font-weight: 800;">Palette:</span>

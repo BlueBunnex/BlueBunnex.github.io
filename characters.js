@@ -23,4 +23,4 @@ const characterInfo = {
           Height: "Short"
       }
   }
-};
+};// Limal - gooey, long constant width tail, something about stomachs

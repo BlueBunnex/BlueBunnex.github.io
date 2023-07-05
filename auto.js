@@ -7,7 +7,10 @@ function auto() {
   </a>`;
   
   // copyright at bottom
-  document.getElementById("central").innerHTML += `<!-- copyright -->
+  let copyrightParent = document.getElementById("central");
+  if (copyrightParent == null) { copyrightParent = document.body; }
+  
+  copyrightParent.innerHTML += `<!-- copyright -->
   <br><br>
   <span style="text-align: center; color: var(--ten-dark); font-size: 12px; width: 100%; position: absolute; bottom: 10px; transform: translateX(-50%);">
       © 2023 Kitsumitsu46. All Rights Reserved. <i class="fa-solid fa-heart" style="color: pink;"></i>

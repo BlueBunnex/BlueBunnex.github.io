@@ -6,6 +6,7 @@
         <script src="https://kit.fontawesome.com/30792084b2.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="style.css">
         <script src="script.js"></script>
+        <script src="auto.js"></script>
         <meta charset="UTF-8">
         <style>
             th {
@@ -27,13 +28,10 @@
             }
         </style>
     </head>
-    <body>
+    <body onload="auto();">
 
         <!-- central stuff area -->
         <div id="central">
-            
-            <!-- back button -->
-            <button id="back-button" type="button" onclick="location.href='index.html'">Back</button>
 
             <!-- content -->
             <div style="padding: 16px; margin-bottom: 32px;">
@@ -172,11 +170,6 @@
                 </div>
                     
             </div>
-
-            <!-- copyright -->
-            <span style="text-align: center; color: var(--ten-dark); font-size: 12px; width: 100%; position: absolute; bottom: 10px; transform: translateX(-50%);">
-                © 2023 Kitsumitsu46. All Rights Reserved. <i class="fa-solid fa-heart" style="color: pink;"></i>
-            </span>
 
         </div>
 

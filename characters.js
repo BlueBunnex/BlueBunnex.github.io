@@ -16,6 +16,7 @@ const characterInfo = {
           "Cocoa is boisterous, well-intentioned, and colorful in nature, but gets ticked off when she feels like she's being pushed around. She enjoys going on jogs and posing for stills."
       ],
       table_data: {
+          Species: "Wolf",
           Identity: "Woman",
           Orientation: "Straight",
           Weight: "Over",

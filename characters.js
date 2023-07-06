@@ -23,20 +23,20 @@ const characterInfo = {
             Height: "Short"
         }
     },
-    'unknown': {
-        name: "unknown",
+    'bonnie': {
+        name: "Bonnie",
         tagline: "b",
-        img: null,
+        img: "bonnie_ex.png",
         reference: null,
         facts: [],
-        design: "Pink hair, Gatorade blue mouth and inner fox ear.",
+        design: "Pink hair, Gatorade blue mouth.",
         colors: [
             "#3639ff",
             "#ff96c4"
         ],
         paragraphs: [],
         table_data: {
-            Species: "Human? Fox? dunno",
+            Species: "Human",
             Identity: "Woman",
             Orientation: "Asexual, Romantic",
             Weight: "Over",

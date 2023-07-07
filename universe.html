@@ -221,40 +221,38 @@
                             document.getElementById("character-facts").style.display = "block";
                         }
                         
-                        // design + colors (optional)
-                        if (characterInfo[cid]['design'] == null || characterInfo[cid]['colors'] == null) {
-                            document.getElementById("character-design").style.display = "none";
-                        } else {
-                            construct = `
-                                <h3>Design</h3>
-                                
-                                <strong>Body</strong>
-                                <p>` + characterInfo[cid]['body'] + `</p>
-
-                                <strong>Clothing</strong>
-                                <p>` + characterInfo[cid]['clothing'] + `</p>
-
-                                <strong>Personality</strong>
-                                <p>` + characterInfo[cid]['personality'] + `</p>
-                                
-                                <!-- ref sheet button -->
-                                <a href="img/universe/` + characterInfo[cid]['reference'] + `">Reference Sheet <i class="fa-solid fa-right-to-bracket"></i></a>
-
-                                <!-- palette -->
-                                <span style="margin-right: 6px; font-weight: 800;">Palette:</span>
-                                <span id="character-colors">
-                            `;
+                        // design (mandatory) + colors (optional)
+                        construct = `
+                            <h3>Design</h3>
                             
+                            <strong>Body</strong>
+                            <p>` + characterInfo[cid]['body'] + `</p>
+
+                            <strong>Clothing</strong>
+                            <p>` + characterInfo[cid]['clothing'] + `</p>
+
+                            <strong>Personality</strong>
+                            <p>` + characterInfo[cid]['personality'] + `</p>
+                            
+                            <!-- ref sheet button -->
+                            <a href="img/universe/` + characterInfo[cid]['reference'] + `">Reference Sheet <i class="fa-solid fa-right-to-bracket"></i></a>
+
+                            <!-- palette -->
+                            <span style="margin-right: 6px; font-weight: 800;">Palette:</span>
+                            <span id="character-colors">
+                        `;
+
+                        if (characterInfo[cid]['colors'] != null) {
                             characterInfo[cid]['colors'].forEach(
                                 item => {
                                     construct += '<span class="color-cel" style="background: ' + item + ';"></span>';
                                 }
                             );
                             construct += "</span>";
-                            
-                            document.getElementById("character-design").innerHTML = construct;
-                            document.getElementById("character-design").style.display = "block";
                         }
+                        
+                        document.getElementById("character-design").innerHTML = construct;
+                        document.getElementById("character-design").style.display = "block";
 
                         // table (optional)
                         if (characterInfo[cid]['table_data'] == null) {

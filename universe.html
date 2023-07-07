@@ -227,7 +227,15 @@
                         } else {
                             construct = `
                                 <h3>Design</h3>
-                                <p>` + characterInfo[cid]['design'] + `</p>
+                                
+                                <strong>Body</strong>
+                                <p>` + characterInfo[cid]['body'] + `</p>
+
+                                <strong>Clothing</strong>
+                                <p>` + characterInfo[cid]['clothing'] + `</p>
+
+                                <strong>Personality</strong>
+                                <p>` + characterInfo[cid]['personality'] + `</p>
                                 
                                 <!-- ref sheet button -->
                                 <a href="img/universe/` + characterInfo[cid]['reference'] + `">Reference Sheet <i class="fa-solid fa-right-to-bracket"></i></a>

@@ -167,7 +167,7 @@
 
                     <span id="character-paragraphs">
                         <p>
-                            Welcome to my OC page. All my favourite OCs are featured on the left. <strong>All my characters are of age.</strong>
+                            Welcome to my OC page. All my favourite OCs are featured on the left. <strong>All my characters are adults.</strong>
                         </p>
                     </span>
                     
@@ -221,7 +221,7 @@
                             document.getElementById("character-facts").style.display = "block";
                         }
                         
-                        // design (mandatory) + colors (optional)
+                        // design (mandatory) + colors (optional) + reference (optional)
                         construct = `
                             <h3>Design</h3>
                             
@@ -233,10 +233,12 @@
 
                             <strong>Personality</strong>
                             <p>` + characterInfo[cid]['personality'] + `</p>
-                            
-                            <!-- ref sheet button -->
-                            <a href="img/universe/` + characterInfo[cid]['reference'] + `">Reference Sheet <i class="fa-solid fa-right-to-bracket"></i></a>
                         `;
+
+                        if (characterInfo[cid]['reference'] != null) {
+                            construct += `<!-- ref sheet button -->
+                            <a href="img/universe/` + characterInfo[cid]['reference'] + `">Reference Sheet <i class="fa-solid fa-right-to-bracket"></i></a>`;
+                        }
 
                         if (characterInfo[cid]['colors'] != null) {
                             construct += `

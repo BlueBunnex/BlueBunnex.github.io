@@ -182,7 +182,21 @@
                 <!-- https://flexiple.com/javascript/loop-through-object-javascript/ -->
                 <script>
 
+                    var galleryIndex = 0;
+
+                    function UpdateGallery(value) {
+                        gallery += value;
+
+                        if (gallery < 0) {
+                            gallery += characterInfo[cid]['imgs'].length;
+                        } else {
+                            gallery %= characterInfo[cid]['imgs'].length;
+                        }
+                    }
+                    
                     function LoadCharacter(cid) {
+                        galleryIndex = 0;
+                        
                         // character header
                         document.getElementById("character-header").innerHTML = "<span>" + characterInfo[cid]['name'] + "</span>";
                         
@@ -190,7 +204,10 @@
                         if (characterInfo[cid]['imgs'] == null) {
                             document.getElementById("character-gallery").style.display = "none";
                         } else {
-                            document.getElementById("character-gallery").innerHTML = "<img style='margin-left: 25%; width: 50%;' src='img/universe/" + characterInfo[cid]['imgs'][0] + "'>";
+                            document.getElementById("character-gallery").innerHTML = `
+                                <img style='margin-left: 25%; width: 50%;' src='img/universe/" + characterInfo[cid]['imgs'][0] + "'>
+                                <span onclick='UpdateGallery(1);'>next</span>
+                            `;
                             document.getElementById("character-gallery").style.display = "block";
                         }
                         

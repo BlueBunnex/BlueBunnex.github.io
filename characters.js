@@ -37,7 +37,7 @@ const characterInfo = {
             "#ff96c4"
         ],
         paragraphs: [
-            "Bonnie likes sunny days and rainy days. Looking out at the beach from her balcony, whether rain or shine, she is contented by her situation."
+            "Bonnie likes sunny days and rainy days. Looking out at the beach from her balcony, whether rain or shine, she is contented."
         ],
         table_data: {
             Species: "Human",

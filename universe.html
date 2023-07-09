@@ -100,6 +100,15 @@
                 position: relative;
             }
 
+            #character-gallery span {
+                font-size: 30px;
+                cursor: pointer;
+                position: absolute;
+                color: var(--ten-dark);
+                top: 50%;
+                transform: translateY(-50%);
+            }
+
             #character-image {
                 margin-left: 50%;
                 transform: translateX(-50%);
@@ -163,7 +172,8 @@
                     
                     <div id="character-gallery" class="text-block">
                         <img id="character-image" src="">
-                        <span style="cursor: pointer; position: absolute; top: 50%; right: 6px; color: var(--ten);" onclick="UpdateGallery(1);"><i class="fa-solid fa-angles-right"></i></span>
+                        <span style="right: 6px;" onclick="UpdateGallery(1);"><i class="fa-solid fa-angles-right"></i></span>
+                        <span style="left: 6px;" onclick="UpdateGallery(-1);"><i class="fa-solid fa-angles-left"></i></span>
                     </div>
                     
                     <div id="character-facts" class="text-block"></div>

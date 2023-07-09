@@ -48,3 +48,4 @@ const characterInfo = {
         }
     }
 };
+// maybe add a char named q, nonbinary since they live in a computer, wear thigh-highs, and have a really simplistic design that centers around one interesting detail, like a big bow or something

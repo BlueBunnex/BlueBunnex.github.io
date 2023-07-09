@@ -61,7 +61,6 @@
             }
             
             #character-facts {
-                display: inline-block;
                 text-align: left;
                 margin-top: 16px;
                 height: auto;
@@ -94,6 +93,10 @@
 
             #character-design a:hover {
                 text-decoration: underline;
+            }
+
+            #character-gallery {
+                display: none;
             }
             
             #character-colors {
@@ -187,7 +190,7 @@
                         if (characterInfo[cid]['imgs'] == null) {
                             document.getElementById("character-gallery").style.display = "none";
                         } else {
-                            document.getElementById("character-gallery").innerHTML = "<img style='text-align: center; width: 50%;' src='img/universe/" + characterInfo[cid]['imgs'][0] + "'>";
+                            document.getElementById("character-gallery").innerHTML = "<img style='margin-left: 25%; width: 50%;' src='img/universe/" + characterInfo[cid]['imgs'][0] + "'>";
                             document.getElementById("character-gallery").style.display = "block";
                         }
                         

@@ -183,29 +183,31 @@
                 <script>
 
                     var galleryIndex = 0;
+                    var char;
 
                     function UpdateGallery(value) {
                         galleryIndex += value;
 
                         if (galleryIndex < 0) {
-                            galleryIndex += characterInfo[cid]['imgs'].length;
+                            galleryIndex += char['imgs'].length;
                         } else {
-                            galleryIndex %= characterInfo[cid]['imgs'].length;
+                            galleryIndex %= char['imgs'].length;
                         }
                     }
                     
                     function LoadCharacter(cid) {
                         galleryIndex = 0;
+                        char = characterInfo[cid];
                         
                         // character header
-                        document.getElementById("character-header").innerHTML = "<span>" + characterInfo[cid]['name'] + "</span>";
+                        document.getElementById("character-header").innerHTML = "<span>" + char['name'] + "</span>";
                         
                         // character image (optional)
-                        if (characterInfo[cid]['imgs'] == null) {
+                        if (char['imgs'] == null) {
                             document.getElementById("character-gallery").style.display = "none";
                         } else {
                             document.getElementById("character-gallery").innerHTML = `
-                                <img style='margin-left: 25%; width: 50%;' src='img/universe/` + characterInfo[cid]['imgs'][0] + `'>
+                                <img style='margin-left: 25%; width: 50%;' src='img/universe/` + char['imgs'][0] + `'>
                                 <span style="cursor: pointer;" onclick='UpdateGallery(1);'>next</span>
                             `;
                             document.getElementById("character-gallery").style.display = "block";
@@ -213,7 +215,7 @@
                         
                         // character paragraphs
                         var construct = "";
-                        characterInfo[cid]['paragraphs'].forEach(
+                        char['paragraphs'].forEach(
                             item => {
                                 construct += "<p>" + item + "</p>";
                             }
@@ -221,11 +223,11 @@
                         document.getElementById("character-paragraphs").innerHTML = construct;
                         
                         // character facts (optional)
-                        if (characterInfo[cid]['facts'] == null || characterInfo[cid]['facts'].length == 0) {
+                        if (char['facts'] == null || char['facts'].length == 0) {
                             document.getElementById("character-facts").style.display = "none";
                         } else {
                             construct = "<h3>Fast Facts</h3><ul>";
-                            characterInfo[cid]['facts'].forEach(
+                            char['facts'].forEach(
                                 item => {
                                     construct += "<li>" + item + "</li>";
                                 }
@@ -240,28 +242,28 @@
                             <h3>Design</h3>
                             
                             <strong>Body</strong>
-                            <p>` + characterInfo[cid]['body'] + `</p>
+                            <p>` + char['body'] + `</p>
 
                             <strong>Clothing</strong>
-                            <p>` + characterInfo[cid]['clothing'] + `</p>
+                            <p>` + char['clothing'] + `</p>
 
                             <strong>Personality</strong>
-                            <p>` + characterInfo[cid]['personality'] + `</p>
+                            <p>` + char['personality'] + `</p>
                         `;
 
-                        if (characterInfo[cid]['reference'] != null) {
+                        if (char['reference'] != null) {
                             construct += `<!-- ref sheet button -->
-                            <a href="img/universe/` + characterInfo[cid]['reference'] + `">Reference Sheet <i class="fa-solid fa-right-to-bracket"></i></a>`;
+                            <a href="img/universe/` + char['reference'] + `">Reference Sheet <i class="fa-solid fa-right-to-bracket"></i></a>`;
                         }
 
-                        if (characterInfo[cid]['colors'] != null) {
+                        if (char['colors'] != null) {
                             construct += `
                                 <!-- palette -->
                                 <span style="margin-right: 6px; font-weight: 800;">Palette:</span>
                                 <span id="character-colors">
                             `;
                             
-                            characterInfo[cid]['colors'].forEach(
+                            char['colors'].forEach(
                                 item => {
                                     construct += '<span class="color-cel" style="background: ' + item + ';"></span>';
                                 }
@@ -273,12 +275,12 @@
                         document.getElementById("character-design").style.display = "block";
 
                         // table (optional)
-                        if (characterInfo[cid]['table_data'] == null) {
+                        if (char['table_data'] == null) {
                             document.getElementById("character-table").style.display = "none";
                         } else {
                             construct = "";
                             
-                            const pairs = Object.entries(characterInfo[cid]['table_data']);
+                            const pairs = Object.entries(char['table_data']);
                             for (let i = 0; i < pairs.length; i++) {
                                 // only does one data pair per row
                                 // remember, .replace() only changes the first instance unless a regex is supplied <3

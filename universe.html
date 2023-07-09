@@ -98,6 +98,11 @@
             #character-gallery {
                 display: none;
             }
+
+            #character-image {
+                margin-left: 25%;
+                width: 50%;
+            }
             
             #character-colors {
                 width: calc(100% - 72px);
@@ -154,7 +159,10 @@
                     
                     <table id="character-table" style="width: 100%;"></table>
                     
-                    <div id="character-gallery" class="text-block"></div>
+                    <div id="character-gallery" class="text-block">
+                        <img id="character-image" src="">
+                        <span style="cursor: pointer;" onclick="UpdateGallery(1);">next</span>
+                    </div>
                     
                     <div id="character-facts" class="text-block"></div>
 
@@ -194,7 +202,7 @@
                             galleryIndex %= char['imgs'].length;
                         }
 
-                        document.getElementById("character-gallery").querySelector('input[type=img]').src = 'img/universe/' + char['imgs'][galleryIndex];
+                        document.getElementById("character-image").src = "img/universe/" + char['imgs'][galleryIndex];
                     }
                     
                     function LoadCharacter(cid) {
@@ -208,10 +216,7 @@
                         if (char['imgs'] == null) {
                             document.getElementById("character-gallery").style.display = "none";
                         } else {
-                            document.getElementById("character-gallery").innerHTML = `
-                                <img style='margin-left: 25%; width: 50%;' src='img/universe/` + char['imgs'][0] + `'>
-                                <span style="cursor: pointer;" onclick='UpdateGallery(1);'>next</span>
-                            `;
+                            UpdateGallery(0);
                             document.getElementById("character-gallery").style.display = "block";
                         }
                         

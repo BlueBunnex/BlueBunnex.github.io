@@ -185,12 +185,12 @@
                     var galleryIndex = 0;
 
                     function UpdateGallery(value) {
-                        gallery += value;
+                        galleryIndex += value;
 
-                        if (gallery < 0) {
-                            gallery += characterInfo[cid]['imgs'].length;
+                        if (galleryIndex < 0) {
+                            galleryIndex += characterInfo[cid]['imgs'].length;
                         } else {
-                            gallery %= characterInfo[cid]['imgs'].length;
+                            galleryIndex %= characterInfo[cid]['imgs'].length;
                         }
                     }
                     

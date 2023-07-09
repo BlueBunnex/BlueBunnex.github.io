@@ -30,7 +30,7 @@ const characterInfo = {
         reference: null,
         facts: [],
         body: "Pink hair, blue mouth. She has a muffintop while wearing tight clothes.",
-        clothing: "I'm still workshopping what her 'default' clothing will be. I'm thinking about having her wear an apron though, tied off at the waist, and with a darker pink/red undershirt.",
+        clothing: "I'm still workshopping what her 'default' clothing will be. I'm thinking about having her wear a pink one piece underneath a white overcoat (with single button connected at mid), and maybe white sunhat with a blue bow + black shades.",
         personality: "Upbeat sometimes, and sleepy other times.",
         colors: [
             "#3639ff",

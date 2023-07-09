@@ -2,7 +2,7 @@ const characterInfo = {
     'cacao': {
         name: "Cacao",
         tagline: "snuggly chocolate wolf",
-        img: "cacao0.png",
+        imgs: ["cacao0.png"],
         reference: "cacao_ref.png",
         facts: [
             "When she has trouble sleeping, she likes a little midnight hot chocolate. Or when it's cold out. Or any time, really.",
@@ -26,7 +26,7 @@ const characterInfo = {
     'bonnie': {
         name: "Bonnie",
         tagline: "b",
-        img: "bonnie_ex.png",
+        imgs: ["bonnie_ex.png", "cacao0.png"],
         reference: null,
         facts: [],
         body: "Pink hair, blue pupils/inner mouth. She has a muffintop while wearing tight clothes.",

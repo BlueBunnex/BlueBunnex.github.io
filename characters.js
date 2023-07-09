@@ -46,6 +46,26 @@ const characterInfo = {
             Weight: "Over",
             Height: "Tall"
         }
+    },
+    'q': {
+        name: "q",
+        tagline: "cyber assistant",
+        imgs: ["qtie.png"],
+        reference: null,
+        facts: [
+            "They live in a computer, though they're 64-bit exclusive. They find Macbooks the coziest."
+        ],
+        body: "Pear-shaped.",
+        clothing: "Blue oven mitts, apron, and striped knee socks.",
+        personality: "idk",
+        colors: [],
+        paragraphs: [],
+        table_data: {
+            Species: "x64",
+            Identity: "Non-binary",
+            Orientation: "N/A",
+            Weight: "4.2KB",
+            Height: "1024px"
+        }
     }
 };
-// maybe add a char named q, nonbinary since they live in a computer, wear thigh-highs, and have a really simplistic design that centers around one interesting detail, like a big bow or something

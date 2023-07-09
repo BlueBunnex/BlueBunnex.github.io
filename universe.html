@@ -206,15 +206,19 @@
                     var char;
 
                     function UpdateGallery(value) {
-                        galleryIndex += value;
-
-                        if (galleryIndex < 0) {
-                            galleryIndex += char['imgs'].length;
+                        if (char['imgs'].length == 1) {
+                            alert("This character has only one image :3");
                         } else {
-                            galleryIndex %= char['imgs'].length;
+                            galleryIndex += value;
+    
+                            if (galleryIndex < 0) {
+                                galleryIndex += char['imgs'].length;
+                            } else {
+                                galleryIndex %= char['imgs'].length;
+                            }
+    
+                            document.getElementById("character-image").src = "img/universe/" + char['imgs'][galleryIndex];
                         }
-
-                        document.getElementById("character-image").src = "img/universe/" + char['imgs'][galleryIndex];
                     }
                     
                     function LoadCharacter(cid) {

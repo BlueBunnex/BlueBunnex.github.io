@@ -193,6 +193,8 @@
                         } else {
                             galleryIndex %= char['imgs'].length;
                         }
+
+                        document.getElementById("character-gallery").querySelector('input[type=img]').src = 'img/universe/' + char['imgs'][galleryIndex];
                     }
                     
                     function LoadCharacter(cid) {

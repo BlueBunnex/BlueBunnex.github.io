@@ -26,7 +26,7 @@ const characterInfo = {
     'bonnie': {
         name: "Bonnie",
         tagline: "b",
-        imgs: ["bonnie_ex.png", "cacao0.png"],
+        imgs: ["bonnie_ex.png"],
         reference: null,
         facts: [],
         body: "Pink hair, blue pupils/inner mouth. She has a muffintop while wearing tight clothes.",

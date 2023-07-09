@@ -113,12 +113,6 @@
                 flex: 1;
             }
             
-            #character-img {
-                width: 40%;
-                float: right;
-                padding-left: 20px;
-            }
-            
             #character-table {
                 margin-top: 30px;
             }
@@ -157,13 +151,13 @@
                     
                     <table id="character-table" style="width: 100%;"></table>
                     
+                    <div id="character-gallery" class="text-block"></div>
+                    
                     <div id="character-facts" class="text-block"></div>
 
                     <div id="character-design" class="text-block">
                         <!-- contains a div with id=character-colors after generation -->
                     </div>
-                    
-                    <img id="character-img" src="">
 
                     <span id="character-paragraphs">
                         <p>
@@ -190,11 +184,11 @@
                         document.getElementById("character-header").innerHTML = "<span>" + characterInfo[cid]['name'] + "</span>";
                         
                         // character image (optional)
-                        if (characterInfo[cid]['img'] == null || characterInfo[cid]['img'] == "") {
-                            document.getElementById("character-img").style.display = "none";
+                        if (characterInfo[cid]['imgs'] == null) {
+                            document.getElementById("character-gallery").style.display = "none";
                         } else {
-                            document.getElementById("character-img").src = "img/universe/" + characterInfo[cid]['img'];
-                            document.getElementById("character-img").style.display = "block";
+                            document.getElementById("character-gallery").innerHTML = "<img style='text-align: center; width: 50%;' src='img/universe/" + characterInfo[cid]['imgs'][0] + "'>";
+                            document.getElementById("character-gallery").style.display = "block";
                         }
                         
                         // character paragraphs

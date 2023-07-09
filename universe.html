@@ -205,8 +205,8 @@
                             document.getElementById("character-gallery").style.display = "none";
                         } else {
                             document.getElementById("character-gallery").innerHTML = `
-                                <img style='margin-left: 25%; width: 50%;' src='img/universe/" + characterInfo[cid]['imgs'][0] + "'>
-                                <span onclick='UpdateGallery(1);'>next</span>
+                                <img style='margin-left: 25%; width: 50%;' src='img/universe/` + characterInfo[cid]['imgs'][0] + `'>
+                                <span style="cursor: pointer;" onclick='UpdateGallery(1);'>next</span>
                             `;
                             document.getElementById("character-gallery").style.display = "block";
                         }

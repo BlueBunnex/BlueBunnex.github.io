@@ -57,8 +57,11 @@ const characterInfo = {
         ],
         body: "Pear-shaped.",
         clothing: "Blue oven mitts, apron, and striped knee socks.",
-        personality: "idk",
-        colors: [],
+        personality: "Rampantly egotistical and annoying.",
+        colors: [
+            "#ffffff",
+            "#73d7ff"
+        ],
         paragraphs: [],
         table_data: {
             Species: "x64",

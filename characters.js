@@ -28,7 +28,9 @@ const characterInfo = {
         tagline: "mercurial beachgoer",
         imgs: ["bonnie_ex.png"],
         reference: null,
-        facts: [],
+        facts: [
+            "She's married, though we don't know to whom just yet."
+        ],
         body: "Pink hair, blue pupils/inner mouth. She has a muffintop while wearing tight clothes.",
         clothing: "I'm still workshopping what her 'default' clothing will be. I'm thinking about having her wear a pink one piece underneath a white overcoat (with a single button connected at her midriff), and maybe a white sunhat with a blue bow and black shades. And bangles!",
         personality: "Upbeat sometimes, and sleepy other times.",
@@ -67,7 +69,7 @@ const characterInfo = {
             Species: "x64",
             Identity: "Non-binary (hexadecimal)",
             Orientation: "N/A",
-            Weight: "4.2KB",
+            Weight: "4KB",
             Height: "1024px"
         }
     }

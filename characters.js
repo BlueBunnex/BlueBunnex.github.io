@@ -25,12 +25,12 @@ const characterInfo = {
     },
     'bonnie': {
         name: "Bonnie",
-        tagline: "b",
+        tagline: "mood-swinging beachgoer",
         imgs: ["bonnie_ex.png"],
         reference: null,
         facts: [],
         body: "Pink hair, blue pupils/inner mouth. She has a muffintop while wearing tight clothes.",
-        clothing: "I'm still workshopping what her 'default' clothing will be. I'm thinking about having her wear a pink one piece underneath a white overcoat (with a single button connected at her midriff), and maybe a white sunhat with a blue bow and black shades.",
+        clothing: "I'm still workshopping what her 'default' clothing will be. I'm thinking about having her wear a pink one piece underneath a white overcoat (with a single button connected at her midriff), and maybe a white sunhat with a blue bow and black shades. And bangles!",
         personality: "Upbeat sometimes, and sleepy other times.",
         colors: [
             "#3639ff",
@@ -65,7 +65,7 @@ const characterInfo = {
         paragraphs: [],
         table_data: {
             Species: "x64",
-            Identity: "Non-binary",
+            Identity: "Non-binary (hexadecimal)",
             Orientation: "N/A",
             Weight: "4.2KB",
             Height: "1024px"

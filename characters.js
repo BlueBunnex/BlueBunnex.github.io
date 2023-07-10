@@ -25,7 +25,7 @@ const characterInfo = {
     },
     'bonnie': {
         name: "Bonnie",
-        tagline: "mood-swinging beachgoer",
+        tagline: "mercurial beachgoer",
         imgs: ["bonnie_ex.png"],
         reference: null,
         facts: [],

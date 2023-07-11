@@ -15,7 +15,8 @@ const characterInfo = {
             "#9c7767"
         ],
         paragraphs: [
-            "Cacao does <strong>not</strong> pull punches. She insists on ordering first at restaurants. She must be the one to hold the door open for the other person. And she absolutely is the one who picks out this week's groceries' chip flavour."
+            "Cacao does not pull punches. She insists on ordering first at restaurants. She must be the one to hold the door open for the other person. And she absolutely is the one who picks out this week's groceries' chip flavour. Why does she do this? In her words, \"Someone has to order first!\"",
+            ""
         ],
         table_data: {
             Species: "Wolf",

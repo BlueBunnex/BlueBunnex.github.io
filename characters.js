@@ -10,11 +10,13 @@ const characterInfo = {
         ],
         body: "A brown wolf that has a wide body-type, but isn't overweight. She has purple-yellow heterochromia, and her eye shine forms little hearts. Her hands, feet, and tail feature a bubble pattern as they transition from brown to tan.",
         clothing: "She (typically) wears a red hoodie over a tan tee that reads ROFL across the front.",
-        personality: "Cocoa is boisterous, well-intentioned, and colorful in nature, but gets ticked off when she feels like she's being pushed around.",
+        personality: "She's boisterous, well-intentioned, and colorful in nature, but gets ticked off when she feels like she's being pushed around.",
         colors: [
             "#9c7767"
         ],
-        paragraphs: [],
+        paragraphs: [
+            "Cacao does <strong>not</strong> pull punches. She insists on ordering first at restaurants. She must be the one to hold the door open for the other person. And she absolutely is the one who picks out this week's groceries' chip flavour."
+        ],
         table_data: {
             Species: "Wolf",
             Identity: "Woman",

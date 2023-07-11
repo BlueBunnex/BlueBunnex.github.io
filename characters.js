@@ -15,8 +15,7 @@ const characterInfo = {
             "#9c7767"
         ],
         paragraphs: [
-            "Cacao does not pull punches. She insists on ordering first at restaurants. She must be the one to hold the door open for the other person. And she absolutely is the one who picks out this week's groceries' chip flavour. Why does she do this? In her words, \"Someone has to order first!\"",
-            ""
+            "Cacao does not pull punches. She insists on ordering first at restaurants. She must be the one to hold the door open for the other person. And she absolutely is the one who picks out this week's groceries' chip flavour. Why does she do this? In her words, \"Someone has to order first!\""
         ],
         table_data: {
             Species: "Wolf",
@@ -35,7 +34,7 @@ const characterInfo = {
             "She's married, though we don't know to whom just yet."
         ],
         body: "Pink hair, blue pupils/inner mouth. She has a muffintop while wearing tight clothes.",
-        clothing: "I'm still workshopping what her 'default' clothing will be. I'm thinking about having her wear a pink one piece underneath a white overcoat (with a single button connected at her midriff), and maybe a white sunhat with a blue bow and black shades. And bangles!",
+        clothing: "I'm still workshopping what her 'default' clothing will be. I'm thinking about having her wear a pink one piece underneath a white overcoat (with a single button connected at her midriff), and maybe a white sunhat with a blue bow and black shades. And of course, her golden bangles and heart necklace.",
         personality: "Upbeat sometimes, and sleepy other times.",
         colors: [
             "#3639ff",

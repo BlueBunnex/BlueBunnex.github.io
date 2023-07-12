@@ -2,7 +2,7 @@ const characterInfo = {
     'cacao': {
         name: "Cacao",
         tagline: "snuggly chocolate wolf",
-        imgs: ["cacao0.png"],
+        imgs: ["cacao0.png", "cacao_book.png"],
         reference: "cacao_ref.png",
         facts: [
             "When she has trouble sleeping, she likes a little midnight hot chocolate. Or when it's cold out. Or any time, really.",

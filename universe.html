@@ -114,6 +114,11 @@
                 transform: translateX(-50%);
                 height: 240px;
             }
+
+            #right { right: 6px; }
+            #right:hover { right: 12px; }
+            #left { left: 6px; }
+            #left:hover { left: 12px; }
             
             #character-colors {
                 width: calc(100% - 72px);
@@ -172,8 +177,8 @@
                     
                     <div id="character-gallery" class="text-block">
                         <img id="character-image" src="">
-                        <span style="right: 6px;" onclick="UpdateGallery(1);"><i class="fa-solid fa-angles-right"></i></span>
-                        <span style="left: 6px;" onclick="UpdateGallery(-1);"><i class="fa-solid fa-angles-left"></i></span>
+                        <span id="right" onclick="UpdateGallery(1);"><i class="fa-solid fa-angles-right"></i></span>
+                        <span id="left" onclick="UpdateGallery(-1);"><i class="fa-solid fa-angles-left"></i></span>
                     </div>
                     
                     <div id="character-facts" class="text-block"></div>

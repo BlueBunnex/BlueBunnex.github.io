@@ -5,12 +5,12 @@ const characterInfo = {
         imgs: ["cacao0.png", "cacao_book.png"],
         reference: "cacao_ref.png",
         facts: [
-            "When she has trouble sleeping, she likes a little midnight hot chocolate. Or when it's cold out. Or any time, really.",
+            "When she has trouble sleeping, she likes a little midnight hot chocolate.",
             "Her favourite food is a fried chicken sandwich with pickles and mayo."
         ],
-        body: "A brown wolf that has a wide body-type, but isn't overweight. She has purple-yellow heterochromia, and her eye shine forms little hearts. Her hands, feet, and tail feature a bubble pattern as they transition from brown to tan.",
-        clothing: "She (typically) wears a red hoodie over a tan tee that reads ROFL across the front.",
-        personality: "She's boisterous, well-intentioned, and colorful in nature, but gets ticked off when she feels like she's being pushed around.",
+        body: "A brown wolf that has a wide body type (but isn't overweight). She has purple-yellow heterochromia (purple: her right, yellow: her left), and her eye shine forms little hearts. Her hands, feet, and tail feature a bubble pattern as they transition from brown to tan. Her hands are human-like and four fingered, while her legs/feet are anthro.",
+        clothing: "Typically a red hoodie over a tan tee that reads ROFL across the front.",
+        personality: "Boisterous, well-intentioned, and colorful in nature, but gets ticked off when she feels like she's being pushed around.",
         colors: [
             "#9c7767"
         ],

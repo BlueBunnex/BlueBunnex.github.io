@@ -100,25 +100,27 @@
                 position: relative;
             }
 
-            #character-gallery span {
-                font-size: 30px;
-                cursor: pointer;
-                position: absolute;
-                color: var(--ten-dark);
-                top: 50%;
-                transform: translateY(-50%);
-            }
-
             #character-image {
                 margin-left: 50%;
                 transform: translateX(-50%);
                 height: 240px;
             }
 
+            #right, #left {
+                font-size: 30px;
+                cursor: pointer;
+                position: absolute;
+                color: var(--ten-dark);
+                top: 50%;
+                transform: translateY(-50%);
+                transition-duration: 0.2s;
+            }
+
             #right { right: 6px; }
-            #right:hover { right: 12px; }
+            #right:hover { right: 12px; padding-right: 6px; }
+            
             #left { left: 6px; }
-            #left:hover { left: 12px; }
+            #left:hover { left: 12px; padding-left: 6px; }
             
             #character-colors {
                 width: calc(100% - 72px);

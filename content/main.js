@@ -22,7 +22,7 @@ const main = `
                 <h2>#002</h2>
                 <div>
                     <p>I like to make constructed languages, however, I'm very indecisive and often restart over and over trying to get something I like. while that's happening, you can see what I'm currently working on in that regard here.</p>
-                    <a class="ref" href="conlanging.html"></a>
+                    <a class="ref" href="javascript:loadContent(conlanging);"></a>
                 </div>
             </div>
 

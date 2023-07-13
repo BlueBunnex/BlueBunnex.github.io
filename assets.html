@@ -24,7 +24,12 @@
             }
 
             .text-block {
-                position: relative;
+                position: absolute;
+                top: 50%;
+                width: 75%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                margin: 0;
             }
             
             .text-block .cutebutton {
@@ -49,45 +54,49 @@
 
             <div style="padding: 10px; display: block; column-count: 3; gap: 10px;">
 
+                <!-- rubo yogurt -->
                 <span class="asset">
-
                     <div style="padding: 6px">
-                        <img src="assets_download/rubo.png" width="100%">
                         
-                        <span class="text-block">
-                            <i class="fa-solid fa-shapes"></i> 132 polys
-                            <br><i class="fa-solid fa-floppy-disk"></i> 479KB
-                            <br><i class="fa-solid fa-image"></i> 1024×1024p
+                        <div style="position: relative;">
+                            <img src="assets_download/rubo.png" width="100%">
                             
-                            <button class="cutebutton" onclick="window.open('assets_download/rubo.zip','_blank')" type="button">
-                                <i class="fa-solid fa-download"></i>
-                            </button>
-                        </span>
+                            <span class="text-block">
+                                <i class="fa-solid fa-shapes"></i> 132 polys
+                                <br><i class="fa-solid fa-floppy-disk"></i> 479KB
+                                <br><i class="fa-solid fa-image"></i> 1024×1024p
+                                
+                                <button class="cutebutton" onclick="window.open('assets_download/rubo.zip','_blank')" type="button">
+                                    <i class="fa-solid fa-download"></i>
+                                </button>
+                            </span>
+                        </div>
                             
                         <h2>Yogurt</h2>
                         <p>A cute little vegan yogurt cup by the fictitious brand RUBO™.</p>
                     </div>
-
                 </span>
-                
-                <span class="asset">
-                    
-                    <div style="padding: 6px">
-                        <img src="assets_download/snub_pistol.png" width="100%">
-                        
-                        <span class="text-block">
-                            <i class="fa-solid fa-shapes"></i> 367 polys
-                            <br><i class="fa-solid fa-floppy-disk"></i> 946KB
 
-                            <button class="cutebutton" onclick="window.open('assets_download/snub_pistol.zip','_blank')" type="button">
-                                <i class="fa-solid fa-download"></i>
-                            </button>
-                        </span>
+                <!-- snub pistol -->
+                <span class="asset">
+                    <div style="padding: 6px">
+                        
+                        <div style="position: relative;">
+                            <img src="assets_download/snub_pistol.png" width="100%">
+                            
+                            <span class="text-block">
+                                <i class="fa-solid fa-shapes"></i> 367 polys
+                                <br><i class="fa-solid fa-floppy-disk"></i> 946KB
+    
+                                <button class="cutebutton" onclick="window.open('assets_download/snub_pistol.zip','_blank')" type="button">
+                                    <i class="fa-solid fa-download"></i>
+                                </button>
+                            </span>
+                        </div>
                             
                         <h2>Snub Pistol</h2>
                         <p>A simple pistol model, with animatable slide, trigger, and mag. Not textured.</p>
                     </div>
-                    
                 </span>
 
             </div>

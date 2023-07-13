@@ -87,7 +87,13 @@
         <script src="content/conspecies.js"></script>
         <script>
             function loadContent(content) {
-                document.getElementById("left").innerHTML = content;
+                let prefix = "";
+
+                if (content != main) {
+                    prefix = "<a href='javascript:loadContent(main);'>back</a>";
+                }
+                
+                document.getElementById("left").innerHTML = prefix + content;
             }
         </script>
     </head>

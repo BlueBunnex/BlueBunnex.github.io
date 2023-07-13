@@ -18,6 +18,10 @@
             :root {
                 background: #eeeeee;
                 font-family: sans-serif;
+
+                --background: #eeeeee;
+                --accent-light: #665588;
+                --accent-dark: #332255;
             }
             
             body {
@@ -28,8 +32,8 @@
                 column-gap: 12px;
             }
 
-            a { color: #665588; }
-            a:hover { color: #332255; }
+            a { color: var(--accent-light); }
+            a:hover { color: var(--accent-dark); }
 
             #left {
                 flex: 3;
@@ -46,8 +50,8 @@
             }
 
             .section {
-                background: #332255;
-                color: #eeeeee;
+                background: var(--accent-dark);
+                color: var(--background);
                 padding: 6px 2px;
                 position: relative;
                 margin-bottom: 12px;
@@ -68,7 +72,7 @@
 
             .section div {
                 color: black;
-                background: #eeeeee;
+                background: var(--background);
                 font-size: 12px;
                 margin: 0;
                 padding: 2px;
@@ -120,6 +124,15 @@
                 <div>
                     <p>they're cool!</p>
                     <a class="ref" href="conspecies.html"></a>
+                </div>
+            </div>
+
+            <div class="section">
+                <h1>awesome, hosted on colean.cc</h1>
+                <h2>#004</h2>
+                <div>
+                    <p>threeoh6000 gave me a subdomain on their website colean.cc, and so I'm using it for random programming projects and <s>an awesome arg</s> a puppy playpen. the subdomain's mascot is named awdog, isn't that <span style="color: var(--accent-dark);">awesome</span>?</p>
+                    <a class="ref" href="https://awesome.colean.cc"></a>
                 </div>
             </div>
 

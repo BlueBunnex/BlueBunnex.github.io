@@ -1,5 +1,5 @@
 const conspecies = `
-<img src="img/limalh_thing.png" width="600">
+<img src="img/limalh_thing.png" width="100%">
 <br>
 Limalh [li.maʎ] come with lots of variants at varying rarities that I will come up with later (very cool)
 <br>

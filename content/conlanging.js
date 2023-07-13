@@ -5,7 +5,7 @@ const conlanging = `
     <div>
         <p>Eventually I'll have it set up in a way so that it is ordered to be easily learned step by step, but w/e</p>
         
-        <h2>Phonology</h2>
+        <h3>Phonology</h3>
         <table style="width: 100%; text-align: center;">
             <tbody>
                 <tr>
@@ -95,36 +95,36 @@ const conlanging = `
         
         <hr>
             
-        <h2>Lexicon</h2>
-        <ul class="lefted-border">
+        <h3>Lexicon</h3>
+        <ul>
             <h3>Pronouns</h3>
         </ul>
         
-        <ul class="lefted-border">
+        <ul>
             <h3>Nouns</h3>
             <li>juche / person, human-being</li>
             <li>ran</li>
             <li>pan</li>
         </ul>
         
-        <ul class="lefted-border">
+        <ul>
             <h3>Postpositions</h3>
             <li>ep / indicates the direct object (Accusative)</li>
         </ul>
         
-        <ul class="lefted-border">
+        <ul>
             <h3>Verbs</h3>
             <li>chit</li>
         </ul>
         
-        <ul class="lefted-border">
+        <ul>
             <h3>Finals</h3>
             <li>cau</li>
         </ul>
         
         <hr>
         
-        <h2>Reference Grammar</h2>
+        <h3>Reference Grammar</h3>
         head-final, SOV
         
         <hr>

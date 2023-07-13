@@ -23,7 +23,16 @@
                 overflow: hidden;
             }
 
-            div:hover .info {
+            .image-holder {
+                position: relative;
+                overflow: hidden;
+            }
+
+            .image-holder:hover img {
+                filter: blur(4px) brightness(85%);
+            }
+            
+            .image-holder:hover .info {
                 opacity: 1;
             }
             
@@ -64,7 +73,7 @@
                 <span class="asset">
                     <div style="padding: 6px">
                         
-                        <div style="position: relative;">
+                        <div class="image-holder">
                             <img src="assets_download/rubo.png" width="100%">
                             
                             <span class="text-block info">
@@ -87,7 +96,7 @@
                 <span class="asset">
                     <div style="padding: 6px">
                         
-                        <div style="position: relative;">
+                        <div class="image-holder">
                             <img src="assets_download/snub_pistol.png" width="100%">
                             
                             <span class="text-block info">

@@ -12,8 +12,9 @@ const characterInfo = {
         clothing: "Typically a red hoodie over a tan tee that reads ROFL across the front.",
         personality: "Boisterous, well-intentioned, and colorful in nature, and seemingly always motivated to push herself to become better. She's kind, but push her around and she'll get ticked off fast.",
         colors: [
+            "#eb4034",
             "#9c7767",
-            "#9c3a28"
+            "#fae3af"
         ],
         paragraphs: [
             "Cacao does not pull punches. She insists on ordering first at restaurants. She must be the one to hold the door open for the other person. And she absolutely is the one who picks out this week's groceries' chip flavour. Why does she do this? In her words, \"Some of us like to be getting stuff done!\""

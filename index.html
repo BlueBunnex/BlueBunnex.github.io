@@ -90,7 +90,7 @@
                 let prefix = "";
 
                 if (content != main) {
-                    prefix = "<div class='section' onclick='loadContent(main);'><h1>back</h1></div>";
+                    prefix = "<div class='section' onclick='loadContent(main);' style='padding-bottom: 2px; cursor: pointer;'><h1>back</h1></div>";
                 }
                 
                 document.getElementById("left").innerHTML = prefix + content;

@@ -3,9 +3,8 @@
     <head>
         <title>kitsumitsu.de</title>
         <link rel="icon" type="image/x-icon" href="img/purdy_ico.ico"/>
-        <script src="https://kit.fontawesome.com/30792084b2.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="style.css">
-        <script src="script.js"></script>
+        <!--<link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>-->
         <meta charset="UTF-8">
         
         <!-- Discord embed stuff -->
@@ -14,122 +13,121 @@
         <meta content="http://www.kitsumitsu.de" property="og:url" />
         <meta content="http://www.kitsumitsu.de/img/purdy_ico.png" property="og:image" />
         <meta content="#ff7373" data-react-helmet="true" name="theme-color" />
-        
-        <style>
-            
-            /* mini headers in bio */
-            .mini-header {
-                position: relative;
-                border-top-style: solid;
-                border-width: 2px;
-                border-color: var(--ten);
-                font-weight: 800;
-                color: var(--ten);
-            }
-            
-            .mini-header span {
-                position: absolute;
-                top: -13px;
-                background: white;
-                left: 10px;
-            }
-            
-        </style>
 
+        <style>
+            :root {
+                background: #eeeeee;
+                font-family: sans-serif;
+            }
+            
+            body {
+                width: 100%;
+                max-width: 600px;
+                margin: auto;
+                display: flex;
+                column-gap: 12px;
+            }
+
+            #left {
+                flex: 3;
+            }
+            
+            #right {
+                flex: 1;
+            }
+
+            .section {
+                background: #424f24;
+                color: #eeeeee;
+                padding: 6px 2px;
+                position: relative;
+                margin-bottom: 12px;
+            }
+
+            .section h1 {
+                font-size: 15px;
+                margin: 0 0 4px 0;
+            }
+
+            .section h2 {
+                font-size: 10px;
+                margin: 0 0 2px 0;
+                position: absolute;
+                top: 5px;
+                right: 3px;
+            }
+
+            .section div {
+                color: black;
+                background: #eeeeee;
+                font-size: 12px;
+                margin: 0;
+                padding: 2px;
+            }
+            
+            .section p {
+                margin: 0;
+            }
+
+            .section .ref:after {
+                content: "read more";
+            }
+        </style>
     </head>
     <body>
-
-        <!-- central stuff area -->
-        <div id="central" style="margin-bottom: -10px; padding-bottom: 15px;">
-
-            <!--
-                right column
-            -->
-            <span class="right-column">
-                
-                <!-- website header -->
-                <h1 id="header" unselectable="on" onclick="translatePage();">
-
-                    <div class="English">
-                        <span>
-                            <span style="left: 22px;"></span>
-                            <span style="left: 11px;"></span>
-                            kitsumitsu</span>.de
-                    </div>
-
-                    <div class="Chinese">
-                        <span>
-                            <span style="left: 22px;"></span>
-                            <span style="left: 11px;"></span>
-                            昔旭咪旭</span>.的
-                    </div>
-
-                </h1>
-                
-                <!-- profile card -->
-                <div>
-            
-                    <!-- profile -->
-                    <img src="img/cacao_pfp.png" style="border-radius: 10%; width: 95%;">
-                    
-                    <!-- brief description + links to other pages -->
-                    <div style="margin-top: 8px; padding: 0px 5px;">
-                        
-                        <div class="mini-header">
-                            <span>About Me</span>
-                        </div>
-                        
-                        <p class="lefted-border" style="margin: 14px 0 7px 0; padding-left: 8px; font-size: 14px;">
-                            hi I'm kitsumitsu. I draw sfw bbw & furry content and do other stuff sometimes like 3D model, compose music, and learn Chinese.
-                        </p>
-
-                        <p class="lefted-border" style="margin: 0 0 14px 0; padding-left: 8px; font-size: 14px;">
-                            mi jan Kijani. mi pilin e kule unpa ale li e pona mute.
-                        </p>
-                        
-                        <div class="mini-header">
-                            <span>Navigation</span>
-                        </div>
-                        
-                        <div class="lefted-border" style="margin-top: 14px; background-color: var(--ten);">
-                            <button style="color: var(--sixty);" onclick="location.href='https://cohost.org/kitsumitsu';" type="button" class="search-button"><i class="fa-solid fa-up-right-from-square"></i> My Cohost Page</button>
-                            <button style="color: var(--sixty);" onclick="location.href='https://artfight.net/~kitsumitsu';" type="button" class="search-button"><i class="fa-solid fa-up-right-from-square"></i> My Artfight Page</button>
-                            <button style="color: var(--sixty);" onclick="location.href='https://github.com/BlueBunnex/BlueBunnex.github.io';" type="button" class="search-button"><i class="fa-solid fa-up-right-from-square"></i> Source Code</button>
-                        </div>
-
-                        <div class="lefted-border" style="margin-bottom: 14px; padding-bottom: 8px;">
-                            <button onclick="location.href='universe.html';" type="button" class="search-button" style="white-space: nowrap;">
-                                <i class="fa-solid fa-users"></i>
-                                My OCs
-                            </button>
-                            <button onclick="location.href='assets.html';" type="button" class="search-button"><i class="fa-solid fa-shapes"></i> Assets</button>
-                            <button onclick="location.href='conlanging.html';" type="button" class="search-button"><i class="fa-solid fa-comments"></i> Conlanging</button>
-                            <button onclick="location.href='conspecies.html';" type="button" class="search-button"><i class="fa-solid fa-shrimp"></i> Conspecies</button>
-                        </div>
-                        
-                        <div class="mini-header" style="margin-bottom: 10px;"></div>
-                        
-                    </div>
         
+        <div id="left">
+
+            <div class="section">
+                <h1>the kitsumitsuverse</h1>
+                <h2>#000</h2>
+                <div>
+                    <p>the kitsumitsuverse is a collection of characters that I like to draw! all my favourite ocs are featured here. all my characters are adults.</p>
+                    <a class="ref" href="universe.html"></a>
                 </div>
+            </div>
 
-                <!--<span class="wide-display-only"></span>-->
+            <div class="section">
+                <h1>asset downloads</h1>
+                <h2>#001</h2>
+                <div>
+                    <p>some assets that you can use if you like, mostly 3D assets rn. they're all free and you don't have to give credit.</p>
+                    <a class="ref" href="assets.html"></a>
+                </div>
+            </div>
 
-                <span style="padding-top: 20px; text-align: center; color: var(--ten-dark); font-size: 12px;">
-                    © 2023 Kitsumitsu46. All Rights Reserved.
-                </span>
+            <div class="section">
+                <h1>my conlanging project(s)</h1>
+                <h2>#002</h2>
+                <div>
+                    <p>I like to make constructed languages! however, I'm very indecisive and often restart over and over trying to get something I like. in the meantime, you can see what I'm working on in that regard here.</p>
+                    <a class="ref" href="conlanging.html"></a>
+                </div>
+            </div>
 
-            </span>
+            <div class="section">
+                <h1>my conspecies, the limalh</h1>
+                <h2>#003</h2>
+                <div>
+                    <p>they're cool!</p>
+                    <a class="ref" href="conspecies.html"></a>
+                </div>
+            </div>
 
-            <!--
-                left column
-            -->
-            <span class="left-column">
+        </div>
 
-                <br>
-                <span style="font-weight: 800; font-size: 13px; color: var(--ten-dark);">There doesn't seem to be anything here right now...</span>
+        <div id="right">
 
-            </span>
+            <div class="section">
+                <img src="img/cacao_pfp.png" width="100%">
+                <h1>kitsumitsu</h1>
+                <div>
+                    <p>hi I'm kitsumitsu. I draw sfw bbw & furry content and do other stuff sometimes like 3D model, compose music, and learn Chinese.</p>
+                    <a href="https://cohost.org/kitsumitsu">cohost</a>
+                    <a href="https://artfight.net/~kitsumitsu">artfight</a>
+                    <a href="https://github.com/BlueBunnex/BlueBunnex.github.io">source code</a>
+                </div>
+            </div>
 
         </div>
 

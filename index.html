@@ -81,11 +81,9 @@
                 content: "check it out";
             }
         </style>
-    </head>
-    <body>
         
-        <div id="left">
-
+        <script>
+            const main = `
             <div class="section">
                 <h1>the kitsumitsuverse (ocs)</h1>
                 <h2>#000</h2>
@@ -130,8 +128,16 @@
                     <a class="ref" href="https://awesome.colean.cc"> (external)</a>
                 </div>
             </div>
+            `;
 
-        </div>
+            function loadContent(content) {
+                document.getElementById("left").innerHTML = content;
+            }
+        </script>
+    </head>
+    <body onload="loadContent(main);">
+        
+        <div id="left"></div>
 
         <div id="right">
 

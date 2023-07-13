@@ -31,7 +31,7 @@ const main = `
                 <h2>#003</h2>
                 <div>
                     <p>I mocked up a design for a fictional species of humanoid creatures called the limalh. I plan on drawing various features for the limalh that can be used to create variations in their designs (maybe, if I get around to it). if you want to make a limalh oc, feel free! and if you could share it with me on discord or something, that would be cool!</p>
-                    <a class="ref" href="conspecies.html"></a>
+                    <a class="ref" href="javascript:loadContent(conspecies);"></a>
                 </div>
             </div>
 

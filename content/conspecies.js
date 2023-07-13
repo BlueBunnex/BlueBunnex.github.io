@@ -9,10 +9,10 @@ const conspecies = `
         <br>
         <br>
         tail varieties<br>
-        <strong style="background: green;">common</strong> bulb, long<br>
-        <strong style="background: blue;">uncommon</strong> split end, spade<br>
-        <strong style="background: purple;">rare</strong> double, loop<br>
-        <strong style="background: red;">very rare</strong> ??
+        <strong style="color: white; background: green;">common</strong> bulb, long<br>
+        <strong style="color: white; background: blue;">uncommon</strong> split end, spade<br>
+        <strong style="color: white; background: purple;">rare</strong> double, loop<br>
+        <strong style="color: white; background: red;">very rare</strong> ??
     </div>
 </div>
 

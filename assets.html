@@ -23,7 +23,13 @@
                 overflow: hidden;
             }
 
-            .text-block {
+            div:hover .info {
+                opacity: 1;
+            }
+            
+            .info {
+                opacity: 0;
+                transition-duration: 0.2s;
                 position: absolute;
                 top: 50%;
                 width: 75%;
@@ -32,7 +38,7 @@
                 margin: 0;
             }
             
-            .text-block .cutebutton {
+            .info .cutebutton {
                 width: 30px;
                 position: absolute;
                 right: 5px;
@@ -61,7 +67,7 @@
                         <div style="position: relative;">
                             <img src="assets_download/rubo.png" width="100%">
                             
-                            <span class="text-block">
+                            <span class="text-block info">
                                 <i class="fa-solid fa-shapes"></i> 132 polys
                                 <br><i class="fa-solid fa-floppy-disk"></i> 479KB
                                 <br><i class="fa-solid fa-image"></i> 1024×1024p
@@ -84,7 +90,7 @@
                         <div style="position: relative;">
                             <img src="assets_download/snub_pistol.png" width="100%">
                             
-                            <span class="text-block">
+                            <span class="text-block info">
                                 <i class="fa-solid fa-shapes"></i> 367 polys
                                 <br><i class="fa-solid fa-floppy-disk"></i> 946KB
     

@@ -4,7 +4,7 @@ const main = `
                 <h2>#000</h2>
                 <div>
                     <p>the kitsumitsuverse is a collection of characters that I like to draw! all my favourite ocs are featured here. all my characters are adults.</p>
-                    <a class="ref" href="universe.html"></a>
+                    <a class="ref" href="javascript:loadContent(universe);"></a>
                 </div>
             </div>
 

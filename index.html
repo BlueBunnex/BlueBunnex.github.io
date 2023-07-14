@@ -32,7 +32,6 @@
             #horizontal-flex {
                 width: 100%;
                 max-width: 900px;
-                /*margin: auto;*/
                 display: flex;
                 column-gap: 12px;
             }
@@ -40,8 +39,15 @@
             a { color: var(--accent-light); }
             a:hover { color: var(--accent-dark); }
 
-            #left { flex: 1; background: var(--accent-dark); }
-            #right { flex: 5; }
+            #left {
+                flex: 1;
+                background: var(--accent-dark);
+                min-height: 100vh;
+            }
+            
+            #right {
+                flex: 5;
+            }
 
             #copyright {
                 font-size: 10px;
@@ -55,6 +61,10 @@
                 padding: 6px 2px;
                 position: relative;
                 margin-bottom: 12px;
+            }
+
+            .section img {
+                max-width: 100%;
             }
 
             .section h1 {

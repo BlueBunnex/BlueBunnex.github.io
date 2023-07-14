@@ -6,13 +6,13 @@ const universe = `
 
 function universeInsert() {
     
-    let in = document.getElementById("universe-insert");
+    let insert = document.getElementById("universe-insert");
     
     for (const prop in characterInfo) {
     
         //alert(characterInfo[prop]['name'] + " likes burgers");
     
-        in.innerHTML += `<div class="section">
+        insert.innerHTML += `<div class="section">
             <h1>` + characterInfo[prop]['name'] + `</h1>
             <div>
         

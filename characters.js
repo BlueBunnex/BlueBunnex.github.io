@@ -38,7 +38,7 @@ const characterInfo = {
         ],
         body: "Pink hair, blue pupils/inner mouth. She has a muffintop while wearing tight clothes.",
         clothing: "I'm still workshopping what her 'default' clothing will be. I'm thinking about having her wear a pink one piece underneath a white overcoat (with a single button connected at her midriff), and maybe a white sunhat with a blue bow and black shades. And of course, her golden bangles and heart necklace.",
-        personality: "Upbeat sometimes, and sleepy other times.",
+        personality: "Mercurial. Upbeat sometimes, and sleepy other times. Sometime's she's extremely talkative, other times she just wants to take a nap.",
         colors: [
             "#3639ff",
             "#ff96c4"

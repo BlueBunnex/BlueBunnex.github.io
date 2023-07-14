@@ -12,12 +12,12 @@ function universeInsert() {
     
         //alert(characterInfo[prop]['name'] + " likes burgers");
     
-        in.innerHTML += \`<div class="section">
-            <h1>\` + characterInfo[prop]['name'] + \`</h1>
+        in.innerHTML += `<div class="section">
+            <h1>` + characterInfo[prop]['name'] + `</h1>
             <div>
         
             </div>
-        </div>\`;
+        </div>`;
         
     }
 

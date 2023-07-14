@@ -4,6 +4,8 @@ const universe = `
 
 <script src="characters.js"></script>
 <script>
+    alert("important");
+
     let in = document.getElementById("universe-insert");
 
     for (const prop in characterInfo) {

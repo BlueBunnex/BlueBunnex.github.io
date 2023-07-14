@@ -21,7 +21,8 @@ const main = `
                 <h1>my conlanging project(s)</h1>
                 <h2>#002</h2>
                 <div>
-                    <p>I like to make constructed languages, however, I'm very indecisive and often restart over and over trying to get something I like. while that's happening, you can see what I'm currently working on in that regard here.</p>
+                    <p>but what is a conlang? a conlang (abbreviation of constructed language), is a language that has been artificially created by one person or group of people for some designated purpose, rather than having evolved naturally through standard means (see: natlang). although conlangs aren't natural, they still feature (at their best) all the features of a natural language, including a unique phonology, grammar, and conculture.</p>
+                    <p>so, I like to make these constructed languages. however, I'm very indecisive and often restart over and over trying to get something I like. while that's happening, you can see what I'm currently working on in that regard here.</p>
                     <a class="ref" href="javascript:loadContent(conlanging);"></a>
                 </div>
             </div>

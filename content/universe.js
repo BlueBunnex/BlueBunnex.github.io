@@ -6,7 +6,7 @@ for (const prop in characterInfo) {
 
     // open divs and create header
     construct += "<div class='section'>";
-    construct += "<h1>` + char['name'] + `</h1>";
+    construct += "<h1>" + char['name'] + "</h1>";
     construct += "<div>";
 
     // add tagline
@@ -16,8 +16,8 @@ for (const prop in characterInfo) {
     construct += "<img src='/img/universe/" + char['imgs'][0] + "' style='width: 320px;'>";
 
     // add paragraphs
-    for (const para in char['paragraphs']) {
-        construct += "<p>" + para + "</p>";
+    for (let i=0; i<char['paragraphs'].length; i++) {
+        construct += "<p>" + char['paragraphs'][i] + "</p>";
     }
 
     // close divs

@@ -7,7 +7,7 @@ for (const prop in characterInfo) {
     construct += `<div class="section">
         <h1>` + char['name'] + `</h1>
         <div>
-            <img src=/img/universe/` + char['imgs'][0] + ` width="100%">
+            <img src=/img/universe/` + char['imgs'][0] + `>
             <p>` + char['tagline'] + `</p>
         </div>
     </div>`;

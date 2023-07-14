@@ -3,7 +3,7 @@ const conspecies = `
 <div class="section">
     <h1>the limalh</h1>
     <div>
-        <img src="img/limalh_thing.png" width="100%">
+        <img src="img/limalh_thing.png">
         <br>
         Limalh [li.maʎ] come with lots of variants at varying rarities that I will come up with later (very cool)
         <br>

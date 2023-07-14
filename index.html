@@ -23,8 +23,18 @@
                 background: var(--background);
                 font-family: sans-serif;
             }
-            
+
             body {
+                margin: 0;
+                padding: 0;
+            }
+
+            #upper {
+                width: 100%;
+                height: 50vh;
+            }
+            
+            #lower {
                 width: 100%;
                 max-width: 600px;
                 margin: auto;
@@ -102,24 +112,30 @@
         </script>
     </head>
     <body onload="loadContent(main);">
+
+        <div id="upper">
+            
+        </div>
         
-        <div id="left"></div>
-
-        <div id="right">
-
-            <div class="section" style="position: sticky; top: 0;"> <!-- styling for being sticky is inline for now -->
-                <img src="img/cacao_pfp.png" width="100%">
-                <h1>kitsumitsu</h1>
-                <div>
-                    <p>hi I'm kitsumitsu. I draw sfw bbw & furry content and do other stuff sometimes like 3D model, compose music, and learn Chinese.</p>
-                    <a href="https://cohost.org/kitsumitsu">cohost</a>
-                    <a href="https://artfight.net/~kitsumitsu">artfight</a>
-                    <a href="javascript:alert('my username on Discord is: bluebunnex');">discord</a>
-                    <a href="https://github.com/BlueBunnex/BlueBunnex.github.io">source code</a>
+        <div id="lower">
+            <div id="left"></div>
+            
+            <div id="right">
+                <div class="section" style="position: sticky; top: 0;"> <!-- styling for being sticky is inline for now -->
+                    <img src="img/cacao_pfp.png" width="100%">
+                    <h1>kitsumitsu</h1>
+                    
+                    <div>
+                        <p>hi I'm kitsumitsu. I draw sfw bbw & furry content and do other stuff sometimes like 3D model, compose music, and learn Chinese.</p>
+                        <a href="https://cohost.org/kitsumitsu">cohost</a>
+                        <a href="https://artfight.net/~kitsumitsu">artfight</a>
+                        <a href="javascript:alert('my username on Discord is: bluebunnex');">discord</a>
+                        <a href="https://github.com/BlueBunnex/BlueBunnex.github.io">source code</a>
+                    </div>
+                    
+                    <p id="copyright">© 2023 Kitsumitsu. All Rights Reserved.</p>
                 </div>
-                <p id="copyright">© 2023 Kitsumitsu. All Rights Reserved.</p>
             </div>
-
         </div>
 
     </body>

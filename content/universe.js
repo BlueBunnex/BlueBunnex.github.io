@@ -1,10 +1,8 @@
-const universe = `
-
-<div id="universe-insert" onload="universeInsert();"></div>
-
-`;
+const universe = "<div id='universe-insert' onload='universeInsert();'></div>";
 
 function universeInsert() {
+
+    alert("bacon test");
     
     let insert = document.getElementById("universe-insert");
     

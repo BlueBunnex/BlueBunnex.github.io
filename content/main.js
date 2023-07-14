@@ -13,7 +13,7 @@ const main = `
                 <h2>#001</h2>
                 <div>
                     <p>some assets that you can use if you like, mostly 3D assets right now. they're all free and you don't have to give credit, but you know, you can!</p>
-                    <a class="ref" href="assets.html"></a>
+                    <a class="ref" href="javascript:loadContent(assets);"></a>
                 </div>
             </div>
 

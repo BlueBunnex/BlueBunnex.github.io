@@ -4,7 +4,7 @@ const assets = `
 <div class="section">
     <h1>yogurt</h1>
     <div>
-        <img src="assets_download/rubo.png" width="100%">
+        <img src="assets_download/rubo.png" style="width: 30%; cursor: zoom-in;" onclick="window.open('assets_download/rubo.png');">
 
         <p>a cute little vegan yogurt cup by the fictitious brand RUBO™.</p>
         
@@ -20,7 +20,7 @@ const assets = `
 <div class="section">
     <h1>snub pistol</h1>
     <div>
-        <img src="assets_download/snub_pistol.png" width="100%">
+        <img src="assets_download/snub_pistol.png" style="width: 30%; cursor: zoom-in;" onclick="window.open('assets_download/snub_pistol.png');">
 
         <p>a simple pistol model, with animatable slide, trigger, and mag. not textured.</p>
         

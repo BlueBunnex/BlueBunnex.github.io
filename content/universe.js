@@ -1,4 +1,8 @@
-let construct = "";
+let construct = `
+    <div class='section'>
+        <h1>jump</h1>
+    </div>
+`;
 
 for (const prop in characterInfo) {
 

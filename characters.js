@@ -1,10 +1,7 @@
 const characterInfo = {
     'wip': {
         name: "wip shark",
-        tagline: "awesome shark oc",
         imgs: [""],
-        reference: null,
-        facts: [],
         body: "blue eyes/inner mouth, wave along tail that allows for transition to bottom color",
         clothing: "",
         personality: "loving",
@@ -72,13 +69,7 @@ const characterInfo = {
     // },
     'cacao': {
         name: "Cacao",
-        tagline: "snuggly chocolate wolf",
-        imgs: ["cacao0.png", "cacao_book.png"],
-        reference: "cacao_ref.png",
-        facts: [
-            "When she has trouble sleeping, she likes a little midnight hot chocolate.",
-            "Her favourite food is a fried chicken sandwich with pickles and mayo."
-        ],
+        imgs: ["cacao0.png", "cacao_book.png", "cacao_ref.png"],
         body: "A brown wolf that has a wide body type (but isn't overweight). She has purple-yellow heterochromia (purple: her right, yellow: her left), and her eye shine forms little hearts. Her hands, feet, and tail feature a bubble pattern as they transition from brown to tan. Her hands are human-like and four fingered, while her legs/feet are anthro.",
         clothing: "Typically a red hoodie over a tan tee that reads ROFL across the front.",
         personality: "Boisterous, well-intentioned, and colorful in nature, and seemingly always motivated to push herself to become better. She's kind, but push her around and she'll get ticked off fast.",
@@ -89,7 +80,8 @@ const characterInfo = {
             "#9c7767"
         ],
         paragraphs: [
-            "Cacao does not pull punches. She insists on ordering first at restaurants. She must be the one to hold the door open for the other person. And she absolutely is the one who picks out this week's groceries' chip flavour. Why does she do this? In her words, \"Some of us like to be getting stuff done!\""
+            "Cacao does not pull punches. She insists on ordering first at restaurants. She must be the one to hold the door open for the other person. And she absolutely is the one who picks out this week's groceries' chip flavour. Why does she do this? In her words, \"Some of us like to be getting stuff done!\"",
+            "When she has trouble sleeping, she likes a little midnight hot chocolate. Her favourite food is a fried chicken sandwich with pickles and mayo. Also, she's snuggly."
         ],
         table_data: {
             Species: "Wolf",

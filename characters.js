@@ -11,8 +11,6 @@ const characterInfo = {
         colors: [],
         paragraphs: [
             "She lives in the countryside, owns a small pickup, farms agales ([ə.gä.lɛɪz], a type of large berry-bearing bush), and tends to some chickens and goats. Within each DIY wire-mesh on her property is an curious animal; Beneath every mound of soil overturned is a seed racing to germinate. While this seems like an unrealistic romanticization of the countryside (which it is), she fortunately receives a pension from an unknown sender through the bank every month, so all is well.",
-            "There are a few others who live relatively near her, scattered along the countryside's sprawling hills and mountainsides, but other than them and her livestock she is rather isolated.",
-            "Near her home there is a concealed, cavernous ravine that she has at times peeked within, but never gone more than a couple metres into. Some of the nearby residents claim that within the cavern resides a vicious man-eater which, though unbelievable, is a notion that nevertheless remains in the back of her mind preventing her from adventuring any deeper. And with their explanation of its tendency to, to put it in their words, \"explore\" the area surrounding the mouth of the ravine come nightfall, she has taken to locking her doors at night. Which is a good move regardless, even if stemmed from a (most-likely) baseless paranoia."
         ],
         table_data: {
             Species: "Shark",

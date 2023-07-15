@@ -18,33 +18,28 @@ const characterInfo = {
             Height: "very tall? or short"
         }
     },
-    'cacao': {
-        name: "Cacao",
-        tagline: "snuggly chocolate wolf",
-        imgs: ["cacao0.png", "cacao_book.png"],
-        reference: "cacao_ref.png",
+    'q': {
+        name: "q",
+        tagline: "cyber assistant",
+        imgs: ["qtie.png"],
+        reference: null,
         facts: [
-            "When she has trouble sleeping, she likes a little midnight hot chocolate.",
-            "Her favourite food is a fried chicken sandwich with pickles and mayo."
+            "They live in a computer, though they're 64-bit exclusive. They find Macbooks the coziest."
         ],
-        body: "A brown wolf that has a wide body type (but isn't overweight). She has purple-yellow heterochromia (purple: her right, yellow: her left), and her eye shine forms little hearts. Her hands, feet, and tail feature a bubble pattern as they transition from brown to tan. Her hands are human-like and four fingered, while her legs/feet are anthro.",
-        clothing: "Typically a red hoodie over a tan tee that reads ROFL across the front.",
-        personality: "Boisterous, well-intentioned, and colorful in nature, and seemingly always motivated to push herself to become better. She's kind, but push her around and she'll get ticked off fast.",
+        body: "Pear-shaped.",
+        clothing: "Blue oven mitts, apron, and striped knee socks.",
+        personality: "Rampantly egotistical and annoying.",
         colors: [
-            "#eb4034",
-            "#fae3af",
-            "#d49b7b",
-            "#9c7767"
+            "#ffffff",
+            "#73d7ff"
         ],
-        paragraphs: [
-            "Cacao does not pull punches. She insists on ordering first at restaurants. She must be the one to hold the door open for the other person. And she absolutely is the one who picks out this week's groceries' chip flavour. Why does she do this? In her words, \"Some of us like to be getting stuff done!\""
-        ],
+        paragraphs: [],
         table_data: {
-            Species: "Wolf",
-            Identity: "Woman",
-            Orientation: "Straight",
-            Weight: "Average",
-            Height: "Short"
+            Species: "x64",
+            Identity: "Non-binary (hexadecimal)",
+            Orientation: "N/A",
+            Weight: "4KB",
+            Height: "1024px"
         }
     },
     'bonnie': {
@@ -73,28 +68,33 @@ const characterInfo = {
             Height: "Tall"
         }
     },
-    'q': {
-        name: "q",
-        tagline: "cyber assistant",
-        imgs: ["qtie.png"],
-        reference: null,
+    'cacao': {
+        name: "Cacao",
+        tagline: "snuggly chocolate wolf",
+        imgs: ["cacao0.png", "cacao_book.png"],
+        reference: "cacao_ref.png",
         facts: [
-            "They live in a computer, though they're 64-bit exclusive. They find Macbooks the coziest."
+            "When she has trouble sleeping, she likes a little midnight hot chocolate.",
+            "Her favourite food is a fried chicken sandwich with pickles and mayo."
         ],
-        body: "Pear-shaped.",
-        clothing: "Blue oven mitts, apron, and striped knee socks.",
-        personality: "Rampantly egotistical and annoying.",
+        body: "A brown wolf that has a wide body type (but isn't overweight). She has purple-yellow heterochromia (purple: her right, yellow: her left), and her eye shine forms little hearts. Her hands, feet, and tail feature a bubble pattern as they transition from brown to tan. Her hands are human-like and four fingered, while her legs/feet are anthro.",
+        clothing: "Typically a red hoodie over a tan tee that reads ROFL across the front.",
+        personality: "Boisterous, well-intentioned, and colorful in nature, and seemingly always motivated to push herself to become better. She's kind, but push her around and she'll get ticked off fast.",
         colors: [
-            "#ffffff",
-            "#73d7ff"
+            "#eb4034",
+            "#fae3af",
+            "#d49b7b",
+            "#9c7767"
         ],
-        paragraphs: [],
+        paragraphs: [
+            "Cacao does not pull punches. She insists on ordering first at restaurants. She must be the one to hold the door open for the other person. And she absolutely is the one who picks out this week's groceries' chip flavour. Why does she do this? In her words, \"Some of us like to be getting stuff done!\""
+        ],
         table_data: {
-            Species: "x64",
-            Identity: "Non-binary (hexadecimal)",
-            Orientation: "N/A",
-            Weight: "4KB",
-            Height: "1024px"
+            Species: "Wolf",
+            Identity: "Woman",
+            Orientation: "Straight",
+            Weight: "Average",
+            Height: "Short"
         }
     }
 };

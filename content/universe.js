@@ -4,14 +4,18 @@ let construct = `
         <div>
 `;
 
+for (const charId in characterInfo) {
+    construct += "<a href='#" + charId + "'>" + characterInfo[charId]['name'] + "</a> ";
+}
+
 construct += "</div></div>";
 
-for (const prop in characterInfo) {
+for (const charId in characterInfo) {
 
-    let char = characterInfo[prop];
+    let char = characterInfo[charId];
 
     // open divs and create header
-    construct += "<div class='section'>";
+    construct += "<div class='section' id='" + charId + "'>";
     construct += "<h1>" + char['name'] + "</h1>";
     construct += "<div>";
 

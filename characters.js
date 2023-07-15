@@ -10,9 +10,9 @@ const characterInfo = {
         personality: "loving",
         colors: [],
         paragraphs: [
-            "she lives in the countryside, owns a small pickup, farms agalës, and tends to some little chickens and goats. while this seems like an unrealistic romanticization of the countryside (which it is), she fortunately receives a pension from an unknown sender through the bank every month, so all is well.",
-            "there are a few others who live relatively near her, but other than them and her livestock she is rather isolated.",
-            "near her home there is a concealed, cavernous ravine that she has at times peeked within, but never gone more than a couple metres into. some of the nearby residents claim in that cavern resides a vicious man-eater which, though unbelievable, is a notion that nevertheless remains in the back of her mind preventing her from adventuring any deeper."
+            "she lives in the countryside, owns a small pickup, farms agales ([ə.gä.lɛɪz], a type of large berry-bearing bush), and tends to some chickens and goats. while this seems like an unrealistic romanticization of the countryside (which it is), she fortunately receives a pension from an unknown sender through the bank every month, so all is well.",
+            "there are a few others who live relatively near her, scattered along the countryside's sprawling hills and mountainsides, but other than them and her livestock she is rather isolated.",
+            "near her home there is a concealed, cavernous ravine that she has at times peeked within, but never gone more than a couple metres into. some of the nearby residents claim in that cavern resides a vicious man-eater which, though unbelievable, is a notion that nevertheless remains in the back of her mind preventing her from adventuring any deeper. and with their explanation of its tendency to, to put it in their words, \"explore\" the area surrounding the mouth of the ravine come nightfall, she has taken to locking her doors at night. which is a good move regardless, even if its cause stemmed from a (most-likely) baseless paranoia."
         ],
         table_data: {
             Species: "Shark",

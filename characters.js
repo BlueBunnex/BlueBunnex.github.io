@@ -1,5 +1,5 @@
 const characterInfo = {
-    'wipshark' {
+    'wip': {
         name: "wip shark",
         tagline: "awesome shark oc",
         imgs: [""],

@@ -5,12 +5,14 @@ const characterInfo = {
         imgs: [""],
         reference: null,
         facts: [],
-        body: "dark green wave along tail that allows for transition to bottom which is dark green",
-        clothing: "cultural",
+        body: "wave along tail that allows for transition to bottom color",
+        clothing: "",
         personality: "loving",
         colors: [],
         paragraphs: [
             "she lives in the countryside, owns a small pickup, farms agalës, and tends to some little chickens and goats. while this seems like an unrealistic romanticization of the countryside (which it is), she fortunately receives a pension from an unknown sender through the bank every month, so all is well."
+            "there are a few others who live relatively near her, but other than them and her livestock she is rather isolated.",
+            "near her home, there is a concealed, cavernous ravine that she has at times peeked within, but never gone more than a couple metres into."
         ],
         table_data: {
             Species: "Shark",

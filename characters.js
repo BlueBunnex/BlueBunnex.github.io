@@ -1,4 +1,23 @@
 const characterInfo = {
+    'wipshark' {
+        name: "wip shark",
+        tagline: "awesome shark oc",
+        imgs: [""],
+        reference: null,
+        facts: [],
+        body: "dark green wave along tail that allows for transition to bottom which is dark green",
+        clothing: "cultural",
+        personality: "loving",
+        colors: [],
+        paragraphs: [],
+        table_data: {
+            Species: "Shark",
+            Identity: "Female",
+            Orientation: "Straight",
+            Weight: "over",
+            Height: "very tall? or short"
+        }
+    },
     'cacao': {
         name: "Cacao",
         tagline: "snuggly chocolate wolf",

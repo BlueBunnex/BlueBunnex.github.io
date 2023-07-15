@@ -9,7 +9,9 @@ const characterInfo = {
         clothing: "cultural",
         personality: "loving",
         colors: [],
-        paragraphs: [],
+        paragraphs: [
+            "she lives in the countryside, owns a small pickup, farms agalës, and tends to some little chickens and goats. while this seems like an unrealistic romanticization of the countryside (which it is), she fortunately receives a pension from an unknown sender through the bank every month, so all is well."
+        ],
         table_data: {
             Species: "Shark",
             Identity: "Female",

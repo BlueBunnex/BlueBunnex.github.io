@@ -1,8 +1,10 @@
 let construct = `
     <div class='section'>
         <h1>jump</h1>
-    </div>
+        <div>
 `;
+
+construct += "</div></div>";
 
 for (const prop in characterInfo) {
 

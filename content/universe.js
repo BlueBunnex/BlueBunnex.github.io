@@ -25,8 +25,8 @@ for (const charId in characterInfo) {
     }
     
     // add image
-    for (let i=0; i<char['imgs'].length; i++) {
-        construct += "<img src='/img/universe/" + char['imgs'][i] + "' style='width: 320px;'>";
+    for (const image in char['imgs']) {
+        construct += "<img src='/img/universe/" + image + "' style='width: 320px;'>";
     }
 
     // add paragraphs

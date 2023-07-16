@@ -19,10 +19,12 @@ for (let charId in characterInfo) {
     construct += "<h1>" + char['name'] + "</h1>";
     construct += "<div>";
 
-    // add table data
+    // add table data (todo style)
+    construct += "<table>";
     for (let tag in char['table_data']) {
-        construct += "<p>" + tag + "</p>";
+        construct += "<tr><th>" + tag + ":</th><td>" + char['table_data'][tag] + "</td></tr>";
     }
+    construct += "</table>";
     
     // add image (todo gallery)
     for (let index in char['imgs']) {

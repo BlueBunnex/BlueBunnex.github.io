@@ -26,7 +26,7 @@ for (let charId in characterInfo) {
     }
     construct += "</table>";
     
-    // add image (todo gallery)
+    // add image
     for (let index in char['imgs']) {
         construct += "<img src='/img/universe/" + char['imgs'][index] + "' style='width: 50%; cursor: zoom-in;' onclick='window.open(\"/img/universe/" + char['imgs'][index] + "\");'>";
     }

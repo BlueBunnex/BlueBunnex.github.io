@@ -4,7 +4,7 @@ const characterInfo = {
         imgs: [],
         paragraphs: [
             "She lives on the beachside, owns a small pickup, farms, and tends to some chickens, rabbits, and goats. Within each DIY wire-mesh on her property is a curious animal; Beneath every mound of soil overturned is a little seed. While this seems like an unrealistic romanticization of the country (which it is), she fortunately receives a pension from an unknown sender through the bank every month, so all is well.",
-            "Though she seems innocent, she's also a kleptomaniac (though, she only steals from one particular donut shop)."
+            "Though she seems innocent, she's also a kleptomaniac (though, she only steals from one particular donut shop). She's aware of the, well, <i>illegality</i> of the situation, so she's managed to restrict her urges to only around once a week. She finds it thrilling every time she gets away with it (the owner has already noticed and just charges her more for her daily coffee under 'service fee')."
         ],
         table_data: {
             Species: "Thresher Shark",

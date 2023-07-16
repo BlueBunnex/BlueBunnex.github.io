@@ -24,14 +24,14 @@ for (let charId in characterInfo) {
         construct += "<p>" + tag + "</p>";
     }
     
-    // add image
-    for (let image in char['imgs']) {
-        construct += "<img src='/img/universe/" + image + "' style='width: 320px;'>";
+    // add image (todo gallery)
+    for (let index in char['imgs']) {
+        construct += "<img src='/img/universe/" + char['imgs'][index] + "' style='width: 240px;'>";
     }
 
     // add paragraphs
-    for (let i=0; i<char['paragraphs'].length; i++) {
-        construct += "<p>" + char['paragraphs'][i] + "</p>";
+    for (let index in char['paragraphs']) {
+        construct += "<p>" + char['paragraphs'][index] + "</p>";
     }
 
     // close divs

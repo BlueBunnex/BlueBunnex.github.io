@@ -5,7 +5,7 @@ const characterInfo = {
         paragraphs: [
             "She lives on the beachside, owns a small pickup, farms, and tends to some chickens, rabbits, and goats. Within each DIY wire-mesh on her property is a curious animal; Beneath every mound of soil overturned is a little seed. While this seems like an unrealistic romanticization of the country (which it is), she fortunately receives a pension from an unknown sender through the bank every month, so all is well.",
         ],
-        table_data: {
+        tableData: {
             Species: "Shark",
             Identity: "Woman",
             Orientation: "?",
@@ -23,7 +23,7 @@ const characterInfo = {
             "Cacao does not pull punches. She insists on ordering first at restaurants. She must be the one to hold the door open for the other person. And she absolutely is the one who picks out this week's groceries' chip flavour. Why does she do this? In her words, \"Some of us like to be getting stuff done!\"",
             "When she has trouble sleeping, she likes a little midnight hot chocolate. Her favourite food is a fried chicken sandwich with pickles and mayo. Also, she's snuggly."
         ],
-        table_data: {
+        tableData: {
             Species: "Wolf",
             Identity: "Woman",
             Orientation: "Straight",

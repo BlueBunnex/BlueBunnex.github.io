@@ -28,7 +28,7 @@ for (let charId in characterInfo) {
     
     // add image (todo gallery)
     for (let index in char['imgs']) {
-        construct += "<img src='/img/universe/" + char['imgs'][index] + "' style='width: 240px;'>";
+        construct += "<img src='/img/universe/" + char['imgs'][index] + "' style='width: 50%;'>";
     }
 
     // add paragraphs

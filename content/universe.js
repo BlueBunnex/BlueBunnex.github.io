@@ -21,19 +21,18 @@ for (let charId in characterInfo) {
 
     // add table data
     for (let tag in char['table_data']) {
-        alert("hi");
-        char += "<p>" + tag + "</p>";
+        construct += "<p>" + tag + "</p>";
     }
     
-    // // add image
-    // for (let image in char['imgs']) {
-    //     construct += "<img src='/img/universe/" + image + "' style='width: 320px;'>";
-    // }
+    // add image
+    for (let image in char['imgs']) {
+        construct += "<img src='/img/universe/" + image + "' style='width: 320px;'>";
+    }
 
-    // // add paragraphs
-    // for (let i=0; i<char['paragraphs'].length; i++) {
-    //     construct += "<p>" + char['paragraphs'][i] + "</p>";
-    // }
+    // add paragraphs
+    for (let i=0; i<char['paragraphs'].length; i++) {
+        construct += "<p>" + char['paragraphs'][i] + "</p>";
+    }
 
     // close divs
     construct += "</div></div>";

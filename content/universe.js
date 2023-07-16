@@ -30,9 +30,9 @@ for (const charId in characterInfo) {
     }
 
     // add paragraphs
-    for (let i=0; i<char['paragraphs'].length; i++) {
-        construct += "<p>" + char['paragraphs'][i] + "</p>";
-    }
+    // for (let i=0; i<char['paragraphs'].length; i++) {
+    //     construct += "<p>" + char['paragraphs'][i] + "</p>";
+    // }
 
     // close divs
     construct += "</div></div>";

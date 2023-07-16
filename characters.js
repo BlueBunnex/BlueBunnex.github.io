@@ -1,9 +1,9 @@
 const characterInfo = {
     'wip': {
         name: "wip shark",
-        imgs: [""],
+        imgs: [],
         paragraphs: [
-            "She lives on the beachside, owns a small pickup, farms agales ([ə.gä.lɛɪz], a type of large berry-bearing bush that grows well in sand), and tends to some chickens, rabbits, and goats. Within each DIY wire-mesh on her property is a curious animal; Beneath every mound of soil overturned is a little seed. While this seems like an unrealistic romanticization of the country (which it is), she fortunately receives a pension from an unknown sender through the bank every month, so all is well.",
+            "She lives on the beachside, owns a small pickup, farms, and tends to some chickens, rabbits, and goats. Within each DIY wire-mesh on her property is a curious animal; Beneath every mound of soil overturned is a little seed. While this seems like an unrealistic romanticization of the country (which it is), she fortunately receives a pension from an unknown sender through the bank every month, so all is well.",
         ],
         table_data: {
             Species: "Shark",
@@ -12,7 +12,7 @@ const characterInfo = {
             Weight: "Over",
             Height: "Very short",
             Body: "Blue eyes/inner mouth, wave along tail that allows for transition to bottom color.",
-            Clothing: "",
+            Clothing: "I dunno yet.",
             Personality: "Loving."
         }
     },

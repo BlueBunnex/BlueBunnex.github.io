@@ -19,8 +19,10 @@ for (const charId in characterInfo) {
     construct += "<h1>" + char['name'] + "</h1>";
     construct += "<div>";
 
-    // add tagline
-    construct += "<p>" + char['tagline'] + "</p>";
+    // add table data
+    for (const tag in char['table-data']) {
+        char += "<p>" + tag + "</p>";
+    }
     
     // add image
     construct += "<img src='/img/universe/" + char['imgs'][0] + "' style='width: 320px;'>";

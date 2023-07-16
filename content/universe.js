@@ -4,13 +4,13 @@ let construct = `
         <div>
 `;
 
-for (const charId in characterInfo) {
+for (let charId in characterInfo) {
     construct += "<a href='#" + charId + "'>" + characterInfo[charId]['name'] + "</a> ";
 }
 
 construct += "</div></div>";
 
-for (const charId in characterInfo) {
+for (let charId in characterInfo) {
 
     let char = characterInfo[charId];
 

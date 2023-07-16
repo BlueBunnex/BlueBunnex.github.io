@@ -13,16 +13,17 @@ construct += "</div></div>";
 for (let charId in characterInfo) {
 
     let char = characterInfo[charId];
-
+    
     // open divs and create header
     construct += "<div class='section' id='" + charId + "'>";
     construct += "<h1>" + char['name'] + "</h1>";
     construct += "<div>";
 
-    // // add table data
-    // for (let tag in char['table_data']) {
-    //     char += "<p>" + tag + "</p>";
-    // }
+    // add table data
+    for (let tag in char['table_data']) {
+        alert("hi");
+        char += "<p>" + tag + "</p>";
+    }
     
     // // add image
     // for (let image in char['imgs']) {

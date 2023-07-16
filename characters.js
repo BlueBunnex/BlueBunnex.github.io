@@ -7,9 +7,9 @@ const characterInfo = {
             "Though she seems innocent, she's also a kleptomaniac (though, she only steals from one particular donut shop)."
         ],
         table_data: {
-            Species: "Shark",
+            Species: "Thresher Shark",
             Identity: "Woman",
-            Orientation: "?",
+            Orientation: "Asexual, Romantic",
             Weight: "Over",
             Height: "Very short",
             Body: "Blue eyes/inner mouth, wave along tail that allows for transition to bottom color.",

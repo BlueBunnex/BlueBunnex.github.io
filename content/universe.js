@@ -20,7 +20,7 @@ for (const charId in characterInfo) {
     construct += "<div>";
 
     // add table data
-    for (const tag in char['tableData']) {
+    for (const tag in char['table_data']) {
         char += "<p>" + tag + "</p>";
     }
     

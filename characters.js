@@ -3,7 +3,8 @@ const characterInfo = {
         name: "wip shark",
         imgs: [],
         paragraphs: [
-            "She lives on the beachside, owns a small pickup, farms, and tends to some chickens, rabbits, and goats. Within each DIY wire-mesh on her property is a curious animal; Beneath every mound of soil overturned is a little seed. While this seems like an unrealistic romanticization of the country (which it is), she fortunately receives a pension from an unknown sender through the bank every month, so all is well."
+            "She lives on the beachside, owns a small pickup, farms, and tends to some chickens, rabbits, and goats. Within each DIY wire-mesh on her property is a curious animal; Beneath every mound of soil overturned is a little seed. While this seems like an unrealistic romanticization of the country (which it is), she fortunately receives a pension from an unknown sender through the bank every month, so all is well.",
+            "Though she seems innocent, she's also a kleptomaniac (though, she only steals from one particular donut shop)."
         ],
         table_data: {
             Species: "Shark",

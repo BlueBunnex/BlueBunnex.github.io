@@ -1,4 +1,19 @@
 const characterInfo = {
+    'dog': {
+        name: "wip dog",
+        imgs: [],
+        table_data: {
+            Species: "Beagle",
+            Identity: "Man",
+            Orientation: "Gay",
+            Weight: "Eh",
+            Height: "Tall",
+            Body: "Lanky.",
+            Clothing: "A yellow and green beanie.",
+            Personality: "I dunno yet."
+        },
+        paragraphs: []
+    },
     'stella': {
         name: "Stella Oei",
         imgs: ["stella_shark.png"],
@@ -8,7 +23,7 @@ const characterInfo = {
             Orientation: "Asexual, Romantic",
             Weight: "Big",
             Height: "Very short",
-            Body: "Pink body, blue eyes/inner mouth, scales along tail.",
+            Body: "Pink body, deep blue eyes/inner mouth, scales along tail.",
             Clothing: "Overalls and gloves (when working).",
             Personality: "Loving."
         },

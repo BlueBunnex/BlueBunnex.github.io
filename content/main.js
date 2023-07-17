@@ -36,6 +36,7 @@ const main = `
                 </div>
             </div>
 
+            <!-- gonna make this go to awesome social but we wait
             <div class="section">
                 <h1>awesome (hosted on colean.cc)</h1>
                 <h2>#004</h2>
@@ -44,4 +45,5 @@ const main = `
                     <a class="ref" href="https://awesome.colean.cc"> (external)</a>
                 </div>
             </div>
+            -->
 `;

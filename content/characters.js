@@ -8,8 +8,8 @@ const characterInfo = {
             Orientation: "Asexual, Romantic",
             Weight: "Big",
             Height: "Very short",
-            Body: "Pink body, blue eyes/inner mouth, wave along tail that allows for transition to bottom color.",
-            Clothing: "I dunno yet.",
+            Body: "Pink body, blue eyes/inner mouth, scales along tail.",
+            Clothing: "Overalls and gloves (when working).",
             Personality: "Loving."
         },
         paragraphs: [

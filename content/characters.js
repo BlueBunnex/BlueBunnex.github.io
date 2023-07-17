@@ -13,7 +13,7 @@ const characterInfo = {
             Personality: "Loving."
         },
         paragraphs: [
-            "She lives on her space farm. Though she seems innocent, she's also a kleptomaniac, and steals donuts."
+            "She lives on her space farm. Though she seems innocent, she's also a kleptomaniac, and steals donuts.",
             "Her last name is pronounced \"Wei\" [wɛɪ]."
         ]
     },

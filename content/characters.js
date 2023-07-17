@@ -1,7 +1,7 @@
 const characterInfo = {
     'wip': {
         name: "wip shark",
-        imgs: [],
+        imgs: ["stella_shark.png"],
         paragraphs: [
             "She lives on her space farm. Though she seems innocent, she's also a kleptomaniac, and steals donuts."
         ],

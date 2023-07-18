@@ -5,11 +5,11 @@ const characterInfo = {
         table_data: {
             Species: "Beagle",
             Identity: "Man",
-            Orientation: "Gay",
+            Orientation: "Gay (closeted)",
             Weight: "Eh",
             Height: "Tall",
             Body: "Lanky.",
-            Clothing: "A yellow and green beanie.",
+            Clothing: "A yellow and green beanie. His shirt has the CS2 logo. He prefers to wear dark colors.",
             Personality: "Swears a lot."
         },
         paragraphs: []

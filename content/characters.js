@@ -1,6 +1,6 @@
 const characterInfo = {
-    'dog': {
-        name: "wip dog",
+    'van': {
+        name: "Van Daiser",
         imgs: ["dog_guy.png"],
         table_data: {
             Species: "Beagle",

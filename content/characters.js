@@ -1,7 +1,7 @@
 const characterInfo = {
     'dog': {
         name: "wip dog",
-        imgs: [],
+        imgs: ["dog_guy.png"],
         table_data: {
             Species: "Beagle",
             Identity: "Man",
@@ -10,7 +10,7 @@ const characterInfo = {
             Height: "Tall",
             Body: "Lanky.",
             Clothing: "A yellow and green beanie.",
-            Personality: "I dunno yet."
+            Personality: "Swears a lot."
         },
         paragraphs: []
     },

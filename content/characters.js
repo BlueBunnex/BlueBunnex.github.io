@@ -1,10 +1,10 @@
 const characterInfo = {
-    'paulver-county': {
-        name: "Paulver County",
+    'rieler-county': {
+        name: "Rieler County",
         imgs: [],
         table_data: {},
         paragraphs: [
-            "Small places breed big people, and nowhere is this more true than the humble Paulver Country, home of the marshmallow-filled donut."
+            "Small places make for the biggest of communities, and nowhere is this more true than the humble Rieler Country, home of the marshmallow-filled donut."
         ]
     },
     'van': {

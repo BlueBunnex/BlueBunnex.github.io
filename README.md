@@ -1,7 +1,5 @@
 # www.kitsumitsu.de
 
-This website is where I compile random stuff that I make into one place. Visit at your own risk.
-
-Twitter: [@kitsumitsu46](https://twitter.com/kitsumitsu46)
+This website is where I compile random stuff that I make into one place. Not NSFW, but visit at your own risk :3
 
 © 2023 Kitsumitsu46. All Rights Reserved.

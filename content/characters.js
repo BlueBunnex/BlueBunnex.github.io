@@ -45,9 +45,6 @@ const characterInfo = {
             "When she has trouble sleeping, she likes a little midnight hot chocolate. Her favourite food is a fried chicken sandwich with pickles and mayo. Also, she's snuggly."
         ]
     },
-    // 'mizli' {
-    
-    // },
     'stella': {
         name: "Stella Oei",
         imgs: ["stella_shark.png"],
@@ -57,13 +54,30 @@ const characterInfo = {
             Orientation: "Asexual, Romantic",
             Weight: "Big",
             Height: "Very short",
-            Body: "Pink body, deep blue eyes/inner mouth, scales along tail.",
+            Body: "Pink body, deep blue eyes/inner mouth, scales along tail. Broad shoulders.",
             Clothing: "Overalls and gloves (when working).",
             Personality: "Loving."
         },
         paragraphs: [
             "She lives on her space farm. Though she seems innocent, she's also a kleptomaniac, and steals donuts.",
             "Her last name is pronounced \"Wei\" [wɛɪ]."
+        ]
+    },
+    'mizli' {
+        name: "Mizli Oei",
+        imgs: [],
+        table_data: {
+            Species: "Thresher Shark + Dragon",
+            Identity: "Nonbinary",
+            Orientation: "Asexual, Romantic",
+            Weight: "Big",
+            Height: "Very short",
+            Body: "Pear-shaped with narrow shoulders.",
+            Clothing: "TBD",
+            Personality: "TBD"
+        },
+        paragraphs: [
+            "Stella's sister.",
         ]
     }
 };

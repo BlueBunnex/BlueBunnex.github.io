@@ -2,9 +2,9 @@ const assets = `
 
 <!-- blank bbw model -->
 <div class="section">
-    <h1>blank bbw lady 3D model</h1>
+    <h1>blank bbw lady 3D model (VRChat compatible)</h1>
     <div>
-        <p>coming soon!</p>
+        <p>coming soon! (I dunno how to make stuff for VRChat so let's hope I can do that lol).</p>
     </div>
 </div>
 

@@ -35,10 +35,10 @@ const assets = `
 <div class="section">
     <h1>fish to catch shirt transparents</h1>
     <div>
-        <img src="assets_download/of_course_shirt.png" style="width: 30%; cursor: zoom-in;" onclick="window.open('assets_download/of_course_shirt.png','_blank');">
-        <img src="assets_download/fish_to_catch_shirt.png" style="width: 30%; cursor: zoom-in;" onclick="window.open('assets_download/fish_to_catch_shirt.png','_blank');">
+        <img src="assets_download/of_course_shirt.png" style="width: 30%; cursor: zoom-in; background: black;" onclick="window.open('assets_download/of_course_shirt.png','_blank');">
+        <img src="assets_download/fish_to_catch_shirt.png" style="width: 30%; cursor: zoom-in; background: black;" onclick="window.open('assets_download/fish_to_catch_shirt.png','_blank');">
 
-        <p>some textures you could superimpose onto a VRChat avatar's blank shirt texture (or for something else, if you're feeling adventurous).</p>
+        <p>some textures you could superimpose onto a VRChat avatar's blank shirt texture (or for something else, if you're feeling adventurous). The images above are displayed with a black background, but their download reveals them to be transparent.</p>
 
         <ul>
             <li>1600×1600p</li>

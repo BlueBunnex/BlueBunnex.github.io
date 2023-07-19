@@ -7,7 +7,8 @@ const characterInfo = {
             Astropotency: "34 nouls",
         },
         paragraphs: [
-            "Small places make for the biggest of communities, and nowhere is this more true than the humble Rieler County, home of the marshmallow-filled donut. With a population of just over six-thousand, it seems like everybody can recognize anyone else just by the color of their hair and the sound of their voice."
+            "Small places make for the biggest of communities, and nowhere is this more true than the humble Rieler County, home of the marshmallow-filled donut. With a population of just over six-thousand, it seems like everybody can recognize anyone else just by the color of their hair and the sound of their voice.",
+            "With an astropotency pushing forty, Rieler County is known for some strange astronomical phenomena indeed, ranging from mild atmospheric abberation to some rather <i>unexpected</i> encounters."
         ]
     },
     'van': {

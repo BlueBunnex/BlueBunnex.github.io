@@ -12,7 +12,9 @@ const characterInfo = {
             Clothing: "(WIP) A yellow and green beanie. His shirt has the CS2 logo. He prefers to wear dark colors.",
             Personality: "Swears a lot."
         },
-        paragraphs: []
+        paragraphs: [
+            "Works part-time making donuts. Lives in a frat."
+        ]
     },
     'stella': {
         name: "Stella Oei",

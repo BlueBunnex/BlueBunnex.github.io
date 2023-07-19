@@ -27,24 +27,6 @@ const characterInfo = {
             "Works part-time making donuts. Lives in a frat."
         ]
     },
-    'stella': {
-        name: "Stella Oei",
-        imgs: ["stella_shark.png"],
-        table_data: {
-            Species: "Thresher Shark + Dragon",
-            Identity: "Woman",
-            Orientation: "Asexual, Romantic",
-            Weight: "Big",
-            Height: "Very short",
-            Body: "Pink body, deep blue eyes/inner mouth, scales along tail.",
-            Clothing: "Overalls and gloves (when working).",
-            Personality: "Loving."
-        },
-        paragraphs: [
-            "She lives on her space farm. Though she seems innocent, she's also a kleptomaniac, and steals donuts.",
-            "Her last name is pronounced \"Wei\" [wɛɪ]."
-        ]
-    },
     'cacao': {
         name: "Cacao Clifton",
         imgs: ["cacao0.png", "cacao_book.png", "cacao_ref.png"],
@@ -61,6 +43,27 @@ const characterInfo = {
         paragraphs: [
             "Cacao does not pull punches. She insists on ordering first at restaurants. She must be the one to hold the door open for the other person. And she absolutely is the one who picks out this week's groceries' chip flavour. Why does she do this? In her words, \"Some of us like to be getting stuff done!\"",
             "When she has trouble sleeping, she likes a little midnight hot chocolate. Her favourite food is a fried chicken sandwich with pickles and mayo. Also, she's snuggly."
+        ]
+    },
+    // 'mizli' {
+    
+    // },
+    'stella': {
+        name: "Stella Oei",
+        imgs: ["stella_shark.png"],
+        table_data: {
+            Species: "Thresher Shark + Dragon",
+            Identity: "Woman",
+            Orientation: "Asexual, Romantic",
+            Weight: "Big",
+            Height: "Very short",
+            Body: "Pink body, deep blue eyes/inner mouth, scales along tail.",
+            Clothing: "Overalls and gloves (when working).",
+            Personality: "Loving."
+        },
+        paragraphs: [
+            "She lives on her space farm. Though she seems innocent, she's also a kleptomaniac, and steals donuts.",
+            "Her last name is pronounced \"Wei\" [wɛɪ]."
         ]
     }
 };

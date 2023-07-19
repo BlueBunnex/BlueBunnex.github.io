@@ -63,7 +63,7 @@ const characterInfo = {
             "Her last name is pronounced \"Wei\" [wɛɪ]."
         ]
     },
-    'mizli' {
+    'mizli': {
         name: "Mizli Oei",
         imgs: [],
         table_data: {
@@ -77,7 +77,7 @@ const characterInfo = {
             Personality: "TBD"
         },
         paragraphs: [
-            "Stella's sister.",
+            "Stella's sister. Her name is pronounced MITS-lee [mɪt͡sliː]."
         ]
     }
 };

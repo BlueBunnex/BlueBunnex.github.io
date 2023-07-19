@@ -2,9 +2,12 @@ const characterInfo = {
     'rieler-county': {
         name: "Rieler County",
         imgs: [],
-        table_data: {},
+        table_data: {
+            Population: "6242 people",
+            Astropotency: "34 nouls",
+        },
         paragraphs: [
-            "Small places make for the biggest of communities, and nowhere is this more true than the humble Rieler County, home of the marshmallow-filled donut."
+            "Small places make for the biggest of communities, and nowhere is this more true than the humble Rieler County, home of the marshmallow-filled donut. With a population of just over six-thousand, it seems like everybody can recognize anyone else just by the color of their hair and the sound of their voice."
         ]
     },
     'van': {
@@ -43,7 +46,7 @@ const characterInfo = {
         ]
     },
     'cacao': {
-        name: "Cacao Cliffton",
+        name: "Cacao Clifton",
         imgs: ["cacao0.png", "cacao_book.png", "cacao_ref.png"],
         table_data: {
             Species: "Wolf",
@@ -61,54 +64,3 @@ const characterInfo = {
         ]
     }
 };
-
-// 'q': {
-//     name: "q",
-//     tagline: "cyber assistant",
-//     imgs: ["qtie.png"],
-//     reference: null,
-//     facts: [
-//         "They live in a computer, though they're 64-bit exclusive. They find Macbooks the coziest."
-//     ],
-//     body: "Pear-shaped.",
-//     clothing: "Blue oven mitts, apron, and striped knee socks.",
-//     personality: "Rampantly egotistical and annoying.",
-//     colors: [
-//         "#ffffff",
-//         "#73d7ff"
-//     ],
-//     paragraphs: [],
-//     table_data: {
-//         Species: "x64",
-//         Identity: "Non-binary (hexadecimal)",
-//         Orientation: "N/A",
-//         Weight: "4KB",
-//         Height: "1024px"
-//     }
-// },
-// 'bonnie': {
-//     name: "Bonnie",
-//     tagline: "mercurial beachgoer",
-//     imgs: ["bonnie_ex.png"],
-//     reference: null,
-//     facts: [
-//         "She's married, though we don't know to whom just yet."
-//     ],
-//     body: "Pink hair, blue pupils/inner mouth. She has a muffintop while wearing tight clothes.",
-//     clothing: "I'm still workshopping what her 'default' clothing will be. I'm thinking about having her wear a pink one piece underneath a white overcoat (with a single button connected at her midriff), and maybe a white sunhat with a blue bow and black shades. And of course, her golden bangles and heart necklace.",
-//     personality: "Mercurial. Upbeat sometimes, and sleepy other times. Sometime's she's extremely talkative, other times she just wants to take a nap.",
-//     colors: [
-//         "#3639ff",
-//         "#ff96c4"
-//     ],
-//     paragraphs: [
-//         "Bonnie likes sunny days and rainy days. Looking out at the beach from her balcony, whether rain or shine, she is contented."
-//     ],
-//     table_data: {
-//         Species: "Human",
-//         Identity: "Woman",
-//         Orientation: "Asexual, Romantic",
-//         Weight: "Over",
-//         Height: "Tall"
-//     }
-// },

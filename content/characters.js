@@ -65,10 +65,10 @@ const characterInfo = {
     },
     'mizli': {
         name: "Mizli Oei",
-        imgs: [],
+        imgs: ["mizli.png"],
         table_data: {
             Species: "Thresher Shark + Dragon",
-            Identity: "Nonbinary",
+            Identity: "Transfemme",
             Orientation: "Asexual, Romantic",
             Weight: "Big",
             Height: "Very short",
@@ -77,7 +77,7 @@ const characterInfo = {
             Personality: "TBD"
         },
         paragraphs: [
-            "Stella's younger sibling. Their name is pronounced MITS-lee [mɪt͡sliː]."
+            "Stella's younger sister. Her name is pronounced MITS-lee [mɪt͡sliː]."
         ]
     }
 };

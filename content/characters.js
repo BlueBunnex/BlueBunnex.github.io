@@ -77,7 +77,7 @@ const characterInfo = {
             Personality: "TBD"
         },
         paragraphs: [
-            "Stella's sister. Her name is pronounced MITS-lee [mɪt͡sliː]."
+            "Stella's younger sibling. Their name is pronounced MITS-lee [mɪt͡sliː]."
         ]
     }
 };

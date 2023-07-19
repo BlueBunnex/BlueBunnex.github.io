@@ -1,5 +1,28 @@
 const assets = `
 
+<!-- blank bbw model -->
+<div class="section">
+    <h1>blank bbw lady 3D model</h1>
+    <div>
+        <p>coming soon!</p>
+    </div>
+</div>
+
+<!-- funny shirt textures -->
+<div class="section">
+    <h1>"fish to catch" shirt designs</h1>
+    <div>
+        <img src="assets_download/of_course_shirt.png" style="width: 30%; cursor: zoom-in; background: black;" onclick="window.open('assets_download/of_course_shirt.png','_blank');">
+        <img src="assets_download/fish_to_catch_shirt.png" style="width: 30%; cursor: zoom-in; background: black;" onclick="window.open('assets_download/fish_to_catch_shirt.png','_blank');">
+
+        <p>some textures you could superimpose onto a VRChat avatar's blank shirt texture (or for something else, if you're feeling adventurous). The images above are displayed with a black background, but their download reveals them to be transparent.</p>
+
+        <ul>
+            <li>1600×1600p</li>
+        </ul>
+    </div>
+</div>
+
 <!-- rubo yogurt -->
 <div class="section">
     <h1>yogurt</h1>
@@ -27,21 +50,6 @@ const assets = `
         <ul>
             <li>367 polys</li>
             <li>946KB</li>
-        </ul>
-    </div>
-</div>
-
-<!-- funny shirt textures -->
-<div class="section">
-    <h1>fish to catch shirt transparents</h1>
-    <div>
-        <img src="assets_download/of_course_shirt.png" style="width: 30%; cursor: zoom-in; background: black;" onclick="window.open('assets_download/of_course_shirt.png','_blank');">
-        <img src="assets_download/fish_to_catch_shirt.png" style="width: 30%; cursor: zoom-in; background: black;" onclick="window.open('assets_download/fish_to_catch_shirt.png','_blank');">
-
-        <p>some textures you could superimpose onto a VRChat avatar's blank shirt texture (or for something else, if you're feeling adventurous). The images above are displayed with a black background, but their download reveals them to be transparent.</p>
-
-        <ul>
-            <li>1600×1600p</li>
         </ul>
     </div>
 </div>

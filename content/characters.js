@@ -4,7 +4,7 @@ const characterInfo = {
         imgs: [],
         table_data: {},
         paragraphs: [
-            "Small places make for the biggest of communities, and nowhere is this more true than the humble Rieler Country, home of the marshmallow-filled donut."
+            "Small places make for the biggest of communities, and nowhere is this more true than the humble Rieler County, home of the marshmallow-filled donut."
         ]
     },
     'van': {
@@ -43,7 +43,7 @@ const characterInfo = {
         ]
     },
     'cacao': {
-        name: "Cacao",
+        name: "Cacao Cliffton",
         imgs: ["cacao0.png", "cacao_book.png", "cacao_ref.png"],
         table_data: {
             Species: "Wolf",

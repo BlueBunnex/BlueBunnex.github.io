@@ -36,7 +36,7 @@ const conlanging = `
                     <th>Affricate</th>
                     <td></td>
                     <td>ts <i>c</i></td>
-                    <td>tɕ <i>ch</i></td>
+                    <td>tsʲ~tɕ <i>ch</i></td>
                     <td></td>
                     <td></td>
                 </tr>
@@ -45,7 +45,7 @@ const conlanging = `
                     <td></td>
                     <td>s <i>s</i></td>
                     <td>ɕ <i>sh</i></td>
-                    <td>χ <i>kh</i></td>
+                    <td></td>
                     <td>h <i>h</i></td>
                 </tr>
                 <tr>
@@ -53,7 +53,7 @@ const conlanging = `
                     <td>w <i>w</i></td>
                     <td></td>
                     <td>j <i>j</i></td>
-                    <td>ʀ <i>r</i></td>
+                    <td></td>
                     <td></td>
                 </tr>
             </tbody>
@@ -91,6 +91,7 @@ const conlanging = `
         <ol>
             <h3>Notes</h3>
             <li>CVC</li>
+            <li>/s/ and /ts/ cannot occur before /i/ or /ə/.</li>
         </ol>
         
         <hr>
@@ -103,23 +104,24 @@ const conlanging = `
         <ul>
             <h3>Nouns</h3>
             <li>juche / person, human-being</li>
-            <li>ran</li>
-            <li>pan</li>
+            <li>pan / </li>
+            <li>in / </li>
         </ul>
         
         <ul>
             <h3>Postpositions</h3>
-            <li>ep / indicates the direct object (Accusative)</li>
+            <li>ep / follows the direct object (Accusative)</li>
+            <li>te / indicates the location/time where the action takes place (Locative)</li>
         </ul>
         
         <ul>
             <h3>Verbs</h3>
-            <li>chit</li>
+            <li>chit / </li>
         </ul>
         
         <ul>
             <h3>Finals</h3>
-            <li>cau</li>
+            <li>cau / </li>
         </ul>
         
         <hr>
@@ -129,8 +131,8 @@ const conlanging = `
         
         <hr>
         
-        Juche ep pan chit cau.<br>
-        S pos O V final
+        Juche pan ep in te chit cau.<br>
+        S O pos V final
     </div>
 </div>
 

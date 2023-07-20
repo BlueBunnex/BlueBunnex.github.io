@@ -7,7 +7,7 @@ const characterInfo = {
             Astropotency: "34 nouls",
         },
         paragraphs: [
-            "Small places make for the biggest of communities, and nowhere is this more true than the humble Rieler County, home of the marshmallow-filled donut. With a population of just over six-thousand, it seems like everybody can recognize anyone else just by the color of their hair and the sound of their voice.",
+            "Small places make for the biggest of communities, and nowhere is this more true than the humble Rieler County, home of the marshmallow-filled donut. With a population of just over six-thousand, it seems like everybody can recognize anyone else just by the color of their hair and the sound of their voice. Though small, Rieler County is urban and thus boasts rather impressive buildings, including their four-story 24/7 RGB shopping mall just next to the plaza where events are held. At night the streets are lit with the glow of giant screens on the mall advertising everything and their sister, and walking down the street with your friends, everyone talking with eachother, truly makes the plaza special to those residents who visit it time and time again.",
             "With an astropotency pushing forty, Rieler County is known for some strange astronomical phenomena indeed, ranging from mild atmospheric abberation to some rather <i>unexpected</i> encounters."
         ]
     },

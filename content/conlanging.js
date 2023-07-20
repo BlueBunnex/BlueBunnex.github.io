@@ -100,6 +100,8 @@ const conlanging = `
         <h3>Lexicon</h3>
         <ul>
             <h3>Pronouns</h3>
+            <li>ange / 2nd person singular</li>
+            <li>angange / 2nd person plural</li>
         </ul>
         
         <ul>

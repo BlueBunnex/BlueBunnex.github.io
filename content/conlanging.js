@@ -1,7 +1,7 @@
 const conlanging = `
 
 <div class="section">
-    <h1>the limalh</h1>
+    <h1>unnamed conlang ig</h1>
     <div>
         <p>Eventually I'll have it set up in a way so that it is ordered to be easily learned step by step, but w/e</p>
         
@@ -93,6 +93,7 @@ const conlanging = `
             <li>CVC</li>
             <li>/j/, /s/ and /ts/ cannot occur before /i/ or /ə/.</li>
             <li>/w/ cannot occur before /u/.</li>
+            <li>/ʔ/ only occurs medially.</li>
         </ol>
         
         <hr>

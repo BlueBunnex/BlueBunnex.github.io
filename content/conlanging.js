@@ -91,7 +91,8 @@ const conlanging = `
         <ol>
             <h3>Notes</h3>
             <li>CVC</li>
-            <li>/s/ and /ts/ cannot occur before /i/ or /ə/.</li>
+            <li>/j/, /s/ and /ts/ cannot occur before /i/ or /ə/.</li>
+            <li>/w/ cannot occur before /u/.</li>
         </ol>
         
         <hr>
@@ -132,7 +133,7 @@ const conlanging = `
         <hr>
         
         Juche pan ep in te chit cau.<br>
-        S O pos V final
+        S O pos LOC pos V final
     </div>
 </div>
 

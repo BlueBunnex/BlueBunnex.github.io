@@ -9,6 +9,7 @@ const me = `
         <ul>
             <li>male kobold (he/him), a little fat</li>
             <li>character art is still WIP! actually a lot of things are still WIP >w<</li>
+            <li>energetic half the time, and sleepy the other half</li>
             <li>the quiet one of the group, but only because his passion only emerges when speaking one-on-one</li>
             <li>likes sitting on the floor next to others</li>
             <li>the interior of their mouth is also blue like their eyes and horns</li>

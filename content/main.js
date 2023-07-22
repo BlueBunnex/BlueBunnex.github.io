@@ -4,7 +4,7 @@ const main = `
                 <h2>#000</h2>
                 <div>
                     <p>it's me!</p>
-                    <a class="ref" href="alert('im gonna make a fursona maybe they'll be put here');"></a>
+                    <a class="ref" href="javascript:loadContent(me);"></a>
                 </div>
             </div>
 

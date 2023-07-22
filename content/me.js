@@ -4,7 +4,11 @@ const me = `
     <h1>kobold fursona maybe idk</h1>
     <div>
         <img src='img/kobold.png'>
-        <p>male, likes speaking passionately and sitting on the floor next to others</p>
+        <ul>
+            <li>male</li>
+            <li>is the quiet one of the group, but only because their passion only emerges when speaking one-on-one</li>
+            <li>likes sitting on the floor next to others</li>
+        </ul>
     </div>
 </div>
 

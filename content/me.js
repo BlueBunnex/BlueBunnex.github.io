@@ -4,7 +4,7 @@ const me = `
     <h1>kobold fursona maybe idk</h1>
     <div>
         <img src='img/kobold.png'>
-        male, likes speaking passionately and also hugs
+        <p>male, likes speaking passionately and sitting on the floor next to others</p>
     </div>
 </div>
 

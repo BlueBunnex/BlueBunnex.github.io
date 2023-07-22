@@ -18,10 +18,6 @@ const me = `
         <ul>
             <li>idk</li>
         </ul>
-
-        <h1>3D model</h1>
-        <img src='img/kobold64_0.png' height="160">
-        <img src='img/kobold64_1.png' height="160">
     </div>
 </div>
 

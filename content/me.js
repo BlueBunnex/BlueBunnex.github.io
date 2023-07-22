@@ -8,7 +8,8 @@ const me = `
         <h1>general</h1>
         <ul>
             <li>male kobold (he/him), a little fat</li>
-            <li>is the quiet one of the group, but only because his passion only emerges when speaking one-on-one</li>
+            <li>character art is still WIP!</li>
+            <li>the quiet one of the group, but only because his passion only emerges when speaking one-on-one</li>
             <li>likes sitting on the floor next to others</li>
             <li>the interior of their mouth is also blue like their eyes and horns</li>
         </ul>
@@ -17,6 +18,10 @@ const me = `
         <ul>
             <li>idk</li>
         </ul>
+
+        <h1>3D models</h1>
+        <img src='img/kobold64_0.png' height="100">
+        <img src='img/kobold64_1.png' height="100">
     </div>
 </div>
 

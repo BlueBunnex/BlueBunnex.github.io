@@ -108,8 +108,7 @@ const conlanging = `
         <ul>
             <h3>Nouns</h3>
             <li>juche / person, human-being</li>
-            <li>pan / </li>
-            <li>in / </li>
+            <li>paqan / </li>
         </ul>
         
         <ul>
@@ -125,7 +124,8 @@ const conlanging = `
         
         <ul>
             <h3>Finals</h3>
-            <li>cau / </li>
+            <li>eng / Interrogative</li>
+            <li>cau / Optative</li>
         </ul>
         
         <hr>
@@ -135,8 +135,9 @@ const conlanging = `
         
         <hr>
         
-        Juche pan ep in te chit cau.<br>
-        S O pos LOC pos V final
+        Juche paqan ep chit cau.<br>
+        gloss. S O pos V final<br>
+        trans. I wish the person (V O).
     </div>
 </div>
 

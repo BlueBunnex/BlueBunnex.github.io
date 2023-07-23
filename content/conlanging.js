@@ -97,6 +97,8 @@ const conlanging = `
         </ol>
         
         <hr>
+
+        copula drop yaay
             
         <h3>Lexicon</h3>
         <ul>
@@ -108,7 +110,7 @@ const conlanging = `
         <ul>
             <h3>Nouns</h3>
             <li>juche / person, human-being</li>
-            <li>paqan / </li>
+            <li>paqan / room</li>
         </ul>
         
         <ul>
@@ -135,9 +137,9 @@ const conlanging = `
         
         <hr>
         
-        Juche paqan ep chit cau.<br>
+        Juche paqan te Ø cau.<br>
         gloss. S O pos V final<br>
-        trans. I wish the person (V O).
+        trans. I hope the person is in the room.
     </div>
 </div>
 

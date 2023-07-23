@@ -4,7 +4,7 @@ const assets = `
 <div class="section">
     <h1>blank bbw lady 3D model (VRChat compatible)</h1>
     <div>
-        <p>coming soon! (I dunno how to make stuff for VRChat so let's hope I can do that lol).</p>
+        <p>coming... eventually? (I dunno how to make stuff for VRChat so let's hope I can do that lol).</p>
     </div>
 </div>
 

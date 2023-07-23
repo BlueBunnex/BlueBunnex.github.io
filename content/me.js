@@ -3,7 +3,7 @@ const me = `
 <div class="section">
     <h1>my fursona</h1>
     <div>
-        <p>idk what my fursona is gonna be (maybe a fluffy dragon? because chonky tail), but here's some of the descriptions that I plan on including, because they are details that I like about myself.</p>
+        <p>idk what my fursona is gonna be (maybe a red-white fluffy dragon? because chonky tail), but here's some of the descriptions that I plan on including, because they are details that I like about myself.</p>
 
         <h1>general</h1>
         <ul>

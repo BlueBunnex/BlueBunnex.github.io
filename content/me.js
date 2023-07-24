@@ -3,6 +3,8 @@ const me = `
 <div class="section">
     <h1>my fursona</h1>
     <div>
+        <img src="img/fursona_yes.png">
+    
         <h1>general</h1>
         <ul>
             <li>A male red-white plush drake (aka wingless dragon) with a chonky tail who is a little fat.</li>

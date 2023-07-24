@@ -18,9 +18,9 @@ const me = `
 
         <span>copy: </span>
         <a href="javascript:navigator.clipboard.writeText('#dd898c');" style="color: #dd898c; background: black; font-weight: 1000;">#dd898c </a>
-        <span style="color: #e7bab1; background: black; font-weight: 1000;">#e7bab1 </span>
-        <span style="color: #ffeac5; background: black; font-weight: 1000;">#ffeac5 </span>
-        <span style="color: #fff9e9; background: black; font-weight: 1000;">#fff9e9 </span>
+        <a href="" style="color: #e7bab1; background: black; font-weight: 1000;">#e7bab1 </a>
+        <a href="" style="color: #ffeac5; background: black; font-weight: 1000;">#ffeac5 </a>
+        <a href="" style="color: #fff9e9; background: black; font-weight: 1000;">#fff9e9 </a>
 
         <img src="img/fursona_yes.png" alt="My fursona, a bipedal, yellow and red plush drake with heart tattoos.">
     </div>

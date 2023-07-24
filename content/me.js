@@ -3,13 +3,6 @@ const me = `
 <div class="section">
     <h1>my fursona</h1>
     <div>
-        <img src="img/fursona_yes.png" alt="My fursona, a bipedal, yellow and red plush drake with heart tattoos.">
-
-        <a href="javascript:navigator.clipboard.writeText('#dd898c');" style="color: #dd898c; background: black; font-weight: 1000;">#dd898c </a>
-        <span style="color: #e7bab1; background: black; font-weight: 1000;">#e7bab1 </span>
-        <span style="color: #ffeac5; background: black; font-weight: 1000;">#ffeac5 </span>
-        <span style="color: #fff9e9; background: black; font-weight: 1000;">#fff9e9 </span>
-    
         <h1>general</h1>
         <ul>
             <li>A male (he/him) red-white plush drake (aka wingless dragon) with a chonky tail who is a little fat.</li>
@@ -22,6 +15,14 @@ const me = `
         <ul>
            <li>Knee-socks.</li>
         </ul>
+
+        <span>copy: </span>
+        <a href="javascript:navigator.clipboard.writeText('#dd898c');" style="color: #dd898c; background: black; font-weight: 1000;">#dd898c </a>
+        <span style="color: #e7bab1; background: black; font-weight: 1000;">#e7bab1 </span>
+        <span style="color: #ffeac5; background: black; font-weight: 1000;">#ffeac5 </span>
+        <span style="color: #fff9e9; background: black; font-weight: 1000;">#fff9e9 </span>
+
+        <img src="img/fursona_yes.png" alt="My fursona, a bipedal, yellow and red plush drake with heart tattoos.">
     </div>
 </div>
 

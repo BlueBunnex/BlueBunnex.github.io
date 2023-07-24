@@ -4,6 +4,11 @@ const me = `
     <h1>my fursona</h1>
     <div>
         <img src="img/fursona_yes.png" alt="My fursona, a bipedal, yellow and red plush drake with heart tattoos.">
+
+        <span style="color: #dd898c; background: black; font-weight: 1000;">#dd898c </span>
+        <span style="color: #e7bab1; background: black; font-weight: 1000;">#e7bab1 </span>
+        <span style="color: #ffeac5; background: black; font-weight: 1000;">#ffeac5 </span>
+        <span style="color: #fff9e9; background: black; font-weight: 1000;">#fff9e9 </span>
     
         <h1>general</h1>
         <ul>

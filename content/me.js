@@ -3,7 +3,7 @@ const me = `
 <div class="section">
     <h1>my fursona</h1>
     <div>
-        <p>my fursona is (when I draw it, gonna be) a red-white plush drake (wingless dragon) with a chonky tail</p>
+        <p>my fursona is (when I draw it, gonna be) a male red-white plush drake (wingless dragon) with a chonky tail. there will be some nsfw drawn of them but only on occasion.</p>
 
         <h1>general</h1>
         <ul>

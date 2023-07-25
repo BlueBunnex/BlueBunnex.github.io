@@ -14,6 +14,13 @@ const me = `
         <h1>likes wearing</h1>
         <ul>
            <li>Knee-socks.</li>
+           <li>Aprons.</li>
+        </ul>
+
+        <h1>lore</h1>
+        <ul>
+           <li>Works part-time in a cafe.</li>
+           <li>Woke up one day and was made of plush.</li>
         </ul>
 
         <span>copy: </span>

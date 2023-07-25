@@ -19,8 +19,8 @@ const me = `
 
         <h1>lore</h1>
         <ul>
-           <li>Works part-time in a cafe.</li>
-           <li>Woke up one day and was made of plush.</li>
+           <li>Works part-time at Café de Andréa.</li>
+           <li>Wasn't always plush; one day when [REDACTED].</li>
         </ul>
 
         <span>copy: </span>

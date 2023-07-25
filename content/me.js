@@ -29,6 +29,7 @@ const me = `
         <a href="javascript:navigator.clipboard.writeText('#fff9e9');" style="background: #fff9e9;">copy</a>
 
         <img src="img/fursona_yes.png" alt="My fursona, a bipedal, yellow and red plush drake with heart tattoos.">
+        <img src="img/furrdrake_chillin.png" alt="My fursona, lying down and looking miffed.">
     </div>
 </div>
 

@@ -23,11 +23,10 @@ const me = `
            <li>Wasn't always plush.</li>
         </ul>
 
-        <span>copy: </span>
-        <a href="javascript:navigator.clipboard.writeText('#dd898c');" style="background: #dd898c;">omg</a>
-        <a href="javascript:navigator.clipboard.writeText('#e7bab1');" style="background: #e7bab1;">omg</a>
-        <a href="javascript:navigator.clipboard.writeText('#ffeac5');" style="background: #ffeac5;">omg</a>
-        <a href="javascript:navigator.clipboard.writeText('#fff9e9');" style="background: #fff9e9;">omg</a>
+        <a href="javascript:navigator.clipboard.writeText('#dd898c');" style="background: #dd898c;">copy</a>
+        <a href="javascript:navigator.clipboard.writeText('#e7bab1');" style="background: #e7bab1;">copy</a>
+        <a href="javascript:navigator.clipboard.writeText('#ffeac5');" style="background: #ffeac5;">copy</a>
+        <a href="javascript:navigator.clipboard.writeText('#fff9e9');" style="background: #fff9e9;">copy</a>
 
         <img src="img/fursona_yes.png" alt="My fursona, a bipedal, yellow and red plush drake with heart tattoos.">
     </div>

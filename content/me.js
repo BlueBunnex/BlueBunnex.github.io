@@ -19,7 +19,7 @@ const me = `
 
         <h1>lore</h1>
         <ul>
-           <li>Works part-time at Café de Andréa. His favourite drink is the iced latté.</li>
+           <li>Works part-time at Café de Andréa. His favourite drink is the iced latté, and his favourite menu item is the key-lime pie.</li>
            <li>Wasn't always plush.</li>
         </ul>
 

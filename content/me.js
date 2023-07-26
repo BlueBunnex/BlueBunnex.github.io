@@ -6,21 +6,20 @@ const me = `
         <h1>general</h1>
         <ul>
             <li>A male (he/him) red-white plush drake (aka wingless dragon) with a chonky tail who is a little fat.</li>
-            <li>Boisterous sometimes, sleepy other times.</li>
-            <li>Likes boxes and sitting in boxes.</li>
-            <li>There will be some nsfw drawn of them but only on occasion.</li>
+            <li>Boisterous sometimes, sleepy other times. So sometimes he likes to lead the conversation in a whole group, sometimes he likes to have a chat one-on-one, and sometimes he would rather someone just talk at him while he lies quietly beside them.</li>
         </ul>
 
         <h1>likes wearing</h1>
         <ul>
            <li>Knee-socks.</li>
            <li>Aprons.</li>
+           <li>Victorian era bonnets.</li>
         </ul>
 
         <h1>lore</h1>
         <ul>
            <li>Works part-time at Café de Andréa. His favourite drink is the iced latté, and his favourite menu item is the key-lime pie.</li>
-           <li>Wasn't always plush.</li>
+           <li>Wasn't always plush (the backstory for this is TBD).</li>
         </ul>
 
         <a href="javascript:navigator.clipboard.writeText('#dd898c');" style="background: #dd898c;">copy</a>

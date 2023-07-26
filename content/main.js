@@ -3,7 +3,7 @@ const main = `
                 <h1>me lore</h1>
                 <h2>#000</h2>
                 <div>
-                    <p>some information regarding me and my fursona</p>
+                    <p>some information regarding me and my fursona.</p>
                     <a class="ref" href="javascript:loadContent(me);"></a>
                 </div>
             </div>

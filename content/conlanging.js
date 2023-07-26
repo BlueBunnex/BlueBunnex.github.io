@@ -14,29 +14,34 @@ const cabuLanguage = `
             <tbody>
                 <tr>
                     <th></th>
-                    <th>Front</th>
+                    <th>Front, Unrounded</th>
+                    <th>Front, Rounded</th>
                     <th>Central</th>
                     <th>Back</th>
                 </tr>
                 <tr>
                     <th>Close</th>
                     <td>i <i>i</i></td>
+                    <td>y <i>ü</i></td>
                     <td></td>
                     <td>u <i>u</i></td>
                 </tr>
                 <tr>
                     <th>Mid</th>
-                    <td></td>
-                    <td>ə <i>e</i></td>
+                    <td>e <i>e</i></td>
+                    <td>ø <i>ö</i></td>
+                    <td>ə <i>ë</i></td>
                     <td></td>
                 </tr>
                 <tr>
                     <th>Open</th>
-                    <td></td>
                     <td>a <i>a</i></td>
+                    <td></td>
+                    <td>(a)</td>
                     <td></td>
                 </tr>
             </tbody>
+            (make sure to include diphthong chart)
         </table>
     </div>
 </div>

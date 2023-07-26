@@ -12,6 +12,38 @@ const cabuLanguage = `
     <div>
         <table style="width: 100%; text-align: center;">
             <tbody>
+                <tr>
+                    <th></th>
+                    <th>Labial</th>
+                    <th>Dental</th>
+                    <th>Retroflex</th>
+                    <th>Palatal</th>
+                    <th>Velar</th>
+                </tr>
+                <tr>
+                    <th>Nasal</th>
+                    <td>m</td>
+                    <td>n</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>Voiceless plosive</th>
+                    <td>p</td>
+                    <td>t</td>
+                    <td>tʂ</td>
+                    <td>tɕ</td>
+                    <td>k</td>
+                </tr>
+                <tr>
+                    <th>Voiced plosive</th>
+                    <td>b~β</td>
+                    <td>d~ð</td>
+                    <td></td>
+                    <td></td>
+                    <td>g~ɣ</td>
+                </tr>
             </tbody>
         </table>
         <table style="width: 50%; text-align: center;">
@@ -63,7 +95,7 @@ const cabuLanguage = `
     <h1>Syntax & Morphology</h1>
     <div>
         <h1>General</h1>
-        VSO. The slot before the verb is very restricted, with only certain preverb particles permitted to precede the verb.
+        <p>VSO. The slot before the verb is very restricted, with only certain preverb particles permitted to precede the verb.</p>
 
         <h1>Word classes</h1>
         <ul>

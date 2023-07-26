@@ -3,11 +3,12 @@ const main = `
                 <h1>me lore</h1>
                 <h2>#000</h2>
                 <div>
-                    <p>it's me!</p>
+                    <p>some information regarding me and my fursona</p>
                     <a class="ref" href="javascript:loadContent(me);"></a>
                 </div>
             </div>
 
+            <!--
             <div class="section">
                 <h1>the kitsumitsuverse (ocs)</h1>
                 <h2>#001</h2>
@@ -16,12 +17,13 @@ const main = `
                     <a class="ref" href="javascript:loadContent(universe);"></a>
                 </div>
             </div>
+            -->
 
             <div class="section">
                 <h1>asset downloads</h1>
                 <h2>#002</h2>
                 <div>
-                    <p>some assets that you can use if you like, mostly 3D assets right now. they're all free and you don't have to give credit, but you know, you can!</p>
+                    <p>some assets that you can use if you like, mostly 3D stuff. they're all free and you don't have to give credit, but you know, you can!</p>
                     <a class="ref" href="javascript:loadContent(assets);"></a>
                 </div>
             </div>
@@ -30,8 +32,7 @@ const main = `
                 <h1>my conlanging project(s)</h1>
                 <h2>#003</h2>
                 <div>
-                    <p>but what is a conlang? a conlang (abbreviation of constructed language), is a language that has been artificially created by one person or group of people for some designated purpose, rather than having evolved naturally through standard means (see: natlang). although conlangs aren't natural, they still feature (at their best) all the features of a natural language, including a unique phonology, grammar, and conculture.</p>
-                    <p>so, I like to make these constructed languages. however, I'm very indecisive and often restart over and over trying to get something I like. while that's happening, you can see what I'm currently working on in that regard here.</p>
+                    <p>I like to make these constructed languages. however, I'm very indecisive and often restart over and over trying to get something I like. while that's happening, you can see what I'm currently working on in that regard here.</p>
                     <a class="ref" href="javascript:loadContent(conlanging);"></a>
                 </div>
             </div>
@@ -44,15 +45,4 @@ const main = `
                     <a class="ref" href="javascript:loadContent(conspecies);"></a>
                 </div>
             </div>
-
-            <!-- gonna make this go to awesome social but we wait
-            <div class="section">
-                <h1>awesome (hosted on colean.cc)</h1>
-                <h2>#004</h2>
-                <div>
-                    <p>threeoh6000 gave me a subdomain on their website colean.cc, and so I'm using it for random programming projects and <s>an arg</s> a puppy playpen. the subdomain also has a mascot I made named awdog, isn't that <span style="color: var(--accent-light);">awesome</span>?</p>
-                    <a class="ref" href="https://awesome.colean.cc"> (external)</a>
-                </div>
-            </div>
-            -->
 `;

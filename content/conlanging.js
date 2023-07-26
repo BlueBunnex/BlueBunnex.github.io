@@ -53,6 +53,23 @@ const cabuLanguage = `
     </div>
 </div>
 
+<div class="section">
+    <h1>Syntax & Grammar</h1>
+    <div>
+        VSO. The slot before the verb is very restricted, with only certain preverb particles permitted to precede the verb.
+
+        <h1>Word classes:</h1>
+        <ul>
+            <li>Verbs (closed)</li>
+            <li>Nouns (open)</li>
+            <li>Adjectives (open, are commonly formed through <a href="https://en.wikipedia.org/wiki/Conversion_(word_formation)#:~:text=In%20linguistics%2C%20conversion%2C%20also%20called,say%2C%20derivation%20using%20only%20zero.">conversion</a>)</li>
+            <li>Prepositions (closed)</li>
+            <li>Preverbs (closed)</li>
+            <li>...</li>
+        </ul>
+    </div>
+</div>
+
 `;
 
 const limalhSpecies = `

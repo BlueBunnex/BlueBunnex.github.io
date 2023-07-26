@@ -82,7 +82,7 @@ const limalhSpecies = `
     <div>
         <img src="img/limalh_thing.png">
         <br>
-        Limalh [li.maʎ] are native to the _ region of _. They come with lots of variants at varying rarities that I will come up with later (very cool).
+        Limalh [lɪ.maʎ] are native to the wetland regions of Cabig. They come with lots of variants at varying rarities that I will come up with later (very cool).
         <br>
         <br>
         tail varieties<br>

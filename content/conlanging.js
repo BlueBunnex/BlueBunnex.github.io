@@ -38,7 +38,7 @@ const cabuLanguage = `
                     <td>e</td>
                     <td>ø</td>
                     <td></td>
-                    <td></td>
+                    <td>o</td>
                 </tr>
                 <tr>
                     <th>Open</th>
@@ -49,7 +49,7 @@ const cabuLanguage = `
                 </tr>
             </tbody>
         </table>
-        (make sure to include diphthong chart)
+        diphthongs: /oʏ/ /øʏ/ ...
     </div>
 </div>
 

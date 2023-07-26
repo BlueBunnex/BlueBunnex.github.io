@@ -12,7 +12,7 @@ const main = `
                 <h1>my conworld + conlang</h1>
                 <h2>#001</h2>
                 <div>
-                    <p>I'm trying to build together a little fantasy world that features (at least) one conlang for me to work on, since I'm a linguist (who enjoys writing)!</p>
+                    <p>I'm trying to build together a little fantasy world that features (at least) one conlang for me to work on, since I'm a linguist (who enjoys writing)! I'm thinking gothic sci-fi mecha fantasy.</p>
                     <a class="ref" href="javascript:loadContent(cabuLanguage);">Cabü (conlang)</a>
                 </div>
             </div>

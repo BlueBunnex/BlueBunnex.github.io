@@ -3,14 +3,13 @@ const cabuLanguage = `
 <div class="section">
     <h1>Cabü Overview</h1>
     <div>
-        <p>Spoken in the area of and surrounding Cabig. Eventually I'll have it set up in a way so that it is ordered to be easily learned step by step, but w/e</p>
+        <p>Spoken in the area of and surrounding Cabig. Eventually I'll have it set up in a way so that it is ordered to be easily learned step by step, but w/e.</p>
     </div>
 </div>
 
 <div class="section">
     <h1>Phonology</h1>
     <div>
-        voiced stops are lenited like Spanish
         <table style="width: 50%; text-align: center;">
             <tbody>
                 <tr>
@@ -50,6 +49,7 @@ const cabuLanguage = `
                 </tr>
             </tbody>
         </table>
+        voiced stops are lenited like Spanish<br>
         diphthongs: /oʏ/ /øʏ/ ...
     </div>
 </div>
@@ -63,6 +63,7 @@ const cabuLanguage = `
         <ul>
             <li>Verbs (closed)</li>
             <li>Nouns (open, with a multitude of derivation techniques)</li>
+            <li>Pronouns (open)</li>
             <li>Adjectives (open, are commonly formed through <a href="https://en.wikipedia.org/wiki/Conversion_(word_formation)#:~:text=In%20linguistics%2C%20conversion%2C%20also%20called,say%2C%20derivation%20using%20only%20zero.">conversion</a>)</li>
             <li>Prepositions (closed)</li>
             <li>Preverbs (closed)</li>

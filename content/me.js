@@ -7,7 +7,7 @@ const me = `
         <ul>
             <li>A male (he/him) red-white plush drake (aka wingless dragon) with a chonky tail who is a little fat.</li>
             <li>Boisterous sometimes, sleepy other times. So he can muster up the energy to lead a whole group, but not after long he'd begin to wish for an opportunity for someone else to just speak at him while he lies quiety beside them.</li>
-            <li>While not explicitly a part of an fictional universe I create (being me myself), he has knowledge of all of them, including the conlangs they contain.</li>
+            <li>While not explicitly a part of any fictional universe I create (being me myself), he has knowledge of all of them, including partial fluency of the conlangs they contain.</li>
         </ul>
 
         <h1>likes wearing</h1>

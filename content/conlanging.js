@@ -10,6 +10,10 @@ const cabuLanguage = `
 <div class="section">
     <h1>Phonology</h1>
     <div>
+        <table style="width: 100%; text-align: center;">
+            <tbody>
+            </tbody>
+        </table>
         <table style="width: 50%; text-align: center;">
             <tbody>
                 <tr>
@@ -58,6 +62,7 @@ const cabuLanguage = `
 <div class="section">
     <h1>Syntax & Morphology</h1>
     <div>
+        <h1>General</h1>
         VSO. The slot before the verb is very restricted, with only certain preverb particles permitted to precede the verb.
 
         <h1>Word classes</h1>
@@ -70,6 +75,7 @@ const cabuLanguage = `
             <li><a href="#adj-morph">Adjectives</a> (open, are commonly formed through <a href="https://en.wikipedia.org/wiki/Conversion_(word_formation)#:~:text=In%20linguistics%2C%20conversion%2C%20also%20called,say%2C%20derivation%20using%20only%20zero.">conversion</a>)</li>
             <li>...</li>
         </ul>
+        
         <h1 id="#noun-morph">Nouns</h1>
         <h1 id="#pronoun-morph">Pronouns</h1>
         <h1 id="#verb-morph">Verbs</h1>

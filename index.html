@@ -39,7 +39,16 @@
 
             a { color: var(--accent-over); }
             a:hover { color: var(--accent-base); }
-            a:hover img { filter: invert(69%) sepia(95%) saturate(5363%) hue-rotate(165deg) brightness(99%) contrast(101%); } /* https://codepen.io/sosuke/pen/Pjoqqp */
+            a img {
+                border-bottom: 0px solid var(--accent-over);
+                margin-bottom: 0px;
+                transition-duration: 0.2s;
+            }
+            a:hover img {
+                border-bottom: 2px solid var(--accent-over);
+                margin-bottom: -2px;
+            }
+            /* https://codepen.io/sosuke/pen/Pjoqqp */
 
             ul {
                 padding-left: 24px;

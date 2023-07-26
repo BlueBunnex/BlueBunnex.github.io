@@ -6,7 +6,7 @@ const me = `
         <h1>general</h1>
         <ul>
             <li>A male (he/him) red-white plush drake (aka wingless dragon) with a chonky tail who is a little fat.</li>
-            <li>Boisterous sometimes, sleepy other times. So sometimes he has the energy to lead a whole group, but once the tower begins to fall it falls hard—then, he'd rather if someone else just spoke at him while he lies quiety beside them.</li>
+            <li>Boisterous sometimes, sleepy other times. So he can muster up the energy to lead a whole group, but not after long he'd begin to wish for an opportunity for someone else to just speak at him while he lies quiety beside them.</li>
         </ul>
 
         <h1>likes wearing</h1>

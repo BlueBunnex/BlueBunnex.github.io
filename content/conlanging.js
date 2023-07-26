@@ -40,9 +40,25 @@ const cabuLanguage = `
                     <th>Voiced plosive</th>
                     <td>b~β</td>
                     <td>d~ð</td>
-                    <td></td>
-                    <td></td>
+                    <td>dʐ~ʐ</td>
+                    <td>dʑ~ʑ</td>
                     <td>g~ɣ</td>
+                </tr>
+                <tr>
+                    <th>Fricative</th>
+                    <td>f</td>
+                    <td>s~θ</td>
+                    <td>ʂ</td>
+                    <td>ɕ</td>
+                    <td>x</td>
+                </tr>
+                <tr>
+                    <th>Liquid</th>
+                    <td>w</td>
+                    <td>l</td>
+                    <td></td>
+                    <td>j</td>
+                    <td></td>
                 </tr>
             </tbody>
         </table>

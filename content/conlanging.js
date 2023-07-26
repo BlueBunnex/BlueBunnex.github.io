@@ -50,7 +50,8 @@ const cabuLanguage = `
             </tbody>
         </table>
         voiced stops are lenited like Spanish<br>
-        diphthongs: /oʏ/ /øʏ/ ...
+        diphthongs: /oʏ/ /øʏ/ ...<br>
+        /ɪ,i/, /ʏ,y/ and /ʊ,u/ only constrast in stressed syllables; when an unstressed syllable is closed the short (near-close) vowel is pronounced and vice versa.
     </div>
 </div>
 

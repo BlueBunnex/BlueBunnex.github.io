@@ -60,17 +60,22 @@ const cabuLanguage = `
     <div>
         VSO. The slot before the verb is very restricted, with only certain preverb particles permitted to precede the verb.
 
-        <h1>Word classes:</h1>
+        <h1>Word classes</h1>
         <ul>
-            <li><a href="#verb-morph">Verbs</a> (closed)</li>
             <li><a href="#noun-morph">Nouns</a> (open, with a multitude of derivation techniques)</li>
             <li><a href="#pronoun-morph">Pronouns</a> (open)</li>
-            <li><a href="#adj-morph">Adjectives</a> (open, are commonly formed through <a href="https://en.wikipedia.org/wiki/Conversion_(word_formation)#:~:text=In%20linguistics%2C%20conversion%2C%20also%20called,say%2C%20derivation%20using%20only%20zero.">conversion</a>)</li>
-            <li><a href="#pos-morph">Prepositions</a> (closed)</li>
+            <li><a href="#verb-morph">Verbs</a> (closed)</li>
             <li><a href="#preverb-morph">Preverbs</a> (closed)</li>
+            <li><a href="#pos-morph">Prepositions</a> (closed)</li>
+            <li><a href="#adj-morph">Adjectives</a> (open, are commonly formed through <a href="https://en.wikipedia.org/wiki/Conversion_(word_formation)#:~:text=In%20linguistics%2C%20conversion%2C%20also%20called,say%2C%20derivation%20using%20only%20zero.">conversion</a>)</li>
             <li>...</li>
         </ul>
+        <h1 id="#noun-morph">Nouns</h1>
+        <h1 id="#pronoun-morph">Pronouns</h1>
         <h1 id="#verb-morph">Verbs</h1>
+        <h1 id="#preverb-morph">Preverbs</h1>
+        <h1 id="#pos-morph">Prepositions</h1>
+        <h1 id="#adj-morph">Adjectives</h1>
     </div>
 </div>
 

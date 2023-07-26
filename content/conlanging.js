@@ -21,28 +21,35 @@ const cabuLanguage = `
                 </tr>
                 <tr>
                     <th>Close</th>
-                    <td>i <i>i</i></td>
-                    <td>y <i>ü</i></td>
+                    <td>i</td>
+                    <td>y</td>
                     <td></td>
-                    <td>u <i>u</i></td>
+                    <td>u</td>
+                </tr>
+                <tr>
+                    <th>Near-close</th>
+                    <td>ɪ</td>
+                    <td>ʏ</td>
+                    <td></td>
+                    <td>ʊ</td>
                 </tr>
                 <tr>
                     <th>Mid</th>
-                    <td>e <i>e</i></td>
-                    <td>ø <i>ö</i></td>
-                    <td>ə <i>ë</i></td>
+                    <td>e</td>
+                    <td>ø</td>
+                    <td></td>
                     <td></td>
                 </tr>
                 <tr>
                     <th>Open</th>
-                    <td>a <i>a</i></td>
                     <td></td>
-                    <td>(a)</td>
+                    <td></td>
+                    <td>a</td>
                     <td></td>
                 </tr>
             </tbody>
-            (make sure to include diphthong chart)
         </table>
+        (make sure to include diphthong chart)
     </div>
 </div>
 

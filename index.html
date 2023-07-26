@@ -16,8 +16,8 @@
             :root {
                 --background: #eeeeee;
                 --text: black;
-                --accent-light: #665588;
-                --accent-dark: #332255;
+                --accent-base: #c0b4d6;
+                --accent-over: #665588;
 
                 background: var(--background);
                 font-family: sans-serif;
@@ -37,8 +37,9 @@
                 margin: auto;
             }
 
-            a { color: var(--accent-light); }
-            a:hover { color: var(--accent-dark); }
+            a { color: var(--accent-over); }
+            a:hover { color: var(--accent-base); }
+            a:hover img { filter: brightness(150%); } /* https://codepen.io/sosuke/pen/Pjoqqp */
 
             ul {
                 padding-left: 24px;
@@ -60,7 +61,7 @@
             }
 
             .section {
-                background: var(--accent-dark);
+                background: var(--accent-base);
                 color: var(--background);
                 padding: 6px 2px;
                 position: relative;
@@ -121,8 +122,8 @@
         <div id="horizontal-flex">
             <div id="left">
                 <!-- "bio" section, that slides with page scroll -->
-                <h1 style="color: var(--accent-light); margin: 10px 0;">kitsumitsu</h1>
-                <img src="img/cacao_pfp.png" width="100%" style="padding: 2px; border: 2px solid var(--accent-dark); border-radius: 4px; box-sizing: border-box;">
+                <h1 style="color: var(--accent-over); margin: 10px 0;">kitsumitsu</h1>
+                <img src="img/cacao_pfp.png" width="100%" style="padding: 2px; border: 2px solid var(--accent-base); border-radius: 4px; box-sizing: border-box;">
                 <div>
                     <p>hi I'm kitsumitsu. I draw sfw bbw & furry content and do other stuff sometimes like 3D model, compose music, and learn Chinese.</p>
                     <a href="https://cohost.org/kitsumitsu"><img src="img/icons/brand-cohost.svg" width="20%"></a>

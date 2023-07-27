@@ -37,8 +37,11 @@ let construct = `
             </div>
 `;
 
-let c = "<div class='section'><h1>chapter 1</h1>" + chapters[0] + "</div></div>"
+let c = "";
+for (let i=0; i<chapters.length; i++) {
+    c += "<a class='ref' href='javascript:loadContent(chapters[" + i + "]);'>chapter " + (i + 1) + "</a>";
+}
 
-construct = construct.replace("REPLACE_CHAPTERS", '<a class="ref" href="javascript:loadContent(\'' + c + '\');">chapter 1</a> ');
+construct = construct.replace("REPLACE_CHAPTERS", c);
 
 const main = construct;

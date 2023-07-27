@@ -19,7 +19,9 @@ Y'know, in this situation you'd expect the sand to be hot. But it's not. This is
 </p><p>
 I mound a dune, I walk down a dune. I mound another dune, I walk down another dune. My calves are starting to ache like hell, my feet are all itchy, I wear neither shoes nor socks in my house so I'm, quite unfortunately, barefoot. Another dune, evidentally greater in scale and granduer and, well, height, approaches from not twenty feet off. <i>Hey dune. Wanna let me climb you? That would be cool.</i>
 </p><p>
-Over the dune, it's a city. <i>Holy shit, it's a city.</i> Stout, square buildings made of pink flourstone-stuff (who would've guessed), though further in the builds only get taller and more elaborate, raised floors and arches and balconies and ornamentations and <i>oh my lord there's people.</i> I mean, I would expect to see people in a city but I'm still elated to see it. Not many people, I think I see more further in. Covered head-to-toe in fabric, pinkish fabric, pink like everything else. To protect from the floursand? Maybe it's a religious thing. Maybe they just don't like being naked.
+Over the dune, it's a city. <i>Holy shit, it's a city.</i> Stout, square buildings made of pink flourstone-stuff (who would've guessed), though further in the buildings only get taller and more elaborate, raised floors and arches and balconies and ornamentations and <i>oh my lord there's people.</i> I mean, I would expect to see people in a city but I'm still elated to see it. Not many people, I think I see more further in. Covered head-to-toe in fabric, pinkish fabric, pink like everything else. To protect from the floursand? Maybe it's a religious thing. Maybe they just don't like being naked.
+</p><p>
+Look, I know it's a bad idea to just go barging in there. They could be dangerous. They might have a strict no-outsiders policy. But what other options are there? Plus, I'm curious, so I begin trudging down the other side of the dune, floursand slipping and curling up into the air beside me.
 </p>
 `
 ];

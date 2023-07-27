@@ -13,11 +13,13 @@ As a momentary spark in my brain tells me how fucked I am my hand sinks sideways
 </p><p>
 I push myself up from the sand, which is done with some difficulty due to how slippery it is. It isn't course at all, actually, more like flour than sand, but flour doesn't typically make up the ground. I rub my fingers together and of course they're dry and somewhat slick with the floursand, so I swipe my hands against my shirt which billows off even more of the stuff, because of course it does, and I pat my face to get off the sand there and <strong>I'm wearing a fucking blindfold.</strong>
 </p><p>
-So that obviously comes off, and the whole world is pink for some reason, the sand, the sky, and I'm in the middle of jack-all nowhere, not a house or tree or rock in sight. It's just the sand. Everything is sand. Dunes and dunes and dunes and dunes. No--focus, Nile--look over there, in the distance. Mountains. Actually, in every direction, just a ring of moutains. Are they also made of sand? My feet have already sunk considerably into the floursand, and I notice how badly that's unnerving me. What is going on. I start to tredge in the direction where the mountains seem the closest.
+So that obviously comes off, and the whole world is pink for some reason, the sand, the sky, and I'm in the middle of jack-all nowhere, not a house or tree or rock in sight. It's just the sand. Everything is sand. Dunes and dunes and dunes and dunes. No--focus, Nile--look over there, in the distance. Mountains. Actually, in every direction, just a ring of moutains. Are they also made of sand? My feet have already sunk considerably into the floursand, and I notice how badly that's unnerving me. What is going on. I start to trudge in the direction where the mountains seem the closest.
+</p><p>
+Y'know, in this situation you'd expect the sand to be hot. But it's not. This isn't a <i>desert</i>, just one big sandy basin. I mean, it's not even bright, like the dullness of overcast, despite the fact that there doesn't seem to be a single cloud in the sky. I stop trudging, I look around for a second, turn in place, but can't locate the sun in any direction. Of course this isn't on earth. Why--<i>how</i> the hell would it be.
 </p>
 `
 ];
-// it's not very bright despite no clouds, I look around for a second, turn in place, but can't locate the sun in any direction. Of course this isn't on earth. Why--<i>how</i> the hell would it be.
+
 
 // finds city of fully cloth-covered people, dragons with grey skin
 

@@ -18,3 +18,9 @@ So that obviously comes off, and the whole world is pink for some reason, the sa
 `
 ];
 // it's not very bright despite no clouds, I look around for a second, turn in place, but can't locate the sun in any direction. Of course this isn't on earth. Why--<i>how</i> the hell would it be.
+
+// frustrated
+// Nizi = they are cold, Nizid = you are cold
+// Lani = they are called, Lanif = I am called
+// I put it together in my head. "Kita?" I try to really emphasis the rising tone. She stares at me expectantly, I point to her, repeat, "Kita?"
+// She points inwards. "Lanif Ine. Ine." Ine, she's Ine. Wait, is that her name or like, her species?

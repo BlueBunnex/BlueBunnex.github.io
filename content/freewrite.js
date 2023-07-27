@@ -19,6 +19,8 @@ So that obviously comes off, and the whole world is pink for some reason, the sa
 ];
 // it's not very bright despite no clouds, I look around for a second, turn in place, but can't locate the sun in any direction. Of course this isn't on earth. Why--<i>how</i> the hell would it be.
 
+// finds city of fully cloth-covered people, dragons with grey skin
+
 // frustrated
 // Nizi = they are cold, Nizid = you are cold
 // Lani = they are called, Lanif = I am called

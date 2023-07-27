@@ -12,6 +12,9 @@ Right, so it's kind of scary just standing in what is now practically a jungle g
 As a momentary spark in my brain tells me how fucked I am my hand sinks sideways through the sand and I am caught by a bed of the--surprisingly soft--sand. <i>Why is my apartment... sand?</i> No, this can't be my apartment. Somehow by some means, probably the same means that also made me unable to see, I have been transported... <i>somewhere.</i>
 </p><p>
 I push myself up from the sand, which is done with some difficulty due to how slippery it is. It isn't course at all, actually, more like flour than sand, but flour doesn't typically make up the ground. I rub my fingers together and of course they're dry and somewhat slick with the floursand, so I swipe my hands against my shirt which billows off even more of the stuff, because of course it does, and I pat my face to get off the sand there and <strong>I'm wearing a fucking blindfold.</strong>
+</p><p>
+So that obviously comes off, and the whole world is pink for some reason, the sand, the sky, and I'm in the middle of jack-all nowhere, not a house or tree or rock in sight. It's just the sand. Everything is sand. Dunes and dunes and dunes and dunes. No--focus, Nile--look over there, in the distance. Mountains. Actually, in every direction, just a ring of moutains. Are they also made of sand? My feet have already sunk considerably into the floursand, and I notice how badly that's unnerving me. What is going on. I start to tredge in the direction where the mountains seem the closest.
 </p>
 `
 ];
+// it's not very bright despite no clouds, I look around for a second, turn in place, but can't locate the sun in any direction. Of course this isn't on earth. Why--<i>how</i> the hell would it be.

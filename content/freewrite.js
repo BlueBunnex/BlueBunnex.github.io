@@ -25,7 +25,7 @@ I mound a dune, I walk down a dune. I mound another dune, I walk down another du
 
 // finds city of people covered head-to-toe in fabric, pinkish fabric, like everything else.
 // closer, fabric stitched with red and yellow and blue threads interwoven into an almost undetectable cross-stitch pattern all across its surface.
-// dragons with grey skin
+// dragons with dull, blueish-orange skin. Wait, blueish-orange? Blue and orange are on the opposite side of the color wheel, blueish orange is an impossible color--and yet that's what I see when I look at xer. I <i>feel</i> blue. But I also feel orange.
 
 // frustrated
 // VSO
@@ -34,9 +34,12 @@ I mound a dune, I walk down a dune. I mound another dune, I walk down another du
 // lani = they are called
 // ige = they say
 
-// "What are you saying?" I say more to myself than to her.
-// "<i>Wata ju sejin?</i> Kita?" she mimicks. "Iged kita?"
-// I put it together in my head. "Kita?" I try to really emphasis the rising tone. She stares at me expectantly, I point to her, repeat, "Kita?"
-// The same look of epiphany that was probably on my face flashes onto hers, and she points inwards. "Lanif Ine. Ine." Ine, she's Ine. Wait, is that her name or like, her species?
-// "Ine. You're Ine." I swing my pointing from her to outside. "Are they also Ine?"
-// She squints, points at herself again, and repeats herself. Okay, it's her name.
+// "What are you saying?" I say more to myself than to xer.
+// "<i>Wata ju sejin?</i> Kita?" xe mimicks. "Iged kita?"
+// I put it together in my head. "Kita?" I try to really emphasis the rising tone. Xe stares at me expectantly, I point to xer, repeat, "Kita?"
+// The same look of epiphany that was probably on my face flashes onto xers, and xe points inwards. "Lanif Ine. Ine." Ine, xe's Ine. Wait, is that xer name or like, xer species?
+// "Ine. You're Ine." I swing my pointing from xer to outside. "Are they also Ine?"
+// Xe squints, points at xerself again, and repeats xerself. Okay, it's xer name.
+
+// , presumabley looking for more things to name.
+// grabs a bag slung from behind xer waist and holds it up. "Bak," xe states, then procurs a small silver coin from within. "Bakel." Bak, huh? Sounds deceptively similar to bag. I wonder if the word for that coin is related.

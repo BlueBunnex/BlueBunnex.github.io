@@ -27,3 +27,5 @@ const main = `
                 </div>
             </div>
 `;
+
+main.replace("REPLACE_CHAPTERS", "");

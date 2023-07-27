@@ -39,7 +39,7 @@ let construct = `
 
 let c = "";
 for (let i=0; i<chapters.length; i++) {
-    chapters[i] = "<div class='section'><h1>chapter " + (i + 1) + "</h1>" + chapters[i] + "</div></div>";
+    chapters[i] = "<div class='section'><h1>chapter " + (i + 1) + "</h1><div>" + chapters[i] + "</div></div>";
     c += "<a class='ref' href='javascript:loadContent(chapters[" + i + "]);'>chapter " + (i + 1) + "</a>";
 }
 

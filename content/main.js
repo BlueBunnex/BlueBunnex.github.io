@@ -37,6 +37,6 @@ let construct = `
             </div>
 `;
 
-construct = construct.replace("REPLACE_CHAPTERS", '<a class="ref" href="javascript:loadContent(\"test chapter\");">chapter 1</a> ');
+construct = construct.replace("REPLACE_CHAPTERS", '<a class="ref" href="javascript:loadContent(\'test chapter\');">chapter 1</a> ');
 
 const main = construct;

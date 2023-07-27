@@ -108,12 +108,14 @@
         </style>
 
         <!-- for loading to the left content area from .js files -->
-        <!-- written in order they're displayed because cool -->
-        <script src="content/main.js"></script>
+        <!-- written in order they're displayed because cool, except main is last since it references others -->
         <script src="content/me.js"></script>
         <script src="content/conworld.js"></script>
         <script src="content/freewrite.js"></script>
         <script src="content/assets.js"></script>
+        
+        <script src="content/main.js"></script>
+        
         <script>
             function loadContent(content) {
                 let prefix = "";

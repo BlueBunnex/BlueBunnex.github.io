@@ -24,7 +24,14 @@ Y'know, in this situation you'd expect the sand to be hot. But it's not. This is
 // finds city of fully cloth-covered people, dragons with grey skin
 
 // frustrated
-// Nizi = they are cold, Nizid = you are cold
-// Lani = they are called, Lanif = I am called
+// VSO
+// verb inflect: -Ø = 3sg, -d = 2sg, -f = 1sg, -? = negative
+// nizi = they are cold
+// lani = they are called
+// ige = they say
+// "What are you saying?" I say more to myself than to her.
+// "<i>Wata ju sejin?</i> Kita?" she mimicks. "Iged kita?"
 // I put it together in my head. "Kita?" I try to really emphasis the rising tone. She stares at me expectantly, I point to her, repeat, "Kita?"
-// She points inwards. "Lanif Ine. Ine." Ine, she's Ine. Wait, is that her name or like, her species?
+// The same look of epiphany that was probably on my face flashes onto hers, and she points inwards. "Lanif Ine. Ine." Ine, she's Ine. Wait, is that her name or like, her species?
+// "Ine. You're Ine." I swing my pointing from her to outside. "Are they also Ine?"
+// She squints, points at herself again, and repeats, "Igef <i>lanif</i> Ine." Okay, it's her name.

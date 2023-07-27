@@ -21,13 +21,15 @@ I mound a dune, I walk down a dune. I mound another dune, I walk down another du
 </p><p>
 Over the dune, it's a city. <i>Holy shit, it's a city.</i> Stout, square buildings made of pink flourstone-stuff (who would've guessed), though further in the buildings only get taller and more elaborate, raised floors and arches and balconies and ornamentations and <i>oh my lord there's people.</i> I mean, I would expect to see people in a city but I'm still elated to see it. Not many people, I think I see more further in. Covered head-to-toe in fabric, pinkish fabric, pink like everything else. To protect from the floursand? Maybe it's a religious thing. Maybe they just don't like being naked.
 </p><p>
-Look, I know it's a bad idea to just go barging in there. They could be dangerous. They might have a strict no-outsiders policy. But what other options are there? Plus, I'm curious, so I begin trudging down the other side of the dune, floursand slipping and curling up into the air beside me.
+Look, I know it's a bad idea to just go barging in there. They could be dangerous. They might have a strict no-outsiders policy. But what other options are there? Plus, I'm curious, so I begin trudging down the other side of the dune, floursand slipping and curling up into the air beside me. The streets start right there. I just walk in.
 </p>
 `
 ];
 
-// closer, fabric stitched with red and yellow and blue threads interwoven into an almost undetectable cross-stitch pattern all across its surface.
-// dragons with dull, blueish-orange skin. Wait, blueish-orange? Blue and orange are on the opposite side of the color wheel, blueish orange is an impossible color--and yet that's what I see when I look at xer. I <i>feel</i> blue. But I also feel orange.
+// think about it, if you saw someone weird would you actually get involved or would you just move on with what you were doing
+
+// closer, fabric stitched with red and yellow and blue threads interwoven into an almost undetectable cross-stitch pattern all across its surface. only openings are for either arm, a big loose one around the legs, and an almost imperceivable slit at the eyes, through which glow hesitant daggers of eyes. Well that's a nice howdy-do.
+// like dragons with dull, damaged, blueish-orange skin. Wait, blueish-orange? Blue and orange are on the opposite side of the color wheel, blueish orange is an impossible color--and yet that's what I see when I look at xer. I <i>feel</i> blue. But I also feel orange.
 
 // frustrated
 // VSO

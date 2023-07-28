@@ -28,6 +28,13 @@ Aside from the cloaked people and the pink atmosphere it's about what you'd expe
 And speaking of, turns out the fabric they're wearing isn't just pink--after I pass a few people I begin to notice the finer design, stitched with red and yellow and blue threads interwoven into an almost undetectable cross-stitch pattern all across the fabric's surface. As for function, the only openings present besides servicing the arms and legs is an almost imperceivable slit at the eyes, through which glow hesitant daggers. Right, foreign city, foreign people, still should be scared. Though, no one seems to be put off by my presence. They just step aside a bit too far.
 </p><p>
 As I pass into the city the density of people grows slightly, and I catch a few instances of people speaking--lo and behold, not English. Not many talk, more just listen. They hush when I get close, so it's hard to catch, but I hear a word, "ngwe," a few times. <i>Ng? Like the sound at the end of sing? This ain't English alright.</i>
+</p><p>
+I find myself looking into buildings. They're all open, no doors, no nothing. Most are empty, save some furniture made of... wood? I stop at one. It's occupied by someone. I sort of stare motionlessly at them, like a kid at a zoo who's never seen a lion before. They look back at me curiously. We stay like this for a little too long. I take a step in, xey don't make any indication of wanting to stop me.
+</p><p>
+They're kneeling, and we both change states at once--they stand, I kneel. Then I immediately stand, following them, and then we stare at eachother, and then both sit back down.
+</p>
+<p>
+"Lanid kita?" Still not English, cool.
 </p>
 `
 ];

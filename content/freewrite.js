@@ -27,7 +27,7 @@ Aside from the cloaked people and the pink atmosphere it's about what you'd expe
 </p><p>
 And speaking of, turns out the fabric they're wearing isn't just pink--after I pass a few people I begin to notice the finer design, stitched with red and yellow and blue threads interwoven into an almost undetectable cross-stitch pattern all across the fabric's surface. As for function, the only openings present besides servicing the arms and legs is an almost imperceivable slit at the eyes, through which glow hesitant daggers. Right, foreign city, foreign people, still should be scared. Though, no one seems to be put off by my presence. They just step aside a bit too far.
 </p><p>
-As I pass into the city the density of people grows slightly, and I catch a few instances of people speaking--lo and behold, not English. Not many talk, more just listen. They hush when I get close, so it's hard to catch, but I hear a word, "nga," a few times. <i>Ng? Like the sound at the end of sing? This ain't English alright.</i>
+As I pass into the city the density of people grows slightly, and I catch a few instances of people speaking--lo and behold, not English. Not many talk, more just listen. They hush when I get close, so it's hard to catch, but I hear a word, "ngwe," a few times. <i>Ng? Like the sound at the end of sing? This ain't English alright.</i>
 </p>
 `
 ];
@@ -48,7 +48,7 @@ As I pass into the city the density of people grows slightly, and I catch a few 
 // "Ine. You're Ine." I swing my pointing from xer to outside. "Are they also Ine?"
 // Xe squints, points at xerself again, and repeats xerself. Okay, it's xer name.
 
-// , presumabley looking for more things to name.
+// , presumably looking for more things to name.
 // grabs a bag slung from behind xer waist and holds it up. "Bak," xe states, then procurs a small silver coin from within. "Bakel." Bak, huh? Sounds deceptively similar to bag. I wonder if the word for that coin is related.
 
 // Xe opens a chest, hucks xer bag--sorry, bak--into it, and then stoops down shoulder-deep to heft out a shaggy mat. A shaggy mat of... what, exactly. Fur? I have yet to see an animal. Xe lies it down on the floor, looks at it, then looks at me, and frowns. The mat looks about the size for a person to lie down on. But there's something else, nuzzled into the fur of the mat. <i>A blindfold.</i> Xe picks it up. Xe puts it on, just not quite covering xer eyes, because xe's now looking at me. Do I still have it? Xe looks frightened for a moment until I pull it out from my pocket, and then xe eases. What is this for? Are we sleeping? I've never been a fan of facemasks.

@@ -50,3 +50,7 @@ And speaking of, turns out the fabric they're wearing isn't just pink--after I p
 
 // , presumabley looking for more things to name.
 // grabs a bag slung from behind xer waist and holds it up. "Bak," xe states, then procurs a small silver coin from within. "Bakel." Bak, huh? Sounds deceptively similar to bag. I wonder if the word for that coin is related.
+
+// Xe opens a chest, hucks xer bag--sorry, bak--into it, and then stoops down shoulder-deep to heft out a shaggy mat. A shaggy mat of... what, exactly. Fur? I have yet to see an animal. She lies it down on the floor, looks at it, then looks at me, and frowns.
+
+// What is that, nuzzled into the fur of the mat? <i>A blindfold.</i> She picks it up. She puts it on, just not quite covering her eyes, because she's now looking at me. Do I still have it? She looks frightened for a moment until I pull it out from my pocket, and then her eases. What is this for? Are we sleeping? I've never been a fan of facemasks.

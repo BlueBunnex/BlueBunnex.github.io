@@ -13,7 +13,7 @@ As a momentary spark in my brain tells me how fucked I am my hand sinks sideways
 </p><p>
 I push myself up from the sand, which is done with some difficulty due to how slippery it is. It isn't course at all, actually, more like flour than sand, but flour doesn't typically make up the ground. I rub my fingers together and of course they're dry and somewhat slick with the floursand, so I swipe my hands against my shirt which billows off even more of the stuff, because of course it does, and I pat my face to get off the sand there and <strong>I'm wearing a fucking blindfold.</strong>
 </p><p>
-So that obviously comes off, and the whole world is pink for some reason, the sand, the sky, and I'm in the middle of jack-all nowhere, not a house or tree or rock in sight. It's just the sand. Everything is sand. Dunes and dunes and dunes and dunes. No--focus, Nile--look over there, in the distance. Mountains. Actually, in every direction, just a ring of moutains. Are they also made of sand? My feet have already sunk considerably into the floursand, and I notice how badly that's unnerving me. What is going on. I start to trudge in the direction where the mountains seem the closest.
+So that obviously comes off, and the whole world is pink for some reason, the sand, the sky, and I'm in the middle of jack-all nowhere, not a house or tree or rock in sight. It's just the sand. Everything is sand. Dunes and dunes and dunes and dunes. No--focus, Nile--look over there, in the distance. Mountains. Actually, in every direction, just a ring of moutains. Are they also made of sand? My feet have already sunk considerably into the floursand, and I realize just how badly that's unnerving me. What is going on. I start to trudge in the direction where the mountains seem the closest.
 </p><p>
 Y'know, in this situation you'd expect the sand to be hot. But it's not. This isn't a <i>desert</i>, just one big sandy basin. I mean, it's not even bright, like the dullness of overcast, despite the fact that there doesn't seem to be a single cloud in the sky. I stop trudging, I look around for a second, turn in place, but can't locate the sun in any direction. Of course this isn't on earth. Why--<i>how</i> the hell would it be.
 </p><p>
@@ -22,13 +22,16 @@ I mound a dune, I walk down a dune. I mound another dune, I walk down another du
 Over the dune, it's a city. <i>Holy shit, it's a city.</i> Stout, square buildings made of pink flourstone-stuff (who would've guessed), though further in the buildings only get taller and more elaborate, raised floors and arches and balconies and ornamentations and <i>oh my lord there's people.</i> I mean, I would expect to see people in a city but I'm still elated to see it. Not many people, I think I see more further in. Covered head-to-toe in fabric, pinkish fabric, pink like everything else. To protect from the floursand? Maybe it's a religious thing. Maybe they just don't like being naked.
 </p><p>
 Look, I know it's a bad idea to just go barging in there. They could be dangerous. They might have a strict no-outsiders policy. But what other options are there? Plus, I'm curious, so I begin trudging down the other side of the dune, floursand slipping and curling up into the air beside me. The streets start right there. I just walk in.
+</p><p>
+Aside from the cloaked people and the pink atmosphere it's about what you'd expect. Kind of like a standard movie-set style middle-eastern city, or a desert village in Minecraft. It's kinda cozy actually, but also alarmingly cold? Like, the buildings shade the road from the invisible sun, and they probably absorb some heat too or something, no wonder everyone here is covered from top to bottom.
+</p><p>
+And speaking of, turns out the fabric they're wearing isn't just pink--after I pass a few people I begin to notice the finer design, stitched with red and yellow and blue threads interwoven into an almost undetectable cross-stitch pattern all across the fabric's surface. As for function, the only openings present besides servicing the arms and legs is an almost imperceivable slit at the eyes, through which glow hesitant daggers. Right, foreign city, foreign people, still should be scared. Though, no one seems to be put off by my presence. They just step aside a bit too far.
+</p><p>
+
 </p>
 `
 ];
 
-// think about it, if you saw someone weird would you actually get involved or would you just move on with what you were doing
-
-// closer, fabric stitched with red and yellow and blue threads interwoven into an almost undetectable cross-stitch pattern all across its surface. only openings are for either arm, a big loose one around the legs, and an almost imperceivable slit at the eyes, through which glow hesitant daggers of eyes. Well that's a nice howdy-do.
 // like dragons with dull, damaged, blueish-orange skin. Wait, blueish-orange? Blue and orange are on the opposite side of the color wheel, blueish orange is an impossible color--and yet that's what I see when I look at xer. I <i>feel</i> blue. But I also feel orange.
 
 // frustrated

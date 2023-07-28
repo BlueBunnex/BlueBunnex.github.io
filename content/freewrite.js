@@ -27,7 +27,7 @@ Aside from the cloaked people and the pink atmosphere it's about what you'd expe
 </p><p>
 And speaking of, turns out the fabric they're wearing isn't just pink--after I pass a few people I begin to notice the finer design, stitched with red and yellow and blue threads interwoven into an almost undetectable cross-stitch pattern all across the fabric's surface. As for function, the only openings present besides servicing the arms and legs is an almost imperceivable slit at the eyes, through which glow hesitant daggers. Right, foreign city, foreign people, still should be scared. Though, no one seems to be put off by my presence. They just step aside a bit too far.
 </p><p>
-
+As I pass into the city the density of people grows slightly, and I catch a few instances of people speaking--lo and behold, not English. Not many talk, more just listen. They hush when I get close, so it's hard to catch, but I hear a word, "nga," a few times. <i>Ng? Like the sound at the end of sing? This ain't English alright.</i>
 </p>
 `
 ];

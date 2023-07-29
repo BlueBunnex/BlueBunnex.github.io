@@ -41,7 +41,7 @@ The interior is just a blank room, and mostly empty, save for a chest in the bac
 </p><p>
 "Huh?" I say mostly automatically.
 </p><p>
-"<i>Ha?</i>" xe mimicks. "Kita? Iged kita?"
+"<i>Ha?</i>" xe mimicks bluntly. "Kita? Iged kita?"
 </p><p>
 I put it together in my head. "Kita?" I try to really emphasis the rising tone. Xe stares at me intrigued once more, I point to xer, repeat, "Kita?"
 </p><p>

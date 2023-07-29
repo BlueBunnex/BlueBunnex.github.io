@@ -43,7 +43,7 @@ The interior is just a blank room, and mostly empty, save for a chest in the bac
 </p><p>
 "<i>Ha?</i>" xe mimicks bluntly. "Kita? Iged kita?"
 </p><p>
-I put it together in my head. "Kita?" I try to really emphasis the rising tone. Xe stares at me intrigued once more, I point to xer, repeat, "Kita?"
+I put it together in my head. "Kita?" I try to really emphasis the rising tone. Xer disappointment turns to immediate intrigue once more, I point to xer, repeat, "Kita?"
 </p><p>
 The same look of epiphany that was probably on my face flashes onto xers, and xe points inwards. "Lanif Ine. Ine." Ine, xe's Ine. Wait, is that xer name or like, xer species?
 </p><p>

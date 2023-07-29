@@ -29,17 +29,18 @@ And speaking of, turns out the fabric they're wearing isn't just pink--after I p
 </p><p>
 As I pass into the city the density of people grows slightly, and I catch a few instances of people speaking--lo and behold, not English. Not many talk, more just listen. They hush when I get close, so it's hard to catch, but I hear a word, "ngwe," a few times. <i>Ng? Like the sound at the end of sing? This ain't English alright.</i>
 </p><p>
-I find myself looking into buildings. They're all open, no doors, no nothing. Most are empty, save some furniture made of... wood? I stop at one. It's occupied by someone. I sort of stare motionlessly at them, like a kid at a zoo who's never seen a lion before. They look back at me curiously. We stay like this for a little too long. I take a step in, xey don't make any indication of wanting to stop me.
+I find myself looking into buildings. They're all open, no doors, no nothing. Most are empty, save some furniture made of... wood? I stop at one. It's occupied by someone. I sort of stare motionlessly at them, like a kid at a zoo who's never seen a lion before. Xey look back at me curiously. We stay like this for a little too long. I take a step in, xey don't make any indication of wanting to stop me.
 </p><p>
-They're kneeling, and we both change states at once--they stand, I kneel. Then I immediately stand, following them, and then we stare at eachother, and then both sit back down.
-</p>
-<p>
-"Lanid kita?" Still not English, cool.
+Xey're kneeling, and we both change states at once--xey stand, I kneel. Then I immediately stand, following xem, and then we stare at eachother, and then both kneel back down.
+</p><p>
+The interior is just a blank room. The walls are made of the same stuff as the outside, and there are no doors save the one I came through. The person begins to remove the cloth cover from their face, underneath which is... the face of a dragon. Xey have tough, dull, damaged, blueish-orange skin, like scales on a lizard. Wait, blueish-orange? Blue and orange are on the opposite side of the color wheel, blueish-orange is an impossible color--and yet that's what I see when I look at xer. I <i>feel</i> blue. But I also feel orange. "Lanid kita?" xey ask, and I can tell it's a question from the rising tone. Still not English, cool.
+</p><p>
+"Hi, hello." *Nice introduction.* "I'm Nile. I, uh, can't understand you." Xey stare back at me, eyes opened wider than before as if suddenly interested in this stranger that not only is--in comparison to them--practically naked, but also speaks the equivalent of spoken moonrunes. "English?"
+</p><p>
+"Eglish?" xey ask. "Iged kita?"
 </p>
 `
 ];
-
-// like dragons with dull, damaged, blueish-orange skin. Wait, blueish-orange? Blue and orange are on the opposite side of the color wheel, blueish orange is an impossible color--and yet that's what I see when I look at xer. I <i>feel</i> blue. But I also feel orange.
 
 // VSO
 // verb inflect: -Ø = 3sg, -d = 2sg, -f = 1sg, -? = negative

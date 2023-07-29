@@ -29,7 +29,7 @@ And speaking of, turns out the fabric they're wearing isn't just pink--after I p
 </p><p>
 As I pass into the city the density of people grows slightly, and I catch a few instances of people speaking--lo and behold, not English. Not many talk, more just listen. They hush when I get close, so it's hard to catch, but I hear a word, "ngwe," a few times. <i>Ng? Like the sound at the end of sing? This ain't English alright.</i>
 </p><p>
-I find myself looking into buildings. They're all open, no doors, no nothing. Most are empty, save some furniture made of... wood? I stop at one. It's occupied by someone. I sort of stare motionlessly at them, like a kid at a zoo who's never seen a lion before. Xe looks back at me curiously. We stay like this for a little too long. I take a step in, xe doesn't make any indication of wanting to stop me.
+I find myself looking into buildings. They're all open, no doors, no nothing. Most are empty, save some furniture made of... wood? I stop at one. It's occupied by someone. I sort of stare motionlessly at them, like a kid at a zoo who's never seen a lion before. Xe looks back at me curiously. We stay like this for a little too long. I take a risk and step in, and xe doesn't make any indication of wanting to stop me, so I enter.
 </p><p>
 Xe's kneeling, and we both change states at once--xe stands, I kneel. Then I immediately stand, following xer, and then we stare at eachother, and then both kneel back down.
 </p><p>

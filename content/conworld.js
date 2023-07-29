@@ -3,7 +3,7 @@ const cabuLanguage = `
 <div class="section">
     <h1>Cabü Overview</h1>
     <div>
-        <p>Spoken in the area of and surrounding Cabig. Eventually I'll have it set up in a way so that it is ordered to be easily learned step by step, but w/e.</p>
+        <p>Spoken in the area of and surrounding _. Eventually I'll have it set up in a way so that it is ordered to be easily learned step by step, but w/e.</p>
     </div>
 </div>
 
@@ -72,7 +72,7 @@ const limalhSpecies = `
     <div>
         <img src="img/limalh_thing.png">
         <br>
-        Limalh [lɪ.maʎ] are native to the wetland regions of Cabig. They come with lots of variants at varying rarities that I will come up with later (very cool).
+        Limalh [lɪ.maʎ] are native to the wetland regions of _. They come with lots of variants at varying rarities that I will come up with later (very cool).
         <br>
         <br>
         tail varieties<br>

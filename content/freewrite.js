@@ -29,34 +29,33 @@ And speaking of, turns out the fabric they're wearing isn't just pink--after I p
 </p><p>
 As I pass into the city the density of people grows slightly, and I catch a few instances of people speaking--lo and behold, not English. Not many talk, more just listen. They hush when I get close, so it's hard to catch, but I hear a word, "ngwe," a few times. <i>Ng? Like the sound at the end of sing? This ain't English alright.</i>
 </p><p>
-I find myself looking into buildings. They're all open, no doors, no nothing. Most are empty, save some furniture made of... wood? I stop at one. It's occupied by someone. I sort of stare motionlessly at them, like a kid at a zoo who's never seen a lion before. Xey look back at me curiously. We stay like this for a little too long. I take a step in, xey don't make any indication of wanting to stop me.
+I find myself looking into buildings. They're all open, no doors, no nothing. Most are empty, save some furniture made of... wood? I stop at one. It's occupied by someone. I sort of stare motionlessly at them, like a kid at a zoo who's never seen a lion before. Xe looks back at me curiously. We stay like this for a little too long. I take a step in, xe doesn't make any indication of wanting to stop me.
 </p><p>
-Xey're kneeling, and we both change states at once--xey stand, I kneel. Then I immediately stand, following xem, and then we stare at eachother, and then both kneel back down.
+Xe's kneeling, and we both change states at once--xe stands, I kneel. Then I immediately stand, following xer, and then we stare at eachother, and then both kneel back down.
 </p><p>
-The interior is just a blank room. The walls are made of the same stuff as the outside, and there are no doors save the one I came through. The person begins to remove the cloth cover from their face, underneath which is... the face of a dragon. Xey have tough, dull, damaged, blueish-orange skin, like scales on a lizard. Wait, blueish-orange? Blue and orange are on the opposite side of the color wheel, blueish-orange is an impossible color--and yet that's what I see when I look at xer. I <i>feel</i> blue. But I also feel orange. "Lanid kita?" xey ask, and I can tell it's a question from the rising tone. Still not English, cool.
+The interior is just a blank room, and mostly empty, save for another chest in the back of the room, and what seems like a wooden table with various trinkets scattered on top. The walls are made of the same stuff as the outside, and there are no doors save the one I came through. The person begins to remove the cloth cover from their face, underneath which is... the face of a dragon. Xe has tough, dull, damaged, blueish-orange skin, like scales on a lizard. Wait, blueish-orange? Blue and orange are on the opposite side of the color wheel, blueish-orange is an impossible color--and yet that's what I see when I look at xer. I <i>feel</i> blue. But I also feel orange. "Lanid kita?" xe asks, and I can tell it's a question from the rising tone. Still not English, cool.
 </p><p>
-"Hi, hello." *Nice introduction.* "I'm Nile. I, uh, can't understand you." Xey stare back at me, eyes opened wider than before as if suddenly interested in this stranger that not only is--in comparison to them--practically naked, but also speaks the equivalent of spoken moonrunes. "English?"
+"Hi, hello." <i>Nice introduction.</i> "I'm Nile. I, uh, can't understand you." Xe stares back at me, eyes opened wider than before as if suddenly interested in this stranger that not only is--in comparison to them--practically naked, but also speaks the equivalent of spoken moonrunes. "English?"
 </p><p>
-"Eglish?" xey ask. "Iged kita?"
+"Englis?" xe asks. "Iged kita?" Yeah, I don't know what that means, so I do the obligatory stare-at-the-foreign-person-in-visible-confusion. "Aj! Dvenlani?" xe exclaims suddenly, xer eyes, though just as hostile as those I saw before, not as unwelcoming. Xe raises xer hands as if getting ready to clap, then bunches the tips of her fingers together, then holds up her left pinky while pressing her other palm into her hand, then points at me. I just stare back at xer, and xe stares back expectantly; Then, when xe realizes that I also didn't understand whatever xe just did, xe drops xer hands defeated, looking visibly frustrated that xe can't get an idea across, even in this second form of communication that I also don't recognize at all.
 </p>
 `
 ];
+
+// "Huh?" I say mostly automatically.
+// "<i>Ha?</i>" xe mimicks. "Kita? Iged kita?"
+// I put it together in my head. "Kita?" I try to really emphasis the rising tone. Xe stares at me intrigued once more, I point to xer, repeat, "Kita?"
+// The same look of epiphany that was probably on my face flashes onto xers, and xe points inwards. "Lanif Ine. Ine." Ine, xe's Ine. Wait, is that xer name or like, xer species?
+// "Ine. You're Ine." I swing my pointing from xer to outside. "Are they also Ine?"
+// Xe squints, points at xerself again, and repeats xerself. Okay, it's xer name.
+
+// Xe stands up, presumably looking for more things to name.
+// grabs a bag slung from behind xer waist and holds it up. "Bak," xe states, then procurs a small silver coin from within. "Bakel." Bak, huh? Sounds deceptively similar to bag. I wonder if the word for that coin is related.
+
+// Then xe moves to the back of the room and opens a chest, hucks xer bag--sorry, bak--into it, and then stoops down shoulder-deep to heft out a shaggy mat. A shaggy mat of... what, exactly. Fur? I have yet to see an animal. Xe lies it down on the floor, looks at it, then looks at me, and frowns. The mat looks about the size for a person to lie down on. But there's something else, nuzzled into the fur of the mat. <i>A blindfold.</i> Xe picks it up. Xe puts it on, just not quite covering xer eyes, because xe's now looking at me. Do I still have it? Xe looks frightened for a moment until I pull it out from my pocket, and then xe eases. What is this for? Are we sleeping? I've never been a fan of facemasks.
 
 // VSO
 // verb inflect: -Ø = 3sg, -d = 2sg, -f = 1sg, -? = negative
 // nizi = they are cold
 // lani = they are called
 // ige = they say
-
-// "Aj! Dvenlani?" Xe raises xer hands as if getting ready to clap, then bunches the tips of her fingers together, then holds up her left pinky while pressing her other palm into her hand, then points at me. I just stare back at xer, and xe drops xer hands defeated, looking visibly frustrated that xe can't get an idea across, even in this second form of communication that I also don't recognize at all.
-// "What are you saying?" I say more to myself than to xer.
-// "<i>Wata ju sejin?</i> Kita?" xe mimicks. "Iged kita?"
-// I put it together in my head. "Kita?" I try to really emphasis the rising tone. Xe stares at me expectantly, I point to xer, repeat, "Kita?"
-// The same look of epiphany that was probably on my face flashes onto xers, and xe points inwards. "Lanif Ine. Ine." Ine, xe's Ine. Wait, is that xer name or like, xer species?
-// "Ine. You're Ine." I swing my pointing from xer to outside. "Are they also Ine?"
-// Xe squints, points at xerself again, and repeats xerself. Okay, it's xer name.
-
-// , presumably looking for more things to name.
-// grabs a bag slung from behind xer waist and holds it up. "Bak," xe states, then procurs a small silver coin from within. "Bakel." Bak, huh? Sounds deceptively similar to bag. I wonder if the word for that coin is related.
-
-// Xe opens a chest, hucks xer bag--sorry, bak--into it, and then stoops down shoulder-deep to heft out a shaggy mat. A shaggy mat of... what, exactly. Fur? I have yet to see an animal. Xe lies it down on the floor, looks at it, then looks at me, and frowns. The mat looks about the size for a person to lie down on. But there's something else, nuzzled into the fur of the mat. <i>A blindfold.</i> Xe picks it up. Xe puts it on, just not quite covering xer eyes, because xe's now looking at me. Do I still have it? Xe looks frightened for a moment until I pull it out from my pocket, and then xe eases. What is this for? Are we sleeping? I've never been a fan of facemasks.

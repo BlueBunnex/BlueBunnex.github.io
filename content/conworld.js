@@ -10,100 +10,25 @@ const cabuLanguage = `
 <div class="section">
     <h1>Phonology</h1>
     <div>
-        <table style="width: 100%; text-align: center;">
-            <tbody>
-                <tr>
-                    <th></th>
-                    <th>Labial</th>
-                    <th>Dental</th>
-                    <th>Retroflex</th>
-                    <th>Palatal</th>
-                    <th>Velar</th>
-                </tr>
-                <tr>
-                    <th>Nasal</th>
-                    <td>m</td>
-                    <td>n</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <th>Voiceless plosive</th>
-                    <td>p</td>
-                    <td>t</td>
-                    <td>tʂ</td>
-                    <td>tɕ</td>
-                    <td>k</td>
-                </tr>
-                <tr>
-                    <th>Voiced plosive</th>
-                    <td>b~β</td>
-                    <td>d~ð</td>
-                    <td>dʐ~ʐ</td>
-                    <td>dʑ~ʑ</td>
-                    <td>g~ɣ</td>
-                </tr>
-                <tr>
-                    <th>Fricative</th>
-                    <td>f</td>
-                    <td>s~θ</td>
-                    <td>ʂ</td>
-                    <td>ɕ</td>
-                    <td>x</td>
-                </tr>
-                <tr>
-                    <th>Liquid</th>
-                    <td>w</td>
-                    <td>l</td>
-                    <td></td>
-                    <td>j</td>
-                    <td></td>
-                </tr>
-            </tbody>
-        </table>
         <table style="width: 50%; text-align: center;">
             <tbody>
                 <tr>
                     <th></th>
-                    <th>Front, Unrounded</th>
-                    <th>Front, Rounded</th>
-                    <th>Central</th>
+                    <th>Front</th>
                     <th>Back</th>
                 </tr>
                 <tr>
                     <th>Close</th>
-                    <td>i</td>
-                    <td>y</td>
                     <td></td>
-                    <td>u</td>
-                </tr>
-                <tr>
-                    <th>Near-close</th>
-                    <td>ɪ</td>
-                    <td>ʏ</td>
                     <td></td>
-                    <td>ʊ</td>
-                </tr>
-                <tr>
-                    <th>Mid</th>
-                    <td>e</td>
-                    <td>ø</td>
-                    <td></td>
-                    <td>o</td>
                 </tr>
                 <tr>
                     <th>Open</th>
                     <td></td>
                     <td></td>
-                    <td>a</td>
-                    <td></td>
                 </tr>
             </tbody>
         </table>
-        voiced stops are lenited like Spanish<br>
-        diphthongs: /oʏ/ /øʏ/ ...<br>
-        /ɪ,i/, /ʏ,y/ and /ʊ,u/ only constrast in stressed syllables; when an unstressed syllable is closed the short (near-close) vowel is pronounced and vice versa.
     </div>
 </div>
 

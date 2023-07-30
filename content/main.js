@@ -53,6 +53,6 @@ for (let i=0; i<chapters.length; i++) {
     chapterLinks += "<a class='ref' href='javascript:loadContent(chapters[" + i + "]);'>chapter " + (i + 1) + "</a>";
 }
 
-mainConstruct = mainConstruct.replace("REPLACE_CHAPTERS", c);
+mainConstruct = mainConstruct.replace("REPLACE_CHAPTERS", chapterLinks);
 
 const main = mainConstruct;

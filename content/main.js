@@ -1,4 +1,4 @@
-let construct = `
+let mainConstruct = `
 <div class="section">
     <h1>me lore</h1>
     <h2>#000</h2>
@@ -47,12 +47,12 @@ let construct = `
 </div>
 `;
 
-let c = "";
+let chapterLinks = "";
 for (let i=0; i<chapters.length; i++) {
     chapters[i] = "<div class='section'><h1>chapter " + (i + 1) + "</h1><div>" + chapters[i] + "</div></div>";
-    c += "<a class='ref' href='javascript:loadContent(chapters[" + i + "]);'>chapter " + (i + 1) + "</a>";
+    chapterLinks += "<a class='ref' href='javascript:loadContent(chapters[" + i + "]);'>chapter " + (i + 1) + "</a>";
 }
 
-construct = construct.replace("REPLACE_CHAPTERS", c);
+mainConstruct = mainConstruct.replace("REPLACE_CHAPTERS", c);
 
-const main = construct;
+const main = mainConstruct;

@@ -28,7 +28,7 @@ for (let charId in characterInfo) {
     
     // add image
     for (let index in char['imgs']) {
-        universeConstruct += "<img src='/img/universe/" + char['imgs'][index] + "' style='width: 50%; cursor: zoom-in;' onclick='window.open(\"/img/universe/" + char['imgs'][index] + "\");'>";
+        universeConstruct += "<img src='/img/universe/" + char['imgs'][index] + "' style='height: 166px; cursor: zoom-in;' onclick='window.open(\"/img/universe/" + char['imgs'][index] + "\");'>";
     }
 
     // add paragraphs

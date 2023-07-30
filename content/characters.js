@@ -5,7 +5,7 @@ const characterInfo = {
         table_data: {
             Body: "Pudgy, slightly tall",
             Character: "Snarky, playful",
-            Outfit: "Yellow croptop; Blue jeans; Black lingerie (not depicted)"
+            Daywear: "Yellow croptop; Blue jeans; Black lingerie (not depicted)"
         },
         paragraphs: []
     }

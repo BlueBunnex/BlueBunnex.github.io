@@ -1,44 +1,44 @@
-let construct = `
+let universeConstruct = `
     <div class='section'>
         <h1>jump</h1>
         <div>
 `;
 
 for (let charId in characterInfo) {
-    construct += "<a href='#" + charId + "'>" + characterInfo[charId]['name'] + "</a> ";
+    universeConstruct += "<a href='#" + charId + "'>" + characterInfo[charId]['name'] + "</a> ";
 }
 
-construct += "</div></div>";
+universeConstruct += "</div></div>";
 
 for (let charId in characterInfo) {
 
     let char = characterInfo[charId];
     
     // open divs and create header
-    construct += "<div class='section' id='" + charId + "'>";
-    construct += "<h1>" + char['name'] + "</h1>";
-    construct += "<div>";
+    universeConstruct += "<div class='section' id='" + charId + "'>";
+    universeConstruct += "<h1>" + char['name'] + "</h1>";
+    universeConstruct += "<div>";
 
     // add table data
-    construct += "<table>";
+    universeConstruct += "<table>";
     for (let tag in char['table_data']) {
-        construct += "<tr><th style='float: right;'>" + tag + ":</th><td>" + char['table_data'][tag] + "</td></tr>";
+        universeConstruct += "<tr><th style='float: right;'>" + tag + ":</th><td>" + char['table_data'][tag] + "</td></tr>";
     }
-    construct += "</table>";
+    universeConstruct += "</table>";
     
     // add image
     for (let index in char['imgs']) {
-        construct += "<img src='/img/universe/" + char['imgs'][index] + "' style='width: 50%; cursor: zoom-in;' onclick='window.open(\"/img/universe/" + char['imgs'][index] + "\");'>";
+        universeConstruct += "<img src='/img/universe/" + char['imgs'][index] + "' style='width: 50%; cursor: zoom-in;' onclick='window.open(\"/img/universe/" + char['imgs'][index] + "\");'>";
     }
 
     // add paragraphs
     for (let index in char['paragraphs']) {
-        construct += "<p>" + char['paragraphs'][index] + "</p>";
+        universeConstruct += "<p>" + char['paragraphs'][index] + "</p>";
     }
 
     // close divs
-    construct += "</div></div>";
+    universeConstruct += "</div></div>";
     
 }
 
-const universe = construct;
+const universe = universeConstruct;

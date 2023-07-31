@@ -7,6 +7,6 @@ const characterInfo = {
             Character: "Snarky",
             Daywear: "Yellow croptop, blue jeans"
         },
-        paragraphs: []
+        paragraphs: ["Works at Oli and Jom's Fuck Emporium where they sell glazed donuts and weiners, and issue licenses to Fuck."]
     }
 };

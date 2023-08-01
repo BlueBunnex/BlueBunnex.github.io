@@ -1,12 +1,8 @@
 const characterInfo = {
     'oli': {
-        name: "Oli",
-        imgs: ["oli.png"],
-        table_data: {
-            Body: "Pudgy, slightly tall",
-            Character: "Snarky",
-            Daywear: "Yellow croptop, blue jeans"
-        },
-        paragraphs: ["Works at Oli and Jom's Fuck Emporium where they sell glazed donuts and weiners, and issue licenses to Fuck."]
+        name: "bro",
+        imgs: [],
+        table_data: {},
+        paragraphs: ["to whatever higher being is causing me to get bored of every oc I make, FUCK OFF"]
     }
 };

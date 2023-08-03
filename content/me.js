@@ -7,8 +7,7 @@ const me = `
         <ul>
             <li>A male (he/him) red-white plush drake (aka wingless dragon) with a chonky tail who is a little fat.</li>
             <li>His tail connected by velcro and is thus detachable.</li>
-            <li>Boisterous sometimes, sleepy other times. So he can muster up the energy to lead a whole group, but not after long he'd begin to wish for an opportunity for someone else to just speak at him while he lies quiety beside them.</li>
-            <li>While not explicitly a part of any fictional universe I create (being myself), he has knowledge of all of them, including partial fluency of the conlangs they contain.</li>
+            <li>Constantly sleepy, but will always listen if you talk to him.</li>
         </ul>
 
         <h1>likes wearing</h1>
@@ -30,8 +29,8 @@ const me = `
         <a href="javascript:navigator.clipboard.writeText('#ffeac5');" style="background: #ffeac5;">copy</a>
         <a href="javascript:navigator.clipboard.writeText('#fff9e9');" style="background: #fff9e9;">copy</a>
 
-        <img src="img/fursona_yes.png" alt="My fursona, a bipedal, yellow and red plush drake with heart tattoos.">
-        <img src="img/furrdrake_chillin.png" alt="My fursona, lying down and looking miffed.">
+        <img src="img/fursona_yes.png" height="160" alt="My fursona, a bipedal, yellow and red plush drake with heart tattoos.">
+        <img src="img/furrdrake_chillin.png" height="160" alt="My fursona, lying down and looking miffed.">
     </div>
 </div>
 

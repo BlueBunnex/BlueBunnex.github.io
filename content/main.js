@@ -47,12 +47,12 @@ let mainConstruct = `
 </div>
 `;
 
-let chapterLinks = "";
-for (let i=0; i<chapters.length; i++) {
-    chapters[i] = "<div class='section'><h1>chapter " + (i + 1) + "</h1><div>" + chapters[i] + "</div></div>";
-    chapterLinks += "<a class='ref' href='javascript:loadContent(chapters[" + i + "]);'>chapter " + (i + 1) + "</a>";
+let storyLinks = "";
+for (var title of Object.keys(stories)) {
+    stories[title] = "<div class='section'><h1>" + title + "</h1><div>" + stories[title] + "</div></div>";
+    storyLinks += "<a class='ref' href='javascript:loadContent(chapters[\"" + title + "\"]);'>" + title + "</a> ";
 }
 
-mainConstruct = mainConstruct.replace("REPLACE_CHAPTERS", chapterLinks);
+mainConstruct = mainConstruct.replace("REPLACE_CHAPTERS", storyLinks);
 
 const main = mainConstruct;

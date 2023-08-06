@@ -28,10 +28,9 @@ let mainConstruct = `
 </div>
 
 <div class="section">
-    <h1>infinite freewrite</h1>
+    <h1>freewrites</h1>
     <h2>#003</h2>
     <div>
-        <p>I want to make something that I can just spend ten minutes working on every once in a while, so here it shall reside. essentially, it's gonna be one long story that evolves to suit whatever I feel like writing at the time. it might get messy, but I don't plan on taking it too seriously anywho.</p>
         <p>CW: swearing</p>
         REPLACE_CHAPTERS
     </div>

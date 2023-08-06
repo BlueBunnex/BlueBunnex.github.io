@@ -49,7 +49,7 @@ let mainConstruct = `
 let storyLinks = "";
 for (var title of Object.keys(stories)) {
     stories[title] = "<div class='section'><h1>" + title + "</h1><div>" + stories[title] + "</div></div>";
-    storyLinks += "<a class='ref' href='javascript:loadContent(chapters[\"" + title + "\"]);'>" + title + "</a> ";
+    storyLinks += "<a class='ref' href='javascript:loadContent(stories[\"" + title + "\"]);'>" + title + "</a> ";
 }
 
 mainConstruct = mainConstruct.replace("REPLACE_CHAPTERS", storyLinks);

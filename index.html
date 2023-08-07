@@ -37,6 +37,10 @@
                 body {
                     max-width: 100%;
                 }
+
+                .section h2 {
+                    font-size: 2vw;
+                }
             }
 
             a { color: var(--accent-text); }
@@ -74,7 +78,7 @@
             }
 
             .section h2 {
-                font-size: 1em;
+                font-size: 10px;
                 margin: 0 0 2px 0;
                 position: absolute;
                 top: 5px;
@@ -115,9 +119,13 @@
                 
                 document.getElementById("insert").innerHTML = prefix + content;
             }
+
+            function scroll() {
+                console.log(document.documentElement.scrollTop || document.body.scrollTop);
+            }
         </script>
     </head>
-    <body onload="loadContent(main);">
+    <body onload="loadContent(main);" onscroll="scroll();">
         
         <!-- bio section -->
         <div style="width: 40%; height: 100vh; margin: auto; position: relative;">

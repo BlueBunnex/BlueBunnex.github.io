@@ -5,8 +5,8 @@ const me = `
     <div>
         <h1>general</h1>
         <ul>
-            <li>A male (he/him) red-white plush drake (aka wingless dragon) with a chonky tail who is a little fat.</li>
-            <li>His tail connected by velcro and is thus detachable.</li>
+            <li>A male (he/him) red-yellow plush drake (aka wingless dragon) with a chonky tail who is a little fat.</li>
+            <li>His tail is connected by velcro and is thus detachable.</li>
             <li>Constantly sleepy, but will always listen if you talk to him.</li>
         </ul>
 

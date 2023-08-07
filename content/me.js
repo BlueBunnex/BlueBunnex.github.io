@@ -31,9 +31,9 @@ const me = `
 
         <br>
 
-        <img src="img/fursona_yes.png" height="160" alt="My fursona, a bipedal, yellow and red plush drake with heart tattoos.">
-        <img src="img/furrdrake_chillin.png" height="160" alt="My fursona, lying down and looking miffed.">
-        <img src="img/fursona_pfp.png" height="160" alt="A bust shot of my fursona looking rather pleased.">
+        <img style="cursor: zoom-in;" height="160" src="img/fursona_yes.png" onclick="window.open('/img/fursona_yes.png');" alt="My fursona, a bipedal, yellow and red plush drake with heart tattoos.">
+        <img style="cursor: zoom-in;" height="160" src="img/furrdrake_chillin.png" onclick="window.open('/img/furrdrake_chillin.png');" alt="My fursona, lying down and looking miffed.">
+        <img style="cursor: zoom-in;" height="160" src="img/fursona_pfp.png" onclick="window.open('/img/fursona_pfp.png');" alt="A bust shot of my fursona looking rather pleased.">
     </div>
 </div>
 

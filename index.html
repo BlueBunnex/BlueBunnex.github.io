@@ -157,9 +157,14 @@
                 
                 document.getElementById("insert").innerHTML = prefix + content;
             }
+
+            function scroll() {
+                document.getElementById("content-holder").style.paddingTop = window.scrollY + "px";
+                document.getElementById("content-holder").style.marginTop = -window.scrollY + "px";
+            }
         </script>
     </head>
-    <body onload="loadContent(main);">
+    <body onload="loadContent(main);" onscroll="scroll()">
         
         <!-- bio section -->
         <div id="bio-holder">
@@ -182,7 +187,7 @@
             </div>
         </div>
 
-        <div style="background: var(--accent);">
+        <div id="content-holder" style="background: var(--accent);">
             <div style="max-width: 750px; margin: auto;">
                 <div id="insert"></div>
         

@@ -93,6 +93,14 @@
                 position: relative;
             }
 
+            #bio-holder div {
+                text-align: center;
+                width: 100%;
+                height: 600px;
+                position: absolute;
+                top: calc(50% - 350px);
+            }
+
             @media (pointer:none), (pointer:coarse) {
                 body {
                     max-width: 100%;
@@ -105,6 +113,10 @@
                 #bio-holder {
                     width: 90%;
                     font-size: 3vw;
+                }
+
+                #bio-holder div {
+                    top: calc(50% - 45vw);
                 }
             }
         </style>
@@ -165,7 +177,7 @@
         
         <!-- bio section -->
         <div id="bio-holder">
-            <div style="text-align: center; width: 100%; height: 600px; position: absolute; top: calc(50% - 350px);">
+            <div>
                 <h1 style="color: var(--accent); margin: 6px 0; font-size: 18px;">hi I'm kitsumitsu</h1>
                 <h1 style="color: var(--accent); margin: -6px 0 10px; font-size: 14px;">he/him</h1>
                 <img src="img/fursona_pfp.png" width="100%">

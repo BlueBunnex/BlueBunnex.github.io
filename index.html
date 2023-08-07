@@ -16,8 +16,8 @@
             :root {
                 --background: #eeeeee; /*#c0b4d6*/
                 --text: black;
-                --accent-base: #332255;
-                --accent-text: #665588;
+                --accent-dark: #332255;
+                --accent-light: #665588;
 
                 background: var(--background);
                 font-family: sans-serif;
@@ -33,15 +33,15 @@
                 margin: auto;
             }
 
-            a { color: var(--accent-text); }
-            a:hover { color: var(--accent-base); }
+            a { color: var(--accent-light); }
+            a:hover { color: var(--accent-dark); }
             a img {
-                border-bottom: 0px solid var(--accent-text);
+                border-bottom: 0px solid var(--accent-light);
                 margin-bottom: 0px;
                 transition-duration: 0.2s;
             }
             a:hover img {
-                border-bottom: 2px solid var(--accent-text);
+                border-bottom: 2px solid var(--accent-light);
                 margin-bottom: -2px;
             }
             /* https://codepen.io/sosuke/pen/Pjoqqp */
@@ -51,7 +51,7 @@
             }
 
             .section {
-                background: var(--accent-base);
+                background: var(--accent-dark);
                 color: var(--background);
                 padding: 6px 2px;
                 position: relative;
@@ -93,7 +93,7 @@
                 }
 
                 .section h2 {
-                    font-size: 7vw;
+                    font-size: 3vw;
                 }
             }
         </style>
@@ -123,10 +123,11 @@
             function scroll() {
                 let y = Math.min(Math.max(document.documentElement.scrollTop || document.body.scrollTop, 0), 300) / 300.0;
 
-                // #eeeeee
-                // #665588
+                let color1 = getComputedStyle(document.documentElement).getPropertyValue("--background");
+                let color2 = getComputedStyle(document.documentElement).getPropertyValue("--accent-light");
+                
                 document.body.style.background = "#eeeeee";
-                console.log(y);
+                console.log(color1 + " " + color2 + " " + y);
             }
         </script>
     </head>
@@ -135,8 +136,8 @@
         <!-- bio section -->
         <div style="width: 40%; height: 100vh; margin: auto; position: relative;">
             <div style="text-align: center; width: 100%; height: 600px; position: absolute; top: calc(50% - 350px);">
-                <h1 style="color: var(--accent-text); margin: 6px 0; font-size: 18px;">hi I'm kitsumitsu</h1>
-                <h1 style="color: var(--accent-text); margin: -6px 0 10px; font-size: 14px;">he/him</h1>
+                <h1 style="color: var(--accent-light); margin: 6px 0; font-size: 18px;">hi I'm kitsumitsu</h1>
+                <h1 style="color: var(--accent-light); margin: -6px 0 10px; font-size: 14px;">he/him</h1>
                 <img src="img/fursona_pfp.png" width="100%">
                 
                 <!-- https://iconduck.com/icons/302027/brand-cohost -->
@@ -158,7 +159,7 @@
         
         <div id="insert"></div>
 
-        <div style="height: 240px; font-size: 10px; font-weight: 800; padding: 6px; color: var(--background); background: var(--accent-base);">
+        <div style="height: 240px; font-size: 10px; font-weight: 800; padding: 6px; color: var(--background); background: var(--accent-dark);">
             <h1>kitsumitsu</h1>
             <hr>
             © 2023 Kitsumitsu. All Rights Reserved.

@@ -98,6 +98,19 @@
                 position: absolute;
                 top: calc(50% - 350px);
             }
+            
+            #footer {
+                height: 240px;
+                font-size: 10px;
+                font-weight: 800;
+                padding: 6px;
+                color: var(--background);
+            }
+
+            #footer td, #footer th {
+                border: none;
+                text-align: left;
+            }
 
             @media (pointer:none), (pointer:coarse) {
                 .section h2 {
@@ -152,9 +165,6 @@
     
                 <!-- https://iconduck.com/icons/244377/discord -->
                 <a href="javascript:alert('my username on Discord is: bluebunnex');"><img src="img/icons/discord.svg" width="16%"></a>
-    
-                <!-- https://iconduck.com/icons/304378/code-alt -->
-                <a href="https://github.com/BlueBunnex/BlueBunnex.github.io"><img src="img/icons/code-alt.svg" width="16%"></a>
                 
                 <p>I draw sfw bbw & furry content and do other stuff sometimes like program, compose music, 3D model, and learn Chinese. this website is where I put projects I'm working on, stuff to look at, and just things I'm interested in. permanently under construction; watch out for falling span elements.</p>
     
@@ -168,10 +178,19 @@
             <div style="max-width: 750px; margin: auto;">
                 <div id="insert"></div>
         
-                <div style="height: 240px; font-size: 10px; font-weight: 800; padding: 6px; color: var(--background);">
+                <div id="footer">
                     <h1>kitsumitsu</h1>
                     <hr>
                     © 2023 Kitsumitsu. All Rights Reserved.
+
+                    <table>
+                        <tr>
+                            <th>Backend</th>
+                        </tr>
+                        <tr>
+                            <td><a href="https://github.com/BlueBunnex/BlueBunnex.github.io">Github</a></td>
+                        </tr>
+                    </table>
                 </div>
             </div>
         </div>

@@ -33,16 +33,6 @@
                 margin: auto;
             }
 
-            @media (pointer:none), (pointer:coarse) {
-                body {
-                    max-width: 100%;
-                }
-
-                .section h2 {
-                    font-size: 7vw;
-                }
-            }
-
             a { color: var(--accent-text); }
             a:hover { color: var(--accent-base); }
             a img {
@@ -96,6 +86,16 @@
             .section p {
                 margin: 0 0 8px 0;
             }
+
+            @media (pointer:none), (pointer:coarse) {
+                body {
+                    max-width: 100%;
+                }
+
+                .section h2 {
+                    font-size: 7vw;
+                }
+            }
         </style>
 
         <!-- for loading to the left content area from .js files -->
@@ -121,7 +121,12 @@
             }
 
             function scroll() {
-                console.log(Math.min(Math.max(document.documentElement.scrollTop || document.body.scrollTop, 0), 300) / 300.0);
+                let y = Math.min(Math.max(document.documentElement.scrollTop || document.body.scrollTop, 0), 300) / 300.0;
+
+                // #eeeeee
+                // #665588
+                document.body.style.background = "#eeeeee";
+                console.log(y);
             }
         </script>
     </head>

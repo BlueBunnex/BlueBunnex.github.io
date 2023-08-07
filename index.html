@@ -126,7 +126,7 @@
                 let colA = getComputedStyle(document.documentElement).getPropertyValue("--background");
                 let colB = getComputedStyle(document.documentElement).getPropertyValue("--accent-light");
                 
-                document.body.style.background = interpolate(colA, colB, y);
+                document.documentElement.style.background = interpolate(colA, colB, y);
             }
 
             /* thanks to https://stackoverflow.com/a/76126221 */

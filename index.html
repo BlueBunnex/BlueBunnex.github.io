@@ -161,6 +161,8 @@
             function scroll() {
                 document.getElementById("content-holder").style.paddingTop = window.scrollY + "px";
                 document.getElementById("content-holder").style.marginTop = -window.scrollY + "px";
+
+                document.getElementById("bio-holder").style.opacity= 1 - window.scrollY / 100;
             }
         </script>
     </head>

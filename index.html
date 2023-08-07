@@ -162,11 +162,15 @@
                 document.getElementById("content-holder").style.paddingTop = window.scrollY + "px";
                 document.getElementById("content-holder").style.marginTop = -window.scrollY + "px";
 
-                document.getElementById("bio-holder").style.opacity= 1 - window.scrollY / 100;
+                document.getElementById("bio-holder").style.opacity= 1 - window.scrollY / 200;
             }
         </script>
     </head>
     <body onload="loadContent(main);" onscroll="scroll()">
+
+        <div style="position: fixed; top: 10px; left: 50%; transform: translateX(-50%); width: 100%; max-width: 750px; color: var(--background); font-size: 24px; font-weight: 700; text-align: center;">
+            kitsumitsu
+        </div>
         
         <!-- bio section -->
         <div id="bio-holder">

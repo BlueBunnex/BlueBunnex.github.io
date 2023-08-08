@@ -6,6 +6,9 @@ let mainConstruct = `
 
 <h1 class="click-header" onclick="loadContent(assets);">Asset Downloads</h1>
 
+<div style="height: 20vh;"></div>
+
+<!--
 <div class="section">
     <h1>conworlds, conlangs, conspecies, oh my!</h1>
     <h2>WIP display</h2>
@@ -24,14 +27,15 @@ let mainConstruct = `
         REPLACE_CHAPTERS
     </div>
 </div>
+-->
 `;
 
-let storyLinks = "";
-for (var title of Object.keys(stories)) {
-    stories[title] = "<div class='section'><h1>" + title + "</h1><div>" + stories[title] + "</div></div>";
-    storyLinks += "<a class='ref' href='javascript:loadContent(stories[\"" + title + "\"]);'>" + title + "</a> ";
-}
+// let storyLinks = "";
+// for (var title of Object.keys(stories)) {
+//     stories[title] = "<div class='section'><h1>" + title + "</h1><div>" + stories[title] + "</div></div>";
+//     storyLinks += "<a class='ref' href='javascript:loadContent(stories[\"" + title + "\"]);'>" + title + "</a> ";
+// }
 
-mainConstruct = mainConstruct.replace("REPLACE_CHAPTERS", storyLinks);
+// mainConstruct = mainConstruct.replace("REPLACE_CHAPTERS", storyLinks);
 
 const main = mainConstruct;

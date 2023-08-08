@@ -30,17 +30,20 @@
             }
 
             a { color: var(--accent); }
+            
             a:hover { color: var(--accent); }
+            
             a img {
                 border-bottom: 0px solid var(--accent);
                 margin-bottom: 0px;
                 transition-duration: 0.2s;
             }
+            
             a:hover img {
                 border-bottom: 2px solid var(--accent);
                 margin-bottom: -2px;
+                /* https://codepen.io/sosuke/pen/Pjoqqp */
             }
-            /* https://codepen.io/sosuke/pen/Pjoqqp */
 
             ul {
                 padding-left: 24px;
@@ -48,6 +51,7 @@
 
             .click-header {
                 color: var(--background);
+                cursor: pointer;
             }
 
             .click-header:nth-child(odd) {

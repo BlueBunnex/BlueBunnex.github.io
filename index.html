@@ -157,31 +157,8 @@
                 }
             }
         </style>
-
-        <!-- WILL REMOVE THIS SYSTEM, uh, sooner or later -->
-
-        <!-- for loading to the left content area from .js files -->
-        <!-- written in order they're displayed because cool, except main is last since it references others -->
-        <script src="content/me.js"></script>
-        <script src="content/characters.js"></script>
-        <script src="content/universe.js"></script>
-        <script src="content/conworld.js"></script>
-        <script src="content/freewrite.js"></script>
-        <script src="content/assets.js"></script>
-        
-        <script src="content/main.js"></script>
         
         <script>
-            function loadContent(content) {
-                let prefix = "";
-
-                if (content != main) {
-                    prefix = "<div class='section' onclick='loadContent(main);' style='padding-bottom: 2px; cursor: pointer;'><h1>back (this way of displaying will be revamped soon)</h1></div>";
-                }
-                
-                document.getElementById("insert").innerHTML = prefix + content;
-            }
-
             function scroll() {
                 document.getElementById("content-holder").style.paddingTop = window.scrollY + "px";
                 document.getElementById("content-holder").style.marginTop = -window.scrollY + "px";
@@ -220,15 +197,13 @@
         <div id="content-holder" style="background: var(--accent);">
             <div style="max-width: 750px; margin: auto;">
 
-                <h1 class="click-header" onclick="loadContent(me);">My Fursona</h1>
-                <h1 class="click-header" onclick="loadContent(universe);">Original Characters</h1>
+                <h1 class="click-header" onclick="alert('unavaible atm!');">My Fursona</h1>
+                <h1 class="click-header" onclick="location.href='universe.html';">Original Characters</h1>
                 <h1 class="click-header" onclick="alert('unavaible atm!');">Conlangs, Conworlds, & Conspecies</h1>
                 <h1 class="click-header" onclick="alert('unavaible atm!');">Freewrites</h1>
-                <h1 class="click-header" onclick="loadContent(assets);">Asset Downloads</h1>
+                <h1 class="click-header" onclick="alert('unavaible atm!');">Asset Downloads</h1>
                 
                 <div style="height: 20vh;"></div>
-                
-                <div id="insert"></div>
         
                 <div id="footer">
                     <h1>kitsumitsu</h1>

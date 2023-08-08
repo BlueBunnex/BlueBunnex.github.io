@@ -176,7 +176,7 @@
                 let prefix = "";
 
                 if (content != main) {
-                    prefix = "<div class='section' onclick='loadContent(main);' style='padding-bottom: 2px; cursor: pointer;'><h1>back</h1></div>";
+                    prefix = "<div class='section' onclick='loadContent(main);' style='padding-bottom: 2px; cursor: pointer;'><h1>back (this way of displaying will be revamped soon)</h1></div>";
                 }
                 
                 document.getElementById("insert").innerHTML = prefix + content;
@@ -222,9 +222,9 @@
 
                 <h1 class="click-header" onclick="loadContent(me);">My Fursona</h1>
                 <h1 class="click-header" onclick="loadContent(universe);">Original Characters</h1>
-                <h1 class="click-header" onclick="loadContent(assets);">Asset Downloads</h1>
                 <h1 class="click-header" onclick="alert('unavaible atm!');">Conlangs, Conworlds, & Conspecies</h1>
                 <h1 class="click-header" onclick="alert('unavaible atm!');">Freewrites</h1>
+                <h1 class="click-header" onclick="loadContent(assets);">Asset Downloads</h1>
                 
                 <div style="height: 20vh;"></div>
                 

@@ -158,6 +158,8 @@
             }
         </style>
 
+        <!-- WILL REMOVE THIS SYSTEM, uh, sooner or later -->
+
         <!-- for loading to the left content area from .js files -->
         <!-- written in order they're displayed because cool, except main is last since it references others -->
         <script src="content/me.js"></script>
@@ -217,6 +219,19 @@
 
         <div id="content-holder" style="background: var(--accent);">
             <div style="max-width: 750px; margin: auto;">
+
+                <h1 class="click-header" onclick="loadContent(me);">My Fursona</h1>
+
+                <h1 class="click-header" onclick="loadContent(universe);">Original Characters</h1>
+                
+                <h1 class="click-header" onclick="loadContent(assets);">Asset Downloads</h1>
+                
+                <h1 class="click-header" onclick="loadContent(assets);">Conworlds, Conlangs, Conspecies, Oh My!</h1>
+                
+                <h1 class="click-header" onclick="loadContent(assets);">Freewrites</h1>
+                
+                <div style="height: 20vh;"></div>
+                
                 <div id="insert"></div>
         
                 <div id="footer">
@@ -235,6 +250,7 @@
                         </tr>
                     </table>
                 </div>
+                
             </div>
         </div>
 

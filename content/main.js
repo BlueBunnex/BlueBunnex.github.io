@@ -1,13 +1,4 @@
 let mainConstruct = `
-
-<h1 class="click-header" onclick="loadContent(me);">My Fursona</h1>
-
-<h1 class="click-header" onclick="loadContent(universe);">Original Characters</h1>
-
-<h1 class="click-header" onclick="loadContent(assets);">Asset Downloads</h1>
-
-<div style="height: 20vh;"></div>
-
 <!--
 <div class="section">
     <h1>conworlds, conlangs, conspecies, oh my!</h1>

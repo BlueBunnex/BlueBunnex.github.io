@@ -52,10 +52,20 @@
             .click-header {
                 color: var(--background);
                 cursor: pointer;
+                transition-duration: 0.5s;
             }
 
             .click-header:nth-child(odd) {
                 text-align: right;
+            }
+
+            .click-header:hover {
+                color: var(--accent);
+                background-image: linear-gradient(to right, var(--background), var(--accent));
+            }
+
+            .click-header:nth-child(odd):hover {
+                background-image: linear-gradient(to left, var(--background), var(--accent));
             }
 
             .section {

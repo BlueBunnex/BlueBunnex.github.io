@@ -33,32 +33,37 @@
                 let char = characterInfo[charId];
                 let charConstruct = `
                     <div class='section' id='#charId#'>
-                        <h1>#charName</h1>
+                        <h1>#charName#</h1>
                         <div>
+                            <table>
+                                #table#
+                            </table>
+                            #img#
+                            #para#
+                        </div>
+                    </div>
                 `;
 
-                charConstruct = charConstruct.replace("#charId", charId);
-                charConstruct = charConstruct.replace("#charName", char['name']);
+                charConstruct = charConstruct.replace("#charId#", charId);
+                charConstruct = charConstruct.replace("#charName#", char['name']);
                 
-                // add table data
-                construct += "<table>";
+                let tableConstruct = "";
                 for (let tag in char['table_data']) {
-                    construct += "<tr><th style='float: right;'>" + tag + ":</th><td>" + char['table_data'][tag] + "</td></tr>";
+                    tableConstruct += "<tr><th style='float: right;'>" + tag + ":</th><td>" + char['table_data'][tag] + "</td></tr>";
                 }
-                construct += "</table>";
+                charConstruct = charConstruct.replace("#table#", tableConstruct);
                 
-                // add image
+                let imgConstruct = "";
                 for (let index in char['imgs']) {
-                    construct += "<img src='/img/universe/" + char['imgs'][index] + "' style='height: 166px; cursor: zoom-in;' onclick='window.open(\"/img/universe/" + char['imgs'][index] + "\");'>";
+                    imgConstruct += "<img src='/img/universe/" + char['imgs'][index] + "' style='height: 166px; cursor: zoom-in;' onclick='window.open(\"/img/universe/" + char['imgs'][index] + "\");'>";
                 }
+                charConstruct = charConstruct.replace("#img#", imgConstruct);
             
-                // add paragraphs
+                let paraConstruct = "";
                 for (let index in char['paragraphs']) {
-                    construct += "<p>" + char['paragraphs'][index] + "</p>";
+                    paraConstruct += "<p>" + char['paragraphs'][index] + "</p>";
                 }
-            
-                // close divs
-                construct += "</div></div>";
+                charConstruct = charConstruct.replace("#para#", paraConstruct);
 
                 construct += charConstruct;
                 

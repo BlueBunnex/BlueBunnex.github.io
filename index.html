@@ -73,6 +73,11 @@
                 background: var(--background);
             }
 
+            #content {
+                max-width: 750px;
+                margin: auto;
+            }
+
             /* mobile/portrait orientation */
             @media screen and (orientation : portrait) {
                 .section h2 {
@@ -80,12 +85,16 @@
                 }
 
                 #bio-holder {
-                    max-width: 90%;
+                    max-width: 50%;
                     font-size: 3vw;
                 }
 
                 #bio-holder div {
                     top: calc(50% - 60vw);
+                }
+
+                #content {
+                    max-width: 90%;
                 }
             }
         </style>
@@ -127,7 +136,7 @@
         </div>
 
         <div id="content-holder" style="background: var(--accent);">
-            <div style="max-width: 750px; margin: auto;">
+            <div id="content">
 
                 <h1 class="click-header" onclick="alert('unavaible atm!');">My Fursona</h1>
                 <h1 class="click-header" onclick="location.href='content/universe.html';">Original Characters</h1>

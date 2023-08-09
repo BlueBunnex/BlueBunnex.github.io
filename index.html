@@ -54,7 +54,8 @@
                 color: var(--background);
                 background: var(--accent);
                 cursor: pointer;
-                transition-duration: 0.5s;
+                transition-duration: 0.3s;
+                transition-timing-function: cubic-bezier(0.25,0.1,0.25,1);
             }
 
             .click-header:nth-child(even) {
@@ -71,6 +72,10 @@
             .click-header:hover {
                 color: var(--accent);
                 background: var(--background);
+            }
+
+            #content-holder {
+                background: var(--accent);
             }
 
             #content {
@@ -135,7 +140,7 @@
             </div>
         </div>
 
-        <div id="content-holder" style="background: var(--accent);">
+        <div id="content-holder">
             <div id="content">
 
                 <h1 class="click-header" onclick="alert('unavaible atm!');">My Fursona</h1>

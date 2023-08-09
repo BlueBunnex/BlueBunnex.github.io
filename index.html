@@ -52,21 +52,22 @@
 
             .click-header {
                 color: var(--background);
+                background: var(--accent);
                 cursor: pointer;
                 transition-duration: 0.5s;
+                border-left: 4px solid var(--background);
+                padding-left: 4px;
             }
 
             .click-header:nth-child(odd) {
                 text-align: right;
+                border-right: 4px solid var(--background);
+                padding-right: 4px;
             }
 
             .click-header:hover {
                 color: var(--accent);
-                background-image: linear-gradient(to right, var(--background), var(--accent));
-            }
-
-            .click-header:nth-child(odd):hover {
-                background-image: linear-gradient(to left, var(--background), var(--accent));
+                background: var(--background);
             }
 
             /* mobile/portrait orientation */

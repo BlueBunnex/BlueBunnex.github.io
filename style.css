@@ -39,7 +39,8 @@ ul {
     color: var(--background);
     padding: 6px 2px;
     position: relative;
-    margin-bottom: 12px;
+    margin: 0 auto 12px;
+    max-width: 750px;
 }
 
 .section img {
@@ -69,4 +70,15 @@ ul {
 
 .section p {
     margin: 0 0 8px 0;
+}
+
+/* mobile/portrait orientation */
+@media screen and (orientation : portrait) {
+    .section h2 {
+        max-width: 100%;
+    }
+    
+    .section h2 {
+        font-size: 3vw;
+    }
 }

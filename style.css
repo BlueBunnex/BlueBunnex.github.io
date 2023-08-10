@@ -74,7 +74,7 @@ ul {
 
 /* mobile/portrait orientation */
 @media screen and (orientation : portrait) {
-    .section h2 {
+    .section {
         max-width: 100%;
     }
     

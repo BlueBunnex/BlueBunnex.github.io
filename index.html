@@ -51,13 +51,18 @@
             }
 
             .click-header {
+                margin-bottom: 10px;
                 font-size: 24px;
                 font-weight: 700;
                 color: var(--background);
                 background: var(--accent);
-                cursor: pointer;
                 transition-duration: 0.3s;
                 transition-timing-function: cubic-bezier(0.25,0.1,0.25,1);
+            }
+
+            .click-header div {
+                cursor: pointer;
+                transition: inherit;
             }
 
             .click-header:nth-child(even) {
@@ -71,11 +76,6 @@
                 padding-right: 6px;
             }
 
-            .click-header:hover {
-                color: var(--accent);
-                background: var(--background);
-            }
-
             .click-header a {
                 color: var(--background);
                 display: block;
@@ -83,9 +83,10 @@
                 transition: inherit;
                 text-decoration: none;
             }
-            
-            .click-header:hover a {
+
+            .click-header div:hover, .click-header a:hover {
                 color: var(--accent);
+                background: var(--background);
             }
 
             #content-holder {

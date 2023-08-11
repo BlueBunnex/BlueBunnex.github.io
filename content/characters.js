@@ -1,4 +1,14 @@
 const characterInfo = {
+    'andrea': {
+        name: "Andréa",
+        imgs: [
+            "fursona_yes.png",
+            "furrdrake_chillin.png",
+            "fursona_pfp.png"
+        ],
+        table_data: {},
+        paragraphs: []
+    },
     'pipim': {
         name: "Pipim",
         imgs: ["pipim.png"],

@@ -1,8 +1,10 @@
 const characterInfo = {
-    'oli': {
-        name: "bro",
+    'pipim': {
+        name: "Pipim",
         imgs: [],
         table_data: {},
-        paragraphs: ["to whatever higher being is causing me to get bored of every oc I make, FUCK OFF"]
+        paragraphs: [
+            "bright eyes, pink blush, heavy pink lipstick, pink sweater with white undershirt, long voluminous blonde hair, energetic and cuddly"
+        ]
     }
 };

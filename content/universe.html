@@ -94,7 +94,11 @@
 
                 let colorsConstruct = "";
                 for (let index in char['colors']) {
-                    colorsConstruct += "<div onclick='navigator.clipboard.writeText(\'#dd898c\');' style='background: #dd898c; color: black;'><span>#dd898c</span></div>";
+                    colorsConstruct += `
+                        <div onclick="navigator.clipboard.writeText('#dd898c');" style="background: #dd898c; color: black;">
+                            <span>#dd898c</span>
+                        </div>
+                    `;
                 }
                 charConstruct = charConstruct.replace("#colors#", colorsConstruct);
 

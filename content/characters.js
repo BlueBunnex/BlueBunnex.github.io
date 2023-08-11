@@ -7,7 +7,7 @@ const characterInfo = {
             "Personality": "energetic and cuddly"
         },
         paragraphs: [
-            "Pipim lives deep in the city, in a country where it rains a lot."
+            "Pipim lives deep in the city, in a country where it rains a lot. But she likes this, as it means she can stay inside and nap, and she works from home anyways."
         ]
     }
 };

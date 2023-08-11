@@ -76,6 +76,14 @@
 
             .click-header a {
                 color: var(--background);
+                display: block;
+                font-size: 16px;
+                transition: inherit;
+                text-decoration: none;
+            }
+            
+            .click-header:hover a {
+                color: var(--accent);
             }
 
             #content-holder {
@@ -151,16 +159,19 @@
                 </h1>
                 <h1 class="click-header" onclick="alert('unavaible atm!');">
                     Conlangs, Conworlds, & Conspecies
-                    <!-- put list of stuff here, probably in <a> -->
+                    <a class="ref" href="javascript:loadContent(cabuLanguage);">Cabü (conlang)</a>
+                    <a class="ref" href="javascript:loadContent(limalhSpecies);">Limalh (conspecies)</a>
                 </h1>
                 <h1 class="click-header" onclick="alert('unavaible atm!');">
                     Freewrites
+                    <!-- generate list of stuff here in <a> -->
                 </h1>
                 <h1 class="click-header" onclick="alert('unavaible atm!');">
                     Asset Downloads
                 </h1>
                 <h1 class="click-header" onclick="location.href='content/minimal.html';">
                     HTML Shenanigans
+                    <!-- put list of stuff here in <a> -->
                 </h1>
                 
                 <div style="height: 20vh;"></div>

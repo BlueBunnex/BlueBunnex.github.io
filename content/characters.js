@@ -6,8 +6,13 @@ const characterInfo = {
             "andrea_chillin.png",
             "andrea_pfp.png"
         ],
-        table_data: {},
-        paragraphs: [],
+        table_data: {
+            "Likes wearing": "knee-socks; aprons; victorian era bonnets; sew-on patches"
+        },
+        paragraphs: [
+            "A male (he/him) red-yellow plush drake (aka wingless dragon) with a chonky tail who is a little fat. His tail is connected by velcro and is thus detachable. Constantly sleepy, but will listen if you talk to him.",
+            "Works part-time at Café de Andréa. His favourite drink is the iced latté, and his favourite menu item is the key-lime pie. Wasn't always plush (the backstory for this is TBD)."
+        ],
         colors: [
             "#dd898c",
             "#e7bab1",

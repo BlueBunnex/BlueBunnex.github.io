@@ -18,6 +18,8 @@ a { color: var(--accent); }
 
 a:hover { color: var(--accent); }
 
+/* icon links in bio */
+/* https://codepen.io/sosuke/pen/Pjoqqp */
 a img {
     border-bottom: 0px solid var(--accent);
     margin-bottom: 0px;
@@ -27,7 +29,6 @@ a img {
 a:hover img {
     border-bottom: 2px solid var(--accent);
     margin-bottom: -2px;
-    /* https://codepen.io/sosuke/pen/Pjoqqp */
 }
 
 ul {
@@ -55,7 +56,6 @@ ul {
 .section div {
     color: var(--text);
     background: var(--background);
-    font-size: 12px; /* redundant, buuut */
     margin: 0;
     padding: 2px;
 }

@@ -29,7 +29,7 @@
             }
 
             .colors div span {
-                position: absolute; bottom: 4px; right: 4px;
+                position: absolute; bottom: 6px; right: 8px;
             }
         </style>
     </head>
@@ -95,8 +95,8 @@
                 let colorsConstruct = "";
                 for (let index in char['colors']) {
                     colorsConstruct += `
-                        <div onclick="navigator.clipboard.writeText('#dd898c');" style="background: #dd898c; color: black;">
-                            <span>#dd898c</span>
+                        <div onclick="navigator.clipboard.writeText('` + char['colors'][index] + `');" style="background: ` + char['colors'][index] + `; color: black;">
+                            <span>` + char['colors'][index] + `</span>
                         </div>
                     `;
                 }

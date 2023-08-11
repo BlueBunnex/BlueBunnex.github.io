@@ -16,17 +16,18 @@
         <div class='section' onclick="location.href='/index.html';" style='padding-bottom: 2px; cursor: pointer;'><h1>back</h1></div>
 
         <script>
-            let construct = `
-                <div class='section'>
-                    <h1>jump</h1>
-                    <div>
-            `;
+            let construct = "";
             
-            for (let charId in characterInfo) {
-                construct += "<a href='#" + charId + "'>" + characterInfo[charId]['name'] + "</a> ";
-            }
+            // construct += `
+            //     <div class='section'>
+            //         <h1>jump</h1>
+            //         <div>
+            // `;
             
-            construct += "</div></div>";
+            // for (let charId in characterInfo) {
+            //     construct += "<a href='#" + charId + "'>" + characterInfo[charId]['name'] + "</a> ";
+            // }
+            // construct += "</div></div>";
             
             for (let charId in characterInfo) {
             
@@ -38,8 +39,9 @@
                             <table>
                                 #table#
                             </table>
-                            #img#
+                            <br>
                             #para#
+                            #img#
                         </div>
                     </div>
                 `;

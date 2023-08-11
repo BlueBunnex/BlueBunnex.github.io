@@ -7,7 +7,13 @@ const characterInfo = {
             "andrea_pfp.png"
         ],
         table_data: {},
-        paragraphs: []
+        paragraphs: [],
+        colors: [
+            "#dd898c",
+            "#e7bab1",
+            "#ffeac5",
+            "#fff9e9"
+        ]
     },
     'pipim': {
         name: "Pipim",
@@ -18,6 +24,7 @@ const characterInfo = {
         },
         paragraphs: [
             "Pipim lives deep in the city, in a country where it rains a lot. But she likes this, as it means she can stay inside and nap, and she works from home anyways."
-        ]
+        ],
+        colors: []
     }
 };

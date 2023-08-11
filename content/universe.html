@@ -57,7 +57,7 @@
                 
                 let imgConstruct = "";
                 for (let index in char['imgs']) {
-                    imgConstruct += "<img src='/img/universe/" + char['imgs'][index] + "' style='height: 166px; cursor: zoom-in;' onclick='window.open(\"/img/universe/" + char['imgs'][index] + "\");'>";
+                    imgConstruct += "<img src='/img/universe/" + char['imgs'][index] + "' height='240' style='cursor: zoom-in;' onclick='window.open(\"/img/universe/" + char['imgs'][index] + "\");'>";
                 }
                 charConstruct = charConstruct.replace("#img#", imgConstruct);
             

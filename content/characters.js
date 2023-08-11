@@ -3,10 +3,8 @@ const characterInfo = {
         name: "Pipim",
         imgs: [],
         table_data: {
-            "heavy pink lipstick",
-            "pink sweater with white undershirt",
-            "voluminous blonde hair",
-            "energetic and cuddly"
+            "Appearance": "voluminous blonde hair, pink sweater with white undershirt, heavy pink lipstick",
+            "Personality": "energetic and cuddly"
         },
         paragraphs: [
             

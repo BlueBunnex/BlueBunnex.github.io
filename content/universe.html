@@ -9,11 +9,48 @@
             :root {
                 background: var(--accent);
             }
+
+            .colors {
+                display: flex; width: 100%; height: 50px; gap: 4px; box-sizing: border-box;
+            }
+
+            .colors div {
+                border-radius: 4px; position: relative; cursor: pointer; flex: 1;
+            }
+            
+            .colors div:first-child {
+                border-top-left-radius: 16px;
+                border-bottom-left-radius: 16px;
+            }
+
+            .colors div:last-child {
+                border-top-right-radius: 16px;
+                border-bottom-right-radius: 16px;
+            }
+
+            .colors div span {
+                position: absolute; bottom: 4px; right: 4px;
+            }
         </style>
     </head>
     <body>
 
         <div class='section' onclick="location.href='/index.html';" style='padding-bottom: 2px; cursor: pointer;'><h1>back</h1></div>
+
+        <div class="colors">
+            <div onclick="navigator.clipboard.writeText('#dd898c');" style="background: #dd898c; color: white;">
+                <span>#dd898c</span>
+            </div>
+            <div onclick="navigator.clipboard.writeText('#e7bab1');" style="background: #e7bab1; color: white;">
+                <span>#e7bab1</span>
+            </div>
+            <div onclick="navigator.clipboard.writeText('#ffeac5');" style="background: #ffeac5; color: black;">
+                <span>#ffeac5</span>
+            </div>
+            <div onclick="navigator.clipboard.writeText('#fff9e9');" style="background: #fff9e9; color: black;">
+                <span>#fff9e9</span>
+            </div>
+        </div>
 
         <script>
             let construct = "";

@@ -1,7 +1,7 @@
 const characterInfo = {
     'pipim': {
         name: "Pipim",
-        imgs: [],
+        imgs: ["pipim.png"],
         table_data: {
             "Appearance": "voluminous blonde hair; pink sweater with white undershirt; heavy pink lipstick; very tall",
             "Personality": "energetic and cuddly"

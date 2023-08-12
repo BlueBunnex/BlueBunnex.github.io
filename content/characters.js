@@ -28,8 +28,13 @@ const characterInfo = {
             "Personality": "energetic and cuddly"
         },
         paragraphs: [
-            "Pipim lives deep in the city, in a country where it rains a lot. But she likes this, as it means she can stay inside and nap, and she works from home anyways."
+            "Pipim lives deep in the city, in a country where it rains a lot. She likes this, as it means she can stay inside where it's quiet, and she works from home anyways. But she likes to go out at night when everything is crazy in that certain way, maybe go to a restaraunt hidden down a flight of red-brick stairs, or to the park, or just around."
         ],
-        colors: []
+        colors: [
+            "#fff0ca",
+            "#a0417d",
+            "#ffb7e4",
+            "#ffefed"
+        ]
     }
 };

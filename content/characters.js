@@ -24,11 +24,11 @@ const characterInfo = {
         name: "Pipim",
         imgs: ["pipim.png"],
         table_data: {
-            "Appearance": "voluminous blonde hair; pink sweater with white undershirt; heavy pink lipstick; very tall",
+            "Appearance": "voluminous blonde hair; pink sweater with white undershirt (?); heavy pink lipstick; very tall",
             "Personality": "energetic and cuddly"
         },
         paragraphs: [
-            "Pipim lives deep in the city, in a country where it rains a lot. She works from home, but the rain makes her feel less bad about being bound indoors. And she likes the sound it makes, especially when she sleeps, next to her partner, whom she likes a lot."
+            "Pipim lives deep in the city, in a country where it rains a lot. She works from home, but the rain makes her feel less bad about being bound indoors. And she likes the sound it makes, especially when she sleeps—next to her partner, whom she likes a lot."
         ],
         colors: [
             "#fff0ca",

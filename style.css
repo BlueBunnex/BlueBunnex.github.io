@@ -6,17 +6,21 @@
 
     background: var(--background);
     font-family: 'Outfit', sans-serif;
+    font-size: 14px; /* use rem to use values as a fraction of this */
 }
 
 body {
     margin: 0;
     padding: 0;
-    font-size: 14px;
 }
 
-a { color: var(--accent); }
+a {
+    color: var(--accent);
+}
 
-a:hover { color: var(--accent); }
+a:hover {
+    color: var(--accent);
+}
 
 /* icon links in bio */
 /* https://codepen.io/sosuke/pen/Pjoqqp */
@@ -49,7 +53,7 @@ ul {
 }
 
 .section h1 {
-    font-size: 18px;
+    font-size: 1.3rem;
     margin: 0 0 4px 0;
 }
 
@@ -68,9 +72,5 @@ ul {
 @media screen and (orientation : portrait) {
     .section {
         max-width: 100%;
-    }
-    
-    .section h2 {
-        font-size: 3vw;
     }
 }

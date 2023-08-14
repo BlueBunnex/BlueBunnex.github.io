@@ -18,11 +18,17 @@
 
             button {
                 background: none;
-                border: 2px solid var(--accent);
+                border: none;
                 color: var(--accent);
-                border-radius: 4px;
                 font-size: 1rem;
                 cursor: pointer;
+                margin: 0;
+                padding: 10px 15px;
+            }
+            
+            button:hover {
+                border-bottom: 2px solid var(--accent);
+                padding-bottom: 8px;
             }
 
             button.selected {
@@ -61,7 +67,7 @@
             <!-- right feed -->
             <div style="flex: 3; position: relative;">
 
-                <div style="box-shadow: 0 5px 10px -10px black; padding: 6px;">
+                <div style="box-shadow: 0 5px 10px -10px black;">
                     <button type="button" class="selected">Global</button>
                     <button type="button">Following</button>
                     <button type="button">Liked</button>

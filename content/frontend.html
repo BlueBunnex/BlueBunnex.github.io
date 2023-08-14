@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>frontend</title>
+        <meta charset="UTF-8">
+        <style>
+            :root {
+                --accent: #338855;
+
+                font-size: 14px;
+                font-family: sans-serif;
+            }
+
+            body {
+                padding: 0;
+                margin: 0;
+            }
+
+            .bg-img {
+                background-image: url('DS_Summerpond.jpg');
+                background-size: cover;
+                background-position: center;
+            }
+
+            #bg {
+                z-index: -1;
+
+                position: fixed;
+                width: 100%;
+                height: 100%;
+
+                filter: blur(10px) brightness(60%);
+                transform: scale(1.1);
+            }
+
+            button {
+                background: none;
+                border: 2px solid var(--accent);
+                color: var(--accent);
+                border-radius: 4px;
+                font-size: 1rem;
+                cursor: pointer;
+            }
+
+            button.selected {
+                background: var(--accent);
+                color: white;
+            }
+
+            p {
+                border-left: 4px solid var(--accent);
+                padding-left: 8px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <!-- https://en.wikipedia.org/wiki/GNU_social#/media/File:GNU_social_web_frontend_with_Swedish_localization.png -->
+        
+        <div id="bg" class="bg-img"></div>
+
+        <div style="max-width: 1000px; margin: auto; min-height: 100vh; background: white; box-shadow: 0 0 30px -20px black;">
+
+            <div class="bg-img" style="aspect-ratio: 4;">
+
+            </div>
+
+            <div style="display: flex;">
+
+                <div style="flex: 1; position: relative; box-shadow: 5px 0 10px -10px black;">
+
+                    <img src="default_pfp.png" style="border: 4px solid white; border-radius: 10%; margin-left: 10%; margin-bottom: -50%; width: 80%; aspect-ratio: 1; transform: translateY(-66%); box-sizing: border-box;">
+                    
+                    <div style="padding: 0 10px;">
+                        <strong>@kitsumitsu</strong>
+                        <br>
+                        <strong>5</strong> followers
+                        <p>hi I'm kitsumitsu I'm a big fan of gaming and trying to be nice! follow me and I'll make it worth your while haha</p>
+                    </div>
+
+                </div>
+
+                <div style="flex: 3; position: relative;">
+
+                    <div style="box-shadow: 0 5px 10px -10px black; padding: 6px;">
+                        <button type="button" class="selected">Global</button>
+                        <button type="button">Following</button>
+                        <button type="button">Liked</button>
+                    </div>
+
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </body>
+</html>

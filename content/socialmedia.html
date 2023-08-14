@@ -18,12 +18,15 @@
 
             button {
                 background: none;
-                border: none;
+                border: 0px solid var(--accent);
                 color: var(--accent);
                 font-size: 1rem;
                 cursor: pointer;
                 margin: 0;
                 padding: 10px 15px;
+                
+                transition: border-bottom padding-bottom;
+                transition-duration: 0.3s;
             }
             
             button:hover {

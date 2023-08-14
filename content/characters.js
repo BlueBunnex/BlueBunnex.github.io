@@ -28,8 +28,9 @@ const characterInfo = {
             "Personality": "energetic and cuddly"
         },
         paragraphs: [
-            "Pipim lives deep in the city, in a country where it rains a lot. She works from home, but the rain makes her feel less bad about being bound indoors. And she likes the sound it makes, especially when she sleeps—next to her partner, whom she likes a lot. They often go out shopping together, usually for groceries, and she picks out the stuff that she likes. She likes a lot of foods. Her partner is quite the cook."
-            "Something else she likes is baseball. Well, watching baseball, she can't play herself—she's too floppy for anything but the couch experience. She likes watching the pitcher throw the ball. And the batter swing the bat. And then run. She likes to run. She does it in the morning, though slower than the people on the screen."
+            "Pipim lives deep in the city, in a country where it rains a lot. She works from home, but the rain makes her feel less bad about being bound indoors. And she likes the sound it makes, especially when she sleeps—next to her partner, whom she likes a lot. They often go out shopping together, usually for groceries, and she picks out the stuff that she likes. She likes a lot of foods. Her partner is quite the cook.",
+            "Something else she likes is baseball. Well, watching baseball, she can't play herself—she's too floppy for anything but the couch experience. She likes watching the pitcher throw the ball. And the batter swing the bat. And then run. She likes to run. She does it in the morning, though slower than the people on the screen.",
+            "Overall, Pipim is a truly kind person. She still gets angry, she still raises her voice, but she hugs you after she's done—after you've excused yourself in some way. Frankly, she tips too high. And she gives herself all the chores. She may be depressed. You can hear her pacing in her room when it isn't raining."
         ],
         colors: [
             "#fff0ca",

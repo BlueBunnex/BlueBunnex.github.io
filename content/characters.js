@@ -24,7 +24,7 @@ const characterInfo = {
         name: "Pipim",
         imgs: ["pipim.png", "pipim2.png"],
         table_data: {
-            "Appearance": "voluminous blonde hair; pink sweater with white undershirt (?); heavy pink lipstick; very tall",
+            "Appearance": "voluminous blonde hair; pink clothes, pink hair ribbon, white jean-shorts; heavy pink lipstick; very tall",
             "Personality": "energetic and cuddly"
         },
         paragraphs: [

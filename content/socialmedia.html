@@ -86,12 +86,19 @@
             <!-- right feed -->
             <div style="flex: 3; position: relative;">
 
-                <div style="box-shadow: 0 5px 10px -10px black;">
-                    <button type="button" class="selected">Global</button>
-                    <button type="button">Following</button>
-                    <button type="button">Liked</button>
-                    <button type="button">Search</button>
-                </div>
+                <nav style="box-shadow: 0 5px 10px -10px black;">
+                    <button type="button" id="global-btn" onclick="clickNav('global-btn')" class="selected">Global</button>
+                    <button type="button" id="following-btn" onclick="clickNav('following-btn')">Following</button>
+                    <button type="button" id="liked-btn" onclick="clickNav('liked-btn')">Liked</button>
+                    <button type="button" id="search-btn" onclick="clickNav('search-btn')">Search</button>
+                </nav>
+
+                <script>
+                    function clickNav(id) {
+                        alert(id);
+                        //document.getElementById(id);
+                    }
+                </script>
 
                 <div style="padding: 0 12px;">
                     <br><br><br><br><br><br><br><br><br><br>

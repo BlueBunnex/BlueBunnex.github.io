@@ -94,9 +94,11 @@
                 </nav>
 
                 <script>
+                    var currentlySelected = document.getElementById("global-btn");
+                    
                     function clickNav(id) {
-                        alert(id);
-                        //document.getElementById(id);
+                        document.getElementById(id).classList.add('selected');
+                        currentlySelected.classList.remove('selected');
                     }
                 </script>
 

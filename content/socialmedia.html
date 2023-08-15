@@ -87,17 +87,17 @@
             <div style="flex: 3; position: relative;">
 
                 <nav style="box-shadow: 0 5px 10px -10px black;">
-                    <button type="button" id="global-btn" onclick="clickNav('global-btn')" class="selected">Global</button>
-                    <button type="button" id="following-btn" onclick="clickNav('following-btn')">Following</button>
-                    <button type="button" id="liked-btn" onclick="clickNav('liked-btn')">Liked</button>
-                    <button type="button" id="search-btn" onclick="clickNav('search-btn')">Search</button>
+                    <button type="button" id="global-btn" onclick="clickNav('global')" class="selected">Global</button>
+                    <button type="button" id="following-btn" onclick="clickNav('following')">Following</button>
+                    <button type="button" id="liked-btn" onclick="clickNav('liked')">Liked</button>
+                    <button type="button" id="search-btn" onclick="clickNav('search')">Search</button>
                 </nav>
 
                 <script>
                     var currentlySelected = document.getElementById("global-btn");
                     
                     function clickNav(id) {
-                        newlySelected = document.getElementById(id);
+                        newlySelected = document.getElementById(id + "-btn");
                         
                         newlySelected.classList.add('selected');
                         currentlySelected.classList.remove('selected');

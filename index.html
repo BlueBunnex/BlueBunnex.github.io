@@ -2,8 +2,6 @@
 <html lang="en">
     <head>
         <title>kitsumitsu.de</title>
-        <link rel="icon" type="image/x-icon" href="img/purdy_ico.ico"/>
-        <link rel="stylesheet" href="style.css">
         <meta charset="UTF-8">
         
         <!-- Discord embed stuff -->
@@ -12,196 +10,24 @@
         <meta content="http://www.kitsumitsu.de" property="og:url"/>
         <meta content="http://www.kitsumitsu.de/img/purdy_ico.png" property="og:image"/>
         <meta content="#ff7373" data-react-helmet="true" name="theme-color"/>
-
-        <style>
-            #bio-holder {
-                width: 100%;
-                max-width: 300px;
-                height: 100vh;
-                margin: auto;
-                position: relative;
-            }
-
-            #bio-holder div {
-                text-align: center;
-                width: 100%;
-                height: 600px;
-                position: absolute;
-                top: calc(50% - 350px);
-            }
-            
-            #footer {
-                height: 240px;
-                font-size: 0.8rem;
-                font-weight: 800;
-                padding: 6px;
-                color: var(--background);
-            }
-
-            #footer td, #footer th, #footer a {
-                border: none;
-                color: var(--background);
-                text-align: left;
-            }
-            
-            #footer td {
-                font-weight: 500;
-            }
-
-            .click-header {
-                margin-bottom: 10px;
-                font-size: 2rem;
-                font-weight: 700;
-                color: var(--background);
-                background: var(--accent);
-                transition-duration: 0.3s;
-                transition-timing-function: cubic-bezier(0.25,0.1,0.25,1);
-            }
-
-            .click-header div {
-                cursor: pointer;
-                transition: inherit;
-            }
-
-            .click-header:nth-child(odd) {
-                border-left: 4px solid var(--background);
-            }
-
-            .click-header:nth-child(odd) * {
-                padding-left: 6px;
-            }
-
-            .click-header:nth-child(even) {
-                text-align: right;
-                border-right: 4px solid var(--background);
-            }
-
-            .click-header:nth-child(even) * {
-                padding-right: 6px;
-            }
-
-            .click-header a {
-                color: var(--background);
-                display: block;
-                font-size: 1rem;
-                transition: inherit;
-                text-decoration: none;
-            }
-
-            .click-header div:hover, .click-header a:hover {
-                color: var(--accent);
-                background: var(--background);
-            }
-
-            #content-holder {
-                background: var(--accent);
-            }
-
-            #content {
-                max-width: 750px;
-                margin: auto;
-            }
-
-            /* mobile/portrait orientation */
-            @media screen and (orientation : portrait) {
-                #bio-holder {
-                    max-width: 50%;
-                    font-size: 3vw; /* temp */
-                }
-
-                #bio-holder div {
-                    top: calc(50% - 60vw);
-                }
-
-                #content {
-                    max-width: 90%;
-                }
-            }
-        </style>
-        
-        <script>
-            function scroll() {
-                document.getElementById("content-holder").style.paddingTop = window.scrollY + "px";
-                document.getElementById("content-holder").style.marginTop = -window.scrollY + "px";
-
-                document.getElementById("bio-holder").style.opacity= 1 - window.scrollY / 200;
-            }
-        </script>
     </head>
-    <body onscroll="scroll();">
+    <body>
 
-        <div style="position: fixed; top: 10px; left: 50%; transform: translateX(-50%); width: 100%; max-width: 750px; color: var(--background); font-size: 24px; font-weight: 700; text-align: center;">
-            kitsumitsu
-        </div>
+        black, gray, pink, catboy mascot, キツミツ cool font
         
-        <!-- bio section -->
-        <div id="bio-holder">
-            <div>
-                <h1 style="margin: 6px 0; font-size: 24px;">hi I'm <span style="color: var(--accent);">kitsumitsu</span></h1>
-                <h1 style="margin: -6px 0 10px; font-size: 18px;">he/him</h1>
-                <img src="img/universe/andrea_pfp.png" width="100%">
-                
-                <!-- https://iconduck.com/icons/302027/brand-cohost -->
-                <a href="https://cohost.org/kitsumitsu"><img src="img/icons/brand-cohost.svg" width="14%"></a>
-    
-                <!-- https://iconduck.com/icons/244377/discord -->
-                <a href="javascript:alert('my username on Discord is: bluebunnex');"><img src="img/icons/discord.svg" width="14%"></a>
-                
-                <p style="margin-top: 2px;">I draw sfw bbw & furry content and do other stuff sometimes like program, compose music, 3D model, and learn Chinese. this website is where I put projects I'm working on, stuff to look at, and just things I'm interested in. permanently under construction; watch out for falling span elements.</p>
-    
-                <img src="img/barcode.png" width="200" style="margin-bottom: 10px;">
-                <br>
-                <i>Scroll down!</i>
-            </div>
-        </div>
+        <div>
+            <h1>kitsumitsu</h1>
+            <hr>
+            © 2023 Kitsumitsu. All Rights Reserved.<br><br>
 
-        <div id="content-holder">
-            <div id="content">
-
-                <div class="click-header" onclick="location.href='content/universe.html';">
-                    <div>Original Characters</div>
-                </div>
-                <!--
-                <div class="click-header" onclick="alert('unavaible atm!');">
-                    <div>Conlangs, Conworlds, & Conspecies</div>
-                    <a class="ref" href="alert('unavaible atm!');">Cabü (conlang)</a>
-                    <a class="ref" href="alert('unavaible atm!');">Limalh (conspecies)</a>
-                </div>
-                -->
-                <!--
-                <div class="click-header" onclick="alert('unavaible atm!');">
-                    <div>Freewrites</div>
-                </div>
-                -->
-                <!--
-                <div class="click-header" onclick="alert('unavaible atm!');">
-                    <div>Asset Downloads</div>
-                </div>
-                -->
-                <div class="click-header">
-                    <div>HTML Shenanigans</div>
-                    <a class="ref" href="content/minimal.html">Minimalistic Thing</a>
-                    <a class="ref" href="content/socialmedia.html">Social Media Thing</a>
-                </div>
-                
-                <div style="height: 20vh;"></div>
-        
-                <div id="footer">
-                    <h1>kitsumitsu</h1>
-                    <hr>
-                    © 2023 Kitsumitsu. All Rights Reserved.<br><br>
-
-                    <table>
-                        <tr>
-                            <th>Source Code</th>
-                        </tr>
-                        <tr>
-                            <td><a href="https://github.com/BlueBunnex/BlueBunnex.github.io">Github</a></td>
-                        </tr>
-                    </table>
-                </div>
-                
-            </div>
+            <table>
+                <tr>
+                    <th>Source Code</th>
+                </tr>
+                <tr>
+                    <td><a href="https://github.com/BlueBunnex/BlueBunnex.github.io">Github</a></td>
+                </tr>
+            </table>
         </div>
 
     </body>

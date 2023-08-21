@@ -27,6 +27,7 @@
                 padding: 8px 0;
                 margin-bottom: 4px;
                 border-bottom: 1px solid grey;
+                position: relative;
             }
 
             ul {
@@ -66,10 +67,27 @@
                 }
             }
         </style>
+
+        <script>
+            function translate(code) {
+                alert("translating to " + code);
+            }
+        </script>
     </head>
     <body>
 
-        <h1 lang="ja">キツミツ</h1>
+        <h1 lang="ja">
+            キツミツ
+            <span style="position: absolute; bottom: 0; right: 0; font-size: 0.5em; color: grey; font-weight: 400;">
+                <a href="translate('en');">EN</a>
+                |
+                <a style="text-decoration: line-through;">HU</a>
+                |
+                <a style="text-decoration: line-through;">ZH</a>
+                |
+                <a style="text-decoration: line-through;">JA</a>
+            </span>
+        </h1>
         
         <p>
             <img src="me_fr.png">

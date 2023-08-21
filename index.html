@@ -37,13 +37,24 @@
                 padding-left: 1.5em;
             }
 
-            a { color: grey; }
-
+            a        { color: grey; }
             a:active { color: red; }
+
+            img {
+                float: right;
+                width: 18em;
+                margin: 0 0 1em 1em;
+            }
 
             @media only screen and (orientation: portrait) {
                 body {
                     max-width: calc(100% - 20px);
+                }
+
+                img {
+                    display: block;
+                    width: 80%;
+                    margin: auto;
                 }
             }
         </style>
@@ -53,7 +64,7 @@
         <h1>キツミツ</h1> <!-- personally I think fat is cute >ω< -->
         
         <p>
-            <img style="float: right; width: 18em; margin: 0 0 1em 1em;"" src="me_fr.png">
+            <img src="me_fr.png">
             Hi I'm kitsumitsu (he/him). I am a,
         </p>
         <ul>

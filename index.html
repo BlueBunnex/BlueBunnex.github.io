@@ -88,7 +88,7 @@
                 let allElements = document.body.getElementsByTagName("*");
 
                 // store all elements with lang tag
-                allElements.forEach(element => {
+                allElements.forEach(function(element) {
                     if (element.getAttribute('lang') != null) {
                         langElements.push(element);
                     }

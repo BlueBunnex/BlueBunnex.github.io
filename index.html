@@ -22,6 +22,19 @@
                 margin: auto;
             }
 
+            #lang-select {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                font-size: 0.5em;
+                color: grey;
+                font-weight: 400;
+            }
+
+            #lang-select a {
+                text-decoration: none;
+            }
+
             h1, h2 {
                 margin: 0;
                 padding: 8px 0;
@@ -78,14 +91,14 @@
 
         <h1 lang="ja">
             キツミツ
-            <span style="position: absolute; bottom: 0; right: 0; font-size: 0.5em; color: grey; font-weight: 400;">
+            <span id="lang-select">
                 <a href="translate('en');">EN</a>
                 |
-                <a style="text-decoration: line-through;">HU</a>
+                <a style="text-decoration: line-through; color: lightgrey;">HU</a>
                 |
-                <a style="text-decoration: line-through;">ZH</a>
+                <a style="text-decoration: line-through; color: lightgrey;">ZH</a>
                 |
-                <a style="text-decoration: line-through;">JA</a>
+                <a style="text-decoration: line-through; color: lightgrey;">JA</a>
             </span>
         </h1>
         

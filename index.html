@@ -82,20 +82,35 @@
         </style>
 
         <script>
+            var langElements;
+            
             function init() {
-                // only store elements that have a lang tag
-                alert(document.body.getElementsByTagName("*")[1].getAttribute('lang'));
+                let allElements = document.body.getElementsByTagName("*");
+
+                // store all elements with lang tag
+                allElements.forEach(element => {
+                    if (element.getAttribute('lang') != null) {
+                        langElements.push(element);
+                    }
+                });
+
+                translate("en");
             }
             
             function translate(code) {
-                alert("translating to " + code);
+                alert(langElements[0].getAttribute('lang'));
+                // langElements.forEach(element => {
+
+                // });
+                //.style.display = "none";
             }
         </script>
     </head>
     <body onload="init();">
 
-        <h1 lang="ja">
-            キツミツ
+        <h1>
+            <span lang="en">kitsumitsu</span>
+            <span lang="ja">キツミツ</span>
             <span id="lang-select">
                 <a href="javascript:translate('en');">EN</a>
                 |

@@ -83,7 +83,8 @@
 
         <script>
             function init() {
-                alert(document.body.getElementsByTagName("*")[0].getAttribute('lang'));
+                // only store elements that have a lang tag
+                alert(document.body.getElementsByTagName("*")[1].getAttribute('lang'));
             }
             
             function translate(code) {
@@ -145,12 +146,18 @@
 
         <h2 lang="en">Learning Japanese</h2>
         <p lang="en">These are some the resources that have been most helpful to me for learning Japanese.</p>
-        <p lang="en">
-            <a href="https://www.wasabi-jpn.com/japanese-grammar/wasabis-online-japanese-grammar-reference/" target="_blank">wasabi-jpn.com - Wasabi's Online Japanese Grammar Reference</a>
+        <p>
+            <a href="https://www.wasabi-jpn.com/japanese-grammar/wasabis-online-japanese-grammar-reference/" target="_blank">
+                <span lang="en">wasabi-jpn.com - Wasabi's Online Japanese Grammar Reference</span>
+            </a>
             <br>
-            <a href="https://jisho.org" target="_blank">jisho.org - Japanese dictionary</a>
+            <a href="https://jisho.org" target="_blank">
+                <span lang="en">jisho.org - Japanese dictionary</span>
+            </a>
             <br>
-            <a href="https://en.wikipedia.org/wiki/Japanese_particles" target="_blank">wikipedia.org - full list of Japanese particles</a>
+            <a href="https://en.wikipedia.org/wiki/Japanese_particles" target="_blank">
+                <span lang="en">wikipedia.org - full list of Japanese particles</span>
+            </a>
         </p>
 
         <!-- probably not gonna localize any of this -->

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
         <title>kitsumitsu.de</title>
         <meta charset="UTF-8">
@@ -82,17 +82,21 @@
         </style>
 
         <script>
+            function init() {
+                alert(document.body.getElementsByTagName("*")[0].getAttribute('lang'));
+            }
+            
             function translate(code) {
                 alert("translating to " + code);
             }
         </script>
     </head>
-    <body>
+    <body onload="init();">
 
         <h1 lang="ja">
             キツミツ
             <span id="lang-select">
-                <a href="translate('en');">EN</a>
+                <a href="javascript:translate('en');">EN</a>
                 |
                 <a style="text-decoration: line-through; color: lightgrey;">HU</a>
                 |
@@ -102,11 +106,11 @@
             </span>
         </h1>
         
-        <p>
+        <p lang="en">
             <img src="me_fr.png">
             Hi I'm kitsumitsu (he/him). I am a:
         </p>
-        <ul>
+        <ul lang="en">
             <li>Linguist
                 <ul>
                     <li>General linguistics (majoring)</li>
@@ -135,20 +139,21 @@
                 </ul>
             </li>
         </ul>
-        <p>
+        <p lang="en">
             My mascot is gonna be a catboy with black clothes, gray hair, and pink eyes. The image above is an AI-generated placeholder.
         </p>
 
-        <h2>Learning Japanese</h2>
-        <p>These are some the resources that have been most helpful to me for learning Japanese.</p>
-        <p>
+        <h2 lang="en">Learning Japanese</h2>
+        <p lang="en">These are some the resources that have been most helpful to me for learning Japanese.</p>
+        <p lang="en">
             <a href="https://www.wasabi-jpn.com/japanese-grammar/wasabis-online-japanese-grammar-reference/" target="_blank">wasabi-jpn.com - Wasabi's Online Japanese Grammar Reference</a>
             <br>
             <a href="https://jisho.org" target="_blank">jisho.org - Japanese dictionary</a>
             <br>
             <a href="https://en.wikipedia.org/wiki/Japanese_particles" target="_blank">wikipedia.org - full list of Japanese particles</a>
         </p>
-    
+
+        <!-- probably not gonna localize any of this -->
         <h2>kitsumitsu</h2>
         © 2023 Kitsumitsu. All Rights Reserved.<br><br>
         <table>

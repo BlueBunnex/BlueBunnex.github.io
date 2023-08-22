@@ -44,7 +44,15 @@
             }
 
             #lang-select a { color: white; }
-            #lang-select a.disabled { color: lightgrey; }
+            #lang-select a.disabled { color: #a0a0a0; }
+
+            a          { color: #a0a0a0; text-decoration: none; }
+            a:hover    { text-decoration: underline; }
+            a:active   { color: red; }
+            a.disabled {
+                pointer-events: none;
+                text-decoration: line-through;
+            }
 
             h1 {
                 margin: 0 6px;
@@ -64,14 +72,6 @@
             
             ul ul {
                 padding-left: 1.5em;
-            }
-
-            a          { color: grey; text-decoration: none; }
-            a:hover    { text-decoration: underline; }
-            a:active   { color: red; }
-            a.disabled {
-                pointer-events: none;
-                text-decoration: line-through;
             }
 
             td, th {

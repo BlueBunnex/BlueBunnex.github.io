@@ -87,14 +87,12 @@
             function init() {
                 let allElements = document.body.getElementsByTagName("*");
 
-                let func = function(element) {
+                // store all elements with lang tag
+                for (let element of allElements) {
                     if (element.getAttribute('lang') != null) {
                         langElements.push(element);
                     }
-                };
-                
-                // store all elements with lang tag
-                allElements.forEach(func);
+                }
 
                 translate("en");
             }

@@ -33,6 +33,23 @@
                 color: white;
             }
 
+            #gallery-ad {
+                position: absolute;
+                top: 50%;
+                right: 0;
+                transform: translate(100%, -50%);
+                width: 30px;
+                height: 100px;
+                background: url('me_fr.png');
+                background-size: 100px;
+                background-position: right;
+                transition-duration: 0.5s;
+            }
+
+            #gallery-ad:hover {
+                width: 100px;
+            }
+
             #lang-select {
                 position: absolute;
                 top: 6px;
@@ -88,6 +105,7 @@
                 body {
                     max-width: calc(100% - 20px);
                 }
+                /* #gallery-ad {} */
             }
         </style>
 
@@ -138,7 +156,7 @@
                 <a href="javascript:translate('ja');" class="disabled">日本語</a>
             </span>
 
-            <div style="position: absolute; top: 50%; right: 0; transform: translate(100%, -50%); width: 100px; aspect-ratio: 100px; background: url('me_fr.png'); background-size: cover;"></div>
+            <div id="gallery-ad"></div>
         </div>
         
         <p>

@@ -67,9 +67,13 @@
                 padding-left: 1.5em;
             }
 
-            a        { color: grey; text-decoration: none; }
-            a:hover  { text-decoration: underline; }
-            a:active { color: red; }
+            a          { color: grey; text-decoration: none; }
+            a:hover    { text-decoration: underline; }
+            a:active   { color: red; }
+            a.disabled {
+                pointer-events: none;
+                text-decoration: line-through;
+            }
 
             td, th {
                 text-align: left;
@@ -124,9 +128,9 @@
                 |
                 <a href="javascript:translate('hu');">Magyar</a>
                 |
-                <a style="text-decoration: line-through; color: lightgrey;">中文</a>
+                <a href="javascript:translate('zh');" class="disabled">中文</a>
                 |
-                <a style="text-decoration: line-through; color: lightgrey;">日本語</a>
+                <a href="javascript:translate('ja');" class="disabled">日本語</a>
             </span>
         </div>
         

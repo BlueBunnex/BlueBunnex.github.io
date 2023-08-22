@@ -99,11 +99,13 @@
             }
             
             function translate(code) {
-                alert(langElements[0].getAttribute('lang'));
-                // langElements.forEach(element => {
-
-                // });
-                //.style.display = "none";
+                langElements.forEach(function(element) {
+                    if (element.getAttribute('lang') === code) {
+                        element.style.display = "none";
+                    } else {
+                        element.style.display = "";
+                    }
+                });
             }
         </script>
     </head>

@@ -101,9 +101,9 @@
             function translate(code) {
                 langElements.forEach(function(element) {
                     if (element.getAttribute('lang') === code) {
-                        element.style.display = "none";
-                    } else {
                         element.style.display = "";
+                    } else {
+                        element.style.display = "none";
                     }
                 });
             }
@@ -113,15 +113,17 @@
 
         <h1>
             <span lang="en">kitsumitsu</span>
+            <span lang="hu">kismicu</span>
+            <span lang="zh">昔旭咪旭</span>
             <span lang="ja">キツミツ</span>
             <span id="lang-select">
-                <a href="javascript:translate('en');">EN</a>
+                <a href="javascript:translate('en');">English</a>
                 |
-                <a style="text-decoration: line-through; color: lightgrey;">HU</a>
+                <a href="javascript:translate('hu');">Magyar</a>
                 |
-                <a style="text-decoration: line-through; color: lightgrey;">ZH</a>
+                <a href="javascript:translate('zh');">中文</a>
                 |
-                <a style="text-decoration: line-through; color: lightgrey;">JA</a>
+                <a href="javascript:translate('ja');">日本語</a>
             </span>
         </h1>
         

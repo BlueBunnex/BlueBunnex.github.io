@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DogmomAI</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Discord embedding (https://stackoverflow.com/questions/59335731/how-to-create-own-embed-site-for-discord) -->
+    <meta content="DogmomAI" property="og:title">
+    <meta content="This website is a pet project. May contain suggestive content, view at your own discretion." property="og:description">
+    <meta content="https://dogmomai.top" property="og:url">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;800&display=swap');
+        :root {
+            --accent: #fa0;
+            --text: #ddd;
+            --text-dark: #999;
+        }
+        
+        body {
+            font-family: 'Roboto Slab', serif;
+            font-size: 14px;
+            color: var(--text);
+            background: #111;
+
+            max-width: 550px;
+            margin: 10px auto;
+        }
+        
+        a { color: var(--accent); }
+        a:hover { text-decoration: none; }
+        a:active { color: var(--text); }
+
+        img { border-radius: 10px; filter: brightness(50%); transition-duration: 0.2s; }
+        img:hover { filter: brightness(100%); }
+
+        hr { border: none; border-top: 1px solid var(--text-dark); }
+        
+    </style>
+    <script>
+        const articles = [
+            {
+                title: "Are Children The Key To Demystifying Language?",
+                meta: "Kitsumitsu · 10/01/2023 · Satire",
+                body: `
+                    <p>A team at University of Maryland prepares to uncover the mysteries of the exotic language Pirahã through a new technique that makes use of America's smartest workers — children.</p>
+                    <p>Their methodology is simple in premise — by taking advantage of children's heightened ability to pick up languages, UMD will be able to decipher this largely undocumented language without any effort on the researcher's part. To do this researchers plan to have a native English and Pirahã speaker get married, have a child, and subsequently get divorced (the method through which this is carried out is at this point undisclosed). The resulting bounce between households the child will experience will hopefully be frequent enough for them to pick up both languages. In parallel, the linguistic divide between their parents will ideally motivate them to study linguistics, at which point their knowledge of technical terminology will be strong enough where they can start writing a dictionary for us.</p>
+                    <p>"What happens if the kid doesn't decide to become a linguist?" one critic asked UMD researchers.</p>
+                    <p>"That's what we in the biz like to call 'dropping out of a longitudinal study.'" answered Paul Minigan, head of the research study on Pirahã. "If that happens, we'll rerun the experiment with new participants until we get the results we want."</p>
+                `
+            }
+        ];
+    </script>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Blog Home</a>
+        <span style="float: right;">
+            <a href="https://github.com/BlueBunnex/dogmomAI">Github repo</a> · <a href="https://bsky.app/profile/dogmomai.top">Bluesky</a>
+        </span>
+    </nav>
+    <hr>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const id = parseInt(urlParams.get('id'));
+
+        let toInsert;
+
+        if (isNaN(id)) {
+            // load home screen
+            toInsert = "<br>";
+            for (let i=articles.length-1; i+1; i--) {
+                toInsert += "<a href='?id=" + i + "'>" + articles[i].title + "</a><br>" + articles[i].meta + "<br>";
+            }
+        } else if (id < 0 || id >= articles.length) {
+            // load error
+            toInsert = "<h1 style='text-align: center;'>Uh oh!</h1><div>article does not exist :(</div>";
+        } else {
+            // load article
+            toInsert = `
+                <div style="border-left: 4px solid var(--accent); padding-left: 8px;">
+                    <h1 style="margin: 0;">%TITLE%</h1>
+                    <div style="color: var(--text-dark);">%META%</div>
+                </div>
+                %BODY%
+                <div style="color: var(--text-dark);">Source(s):</div>
+                <div>dude trust me</div>
+            `;
+            toInsert = toInsert.replace("%TITLE%", articles[id].title);
+            toInsert = toInsert.replace("%META%", articles[id].meta);
+            toInsert = toInsert.replace("%BODY%", articles[id].body);
+        }
+
+        document.write(toInsert);
+    </script>
+
+    <br><hr>
+    <div style="text-align: center; color: var(--text-dark);">© 2023 The DogmomAI Corporation (not a corporation). All Rights Reserved.</div>
+    
+  </body>
+</html>

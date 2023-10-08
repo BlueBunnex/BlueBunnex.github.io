@@ -33,10 +33,23 @@
         hr { border: none; border-top: 1px solid var(--text-light); }
 
         .center { max-width: 700px; margin: auto; }
+
+        #article-title { margin: 0; color: white; font-size: 60px; }
+        #article-meta { color: white; }
         
     </style>
     <script>
         const articles = [
+            {
+                title: "Are Children The Key To Demystifying Language?",
+                meta: "Kitsumitsu · 10/01/2023 · Satire",
+                body: `
+                    <p>A team at University of Maryland prepares to uncover the mysteries of the exotic language Pirahã through a new technique that makes use of America's smartest workers — children.</p>
+                    <p>Their methodology is simple in premise — by taking advantage of children's heightened ability to pick up languages, UMD will be able to decipher this largely undocumented language without any effort on the researcher's part. To do this researchers plan to have a native English and Pirahã speaker get married, have a child, and subsequently get divorced (the method through which this is carried out is at this point undisclosed). The resulting bounce between households the child will experience will hopefully be frequent enough for them to pick up both languages. In parallel, the linguistic divide between their parents will ideally motivate them to study linguistics, at which point their knowledge of technical terminology will be strong enough where they can start writing a dictionary for us.</p>
+                    <p>"What happens if the kid doesn't decide to become a linguist?" one critic asked UMD researchers.</p>
+                    <p>"That's what we in the biz like to call 'dropping out of a longitudinal study.'" answered Paul Minigan, head of the research study on Pirahã. "If that happens, we'll rerun the experiment with new participants until we get the results we want."</p>
+                `
+            },
             {
                 title: "Journal 2: Mid-Semester Check-In",
                 meta: "Kitsumitsu · 10/08/2023 · Personal",
@@ -56,16 +69,6 @@
                         This is the second of three journals you will submit. The purpose of these assignments is to provide a forum for you to express your thoughts, feelings, and opinions about topics discussed in class and reflect upon your experiences as you adjust to life at the University of Maryland. Journals are short responses to the assigned question or topic. I welcome creativity in these assignments and hope to see your personality, interests, and strengths shine. You may type your journal or use alternate formats (handwritten journals, video recordings, artistic representations, other media, etc.).
                     </p>
                 `
-            },
-            {
-                title: "Are Children The Key To Demystifying Language?",
-                meta: "Kitsumitsu · 10/01/2023 · Satire",
-                body: `
-                    <p>A team at University of Maryland prepares to uncover the mysteries of the exotic language Pirahã through a new technique that makes use of America's smartest workers — children.</p>
-                    <p>Their methodology is simple in premise — by taking advantage of children's heightened ability to pick up languages, UMD will be able to decipher this largely undocumented language without any effort on the researcher's part. To do this researchers plan to have a native English and Pirahã speaker get married, have a child, and subsequently get divorced (the method through which this is carried out is at this point undisclosed). The resulting bounce between households the child will experience will hopefully be frequent enough for them to pick up both languages. In parallel, the linguistic divide between their parents will ideally motivate them to study linguistics, at which point their knowledge of technical terminology will be strong enough where they can start writing a dictionary for us.</p>
-                    <p>"What happens if the kid doesn't decide to become a linguist?" one critic asked UMD researchers.</p>
-                    <p>"That's what we in the biz like to call 'dropping out of a longitudinal study.'" answered Paul Minigan, head of the research study on Pirahã. "If that happens, we'll rerun the experiment with new participants until we get the results we want."</p>
-                `
             }
         ];
     </script>
@@ -73,9 +76,10 @@
 <body>
 
     <div style="background: var(--accent); height: 350px;">
-        <div class="center" style="border-left: 4px solid white; padding-left: 8px;">
-            <h1 id="article-title" style="margin: 0; color: white;"></h1>
-            <div id="article-meta" style="color: white;"></div>
+        <div class="center" style="border-left: 8px solid white; padding-left: 8px;">
+            <h1 id="article-title"></h1>
+            <span style="display: inline-block; width: 20px; height: 4px; background: white; margin: 12px 0;"></span>
+            <div id="article-meta"></div>
         </div>
     </div>
 

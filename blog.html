@@ -9,8 +9,8 @@
         @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;800&display=swap');
         :root {
             --accent: #0af;
-            --text: #222;
-            --text-light: #777;
+            --text: #111;
+            --text-light: #888;
         }
         
         body {
@@ -31,10 +31,32 @@
         img:hover { filter: brightness(100%); }
 
         hr { border: none; border-top: 1px solid var(--text-light); }
+
+        .center { max-width: 700px; margin: auto; }
         
     </style>
     <script>
         const articles = [
+            {
+                title: "Journal 2: Mid-Semester Check-In",
+                meta: "Kitsumitsu · 10/08/2023 · Personal",
+                body: `
+                    <a href="https://umd.instructure.com/courses/1353797/assignments/6498527">assignment</a>
+        
+                    <p>
+                        Write a letter or otherwise creatively express how the first 7 weeks of college have been for you. Be sure to include the following information:<br><br>
+                        
+                        Classes<br>
+                        Instructors<br>
+                        Your living situation<br>
+                        New things you have seen or experienced<br>
+                        Balancing the competing demands in your life (i.e. family, school)<br>
+                        Potential majors/careers<br><br>
+                        
+                        This is the second of three journals you will submit. The purpose of these assignments is to provide a forum for you to express your thoughts, feelings, and opinions about topics discussed in class and reflect upon your experiences as you adjust to life at the University of Maryland. Journals are short responses to the assigned question or topic. I welcome creativity in these assignments and hope to see your personality, interests, and strengths shine. You may type your journal or use alternate formats (handwritten journals, video recordings, artistic representations, other media, etc.).
+                    </p>
+                `
+            },
             {
                 title: "Are Children The Key To Demystifying Language?",
                 meta: "Kitsumitsu · 10/01/2023 · Satire",
@@ -50,9 +72,14 @@
 </head>
 <body>
 
-    <div style="background: var(--accent); height: 350px;"></div>
+    <div style="background: var(--accent); height: 350px;">
+        <div class="center" style="border-left: 4px solid white; padding-left: 8px;">
+            <h1 id="article-title" style="margin: 0; color: white;"></h1>
+            <div id="article-meta" style="color: white;"></div>
+        </div>
+    </div>
 
-    <div style="max-width: 700px; margin: auto;">
+    <div class="center" style="padding: 8px;">
 
         <nav>
             <a href="blog.html">Home</a> · <a href="index.html">Back to Site</a>
@@ -65,6 +92,9 @@
         <script>
             const urlParams = new URLSearchParams(window.location.search);
             const id = parseInt(urlParams.get('id'));
+
+            const title = document.getElementById("article-title");
+            const meta = document.getElementById("article-meta");
     
             let toInsert;
     
@@ -79,17 +109,14 @@
                 toInsert = "<h1 style='text-align: center;'>Uh oh!</h1><div>article does not exist :(</div>";
             } else {
                 // load article
+                title.innerHTML = articles[id].title;
+                meta.innerHTML = articles[id].meta;
+                
                 toInsert = `
-                    <div style="border-left: 4px solid var(--accent); padding-left: 8px;">
-                        <h1 style="margin: 0;">%TITLE%</h1>
-                        <div style="color: var(--text-light);">%META%</div>
-                    </div>
                     %BODY%
                     <div style="color: var(--text-light);">Source(s):</div>
                     <div>dude trust me</div>
                 `;
-                toInsert = toInsert.replace("%TITLE%", articles[id].title);
-                toInsert = toInsert.replace("%META%", articles[id].meta);
                 toInsert = toInsert.replace("%BODY%", articles[id].body);
             }
     

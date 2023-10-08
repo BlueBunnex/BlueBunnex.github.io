@@ -8,19 +8,19 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;800&display=swap');
         :root {
-            --accent: #fa0;
-            --text: #ddd;
-            --text-dark: #999;
+            --accent: #0af;
+            --text: #222;
+            --text-light: #777;
         }
         
         body {
             font-family: 'Roboto Slab', serif;
             font-size: 14px;
             color: var(--text);
-            background: #111;
+            background: white;
 
-            max-width: 550px;
-            margin: 10px auto;
+            /*font-family: sans-serif;*/
+            margin: 0;
         }
         
         a { color: var(--accent); }
@@ -30,7 +30,7 @@
         img { border-radius: 10px; filter: brightness(50%); transition-duration: 0.2s; }
         img:hover { filter: brightness(100%); }
 
-        hr { border: none; border-top: 1px solid var(--text-dark); }
+        hr { border: none; border-top: 1px solid var(--text-light); }
         
     </style>
     <script>
@@ -50,50 +50,56 @@
 </head>
 <body>
 
-    <nav>
-        <a href="blog.html">Home</a> · <a href="index.html">Back to Site</a>
-        <!--<span style="float: right;">
-            <a href="">Github repo</a> · <a href="">Social Media</a>
-        </span>-->
-    </nav>
-    <hr>
+    <div style="background: var(--accent); height: 350px;"></div>
 
-    <script>
-        const urlParams = new URLSearchParams(window.location.search);
-        const id = parseInt(urlParams.get('id'));
+    <div style="max-width: 700px; margin: auto;">
 
-        let toInsert;
-
-        if (isNaN(id)) {
-            // load home screen
-            toInsert = "<br>";
-            for (let i=articles.length-1; i+1; i--) {
-                toInsert += "<a href='?id=" + i + "'>" + articles[i].title + "</a><br>" + articles[i].meta + "<br>";
+        <nav>
+            <a href="blog.html">Home</a> · <a href="index.html">Back to Site</a>
+            <!--<span style="float: right;">
+                <a href="">Github repo</a> · <a href="">Social Media</a>
+            </span>-->
+        </nav>
+        <hr>
+    
+        <script>
+            const urlParams = new URLSearchParams(window.location.search);
+            const id = parseInt(urlParams.get('id'));
+    
+            let toInsert;
+    
+            if (isNaN(id)) {
+                // load home screen
+                toInsert = "<br>";
+                for (let i=articles.length-1; i+1; i--) {
+                    toInsert += "<a href='?id=" + i + "'>" + articles[i].title + "</a><br>" + articles[i].meta + "<br>";
+                }
+            } else if (id < 0 || id >= articles.length) {
+                // load error
+                toInsert = "<h1 style='text-align: center;'>Uh oh!</h1><div>article does not exist :(</div>";
+            } else {
+                // load article
+                toInsert = `
+                    <div style="border-left: 4px solid var(--accent); padding-left: 8px;">
+                        <h1 style="margin: 0;">%TITLE%</h1>
+                        <div style="color: var(--text-light);">%META%</div>
+                    </div>
+                    %BODY%
+                    <div style="color: var(--text-light);">Source(s):</div>
+                    <div>dude trust me</div>
+                `;
+                toInsert = toInsert.replace("%TITLE%", articles[id].title);
+                toInsert = toInsert.replace("%META%", articles[id].meta);
+                toInsert = toInsert.replace("%BODY%", articles[id].body);
             }
-        } else if (id < 0 || id >= articles.length) {
-            // load error
-            toInsert = "<h1 style='text-align: center;'>Uh oh!</h1><div>article does not exist :(</div>";
-        } else {
-            // load article
-            toInsert = `
-                <div style="border-left: 4px solid var(--accent); padding-left: 8px;">
-                    <h1 style="margin: 0;">%TITLE%</h1>
-                    <div style="color: var(--text-dark);">%META%</div>
-                </div>
-                %BODY%
-                <div style="color: var(--text-dark);">Source(s):</div>
-                <div>dude trust me</div>
-            `;
-            toInsert = toInsert.replace("%TITLE%", articles[id].title);
-            toInsert = toInsert.replace("%META%", articles[id].meta);
-            toInsert = toInsert.replace("%BODY%", articles[id].body);
-        }
+    
+            document.write(toInsert);
+        </script>
+    
+        <br><hr>
+        <div style="text-align: center; color: var(--text-light);">© 2023 Kitsumitsu. All Rights Reserved.</div>
 
-        document.write(toInsert);
-    </script>
-
-    <br><hr>
-    <div style="text-align: center; color: var(--text-dark);">© 2023 Kitsumitsu. All Rights Reserved.</div>
+    </div>
     
   </body>
 </html>

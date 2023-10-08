@@ -75,8 +75,8 @@
 </head>
 <body>
 
-    <div style="background: var(--accent); height: 350px;">
-        <div class="center" style="border-left: 8px solid white; padding-left: 8px;">
+    <div style="background: var(--accent); padding: 100px 0;">
+        <div class="center" id="article-header">
             <h1 id="article-title"></h1>
             <span style="display: inline-block; width: 20px; height: 4px; background: white; margin: 12px 0;"></span>
             <div id="article-meta"></div>
@@ -97,8 +97,9 @@
             const urlParams = new URLSearchParams(window.location.search);
             const id = parseInt(urlParams.get('id'));
 
-            const title = document.getElementById("article-title");
-            const meta = document.getElementById("article-meta");
+            const header = document.getElementById("article-header");
+            const title = header.getElementById("article-title");
+            const meta = header.getElementById("article-meta");
     
             let toInsert;
     
@@ -108,6 +109,7 @@
                 for (let i=articles.length-1; i+1; i--) {
                     toInsert += "<a href='?id=" + i + "'>" + articles[i].title + "</a><br>" + articles[i].meta + "<br>";
                 }
+                header.style.display = "none";
             } else if (id < 0 || id >= articles.length) {
                 // load error
                 toInsert = "<h1 style='text-align: center;'>Uh oh!</h1><div>article does not exist :(</div>";

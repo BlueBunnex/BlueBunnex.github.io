@@ -48,14 +48,15 @@
                     <p>Their methodology is simple in premise — by taking advantage of children's heightened ability to pick up languages, UMD will be able to decipher this largely undocumented language without any effort on the researcher's part. To do this researchers plan to have a native English and Pirahã speaker get married, have a child, and subsequently get divorced (the method through which this is carried out is at this point undisclosed). The resulting bounce between households the child will experience will hopefully be frequent enough for them to pick up both languages. In parallel, the linguistic divide between their parents will ideally motivate them to study linguistics, at which point their knowledge of technical terminology will be strong enough where they can start writing a dictionary for us.</p>
                     <p>"What happens if the kid doesn't decide to become a linguist?" one critic asked UMD researchers.</p>
                     <p>"That's what we in the biz like to call 'dropping out of a longitudinal study.'" answered Paul Minigan, head of the research study on Pirahã. "If that happens, we'll rerun the experiment with new participants until we get the results we want."</p>
+                `,
+                cite: `
+                    dude trust me
                 `
             },
             {
                 title: "Journal 2: Mid-Semester Check-In",
-                meta: "Kitsumitsu · 10/08/2023 · Personal",
+                meta: "Erik Lajko · 10/08/2023 · Personal",
                 body: `
-                    <a href="https://umd.instructure.com/courses/1353797/assignments/6498527">assignment</a>
-
                     <p>
                         College at UMD is awesome, I'll just say it right now. I relish having an increased sense of responsibility, fewer assignments, and a greater focus on learning — it's improved my mood, that's for sure. Of course, the transition came with some roadbumps, which I will discuss soon, but overall I have been having a lovely time living, learning, and adapting at UMD.
                     </p>
@@ -83,6 +84,9 @@
                     <p>
                         I'm definitely going to be majoring in Linguistics (grammar and cognition) and <u>at least</u> minoring in CS. I have a vague idea of careers I could go into, but it's very broad and varied: I could teach, I could research, do field work, work on ML, those sorts of things.
                     </p>
+                `,
+                cite: `
+                    <a href="https://umd.instructure.com/courses/1353797/assignments/6498527">the assignment</a>
                 `
             }
         ];
@@ -133,9 +137,10 @@
                 toInsert = `
                     %BODY%
                     <div style="color: var(--text-light);">Source(s):</div>
-                    <div>dude trust me</div>
+                    <div>%CITE%</div>
                 `;
                 toInsert = toInsert.replace("%BODY%", articles[id].body);
+                toInsert = toInsert.replace("%CITE%", articles[id].cite);
             }
     
             document.write(toInsert);

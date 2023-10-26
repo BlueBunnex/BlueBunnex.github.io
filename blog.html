@@ -37,7 +37,7 @@
 
       #article-header { color: white; font-family: sans-serif; }
       #article-title { margin: 0; font-size: 60px; }
-      #article-meta { font-weight: 600; font-size: 16px; }
+      #article-meta { font-size: 16px; }
 
       nav { font-size: 20px; font-weight: 300; border-bottom: 2px solid white; display: inline; padding-bottom: 10px; float: right; }
       nav a { color: white; text-decoration: none; }
@@ -56,7 +56,7 @@
       const articles = [
           {
               title: "Are Children The Key To Demystifying Language?",
-              meta: "Kitsumitsu · 10/01/2023 · Satire",
+              meta: "<strong>Kitsumitsu</strong> · 10/01/2023 · Satire",
               body: `
                   <p>A team at University of Maryland prepares to uncover the mysteries of the exotic language Pirahã through a new technique that makes use of America's smartest workers — children.</p>
                   <p>Their methodology is simple in premise — by taking advantage of children's heightened ability to pick up languages, UMD will be able to decipher this largely undocumented language without any effort on the researcher's part. To do this researchers plan to have a native English and Pirahã speaker get married, have a child, and subsequently get divorced (the method through which this is carried out is at this point undisclosed). The resulting bounce between households the child will experience will hopefully be frequent enough for them to pick up both languages. In parallel, the linguistic divide between their parents will ideally motivate them to study linguistics, at which point their knowledge of technical terminology will be strong enough where they can start writing a dictionary for us.</p>
@@ -69,7 +69,7 @@
           },
           {
               title: "Journal 2: Mid-Semester Check-In",
-              meta: "Erik Lajko · 10/08/2023 · Personal",
+              meta: "<strong>Erik Lajko</strong> · 10/08/2023 · Personal",
               body: `
                   <p>
                       College at UMD is awesome, I'll just say it right now. I relish having an increased sense of responsibility, fewer assignments, and a greater focus on learning — it's improved my mood, that's for sure. Of course, the transition came with some roadbumps, which I will discuss soon, but overall I have been having a lovely time living, learning, and adapting at UMD.
@@ -125,47 +125,45 @@
   </div>
 
   <div class="center" style="padding: 12px 0;">
-      <div style="width: 600px;">
-          <script>
-              const urlParams = new URLSearchParams(window.location.search);
-              const id = parseInt(urlParams.get('id'));
-    
-              const header = document.getElementById("article-header");
-              const title = document.getElementById("article-title");
-              const meta = document.getElementById("article-meta");
-      
-              let toInsert;
-      
-              if (isNaN(id)) {
-                  // load home screen
-                  toInsert = "<br>";
-                  for (let i=articles.length-1; i+1; i--) {
-                      toInsert += "<a href='?id=" + i + "'>" + articles[i].title + "</a><br>" + articles[i].meta + "<br>";
-                  }
-                  header.style.display = "none";
-              } else if (id < 0 || id >= articles.length) {
-                  // load error
-                  toInsert = "<h1 style='text-align: center;'>Uh oh!</h1><div>article does not exist :(</div>";
-              } else {
-                  // load article
-                  title.innerHTML = articles[id].title;
-                  meta.innerHTML = articles[id].meta;
-                  
-                  toInsert = `
-                      %BODY%
-                      <div style="color: var(--text-light);">Source(s):</div>
-                      <div>%CITE%</div>
-                  `;
-                  toInsert = toInsert.replace("%BODY%", articles[id].body);
-                  toInsert = toInsert.replace("%CITE%", articles[id].cite);
+      <script>
+          const urlParams = new URLSearchParams(window.location.search);
+          const id = parseInt(urlParams.get('id'));
+
+          const header = document.getElementById("article-header");
+          const title = document.getElementById("article-title");
+          const meta = document.getElementById("article-meta");
+  
+          let toInsert;
+  
+          if (isNaN(id)) {
+              // load home screen
+              toInsert = "<br>";
+              for (let i=articles.length-1; i+1; i--) {
+                  toInsert += "<a href='?id=" + i + "'>" + articles[i].title + "</a><br>" + articles[i].meta + "<br>";
               }
-      
-              document.write(toInsert);
-          </script>
-      
-          <br><hr>
-          <div style="color: var(--text-light);">© 2023 Kitsumitsu. All Rights Reserved.</div>
-      </div>
+              header.style.display = "none";
+          } else if (id < 0 || id >= articles.length) {
+              // load error
+              toInsert = "<h1 style='text-align: center;'>Uh oh!</h1><div>article does not exist :(</div>";
+          } else {
+              // load article
+              title.innerHTML = articles[id].title;
+              meta.innerHTML = articles[id].meta;
+              
+              toInsert = `
+                  %BODY%
+                  <div style="color: var(--text-light);">Source(s):</div>
+                  <div>%CITE%</div>
+              `;
+              toInsert = toInsert.replace("%BODY%", articles[id].body);
+              toInsert = toInsert.replace("%CITE%", articles[id].cite);
+          }
+  
+          document.write(toInsert);
+      </script>
+  
+      <br><hr>
+      <div style="color: var(--text-light);">© 2023 Kitsumitsu. All Rights Reserved.</div>
   </div>
   
 </body>

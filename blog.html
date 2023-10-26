@@ -117,56 +117,56 @@
           <nav>
               <a href="blog.html">Home</a> / <a href="index.html">Back to Main Site</a>
           </nav>
-          <br><br><br><br><br><br> <!-- lol -->
+          <br><br><br><br><br><br><br><br> <!-- lol -->
           <h1 id="article-title">Articles</h1>
           <span style="display: inline-block; width: 20px; height: 2px; background: white; margin: 12px 0;"></span>
           <div id="article-meta"></div>
-          <br><br><br><br>
+          <br><br><br><br><br><br>
       </div>
   </div>
 
   <div class="center" style="padding: 12px 0;">
-  
-      <script>
-          const urlParams = new URLSearchParams(window.location.search);
-          const id = parseInt(urlParams.get('id'));
-
-          const header = document.getElementById("article-header");
-          const title = document.getElementById("article-title");
-          const meta = document.getElementById("article-meta");
-  
-          let toInsert;
-  
-          if (isNaN(id)) {
-              // load home screen
-              toInsert = "<br>";
-              for (let i=articles.length-1; i+1; i--) {
-                  toInsert += "<a href='?id=" + i + "'>" + articles[i].title + "</a><br>" + articles[i].meta + "<br>";
+      <div style="width: 400px;">
+          <script>
+              const urlParams = new URLSearchParams(window.location.search);
+              const id = parseInt(urlParams.get('id'));
+    
+              const header = document.getElementById("article-header");
+              const title = document.getElementById("article-title");
+              const meta = document.getElementById("article-meta");
+      
+              let toInsert;
+      
+              if (isNaN(id)) {
+                  // load home screen
+                  toInsert = "<br>";
+                  for (let i=articles.length-1; i+1; i--) {
+                      toInsert += "<a href='?id=" + i + "'>" + articles[i].title + "</a><br>" + articles[i].meta + "<br>";
+                  }
+                  header.style.display = "none";
+              } else if (id < 0 || id >= articles.length) {
+                  // load error
+                  toInsert = "<h1 style='text-align: center;'>Uh oh!</h1><div>article does not exist :(</div>";
+              } else {
+                  // load article
+                  title.innerHTML = articles[id].title;
+                  meta.innerHTML = articles[id].meta;
+                  
+                  toInsert = `
+                      %BODY%
+                      <div style="color: var(--text-light);">Source(s):</div>
+                      <div>%CITE%</div>
+                  `;
+                  toInsert = toInsert.replace("%BODY%", articles[id].body);
+                  toInsert = toInsert.replace("%CITE%", articles[id].cite);
               }
-              header.style.display = "none";
-          } else if (id < 0 || id >= articles.length) {
-              // load error
-              toInsert = "<h1 style='text-align: center;'>Uh oh!</h1><div>article does not exist :(</div>";
-          } else {
-              // load article
-              title.innerHTML = articles[id].title;
-              meta.innerHTML = articles[id].meta;
-              
-              toInsert = `
-                  %BODY%
-                  <div style="color: var(--text-light);">Source(s):</div>
-                  <div>%CITE%</div>
-              `;
-              toInsert = toInsert.replace("%BODY%", articles[id].body);
-              toInsert = toInsert.replace("%CITE%", articles[id].cite);
-          }
-  
-          document.write(toInsert);
-      </script>
-  
-      <br><hr>
-      <div style="color: var(--text-light);">© 2023 Kitsumitsu. All Rights Reserved.</div>
-
+      
+              document.write(toInsert);
+          </script>
+      
+          <br><hr>
+          <div style="color: var(--text-light);">© 2023 Kitsumitsu. All Rights Reserved.</div>
+      </div>
   </div>
   
 </body>

@@ -29,9 +29,6 @@
       a:hover { text-decoration: none; }
       a:active { color: var(--text); }
 
-      nav { font-size: 18px; border-bottom: 2px solid white; display: inline; padding-bottom: 10px; float: right; }
-      nav a { color: white; text-decoration: none; }
-
       img { border-radius: 2px; height: 12em; margin: 5px 10px; }
       img:nth-of-type(odd) { float: left; margin-left: 0; }
       img:nth-of-type(even) { float: right; margin-right: 0; }
@@ -40,10 +37,14 @@
 
       .center { max-width: 700px; margin: auto; }
 
-      #article-header { color: white; }
-      #article-title { margin: 0; font-size: 60px; }
-      #article-meta { font-weight: 700; }
+      #article-header { color: white; font-family: sans-serif; }
+      #article-title { margin: 0; font-size: 50px; }
+      /* #article-meta { } */
 
+      nav { font-size: 18px; font-weight: 300; border-bottom: 2px solid white; display: inline; padding-bottom: 10px; float: right; }
+      nav a { color: white; text-decoration: none; }
+
+      p { line-height: 1.5em; }
       p:first-of-type:first-letter {
           font-size: 70px;
           display: block;

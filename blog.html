@@ -9,8 +9,7 @@
       @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
       :root {
           --accent: #0af;
-          --text: #111;
-          --text-light: #888;
+          --text: #333;
       }
       
       body {
@@ -30,8 +29,6 @@
       a:active { color: var(--text); }
 
       img { height: 16em; margin: 1em auto; display: block; }
-
-      hr { border: none; border-top: 1px solid var(--text-light); }
 
       .center { max-width: 700px; margin: auto; }
 
@@ -161,9 +158,10 @@
   
           document.write(toInsert);
       </script>
-  
-      <br><hr>
-      <div style="color: var(--text-light);">© 2023 Kitsumitsu. All Rights Reserved.</div>
+  </div>
+
+  <div style="background: var(--accent); padding: 32px 0;">
+      <div class="center" style="color: white;">© 2023 Kitsumitsu. All Rights Reserved.</div>
   </div>
   
 </body>

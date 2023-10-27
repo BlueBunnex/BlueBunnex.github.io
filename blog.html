@@ -152,8 +152,8 @@
               
               toInsert = `
                   %BODY%
-                  <div style="color: var(--text-light);">Source(s):</div>
                   <hr>
+                  <div style="color: var(--text-light);">Source(s):</div>
                   <div>%CITE%</div>
               `;
               toInsert = toInsert.replace("%BODY%", articles[id].body);
@@ -166,7 +166,7 @@
 
   <br>
 
-  <div style="background: var(--accent); padding: 32px 0;">
+  <div style="background: var(--accent); padding: 32px 0; position: absolute; bottom: 0; width: 100%;">
       <div class="center" style="color: white;">© 2023 Kitsumitsu. All Rights Reserved.</div>
   </div>
   

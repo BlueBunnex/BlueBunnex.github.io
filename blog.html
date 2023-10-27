@@ -8,7 +8,8 @@
   <style>
       @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
       :root {
-          --accent: #0af;
+          --accent: #8f0;
+          --accent-background: #70f;
           --text: #333;
       }
       
@@ -32,12 +33,12 @@
 
       .center { max-width: 700px; margin: auto; }
 
-      #article-header { color: white; font-family: sans-serif; }
+      #article-header { color: var(--accent); font-family: sans-serif; }
       #article-title { margin: 0; font-size: 60px; }
       #article-meta { font-size: 16px; }
 
-      nav { font-size: 20px; font-weight: 300; border-bottom: 2px solid white; display: inline; padding-bottom: 10px; float: right; }
-      nav a { color: white; text-decoration: none; }
+      nav { font-size: 20px; font-weight: 300; border-bottom: 2px solid var(--accent); display: inline; padding-bottom: 10px; float: right; }
+      nav a { color: inherit; text-decoration: none; }
 
       p { line-height: 1.8em; text-align: justify; }
       p:first-of-type:first-letter {
@@ -108,14 +109,14 @@
 </head>
 <body>
 
-  <div style="background: var(--accent); padding: 32px 0;">
+  <div style="background: var(--accent-background); padding: 32px 0;">
       <div class="center" id="article-header">
           <nav>
               <a href="blog.html">Home</a> / <a href="index.html">Back to Main Site</a>
           </nav>
           <br><br><br><br><br><br><br><br> <!-- lol -->
           <h1 id="article-title">Articles</h1>
-          <span style="display: inline-block; width: 20px; height: 2px; background: white; margin: 12px 0;"></span>
+          <span style="display: inline-block; width: 20px; height: 2px; background: var(--accent); margin: 12px 0;"></span>
           <div id="article-meta"></div>
           <br><br><br><br><br><br>
       </div>

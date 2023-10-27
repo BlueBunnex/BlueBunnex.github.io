@@ -146,9 +146,9 @@
               <a href="blog.html">Home</a> / <a href="index.html">Back to Main Site</a>
           </nav>
           <br><br><br><br><br><br><br><br> <!-- lol -->
-          <h1 id="article-title">Articles</h1>
+          <h1 id="article-title">Welcome back</h1>
           <span style="display: inline-block; width: 20px; height: 2px; background: black; margin: 12px 0;"></span>
-          <div id="article-meta"></div>
+          <div id="article-meta">Read some articles while you're here</div>
           <br><br><br><br><br><br>
       </div>
   </div>
@@ -166,7 +166,7 @@
   
           if (isNaN(id)) {
               // load home screen
-              toInsert = "";
+              toInsert = "<br>";
               for (let i=articles.length-1; i+1; i--) {
                   toInsert += "<a href='?id=" + i + "'>" + articles[i].title + "</a><br>" + articles[i].meta + "<br><br>";
               }

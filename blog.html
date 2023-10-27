@@ -146,9 +146,9 @@
               <a href="blog.html">Home</a> / <a href="index.html">Back to Main Site</a>
           </nav>
           <br><br><br><br><br><br><br><br> <!-- lol -->
-          <h1 id="article-title">Welcome back</h1>
+          <h1 id="article-title"></h1>
           <span style="display: inline-block; width: 20px; height: 2px; background: black; margin: 12px 0;"></span>
-          <div id="article-meta">Read some articles while you're here</div>
+          <div id="article-meta"></div>
           <br><br><br><br><br><br>
       </div>
   </div>
@@ -165,18 +165,28 @@
           let toInsert;
   
           if (isNaN(id)) {
+            
               // load home screen
+              title.innerHTML = "Welcome back!";
+              meta.innerHTML = "Read some articles while you're here.";
+            
               document.body.style.background = "var(--accent-background)";
+            
               toInsert = "<div style='background: white; padding: 10px; border-radius: 4px;'>";
               for (let i=articles.length-1; i; i--) {
                   toInsert += "<a href='?id=" + i + "'>" + articles[i].title + "</a><br>" + articles[i].meta + "<br><br>";
               }
+            
               // handle element 0 differently for closing the div
               toInsert += "<a href='?id=0'>" + articles[0].title + "</a><br>" + articles[0].meta + "<br></div>";
+            
           } else if (id < 0 || id >= articles.length) {
+            
               // load error
               toInsert = "<h1 style='text-align: center;'>Uh oh!</h1><div>article does not exist :(</div>";
+            
           } else {
+            
               // load article
               title.innerHTML = articles[id].title;
               meta.innerHTML = articles[id].meta;
@@ -190,6 +200,7 @@
               `;
               toInsert = toInsert.replace("%BODY%", articles[id].body);
               toInsert = toInsert.replace("%CITE%", articles[id].cite);
+            
           }
   
           document.write(toInsert);

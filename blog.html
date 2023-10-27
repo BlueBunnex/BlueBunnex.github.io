@@ -166,10 +166,12 @@
   
           if (isNaN(id)) {
               // load home screen
-              toInsert = "<br>";
+              document.body.style.background = "var(--accent-background)";
+              toInsert = "<p style='background: white; padding: 10px; border-radius: 4px;'>";
               for (let i=articles.length-1; i+1; i--) {
                   toInsert += "<a href='?id=" + i + "'>" + articles[i].title + "</a><br>" + articles[i].meta + "<br><br>";
               }
+              toInsert += "</p>";
           } else if (id < 0 || id >= articles.length) {
               // load error
               toInsert = "<h1 style='text-align: center;'>Uh oh!</h1><div>article does not exist :(</div>";
@@ -193,7 +195,7 @@
       </script>
   </div>
 
-  <div class="center" style="color: grey; margin: 1em auto;">© 2023 Kitsumitsu. All Rights Reserved.</div>
+  <div class="center" style="margin: 1em auto; font-size: 0.8em;">© 2023 Kitsumitsu. All Rights Reserved.</div>
   
 </body>
 </html>

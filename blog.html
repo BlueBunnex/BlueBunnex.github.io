@@ -168,11 +168,11 @@
             
               // load home screen
               title.innerHTML = "Welcome back!";
-              meta.innerHTML = "Read some articles while you're here.";
+              meta.innerHTML = "No new articles to read? My bad, I'm very lazy.";
             
               document.body.style.background = "var(--accent-background)";
             
-              toInsert = "<div style='background: white; padding: 10px; border-radius: 4px;'>";
+              toInsert = "<div style='background: white; padding: 20px; border-radius: 4px;'>";
               for (let i=articles.length-1; i; i--) {
                   toInsert += "<a href='?id=" + i + "'>" + articles[i].title + "</a><br>" + articles[i].meta + "<br><br>";
               }

@@ -167,11 +167,12 @@
           if (isNaN(id)) {
               // load home screen
               document.body.style.background = "var(--accent-background)";
-              toInsert = "<p style='background: white; padding: 10px; border-radius: 4px;'>";
-              for (let i=articles.length-1; i+1; i--) {
+              toInsert = "<div style='background: white; padding: 10px; border-radius: 4px;'>";
+              for (let i=articles.length-1; i; i--) {
                   toInsert += "<a href='?id=" + i + "'>" + articles[i].title + "</a><br>" + articles[i].meta + "<br><br>";
               }
-              toInsert += "</p>";
+              // handle element 0 differently for closing the div
+              toInsert += "<a href='?id=0'>" + articles[0].title + "</a><br>" + articles[0].meta + "<br></div>";
           } else if (id < 0 || id >= articles.length) {
               // load error
               toInsert = "<h1 style='text-align: center;'>Uh oh!</h1><div>article does not exist :(</div>";

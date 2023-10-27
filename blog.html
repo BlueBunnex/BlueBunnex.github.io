@@ -119,9 +119,21 @@
       </div>
   </div>
 
-<!--   <script>
+  <script>
+      var topbar = document.getElementById('top-bar');
       
-  </script> -->
+      function updateTopbar(timestamp) {
+          if (window.scrollY > 300) {
+              topbar.style.display = "block"; // animate this with a fade later
+          } else {
+              topbar.style.display = "none";
+          }
+        
+          requestAnimationFrame(updateTopbar);
+      }
+      
+      requestAnimationFrame(updateTopbar);
+  </script>
 
   <div style="background: var(--accent-background); padding: 32px 0;">
       <div class="center" id="article-header">
@@ -144,7 +156,7 @@
           const header = document.getElementById("article-header");
           const title = document.getElementById("article-title");
           const meta = document.getElementById("article-meta");
-          const topbar = document.getElementById("top-bar-status");
+          const topbarStatus = document.getElementById("top-bar-status");
   
           let toInsert;
   
@@ -162,7 +174,7 @@
               // load article
               title.innerHTML = articles[id].title;
               meta.innerHTML = articles[id].meta;
-              topbar.innerHTML = articles[id].title;
+              topbarStatus.innerHTML = articles[id].title;
               
               toInsert = `
                   %BODY%

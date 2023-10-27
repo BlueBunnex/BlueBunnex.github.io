@@ -33,7 +33,6 @@
 
       .center { max-width: 700px; margin: auto; }
 
-      #article-header { color: black; font-family: sans-serif; }
       #article-title { margin: 0; font-size: 60px; }
       #article-meta { font-size: 16px; }
 
@@ -141,8 +140,8 @@
       requestAnimationFrame(updateTopbar);
   </script>
 
-  <div style="background: var(--accent-background); padding: 32px 0;">
-      <div class="center" id="article-header">
+  <div style="background: var(--accent-background); padding: 32px 0; color: black; font-family: sans-serif;">
+      <div class="center">
           <nav>
               <a href="blog.html">Home</a> / <a href="index.html">Back to Main Site</a>
           </nav>
@@ -159,7 +158,6 @@
           const urlParams = new URLSearchParams(window.location.search);
           const id = parseInt(urlParams.get('id'));
 
-          const header = document.getElementById("article-header");
           const title = document.getElementById("article-title");
           const meta = document.getElementById("article-meta");
           const topbarStatus = document.getElementById("top-bar-status");
@@ -168,11 +166,10 @@
   
           if (isNaN(id)) {
               // load home screen
-              toInsert = "<br>";
+              toInsert = "";
               for (let i=articles.length-1; i+1; i--) {
-                  toInsert += "<a href='?id=" + i + "'>" + articles[i].title + "</a><br>" + articles[i].meta + "<br>";
+                  toInsert += "<a href='?id=" + i + "'>" + articles[i].title + "</a><br>" + articles[i].meta + "<br><br>";
               }
-              header.style.display = "none";
           } else if (id < 0 || id >= articles.length) {
               // load error
               toInsert = "<h1 style='text-align: center;'>Uh oh!</h1><div>article does not exist :(</div>";

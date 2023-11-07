@@ -13,6 +13,7 @@
         .center { width: 62%; margin: auto; }
         h1 { font-size: 1.8em; }
         h2 { font-size: 1.2em; }
+        img { display: block; width: 60%; margin: auto; }
     </style>
     <script>
         const articles = [
@@ -83,7 +84,7 @@
     
     <div class="center" style="display: flex; gap: 1em; margin: 90px auto;">
         <div style="flex: 1;">
-            <img width="100%" src="nothing.png" style="border: 1px solid black;">
+            <img src="me_fr.png" style="border: 1px solid black; width: 100%;">
             <div style="color: grey; text-align: center; font-size: 16px;">© 2023 Kitsumitsu. All Rights Reserved.</div>
         </div>
         <div style="flex: 2;">
@@ -118,8 +119,8 @@
                         <h1>%TITLE%</h1>
                         <div style="color: grey;">%META%</div>
                         %BODY%
-                        <hr>
-                        <div style="color: var(--text-light);">Source(s):</div>
+                        <br>
+                        <div style="color: grey;">Source(s):</div>
                         <div>%CITE%</div>
                     `;
                     toInsert = toInsert.replace("%TITLE%", articles[id].title);

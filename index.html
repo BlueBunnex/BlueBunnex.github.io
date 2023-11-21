@@ -27,30 +27,12 @@
                 margin: auto;
             }
 
-            #banner {
+            header {
                 height: 200px;
                 background: linear-gradient(to bottom, rgba(18, 18, 18, 0.5), #0b0b0b), url('https://wallpapers.com/images/featured/space-sjryfre8k8f6i3ge.jpg');
                 background-size: cover;
                 position: relative;
                 color: white;
-            }
-
-            #gallery-ad {
-                position: absolute;
-                top: 50%;
-                right: 0;
-                transform: translate(100%, -50%);
-                width: 30px;
-                height: 100px;
-                background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/White_right_arrow.svg/1200px-White_right_arrow.svg.png');
-                background-size: 100px;
-                background-position: right;
-                transition-duration: 0.5s;
-                cursor: pointer;
-            }
-
-            #gallery-ad:hover {
-                width: 100px;
             }
 
             #lang-select {
@@ -104,11 +86,6 @@
                 body {
                     max-width: calc(100% - 20px);
                 }
-                #gallery-ad {
-                    right: 0px;
-                    transform: translate(20px, -50%);
-                    width: 100px;
-                }
             }
         </style>
 
@@ -141,7 +118,7 @@
     </head>
     <body onload="init();">
 
-        <div id="banner">
+        <header>
             <h1>
                 <span lang="en">kitsumitsu</span>
                 <span lang="hu">kismicu</span>
@@ -160,9 +137,13 @@
                 <a href="javascript:translate('ja');">日本語</a>
                 -->
             </span>
+        </header>
 
-            <div onclick="document.location.href = 'blog.html';" id="gallery-ad">Blog</div>
-        </div>
+        <nav style="font-weight: 700; text-align: center; margin: 1em 0;">
+            <a href="blog.html">My Blog</a>
+            ·
+            <a href="webseries.html">My Webseries</a>
+        </nav>
         
         <p>
             <span lang="en">Hi I'm kitsumitsu (he/him). I am a:</span>

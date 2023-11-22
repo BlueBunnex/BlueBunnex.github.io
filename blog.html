@@ -84,7 +84,7 @@
     
     <div class="center" style="display: flex; gap: 1em; margin: 90px auto;">
         <div style="flex: 1;">
-            <img src="cats.png" style="border: 1px solid black; width: 100%;">
+            <img src="https://static.wikia.nocookie.net/c6df2888-9bd2-4195-a154-674f9d13919f" style="border: 1px solid black; width: 100%;">
             <div style="color: grey; text-align: center; font-size: 16px; padding-top: 9px;">© 2023 Kitsumitsu. All Rights Reserved.</div>
         </div>
         <div style="flex: 2;">
@@ -99,10 +99,10 @@
                 if (isNaN(id)) {
                   
                     // load home screen
-                    toInsert = "<h1>Welcome back!</h1>"; // "No new articles to read? My bad, I'm very lazy."
+                    toInsert = "<h2>Latest Articles</h2>"; // "No new articles to read? My bad, I'm very lazy."
                     
                     for (let i=articles.length-1; i+1; i--) {
-                        toInsert += "<a href='?id=" + i + "'>" + articles[i].title + "</a><br>" + articles[i].meta + "<br><br>";
+                        toInsert += "<a href='?id=" + i + "'>" + articles[i].title + "</a><div style='font-size: smaller;'>" + articles[i].meta + "</div><br>";
                     }
                   
                 } else if (id < 0 || id >= articles.length) {

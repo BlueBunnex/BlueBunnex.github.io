@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <style>
-        body { margin: 0; font-size: 20px; line-height: 1.5em; }
+        body { margin: 0; }
+
+        header { background: #100; box-shadow: 0px 0px 20px -5px black; font-size: 20px; line-height: 1.5em; }
+        main { display: flex; gap: 1em; margin: 90px auto; }
         
         a { text-decoration: none; }
         a:hover { text-decoration: underline; }
@@ -91,7 +94,7 @@
     </script>
 </head>
 <body>
-    <div style="background: #100; box-shadow: 0px 0px 20px -5px black;">
+    <header>
         <div class="center" style="padding: 10px;">
             <h1 style="color: white;">Kitsumitsu's Blog</h1>
         </div>
@@ -101,9 +104,9 @@
                 <a href="index.html">Back to Main Site</a>
             </nav>
         </div>
-    </div>
+    </header>
     
-    <div class="center" style="display: flex; gap: 1em; margin: 90px auto;">
+    <main class="center">
         <div style="flex: 1;">
             <img src="https://static.wikia.nocookie.net/c6df2888-9bd2-4195-a154-674f9d13919f" style="border: 1px solid black; width: 100%;">
             <div style="color: grey; text-align: center; font-size: 16px; padding-top: 9px;">© 2023 Kitsumitsu. All Rights Reserved.</div>
@@ -160,6 +163,6 @@
                 document.write(toInsert);
             </script>
         </div>
-    </div>
+    </main>
 </body>
 </html>

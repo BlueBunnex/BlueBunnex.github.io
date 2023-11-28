@@ -9,7 +9,7 @@
         body { margin: 0; }
 
         header { background: #100; box-shadow: 0px 0px 20px -5px black; font-size: 20px; line-height: 1.5em; }
-        main { display: flex; gap: 1em; margin: 90px auto; }
+        main { display: flex; gap: 1em; margin: auto; padding-top: 90px; }
         
         a { text-decoration: none; }
         a:hover { text-decoration: underline; }
@@ -29,8 +29,8 @@
 
         button.article { display: block; width: 100%; cursor: pointer; flex: 1; background: white; transition-duration: 0.2s; font-size: 1em; font-weight: 700; font-family: sans-serif; text-align: left; border: none; padding: 1em; font-size: 16px; }
         button.article:hover { background: #eee; color: #444; }
-        button.article > div { color: grey; font-size: smaller; text-transform: uppercase; }
-        button.article > h2 { margin: 0; font-size: 1em; }
+        button.article > h2 { margin: 0; }
+        button.article > h1 { margin: 0; font-size: 1em; }
     </style>
     <script>
         const articles = [
@@ -128,8 +128,8 @@
                     for (let i=articles.length-1; i+1; i--) {
                         toInsert += `
                             <button type="button" class="article" onclick="window.open('?id=` + i + `','_self')">
-                                <div>` + articles[i].author + `</div>
-                                <h2>` + articles[i].title + `</h2>
+                                <h2>` + articles[i].author + `</h2>
+                                <h1>` + articles[i].title + `</h1>
                             </button>
                         `;
                     }

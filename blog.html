@@ -121,7 +121,7 @@
                 let toInsert;
         
                 if (isNaN(id)) {
-                  
+                    
                     // load home screen
                     toInsert = "<h2>Latest Articles</h2>"; // "No new articles to read? My bad, I'm very lazy."
                     
@@ -133,16 +133,12 @@
                             </button>
                         `;
                     }
-                  
                 } else if (id < 0 || id >= articles.length) {
-                  
+                    
                     // load error
                     toInsert = "<h1 style='text-align: center;'>Uh oh!</h1><div style='color: grey;'>article does not exist :(</div>";
-                  
                 } else {
-
-                    <h1>Chinese Government Funds New Gaming Branch of Military</h1>
-                  
+                    
                     // load article
                     toInsert = `
                         <h1>%TITLE%</h1>
@@ -157,7 +153,6 @@
                     toInsert = toInsert.replace("%META%", articles[id].meta);
                     toInsert = toInsert.replace("%BODY%", articles[id].body);
                     toInsert = toInsert.replace("%CITE%", articles[id].cite);
-                  
                 }
         
                 document.write(toInsert);

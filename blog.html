@@ -7,9 +7,10 @@
     
     <style>
         body { margin: 0; font-size: 20px; line-height: 1.5em; }
-        a:hover { text-decoration: none; }
+        a { text-decoration: none; }
+        a:hover { text-decoration: underline; }
         nav { display: flex; gap: 2em; }
-        nav a { color: white; }
+        nav a { color: black; }
         .center { width: 62%; margin: auto; }
         h1 { font-size: 1.8em; }
         h2 { font-size: 1.2em; }
@@ -83,8 +84,8 @@
         <div class="center" style="padding: 10px; background: #100;">
             <h1 style="color: white;">Kitsumitsu's Blog</h1>
         </div>
-        <div class="center" style="padding: 10px; background: white; font-size: smaller;">
-            <nav>
+        <div style="font-size: 0.7em; font-weight: 700; font-family: sans-serif; background: white; padding-top: 2px;">
+            <nav class="center">
                 <a href="blog.html">Home</a>
                 <a href="index.html">Back to Main Site</a>
             </nav>

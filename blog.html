@@ -81,7 +81,7 @@
 <body>
     <div style="background: #100; border-bottom: 20px solid white; box-shadow: 0px 0px 20px -5px black;">
         <div class="center" style="padding: 10px;">
-            <h1 style="color: white;">kitsumitsu blog</h1>
+            <h1 style="color: white;">Kitsumitsu's Blog</h1>
             <nav>
                 <a href="blog.html">Home</a>
                 <a href="index.html">Back to Main Site</a>
@@ -110,7 +110,7 @@
                     
                     for (let i=articles.length-1; i+1; i--) {
                         toInsert += `
-                            <button type="button" class="article" onclick="window.open('?id=` + i + `')">
+                            <button type="button" class="article" onclick="location.replace('?id=` + i + `')">
                                 <div>` + articles[i].author + `</div>
                                 <h2>` + articles[i].title + `</h2>
                             </button>

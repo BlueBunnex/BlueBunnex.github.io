@@ -99,9 +99,9 @@
                 <img src="%URL%" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 110%; filter: blur(3px) brightness(60%);">
             </div>`;
 
-            while (text.indexOf("<img>") != -1) {
-                let open = text.indexOf("<img>");
-                let close = text.indexOf("</img>");
+            while (body.indexOf("<img>") != -1) {
+                let open = body.indexOf("<img>");
+                let close = body.indexOf("</img>");
                 
                 body = body.substring(0, open) + template.replace(/%URL%/g, body.substring(open + 5, close)) + body.substring(close + 6);
             }
@@ -112,7 +112,7 @@
 </head>
 <body>
     <header>
-        <div class="center" style="padding: 20px 0; color: white; font-family: sans-serif; font-size: 1em; font-weight: 700;">
+        <div class="center" style="padding: 16px 0 12px; color: white; font-family: sans-serif; font-size: 1em; font-weight: 700;">
             Kitsumitsu's Blog
         </div>
         <div style="font-size: 0.7em; font-weight: 700; font-family: sans-serif; background: white; padding-top: 2px;">

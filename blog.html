@@ -30,7 +30,9 @@
         
         img { display: block; width: 60%; margin: auto; }
         iframe { margin: auto; display: block; }
+        
         #banner { aspect-ratio: 3.2; background-size: cover; background-position: center; }
+        #banner-cite { font-size: smaller; text-align: right; font-style: normal; color: grey; }
 
         button.article { display: block; width: 100%; cursor: pointer; flex: 1; background: white; transition-duration: 0.2s; font-size: 1em; font-weight: 700; font-family: sans-serif; text-align: left; border: none; padding: 1em; font-size: 16px; }
         button.article:hover { background: #eee; color: #444; }
@@ -87,6 +89,7 @@
                 author: "Erik Lajko",
                 meta: "11/29/2023 · Society",
                 banner: "https://media.istockphoto.com/id/1065178846/photo/blurred-crowd-of-unrecognizable-at-the-street.jpg?s=612x612&w=0&k=20&c=t91pGMNnMsWqrsFILvgvuGUQFleJCcFM1DhEC7o_C8o=",
+                banner_cite: "istockphoto",
                 body: `
                     <p style="font-style: italic;">This article is under construction: some formatting, one Psychology paragraph, a proper video citation, and many images are scheduled to be added in the future. Come back soon!</p>
                     <p>If you think you own your whole body, think again: Even in America, many people don’t have the freedom of full control over what happens to their own bodies — and depending on your gender or race, that amount can vary quite drastically.</p>
@@ -161,7 +164,7 @@
     <main class="center">
         <div style="flex: 1;">
             <div id="banner" style="background-image: url('https://blog.wego.com/wp-content/uploads/shutterstock_449250082_zi32oc.jpg');"></div>
-            <address style="font-size: smaller; text-align: right; font-style: normal; color: grey;">Photograph from Shutterstock</address>
+            <address id="banner-cite">Photograph from Shutterstock</address>
             
             <script>
                 const urlParams = new URLSearchParams(window.location.search);
@@ -193,6 +196,7 @@
                     // load article banner if it has one
                     if (articles[id].banner != null) {
                         document.getElementById("banner").style.backgroundImage = "url('" + articles[id].banner + "')";
+                        document.getElementById("banner-cite").innerHTML = articles[id].banner_cite;
                     }
                     
                     // load article

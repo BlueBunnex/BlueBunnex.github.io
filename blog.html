@@ -32,7 +32,7 @@
         iframe { margin: auto; display: block; }
         
         #banner { aspect-ratio: 3.2; background-size: cover; background-position: center; }
-        #banner-cite { font-size: smaller; text-align: right; font-style: normal; color: grey; }
+        address { font-size: smaller; text-align: right; font-style: normal; color: grey; }
 
         button.article { display: block; width: 100%; cursor: pointer; flex: 1; background: white; transition-duration: 0.2s; font-size: 1em; font-weight: 700; font-family: sans-serif; text-align: left; border: none; padding: 1em; font-size: 16px; }
         button.article:hover { background: #eee; color: #444; }
@@ -106,6 +106,8 @@
                     <p>Fourteen US states now unconditionally ban people from accessing abortion care from within their state lines, and an additional seven states restrict abortion after a certain number of weeks of pregnancy (McCann, A. et. al., 2022). And intentionally or not, legislation like that targets those who aren’t able to find alternative options — such as travelling for an out-of-state abortion, or accessing child care and maternal leave — due to economic factors like the wage gap that are directly influenced by racial inequality (Robinson et. al., 2023).</p>
                     <p>Additionally, with the largest populations of Black people living in the South where these bans are the most prevalent, Black people are affected more simply due to their geography (Robinson et. al., 2023).</p>
                     <p>Whether or not these laws are intentionally created to target people of color, the fact of the matter is that they have the greatest negative effect on Black women who are socioeconomically disadvantaged by racism deep-rooted in the cultural norms of the United States.</p>
+                    <img>https://static01.nyt.com/images/2022/05/24/us/abortion-laws-roe-v-wade-promo-1653427828806/abortion-laws-roe-v-wade-promo-1653427828806-videoSixteenByNineJumbo1600-v93.png</img>
+                    <address>Diagram from The New York Times</address>
                     
                     <h3>What the psychology says and how it can help</h3>
                     <p>The video below aims to briefly introduce the concept of cognitive dissonance, which in short is when you reject or modify one belief so that it doesn’t conflict with another. One example they give is how even though someone knows that eating junk food is bad for them, they might rationalize it by saying ‘I don’t have time to cook healthy food’ in order to not feel bad about themselves when they do it. The problem with this is that it prevents someone from recognizing and changing negative behaviours.</p>
@@ -224,10 +226,14 @@
         </div>
         <div style="width: 300px;">
             <img src="https://static.wikia.nocookie.net/c6df2888-9bd2-4195-a154-674f9d13919f" style="width: 100%;">
-            <h2 style="color: black; border-top: 1px solid black; padding-top: 10px;">you might like</h2>
-            <a href="" style="font-size: larger; margin: 1em 0; font-weight: 700; text-decoration: none; display: block; color: black;">Something 1</a>
-            <a href="" style="font-size: larger; margin: 1em 0; font-weight: 700; text-decoration: none; display: block; color: black;">Something 2</a>
-            <a href="" style="font-size: larger; margin: 1em 0; font-weight: 700; text-decoration: none; display: block; color: black;">Something 3</a>
+            <h2 style="color: black; border-top: 1px solid black; padding-top: 10px;">recent</h2>
+
+            <script>
+                for (let i=0; i<3; i++) {
+                    let article = articles[articles.length - 1 - i];
+                    document.write("<a href='?id=" + (articles.length - 1 - i) + "' style='font-size: larger; margin: 1em 0; font-weight: 700; text-decoration: none; display: block; color: black;'>" + article.title + "</a>");
+                }
+            </script>
             
             <div style="color: grey; text-align: center; font-size: smaller;">© 2023 Kitsumitsu. All Rights Reserved.</div>
         </div>

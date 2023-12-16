@@ -18,6 +18,8 @@
         
         a { text-decoration: none; }
         a:hover { text-decoration: underline; }
+
+        li + li { margin-top: 1em; } /* so lists are spaced out nicely */
         
         nav { display: flex; gap: 2em; }
         nav a { color: black; }
@@ -90,7 +92,7 @@
                 author: "Erik Lajko",
                 meta: "11/29/2023 · Society",
                 banner: "https://media.istockphoto.com/id/1065178846/photo/blurred-crowd-of-unrecognizable-at-the-street.jpg?s=612x612&w=0&k=20&c=t91pGMNnMsWqrsFILvgvuGUQFleJCcFM1DhEC7o_C8o=",
-                banner_cite: "Photograph from iStockPhoto",
+                banner_cite: "Photograph courtesy of iStockPhoto",
                 body: `
                     <p>If you think you own your whole body, think again: Even in America, many people don’t have the freedom of full control over what happens to their own bodies — and depending on your gender or race, that amount can vary quite drastically.</p>
                     <p>It comes as no surprise that of course I’m referring to how, according to the New York Times, twenty-one US states have now outright banned or otherwise restricted abortion (McCann, A. et. al., 2022). Too do I point to cases of schools actively repealing policies that supported rights for transgender students concerning their privacy, identity, and safety becoming more prevalent than ever (Pendharkar, 2022). Isn’t it shocking that something as personal as your own body can be controlled by the people it has the least effect upon? Why do people seek control over other’s bodies? In what ways are different racial groups more, or less, affected?</p>
@@ -142,6 +144,8 @@
                 title: "Transgenderism and Sports - Why I Don't Believe Transgender Women Belong In Women's Sports",
                 author: "Erik Lajko",
                 meta: "12/15/2023 · Society",
+                banner: "https://images.pexels.com/photos/2961964/pexels-photo-2961964.jpeg?auto=compress&cs=tinysrgb&w=1200",
+                banner_cite: "Photograph courtesy of Pexels",
                 body: `
                     <p style="font-style: italic;">This article is work in progress, and will continue to be fleshed out until it reaches a point where I am satisfied with it.</p>
                     <ol>
@@ -191,7 +195,7 @@
     <main class="center">
         <div style="flex: 1;">
             <div id="banner" style="background-image: url('https://blog.wego.com/wp-content/uploads/shutterstock_449250082_zi32oc.jpg');"></div>
-            <address id="banner-cite">Photograph from Shutterstock</address>
+            <address id="banner-cite">Photograph courtesy of Shutterstock</address>
             
             <script>
                 const urlParams = new URLSearchParams(window.location.search);

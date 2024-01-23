@@ -13,6 +13,8 @@
         <meta content="#ff7373" data-react-helmet="true" name="theme-color"/>
 
         <style>
+            @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,700;1,700&display=swap');
+            
             body {
                 max-width: 450px;
                 margin: auto;
@@ -26,13 +28,15 @@
             
             nav > a {
                 font-size: 4em;
+                font-family: 'IBM Plex Mono', monospace;
+                font-weight: 700;
                 color: black;
                 text-decoration: none;
                 
                 position: relative;
                 display: block;
             }
-            nav > a:hover { text-decoration: underline; }
+            nav > a:hover { font-style: italic; }
             nav > a:nth-child(even) { text-align: right; }
 
             nav > a:nth-child(odd)::before { content: '←'; opacity: 0; transition-duration: 0.3s; position: absolute; left: 0; }

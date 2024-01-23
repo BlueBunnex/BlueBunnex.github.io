@@ -14,9 +14,8 @@
 
         <style>
             body {
-                max-width: 600px;
+                max-width: 300px;
                 margin: auto;
-                font-family: sans-serif;
             }
 
             @media only screen and (orientation: portrait) {
@@ -25,7 +24,7 @@
                 }
             }
 
-            nav { margin: 1em 0; }
+            nav { margin: 1em 0; font-family: monospace; font-weight: 700; }
             nav > a { font-size: 2em; text-decoration: none; display: block; }
             nav > a:hover { text-decoration: underline; }
             nav > a:nth-child(even) { text-align: right; }
@@ -33,11 +32,12 @@
     </head>
     <body>
         <nav>
-            <a href="aboutme.html">About Me</a>
-            <a href="blog.html">Blog</a>
-            <a href="webseries.html">Webseries</a>
+            <a href="aboutme.html" style="color: purple;">←About Me</a>
+            <a href="blog.html" style="color: red;">Blog→</a>
+            <a href="webseries.html" style="color: orange;">←Webseries</a>
         </nav>
-        
+
+        <footer style="text-align: center;"></footer>
         © 2023 Kitsumitsu. All Rights Reserved.<br>
         <a href="https://github.com/BlueBunnex/BlueBunnex.github.io">Source Code</a>
     </body>

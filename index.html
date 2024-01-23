@@ -13,7 +13,7 @@
         <meta content="#ff7373" data-react-helmet="true" name="theme-color"/>
 
         <style>
-            @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,700;1,700&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,700;1,700&display=swap');
             
             body {
                 max-width: 450px;
@@ -42,6 +42,9 @@
             nav > a:nth-child(odd):hover::before { opacity: 1; left: -0.7em; }
             nav > a:nth-child(even):hover::after { opacity: 1; right: -0.7em; }
 
+            footer { text-align: center; position: absolute; bottom: 0; background: black; width: 100%; color: white; padding: 1em; left: 0; }
+            footer > a { color: grey; }
+
             @media only screen and (orientation: portrait) {
                 body {
                     max-width: calc(100% - 20px);
@@ -57,7 +60,7 @@
             <a href="webseries.html" style="color: #aa0;">Webseries</a>
         </nav>
 
-        <footer style="text-align: center; position: sticky; bottom: 0; background: black; width: 100%; color: white; padding: 1em;">
+        <footer>
             © 2023 Kitsumitsu. All Rights Reserved.<br>
             <a href="https://github.com/BlueBunnex/BlueBunnex.github.io">Source Code</a>
         </footer>

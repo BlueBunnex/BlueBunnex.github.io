@@ -4,8 +4,6 @@
         <title>kitsumitsu.de</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <meta name="theme-color" content="#0b0b0b"/>
         
         <!-- Discord embed stuff -->
         <meta content="kitsumitsu.de" property="og:title"/>
@@ -15,67 +13,9 @@
         <meta content="#ff7373" data-react-helmet="true" name="theme-color"/>
 
         <style>
-            @import url('https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap');
-            
             body {
-                font-family: 'Sawarabi Gothic', sans-serif;
-                font-size: 14px;
-                color: lightgrey;
-
-                background: #0b0b0b;
-                max-width: 650px;
-                margin: auto;
+                max-width: 600px;
             }
-
-            header {
-                height: 200px;
-                background: linear-gradient(to bottom, rgba(18, 18, 18, 0.5), #0b0b0b), url('https://wallpapers.com/images/featured/space-sjryfre8k8f6i3ge.jpg');
-                background-size: cover;
-                position: relative;
-                color: white;
-            }
-
-            #lang-select {
-                position: absolute;
-                top: 6px;
-                right: 8px;
-                font-size: 1em;
-                color: lightgrey;
-                font-weight: 400;
-                white-space: nowrap;
-            }
-
-            #lang-select a { color: white; }
-            #lang-select a.disabled { color: #b0b0b0; text-decoration: none; }
-
-            a          { color: #b0b0b0; text-decoration: none; }
-            a:hover    { text-decoration: underline; }
-            a:active   { color: red; }
-
-            h1 {
-                margin: 0 6px;
-            }
-            
-            h2 {
-                margin: 0;
-                padding: 8px 0;
-                margin-bottom: 4px;
-                border-bottom: 1px solid grey;
-            }
-
-            ul {
-                padding-left: 0;
-                list-style-type: none;
-            }
-            
-            ul ul {
-                padding-left: 1.5em;
-                list-style-type: circle;
-            }
-
-            table { border-spacing: 0 1em; }
-            td, th { text-align: left; padding-right: 2em; vertical-align: top; }
-            td > ul { margin: 0; }
 
             @media only screen and (orientation: portrait) {
                 body {
@@ -83,172 +23,17 @@
                 }
             }
         </style>
-
-        <script>
-            var langElements = [];
-            
-            function init() {
-                let allElements = document.body.getElementsByTagName("*");
-
-                // store all elements with lang tag
-                for (let element of allElements) {
-                    if (element.getAttribute('lang') != null) {
-                        langElements.push(element);
-                    }
-                }
-
-                translate("en");
-            }
-            
-            function translate(code) {
-                langElements.forEach(function(element) {
-                    if (element.getAttribute('lang') === code) {
-                        element.style.display = "";
-                    } else {
-                        element.style.display = "none";
-                    }
-                });
-            }
-        </script>
     </head>
-    <body onload="init();">
-
-        <header>
-            <h1>
-                <span lang="en">kitsumitsu</span>
-                <span lang="hu">kismicu</span>
-                <span lang="zh">昔旭咪旭</span>
-                <span lang="ja">キツミツ</span>
-            </h1>
-            
-            <span id="lang-select">
-                <a href="javascript:translate('en');">English</a>
-                |
-                <a href="javascript:translate('hu');">Magyar</a>
-                <!--
-                |
-                <a href="javascript:translate('zh');">中文</a>
-                |
-                <a href="javascript:translate('ja');">日本語</a>
-                -->
-            </span>
-        </header>
-
+    <body>
         <nav style="font-weight: 700; text-align: center; margin: 1em 0;">
-            <span lang="en">See my:</span>
-            <span lang="hu">Nézed:</span>
-            <a lang="en" href="blog.html">Blog</a>
-            <a lang="hu" href="blog.html">A Blogom</a>
+            See my:
+            <a href="aboutme.html">About Me</a>
             |
-            <a lang="en" href="webseries.html">Webseries</a>
-            <a lang="hu" href="webseries.html">A Könyvem</a> <!-- not a good translation lol -->
+            <a href="blog.html">Blog</a>
+            |
+            <a href="webseries.html">Webseries</a>
         </nav>
         
-        <p>
-            <span lang="en">Hi I'm kitsumitsu (he/him). I am a:</span>
-            <span lang="hu">Szia, kismicu vagyok. Én egy:</span>
-            <span lang="zh">你好，我叫昔旭咪旭啦。我是：</span>
-            <span lang="ja">ども、キツミツだ。僕は：</span>
-        </p>
-
-        <table lang="en">
-            <tr>
-                <th>Linguist</th>
-                <td>
-                    <ul>
-                        <li>General linguistics (majoring)</li>
-                        <li>Learning:
-                            <ul>
-                                <li>Hungarian (native)</li>
-                                <li>Chinese</li>
-                                <li>Japanese</li>
-                            </ul>
-                        </li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <th>Musician</th>
-                <td>
-                    <ul>
-                        <li>Composer (I use MuseScore and Ableton)</li>
-                        <li>Plays violin, cello, electric bass, and (a little) piano</li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <th>Graphic Artist</th>
-                <td>
-                    <ul>
-                        <li>Hobby; Mainly human/humanoid character design and poses</li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <th>3D Modeler</th>
-                <td>
-                    <ul>
-                        <li>Hobby; Especially inorganic subjects like guns, vehicles, and buildings</li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <th>Programmer</th>
-                <td>
-                    <ul>
-                        <li>Web frontend, this website and more (pure HTML/CSS/JS)</li>
-                        <li>Unity (C#)</li>
-                        <li>Java</li>
-                        <li>Lua</li>
-                    </ul>
-                </td>
-            </tr>
-        </table>
-        
-        <ul lang="hu">
-            <li>Nyelvész</li>
-            <li>Zeneszerző, aki játszik:
-                <ul>
-                    <li>Hegedűt</li>
-                    <li>Csellót</li>
-                    <li>Basszusgitárt</li>
-                    <li>És egy kicsit zongorázok</li>
-                </ul>
-            </li>
-            <li>Grafikozó (2D és 3D)</li>
-            <li>Programozó</li>
-        </ul>
-
-        <h2 lang="en">Language Learning</h2>
-        <h2 lang="hu">Nyelv Tanulás</h2>
-        <p lang="en">These are some the resources that have been most helpful to me for studying the various languages I'm learning.</p>
-        <p lang="hu">Ezek egy pár eszköz amit használok nyelv tanuláshoz.</p>
-        <p>
-            <h3 lang="en">Chinese</h3>
-            <h3 lang="hu">Kínai</h3>
-            <a href="https://www.mdbg.net/chinese/dictionary" target="_blank">
-                <span lang="en">mdbg.net - Chinese dictionary</span>
-                <span lang="hu">mdbg.net - Kínai szótár</span>
-            </a>
-            
-            <h3 lang="en">Japanese</h3>
-            <h3 lang="hu">Japán</h3>
-            <a href="https://www.wasabi-jpn.com/japanese-grammar/wasabis-online-japanese-grammar-reference/" target="_blank">
-                <span lang="en">wasabi-jpn.com - Wasabi's Online Japanese Grammar Reference</span>
-                <span lang="hu">wasabi-jpn.com - online nyelvtan</span>
-            </a>
-            <br>
-            <a href="https://jisho.org" target="_blank">
-                <span lang="en">jisho.org - Japanese dictionary</span>
-                <span lang="hu">jisho.org - Japán szótár</span>
-            </a>
-            <br>
-            <a href="https://en.wikipedia.org/wiki/Japanese_particles" target="_blank">
-                <span lang="en">wikipedia.org - full list of Japanese particles</span>
-                <span lang="hu">wikipedia.org - Japán nyelvtani részecskei lista</span>
-            </a>
-        </p>
-
         <!-- probably not gonna localize any of this -->
         <h2>kitsumitsu</h2>
         © 2023 Kitsumitsu. All Rights Reserved.<br><br>

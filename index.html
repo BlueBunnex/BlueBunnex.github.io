@@ -25,16 +25,19 @@
             }
 
             nav { margin: 2em 0; font-family: monospace; font-weight: 700; }
-            nav > a { font-size: 4em; text-decoration: none; display: block; color: white; background: grey; transition-duration: 0.3s; }
-            nav > a:hover { text-decoration: underline; background: black; }
+            nav > a { font-size: 4em; text-decoration: none; display: block; }
+            nav > a:hover { text-decoration: underline; }
             nav > a:nth-child(even) { text-align: right; }
+
+            nav > a:nth-child(odd)::before { content: '←'; }
+            nav > a:nth-child(even)::after { content: '→'; }
         </style>
     </head>
     <body>
         <nav>
-            <a href="aboutme.html" style="background: purple;">←About Me</a>
-            <a href="blog.html" style="background: red;">Blog→</a>
-            <a href="webseries.html" style="background: orange;">←Webseries</a>
+            <a href="aboutme.html" style="background: purple;">About Me</a>
+            <a href="blog.html" style="background: red;">Blog</a>
+            <a href="webseries.html" style="background: orange;">Webseries</a>
         </nav>
 
         <footer style="text-align: center;">

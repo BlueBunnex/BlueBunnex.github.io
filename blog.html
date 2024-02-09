@@ -10,7 +10,7 @@
         
         body { margin: 0; }
 
-        header { background: #100; color: white; box-shadow: 0px 0px 20px -5px black; font-size: 20px; line-height: 1.5em; padding-bottom: 1em; }
+        header { background: #100; color: white; box-shadow: 0px 0px 20px -5px black; line-height: 1.5em; padding-bottom: 1em; }
         main { display: flex; gap: 1em; margin: auto; padding: 30px 0; }
 
         p { line-height: 1.2em; }
@@ -22,15 +22,15 @@
 
         li + li { margin-top: 1em; } /* so lists are spaced out nicely */
         
-        nav { display: flex; gap: 2em; font-size: 0.7em; font-weight: 700; font-family: sans-serif; padding: 16px 0 12px; }
+        nav { display: flex; gap: 2em; font-size: 14px; font-weight: 700; font-family: sans-serif; padding: 16px 0 12px; }
         nav a { color: inherit; }
         nav a:hover { text-decoration: none; color: lightgrey; }
         
         .center { width: 62%; margin: auto; }
         
         h1, h2, h3 { font-family: sans-serif; }
-        h1 { margin: 0; margin-top: 0.2em; font-size: 2em; }
-        h2 { margin: 0; font-size: 0.7em; color: grey; text-transform: uppercase; }
+        h1 { margin-top: 0.2em 0; font-size: 2em; }
+        h2 { margin: 0; font-size: 0.7em; color: lightgrey; text-transform: uppercase; }
         h3 { margin: 2em 0 1em; font-size: 1em; }
 
         .suggestion { font-family: 'Stint Ultra Condensed', serif; font-size: 1.5em; margin: 1em 0; font-weight: 700; text-decoration: none; display: block; color: black; }
@@ -39,7 +39,7 @@
         iframe { margin: auto; display: block; }
         
         #banner { aspect-ratio: 3.2; background-size: cover; background-position: center; }
-        address { font-size: smaller; text-align: right; font-style: normal; color: grey; }
+        #banner-cite { font-size: 14px; text-align: right; font-style: normal; color: lightgrey; }
 
         button.article { display: block; width: 100%; cursor: pointer; flex: 1; background: white; transition-duration: 0.2s; font-size: 1em; font-weight: 700; font-family: sans-serif; text-align: left; border: none; padding: 1em; font-size: 16px; }
         button.article:hover { background: #eee; color: #444; }
@@ -197,7 +197,7 @@
             </nav>
             <!-- stuff here -->
             <div id="banner" style="background-image: url('https://blog.wego.com/wp-content/uploads/shutterstock_449250082_zi32oc.jpg');"></div>
-            <address id="banner-cite">Photograph courtesy of Shutterstock</address>
+            <div id="banner-cite">Photograph courtesy of Shutterstock</div>
 
             <h1 id="title"></h1>
             <h2 id="meta"></h2>

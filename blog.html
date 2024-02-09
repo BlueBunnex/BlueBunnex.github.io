@@ -22,9 +22,9 @@
 
         li + li { margin-top: 1em; } /* so lists are spaced out nicely */
         
-        nav { display: flex; gap: 2em; }
-        nav a { color: black; }
-        nav a:hover { text-decoration: none; color: #444; }
+        nav { display: flex; gap: 2em; font-size: 0.7em; font-weight: 700; font-family: sans-serif; padding: 16px 0 12px; }
+        nav a { color: white; }
+        nav a:hover { text-decoration: none; color: lightgrey; }
         
         .center { width: 62%; margin: auto; }
         
@@ -187,15 +187,12 @@
 </head>
 <body>
     <header>
-        <div class="center" style="padding: 16px 0 12px; color: white; font-family: sans-serif; font-size: 1em; font-weight: 700;">
-            Kitsumitsu's Blog
-        </div>
-        <div style="font-size: 0.7em; font-weight: 700; font-family: sans-serif; background: white; padding-top: 2px;">
-            <nav class="center">
-                <a href="blog.html">Home</a>
-                <a href="index.html">Back to Main Site</a>
-            </nav>
-        </div>
+        <nav class="center">
+            <div style="font-size: 1rem;">Kitsumitsu's Blog</div>
+            <div>|</div>
+            <a href="blog.html">Home</a>
+            <a href="index.html">Back to Main Site</a>
+        </nav>
     </header>
     
     <main class="center">

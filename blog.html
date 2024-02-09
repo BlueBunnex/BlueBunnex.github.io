@@ -10,9 +10,12 @@
         
         body { margin: 0; }
 
+        .center { width: 62%; margin: auto; }
         header { background: #100; color: white; box-shadow: 0px 0px 20px -5px black; line-height: 1.5em; padding-bottom: 1em; }
         main { display: flex; gap: 1em; margin: auto; padding: 30px 0; }
-
+        
+        p:nth-of-type(1), h2:nth-of-type(1) { margin-top: 0; }
+        
         p { line-height: 1.2em; }
         p.citation { padding-left: 2em; text-indent: -2em; }
         p.info { background: #ffd; padding: 1em; border: 1px solid #cc7; }
@@ -25,23 +28,21 @@
         nav { display: flex; gap: 2em; font-size: 14px; font-weight: 700; font-family: sans-serif; padding: 16px 0 12px; }
         nav a { color: inherit; }
         nav a:hover { text-decoration: none; color: lightgrey; }
-        
-        .center { width: 62%; margin: auto; }
+
+        #banner { aspect-ratio: 3.2; background-size: cover; background-position: center; }
+        #banner-cite { font-size: 14px; text-align: right; font-style: normal; color: #888; }
         
         h1, h2, h3 { font-family: sans-serif; }
         h1 { margin: 0.5em 0; font-size: 2em; }
         h2 { margin: 1em 0 2em; font-size: smaller; color: grey; text-transform: uppercase; }
         h3 { margin: 2em 0 1em; font-size: 1em; }
 
-        #meta { text-transform: uppercase; font-size: smaller; font-weight: 700; }
+        #meta { text-transform: uppercase; font-weight: 700; }
 
         .suggestion { font-family: 'Stint Ultra Condensed', serif; font-size: 1.5em; margin: 1em 0; font-weight: 700; text-decoration: none; display: block; color: black; }
         
         img { display: block; width: 60%; margin: auto; }
         iframe { margin: auto; display: block; }
-        
-        #banner { aspect-ratio: 3.2; background-size: cover; background-position: center; }
-        #banner-cite { font-size: 14px; text-align: right; font-style: normal; color: lightgrey; }
 
         button.article { display: block; width: 100%; cursor: pointer; flex: 1; background: white; transition-duration: 0.2s; font-size: 1em; font-weight: 700; font-family: sans-serif; text-align: left; border: none; padding: 1em; font-size: 16px; }
         button.article:hover { background: #eee; color: #444; }

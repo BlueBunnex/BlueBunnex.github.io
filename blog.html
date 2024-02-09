@@ -10,7 +10,7 @@
         
         body { margin: 0; }
 
-        header { background: #100; box-shadow: 0px 0px 20px -5px black; font-size: 20px; line-height: 1.5em; }
+        header { background: #100; color: white; box-shadow: 0px 0px 20px -5px black; font-size: 20px; line-height: 1.5em; }
         main { display: flex; gap: 1em; margin: auto; padding: 60px 0; }
 
         p { line-height: 1.2em; }
@@ -22,7 +22,7 @@
 
         li + li { margin-top: 1em; } /* so lists are spaced out nicely */
         
-        nav { display: flex; gap: 2em; font-size: 0.7em; font-weight: 700; font-family: sans-serif; color: white; padding: 16px 0 12px; }
+        nav { display: flex; gap: 2em; font-size: 0.7em; font-weight: 700; font-family: sans-serif; padding: 16px 0 12px; }
         nav a { color: inherit; }
         nav a:hover { text-decoration: none; color: lightgrey; }
         
@@ -187,30 +187,37 @@
 </head>
 <body>
     <header>
-        <nav class="center">
-            <div style="font-size: 1rem;">Kitsumitsu's Blog</div>
-            <div>|</div>
-            <a href="blog.html">Home</a>
-            <a href="index.html">Back to Main Site</a>
-        </nav>
-        <!-- stuff here -->
+        <div class="center">
+            
+            <nav>
+                <div style="font-size: 1rem;">Kitsumitsu's Blog</div>
+                <div>|</div>
+                <a href="blog.html">Home</a>
+                <a href="index.html">Back to Main Site</a>
+            </nav>
+            <!-- stuff here -->
+            <div id="banner" style="background-image: url('https://blog.wego.com/wp-content/uploads/shutterstock_449250082_zi32oc.jpg');"></div>
+            <address id="banner-cite">Photograph courtesy of Shutterstock</address>
+
+            <h1 id="title"></h1>
+            <h2 id="meta"></h2>
+            
+        </div>
     </header>
     
     <main class="center">
         <div style="flex: 1;">
-            <div id="banner" style="background-image: url('https://blog.wego.com/wp-content/uploads/shutterstock_449250082_zi32oc.jpg');"></div>
-            <address id="banner-cite">Photograph courtesy of Shutterstock</address>
             
             <script>
                 const urlParams = new URLSearchParams(window.location.search);
                 const id = parseInt(urlParams.get('id'));
-        
+                
                 let toInsert;
         
                 if (isNaN(id)) {
                     
                     // load home screen
-                    toInsert = "<h2>Latest Articles</h2>"; // "No new articles to read? My bad, I'm very lazy."
+                    toInsert = "<h2>Latest Articles</h2>";
                     
                     for (let i=articles.length-1; i+1; i--) {
                         toInsert += `
@@ -233,19 +240,18 @@
                         document.getElementById("banner").style.backgroundImage = "url('" + articles[id].banner + "')";
                         document.getElementById("banner-cite").innerHTML = articles[id].banner_cite;
                     }
+
+                    // load title and meta
+                    document.getElementById("title").innerHTML = articles[id].title;
+                    document.getElementById("meta").innerHTML = articles[id].author + " · " + articles[id].meta;
                     
                     // load article
                     toInsert = `
-                        <h1>%TITLE%</h1>
-                        <h2>%AUTHOR% · %META%</h2>
                         %BODY%
                         <hr>
                         <h2>Source(s):</h2>
                         <div>%CITE%</div>
                     `;
-                    toInsert = toInsert.replace("%TITLE%",           articles[id].title );
-                    toInsert = toInsert.replace("%AUTHOR%",          articles[id].author);
-                    toInsert = toInsert.replace("%META%",            articles[id].meta  );
                     toInsert = toInsert.replace("%BODY%", formatBody(articles[id].body) );
 
                     if (articles[id].cite == null) {
@@ -258,6 +264,7 @@
         
                 document.write(toInsert);
             </script>
+            
         </div>
         <div style="width: 300px;">
             <img src="https://static.wikia.nocookie.net/c6df2888-9bd2-4195-a154-674f9d13919f" style="width: 100%;">

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>social</title>
+    <style>
+        body {
+            width: 800px;
+            margin: auto;
+            display: grid;
+            gap: 0.5em;
+
+            grid-template: 
+            "header header" auto
+            "bio    main"   auto
+            "notif  main"   auto / 300px 1fr;
+        }
+        
+        .section {
+            background: white;
+            padding: 0.5em;
+            border: 1px solid lightgrey;
+        }
+    </style>
+</head>
+<body style="background: #def; font-family: sans-serif; font-size: 14px;">
+
+    <div class="section" style="grid-area: header;">
+        header
+    </div>
+
+    <div class="section" style="grid-area: bio;">
+        <img width="120" height="120" src="https://avatarfiles.alphacoders.com/368/368986.jpg">
+        <h1 style="font-size: 1.5em; margin: 0;">Milky</h1>
+        <p>she/her, English + Italian, I draw sometimes</p>
+    </div>
+
+    <div class="section" style="grid-area: notif; display: flex; gap: 0.5em; flex-direction: column;">
+        
+        <div style="display: flex;">
+            <img width="60" height="60" src="https://avatarfiles.alphacoders.com/368/368986.jpg">
+            <div style="flex: 1; padding: 0.5em;"><strong>Milky</strong> liked your comment. <span style="color: grey;">15m ago</span></div>
+        </div>
+
+        <div style="display: flex;">
+            <img width="60" height="60" src="https://avatarfiles.alphacoders.com/368/368986.jpg">
+            <div style="flex: 1; padding: 0.5em;"><strong>Milky</strong> left a comment: "I love this soo much!! Thank you aa &lt;3" <span style="color: grey;">16m ago</span></div>
+        </div>
+        
+    </div>
+
+    <div class="section" style="grid-area: main;">
+
+    </div>
+    
+</body>
+</html>

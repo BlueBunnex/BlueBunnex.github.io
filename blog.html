@@ -30,15 +30,16 @@
         nav a:hover { text-decoration: none; color: lightgrey; }
 
         #banner { aspect-ratio: 3.2; background-size: cover; background-position: center; }
-        #banner-cite { font-size: 14px; text-align: right; font-style: normal; color: #888; }
+
+        /* this includes #banner-cite */
+        address { font-size: 14px; text-align: right; font-style: normal; color: #888; }
         
         h1, h2, h3 { font-family: sans-serif; }
-        h1 { margin: 0.5em 0; font-size: 2em; }
         h2 { margin: 1em 0 2em; font-size: smaller; color: grey; text-transform: uppercase; }
-        h2.strong { color: black; border-top: 1px solid black; padding-top: 10px; }
         h3 { margin: 2em 0 1em; font-size: 1em; }
 
-        #meta { text-transform: uppercase; font-weight: 700; }
+        h1#header { margin: 0.5em 0; font-size: 2em; }
+        #meta { text-transform: uppercase; font-weight: 700; font-family: sans-serif; }
 
         .suggestion { font-family: 'Stint Ultra Condensed', serif; font-size: 1.5em; margin: 1em 0; font-weight: 700; text-decoration: none; display: block; color: black; }
         
@@ -204,7 +205,7 @@
             </nav>
             <!-- stuff here -->
             <div id="banner" style="background-image: url('https://blog.wego.com/wp-content/uploads/shutterstock_449250082_zi32oc.jpg');"></div>
-            <div id="banner-cite">Photograph courtesy of Shutterstock</div>
+            <address id="banner-cite">Photograph courtesy of Shutterstock</address>
 
             <h1 id="title"></h1>
             <div id="meta"></div>
@@ -224,7 +225,7 @@
                 if (isNaN(id)) {
                     
                     // load home screen
-                    toInsert = "<h2 class='strong' style='margin-top: 0;'>Latest Articles</h2>";
+                    toInsert = "<h2>Latest Articles</h2>";
                     
                     for (let i=articles.length-1; i+1; i--) {
                         toInsert += `
@@ -275,7 +276,7 @@
         </div>
         <div id="main-right">
             <img src="src/nyx.jpg" style="width: 100%;">
-            <h2 class="strong">recent</h2>
+            <h2 style="color: black; border-top: 1px solid black; padding-top: 10px;">recent</h2>
 
             <script>
                 for (let i=0; i<3; i++) {

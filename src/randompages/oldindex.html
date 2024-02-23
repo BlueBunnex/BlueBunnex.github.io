@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>kitsumitsu.de</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,700;1,700&display=swap');
+            
+            body {
+                max-width: 450px;
+                margin: auto;
+                color: #222831;
+                background: #eee;
+                font-family: 'IBM Plex Mono', monospace;
+            }
+
+            p { text-align: justify; }
+
+            nav {
+                font-weight: 700;
+                font-size: 3em;
+            }
+            
+            nav > a {
+                color: black;
+                text-decoration: none;
+                position: relative;
+                display: block;
+            }
+            nav > a:hover { font-style: italic; }
+            nav > a:nth-child(even) { text-align: right; }
+
+            nav > a:nth-child(odd)::before,
+            nav > a:nth-child(even)::after {
+                opacity: 0; transition-duration: 0.3s; position: absolute;
+            }
+            nav > a:nth-child(odd)::before { content: '←'; left: 0; }
+            nav > a:nth-child(even)::after { content: '→'; right: 0; }
+            nav > a:nth-child(odd):hover::before { opacity: 1; left: -0.7em; }
+            nav > a:nth-child(even):hover::after { opacity: 1; right: -0.7em; }
+
+            footer {
+                text-align: center;
+                background: #222831;
+                color: #eee;
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                padding: 1em;
+                left: 0;
+            }
+            footer > a { color: grey; }
+
+            @media only screen and (orientation: portrait) {
+                body {
+                    max-width: calc(100% - 20px);
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="text-align: center;">kitsumitsu.de</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tellus elit, suscipit in lacinia ut, ullamcorper id nibh. Morbi fringilla nisl urna, quis viverra ex sagittis ac. Mauris accumsan id purus tristique ultrices.</p>
+        <p>Duis rhoncus urna sapien, eget viverra dolor malesuada quis. Integer scelerisque diam ipsum, sed molestie nisi blandit sed. Cras interdum ut urna ac porta.</p>
+        
+        <nav>
+            <a href="aboutme.html" style="color: red;">About Me</a>
+            <a href="blog.html" style="color: orange;">Blog</a>
+            <a href="webseries.html" style="color: #aa0;">Webseries</a>
+        </nav>
+
+        <footer>
+            © 2023 Kitsumitsu. All Rights Reserved.<br>
+            <a href="https://github.com/BlueBunnex/BlueBunnex.github.io">Source Code</a>
+        </footer>
+    </body>
+</html>

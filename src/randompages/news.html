@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>dogmomai</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@900&display=swap');
+
+        :root {
+            --accent: #4f0;
+            --accent-dark: #0a0;
+        }
+        
+        body { margin: 0; font-family: sans-serif; background: #f4f4f4; }
+        .center { max-width: 1000px; padding: 0 2em; margin: auto; }
+
+        header { background: white; padding: 1em; box-shadow: 0 0 4px #eee; font-weight: 700; }
+        header a { color: inherit; }
+        header button { background: var(--accent); border: 0; padding: 0.5em 1em; font-family: inherit; font-size: inherit; font-weight: inherit; }
+
+        footer { text-align: center; color: #444; margin: 1em; font-size: smaller; font-family: monospace; }
+        
+        h1 { font-family: 'Roboto Condensed', sans-serif; font-weight: 900; }
+        a { color: var(--accent-dark); font-weight: 700; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        .box-row { display: flex; gap: 1em; margin: 1em 0; }
+        .box { flex: 1; background: white; border-radius: 6px; padding: 1em; box-shadow: 0 0 4px #eee; overflow: hidden; position: relative; height: 16em; background-size: cover; }
+        
+        .image-desc { position: absolute; background: linear-gradient(to top, black, rgba(0,0,0,0.7), transparent); padding: 1em; bottom: 0; left: 0; right: 0; color: white; font-size: smaller; }
+        .image-desc a { color: var(--accent); }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="center" style="display: flex; gap: 2em; align-items: center;">
+            <h1 style="margin: 0;"><span style="background: var(--accent);">Morning</span>burger</h1>
+            <div style="flex: 1;"></div>
+            <a href="">Mailing list</a>
+            <a href="">Contact</a>
+            <button type="button">♥ Donate</button>
+        </div>
+    </header>
+
+    <main class="center">
+
+        <div class="box-row">
+            <div class="box" style="flex: 2;">
+                Lorem ipsum dolor sit amet.
+            </div>
+            <div class="box" style="background-image: url('https://static.toiimg.com/photo/84475061/America-name.jpg?width=748&resize=4');">
+                <div class="image-desc">What's going on in America? <a href="">Read more</a></div>
+            </div>
+        </div>
+
+        <div class="box-row" style="padding: 0 1em;">
+            <div class="box" style="background-image: url('https://static.toiimg.com/photo/84475061/America-name.jpg?width=748&resize=4');">
+                <div class="image-desc">What's going on in America? <a href="">Read more</a></div>
+            </div>
+            <div class="box" style="background-image: url('https://static.toiimg.com/photo/84475061/America-name.jpg?width=748&resize=4');">
+                <div class="image-desc">What's going on in America? <a href="">Read more</a></div>
+            </div>
+            <div class="box" style="background-image: url('https://static.toiimg.com/photo/84475061/America-name.jpg?width=748&resize=4');">
+                <div class="image-desc">What's going on in America? <a href="">Read more</a></div>
+            </div>
+            <div class="box" style="background-image: url('https://static.toiimg.com/photo/84475061/America-name.jpg?width=748&resize=4');">
+                <div class="image-desc">What's going on in America? <a href="">Read more</a></div>
+            </div>
+            <div class="box" style="background-image: url('https://static.toiimg.com/photo/84475061/America-name.jpg?width=748&resize=4');">
+                <div class="image-desc">What's going on in America? <a href="">Read more</a></div>
+            </div>
+        </div>
+        
+    </main>
+
+    <footer class="center">
+        © 2024 Morningburger ltd. All rights reserved.
+        <a href="https://github.com/BlueBunnex/dogmomAI">Repo</a>
+    </footer>
+    
+</body>
+</html>

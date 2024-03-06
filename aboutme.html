@@ -28,9 +28,8 @@
             }
 
             footer {
-                border-bottom: 1px solid grey;
-                padding-top: 4px;
                 text-align: center;
+                margin-top: 4em;
             }
 
             #lang-select {
@@ -71,9 +70,25 @@
                 list-style-type: circle;
             }
 
-            table { border-spacing: 0 1em; }
-            td, th { text-align: left; padding-right: 2em; vertical-align: top; }
-            td > ul { margin: 0; }
+            .grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                gap: 1em;
+            }
+
+            .grid > div {
+                border: 1px solid grey;
+                border-radius: 4px;
+                aspect-ratio: 1;
+                padding: 1em;
+            }
+
+            .grid > div > h3 {
+                font-size: 1em;
+                text-align: center;
+                margin: 0;
+                margin-bottom: 1em;
+            }
 
             @media only screen and (orientation: portrait) {
                 body {
@@ -137,6 +152,24 @@
                 <span lang="zh">您好，我叫来青乐。<!--我是：--></span>
                 <span lang="ja">ども、エリクです。<!--僕は：--></span>
             </p>
+
+            <div class="grid">
+                <div>
+                    <h3>Linguist</h3>
+                    Majoring in general linguistics<br>
+                    Learning:
+                    <ul>
+                        <li>Hungarian (native)</li>
+                        <li>Chinese</li>
+                        <li>Japanese</li>
+                    </ul>
+                </div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
     
             <table lang="en">
                 <tr>

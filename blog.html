@@ -4,6 +4,42 @@
     <title>blog · Erik Lajko</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- this needs serious cleanup lol -->
+    <style>
+        body {
+            background: #FFFDEE;
+            color: #1c1100;
+            font-family: sans-serif;
+            width: 400px;
+            margin: auto;
+        }
+
+        a {
+            color: #a3f;
+            background: #a3f3;
+            padding: 0.5em;
+            border-radius: 6px;
+            margin-right: 1em;
+            text-decoration: none;
+            font-weight: 700;
+        }
+
+        ul {
+            padding: 0;
+        }
+
+        li {
+            border: 1px solid #da9;
+            color: #da9;
+            list-style-type: none;
+            padding: 1em 0.5em;
+        }
+
+        li + li {
+            border-top: 0;
+        }
+    </style>
     
     <script>
         const articles = [
@@ -153,6 +189,12 @@
     <main class="center">
 
         <h1>Erik Lajko's Blog</h1>
+
+        <ul>
+            <li><a href>Why "AI" is not artificial</a>3/05/2024</li>
+            <li><a href>Why I love bacon</a>1/27/2024</li>
+            <li><a href>There's a miku in my head</a>12/29/2023</li>
+        </ul>
             
         <script>
             const urlParams = new URLSearchParams(window.location.search);

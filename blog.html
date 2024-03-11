@@ -45,7 +45,6 @@
         const articles = [
             {
                 title: "Journal 2: Mid-Semester Check-In",
-                author: "Erik Lajko",
                 date: "10/08/2023",
                 body: `
                     <p>College at UMD is awesome, I'll just say it right now. I relish having an increased sense of responsibility, fewer assignments, and a greater focus on learning — it's improved my mood, that's for sure. Of course, the transition came with some roadbumps, which I will discuss soon, but overall I have been having a lovely time living, learning, and adapting at UMD.</p>
@@ -71,7 +70,6 @@
             },
             {
                 title: "The Psychology of Why Some People Want to Control Your Body",
-                author: "Erik Lajko",
                 date: "11/29/2023",
                 banner: "https://media.istockphoto.com/id/1065178846/photo/blurred-crowd-of-unrecognizable-at-the-street.jpg?s=612x612&w=0&k=20&c=t91pGMNnMsWqrsFILvgvuGUQFleJCcFM1DhEC7o_C8o=",
                 banner_cite: "Photograph courtesy of iStockPhoto",
@@ -124,7 +122,6 @@
             },
             {
                 title: "Transgenderism and Sports",
-                author: "Erik Lajko",
                 date: "12/15/2023",
                 banner: "https://images.unsplash.com/photo-1567220720374-a67f33b2a6b9?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dGVubmlzJTIwY291cnR8ZW58MHx8MHx8fDA%3D",
                 banner_cite: "Photograph courtesy of Unsplash",
@@ -173,21 +170,15 @@
     <a href="blog.html">Home</a> /
     <a href="index.html">Back to Main Site</a>
 
-    <ul id="articles">
-        <li><a href>Why "AI" is not artificial</a>3/05/2024</li>
-        <li><a href>Why I love bacon</a>1/27/2024</li>
-        <li><a href>There's a miku in my head</a>12/29/2023</li>
-    </ul>
-
     <hr>
 
     <!-- stuff here -->
-    <div style="aspect-ratio: 2; background-image: url('https://blog.wego.com/wp-content/uploads/shutterstock_449250082_zi32oc.jpg');"></div>
+    <div id="banner" style="aspect-ratio: 2; background-image: url('https://blog.wego.com/wp-content/uploads/shutterstock_449250082_zi32oc.jpg');"></div>
     <address id="banner-cite">Photograph courtesy of Shutterstock</address>
 
-    <h1 id="title"></h1>
+    <h1 id="title">Latest Articles</h1>
     <div id="date"></div>
-        
+    
     <script>
         const urlParams = new URLSearchParams(window.location.search);
         const id = parseInt(urlParams.get('id'));
@@ -197,16 +188,20 @@
         if (isNaN(id)) {
             
             // load home screen
-            toInsert = "<h2>Latest Articles</h2>";
-            
+            toInsert = "<ul id='articles'>";
+    
             for (let i=articles.length-1; i+1; i--) {
                 toInsert += `
-                    <button type="button" class="article" onclick="window.open('?id=` + i + `','_self')">
-                        <h2>` + articles[i].author + `</h2>
-                        <h1>` + articles[i].title + `</h1>
-                    </button>
+                    <li>
+                        <a href="javascript:window.open('?id=` + i + `','_self')">
+                            ` + articles[i].title + `
+                        </a>
+                        ` + articles[i].date + `
+                    </li>
                 `;
             }
+
+            toInsert += "</ul>";
             
         } else if (id < 0 || id >= articles.length) {
             

@@ -15,7 +15,7 @@
             margin: auto;
         }
 
-        a {
+        articles a {
             color: #a3f;
             background: #a3f3;
             padding: 0.5em;
@@ -25,18 +25,18 @@
             font-weight: 700;
         }
 
-        ul {
+        articles {
             padding: 0;
         }
 
-        li {
+        articles li {
             border: 1px solid #da9;
             color: #da9;
             list-style-type: none;
             padding: 1em 0.5em;
         }
 
-        li + li {
+        articles li + li {
             border-top: 0;
         }
     </style>
@@ -167,92 +167,83 @@
     </script>
 </head>
 <body>
-    <header>
-        <div class="center">
+
+    <h1>Erik Lajko's Blog</h1>
+
+    <a href="blog.html">Home</a> /
+    <a href="index.html">Back to Main Site</a>
+
+    <ul id="articles">
+        <li><a href>Why "AI" is not artificial</a>3/05/2024</li>
+        <li><a href>Why I love bacon</a>1/27/2024</li>
+        <li><a href>There's a miku in my head</a>12/29/2023</li>
+    </ul>
+
+    <hr>
+
+    <!-- stuff here -->
+    <div id="banner" style="background-image: url('https://blog.wego.com/wp-content/uploads/shutterstock_449250082_zi32oc.jpg');"></div>
+    <address id="banner-cite">Photograph courtesy of Shutterstock</address>
+
+    <h1 id="title"></h1>
+    <div id="date"></div>
+        
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const id = parseInt(urlParams.get('id'));
+        
+        let toInsert;
+
+        if (isNaN(id)) {
             
-            <nav>
-                <div style="font-size: 1rem;">Kitsumitsu's Blog</div>
-                <div>|</div>
-                <a href="blog.html">Home</a>
-                <a href="index.html">Back to Main Site</a>
-            </nav>
-            <!-- stuff here -->
-            <div id="banner" style="background-image: url('https://blog.wego.com/wp-content/uploads/shutterstock_449250082_zi32oc.jpg');"></div>
-            <address id="banner-cite">Photograph courtesy of Shutterstock</address>
-
-            <h1 id="title"></h1>
-            <div id="date"></div>
+            // load home screen
+            toInsert = "<h2>Latest Articles</h2>";
             
-        </div>
-    </header>
-    
-    <main class="center">
-
-        <h1>Erik Lajko's Blog</h1>
-
-        <ul>
-            <li><a href>Why "AI" is not artificial</a>3/05/2024</li>
-            <li><a href>Why I love bacon</a>1/27/2024</li>
-            <li><a href>There's a miku in my head</a>12/29/2023</li>
-        </ul>
-            
-        <script>
-            const urlParams = new URLSearchParams(window.location.search);
-            const id = parseInt(urlParams.get('id'));
-            
-            let toInsert;
-    
-            if (isNaN(id)) {
-                
-                // load home screen
-                toInsert = "<h2>Latest Articles</h2>";
-                
-                for (let i=articles.length-1; i+1; i--) {
-                    toInsert += `
-                        <button type="button" class="article" onclick="window.open('?id=` + i + `','_self')">
-                            <h2>` + articles[i].author + `</h2>
-                            <h1>` + articles[i].title + `</h1>
-                        </button>
-                    `;
-                }
-                
-            } else if (id < 0 || id >= articles.length) {
-                
-                // load error
-                toInsert = "<h1 style='text-align: center;'>Uh oh!</h1><div style='color: grey;'>article does not exist :(</div>";
-                
-            } else {
-
-                // load article banner if it has one
-                if (articles[id].banner != null) {
-                    document.getElementById("banner").style.backgroundImage = "url('" + articles[id].banner + "')";
-                    document.getElementById("banner-cite").innerHTML = articles[id].banner_cite;
-                }
-
-                // load title and date
-                document.getElementById("title").innerHTML = articles[id].title;
-                document.getElementById("date").innerHTML = articles[id].author + " · " + articles[id].date;
-                
-                // load article
-                toInsert = `
-                    %BODY%
-                    <hr>
-                    <h2>Source(s):</h2>
-                    <div>%CITE%</div>
+            for (let i=articles.length-1; i+1; i--) {
+                toInsert += `
+                    <button type="button" class="article" onclick="window.open('?id=` + i + `','_self')">
+                        <h2>` + articles[i].author + `</h2>
+                        <h1>` + articles[i].title + `</h1>
+                    </button>
                 `;
-                toInsert = toInsert.replace("%BODY%", formatBody(articles[id].body) );
-
-                if (articles[id].cite == null) {
-                    toInsert = toInsert.replace("%CITE%", "<p style='color: grey;'>There are no citations for this article.</p>");
-                } else {
-                    toInsert = toInsert.replace("%CITE%", articles[id].cite);
-                }
-                
             }
-    
-            document.write(toInsert);
-        </script>
             
-    </main>
+        } else if (id < 0 || id >= articles.length) {
+            
+            // load error
+            toInsert = "<h1 style='text-align: center;'>Uh oh!</h1><div style='color: grey;'>article does not exist :(</div>";
+            
+        } else {
+
+            // load article banner if it has one
+            if (articles[id].banner != null) {
+                document.getElementById("banner").style.backgroundImage = "url('" + articles[id].banner + "')";
+                document.getElementById("banner-cite").innerHTML = articles[id].banner_cite;
+            }
+
+            // load title and date
+            document.getElementById("title").innerHTML = articles[id].title;
+            document.getElementById("date").innerHTML = articles[id].author + " · " + articles[id].date;
+            
+            // load article
+            toInsert = `
+                %BODY%
+                <hr>
+                <h2>Source(s):</h2>
+                <div>%CITE%</div>
+            `;
+            toInsert = toInsert.replace("%BODY%", formatBody(articles[id].body) );
+
+            if (articles[id].cite == null) {
+                toInsert = toInsert.replace("%CITE%", "<p style='color: grey;'>There are no citations for this article.</p>");
+            } else {
+                toInsert = toInsert.replace("%CITE%", articles[id].cite);
+            }
+            
+        }
+
+        document.write(toInsert);
+    </script>
+        
 </body>
 </html>

@@ -33,6 +33,7 @@
 
         #articles {
             padding: 0;
+            line-height: 1em;
         }
 
         #articles li {
@@ -192,12 +193,9 @@
         let toInsert;
 
         if (isNaN(id)) {
-
-            // <div style="aspect-ratio: 2; background-size: cover; background-image: url('https://blog.wego.com/wp-content/uploads/shutterstock_449250082_zi32oc.jpg');"></div>
-            // <address>Photograph courtesy of Shutterstock</address>
             
             // load home screen
-            toInsert = "<h1>Latest Articles</h1><ul id='articles'>";
+            toInsert = "<ul id='articles'>";
     
             for (let i=articles.length-1; i+1; i--) {
                 toInsert += `
@@ -219,13 +217,16 @@
             
         } else {
 
-            toInsert = "";
-
-            // load article banner if it has one
+            // load article banner
             if (articles[id].banner != null) {
-                toInsert += `
+                toInsert = `
                     <div style="aspect-ratio: 2; background-size: cover; background-image: url('`+ articles[id].banner +`');"></div>
                     <address>` + articles[id].banner_cite + `</address>
+                `;
+            } else {
+                toInsert = `
+                    <div style="aspect-ratio: 2; background-size: cover; background-image: url('https://blog.wego.com/wp-content/uploads/shutterstock_449250082_zi32oc.jpg');"></div>
+                    <address>Photograph courtesy of Shutterstock</address>
                 `;
             }
             

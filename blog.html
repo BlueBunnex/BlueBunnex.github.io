@@ -17,6 +17,7 @@
             font-family: sans-serif;
             width: 600px;
             margin: auto;
+            line-height: 1.8em;
         }
 
         #articles a {
@@ -157,11 +158,13 @@
         ];
 
         function formatBody(body) {
-            const template = `<div style="overflow: hidden; position: relative; height: 15vw;">
-                <img src="%URL%" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); z-index: 10; height: 100%; width: inherit;">
-                <img src="%URL%" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 110%; filter: blur(3px) brightness(60%);">
-            </div>`;
-
+            const template = `
+                <div style="overflow: hidden; position: relative; height: 15vw;">
+                    <img src="%URL%" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); z-index: 10; height: 100%; width: inherit;">
+                    <img src="%URL%" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 110%; filter: blur(3px) brightness(60%);">
+                </div>
+            `;
+            
             while (body.indexOf("<img>") != -1) {
                 let open = body.indexOf("<img>");
                 let close = body.indexOf("</img>");
@@ -181,13 +184,6 @@
     <a href="index.html">Back to Main Site</a>
 
     <hr>
-
-    <!-- stuff here -->
-    <div id="banner" style="aspect-ratio: 2; background-image: url('https://blog.wego.com/wp-content/uploads/shutterstock_449250082_zi32oc.jpg');"></div>
-    <address id="banner-cite">Photograph courtesy of Shutterstock</address>
-
-    <h1 id="title">Latest Articles</h1>
-    <div id="date"></div>
     
     <script>
         const urlParams = new URLSearchParams(window.location.search);
@@ -196,9 +192,12 @@
         let toInsert;
 
         if (isNaN(id)) {
+
+            // <div style="aspect-ratio: 2; background-size: cover; background-image: url('https://blog.wego.com/wp-content/uploads/shutterstock_449250082_zi32oc.jpg');"></div>
+            // <address>Photograph courtesy of Shutterstock</address>
             
             // load home screen
-            toInsert = "<ul id='articles'>";
+            toInsert = "<h1>Latest Articles</h1><ul id='articles'>";
     
             for (let i=articles.length-1; i+1; i--) {
                 toInsert += `
@@ -220,24 +219,28 @@
             
         } else {
 
+            toInsert = "";
+
             // load article banner if it has one
             if (articles[id].banner != null) {
-                document.getElementById("banner").style.backgroundImage = "url('" + articles[id].banner + "')";
-                document.getElementById("banner-cite").innerHTML = articles[id].banner_cite;
+                toInsert += `
+                    <div style="aspect-ratio: 2; background-size: cover; background-image: url('`+ articles[id].banner +`');"></div>
+                    <address>` + articles[id].banner_cite + `</address>
+                `;
             }
-
-            // load title and date
-            document.getElementById("title").innerHTML = articles[id].title;
-            document.getElementById("date").innerHTML = articles[id].date;
             
-            // load article
-            toInsert = `
+            // load title, date, and article content
+            toInsert += `
+                <h1>%TITLE%</h1>
+                <div>%DATE%</div>
                 %BODY%
                 <hr>
                 <h2>Source(s):</h2>
                 <div>%CITE%</div>
             `;
-            toInsert = toInsert.replace("%BODY%", formatBody(articles[id].body) );
+            toInsert = toInsert.replace("%TITLE%", formatBody(articles[id].title));
+            toInsert = toInsert.replace("%DATE%", formatBody(articles[id].date));
+            toInsert = toInsert.replace("%BODY%", formatBody(articles[id].body));
 
             if (articles[id].cite == null) {
                 toInsert = toInsert.replace("%CITE%", "<p style='color: grey;'>There are no citations for this article.</p>");

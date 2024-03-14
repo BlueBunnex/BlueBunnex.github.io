@@ -29,10 +29,15 @@
         }
 
         article {
-            padding: 1em 0;
+            padding-bottom: 0.5em;
+            margin-bottom: 0.5em;
             border-bottom: 1px solid grey;
             display: flex;
             gap: 1em;
+        }
+        
+        article:last-of-type {
+            border-bottom: 0;
         }
     </style>
 </head>
@@ -68,13 +73,21 @@
         <div style="font-size: smaller; text-align: right; color: grey;">© 2024 Erik Lajko.</div>
     </div>
 
-    <div style="width: 500px;">
+    <div class="box" style="width: 500px;">
 
         <article>
             <img width="60" height="60" src="https://avatarfiles.alphacoders.com/368/368986.jpg">
             <div>
-                <strong>TempUser</strong> <span style="color: grey;">15m ago</span>
-                <br>rant about politics!!
+                <strong>TempUser</strong> <span style="color: grey;">6m ago</span>
+                <br>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+            </div>
+        </article>
+
+        <article>
+            <img width="60" height="60" src="https://avatarfiles.alphacoders.com/368/368986.jpg">
+            <div>
+                <strong>TempUser</strong> <span style="color: grey;">13m ago</span>
+                <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla auctor consequat massa, at ultricies orci eleifend non. Donec ut quam neque. In hac habitasse platea dictumst. In ut congue leo. Nulla euismod arcu a nisi lobortis, imperdiet vehicula libero volutpat. Praesent at ultrices purus. Aliquam vitae luctus massa. Sed interdum sed turpis ac bibendum. Nulla non accumsan sem. Proin lectus nibh, semper eget tempor non, congue non.
             </div>
         </article>
 
@@ -82,15 +95,7 @@
             <img width="60" height="60" src="https://avatarfiles.alphacoders.com/368/368986.jpg">
             <div>
                 <strong>TempUser</strong> <span style="color: grey;">15m ago</span>
-                <br>rant about politics!!
-            </div>
-        </article>
-
-        <article>
-            <img width="60" height="60" src="https://avatarfiles.alphacoders.com/368/368986.jpg">
-            <div>
-                <strong>TempUser</strong> <span style="color: grey;">15m ago</span>
-                <br>rant about politics!!
+                <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum purus.
             </div>
         </article>
         

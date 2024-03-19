@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Video</title>
+    
+    <!-- https://www.iconarchive.com/show/fluentui-emoji-flat-icons-by-microsoft/Cherry-Blossom-Flat-icon.html#google_vignette -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@400;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap');
+        
+        body {
+            width: 1000px;
+            margin: 4px auto;
+            
+            background: #111;
+            color: #eee;
+            font-family: "Fira Sans Condensed", sans-serif;
+        }
+        
+        a { color: #f06; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        img { border-radius: 4px; }
+        iframe { display: block; width: 100%; aspect-ratio: calc(3 / 2); border: 0; }
+        
+        button {
+            border: 0;
+            background: #222;
+            transition-duration: 0.12s;
+            cursor: pointer;
+
+            color: inherit;
+            font-size: inherit;
+            font-family: inherit;
+        }
+
+        button:hover {
+            filter: brightness(2);
+        }
+
+        #video-card { padding: 8px; background: black; font-family: 'Fira Sans Extra Condensed', sans-serif; }
+        #video-card h1 { font-size: 1.5em; margin: 0; }
+        #video-card #meta { display: flex; align-items: center; gap: 8px; margin: 4px 0 16px; }
+        #video-card #meta a { color: white; }
+        #video-card #meta #pfp { width: 40px; aspect-ratio: 1; }
+
+        #suggest { margin-top: 16px; display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; font-family: 'Fira Sans Extra Condensed', sans-serif; }
+        #suggest article img { width: 100%; aspect-ratio: calc(3 / 2); }
+        #suggest article #meta { margin: 4px; display: flex; justify-content: space-between; }
+    </style>
+</head>
+<body>
+
+    <div style="display: flex; justify-content: center; gap: 4px;">
+        <div style="flex: 1;">
+            <iframe src="https://www.youtube.com/embed/uqlUTYLnadw"></iframe>
+            
+            <div id="video-card">
+                <h1>THE MACE: A NEW WEAPON COMING TO MINECRAFT</h1>
+    
+                <div id="meta">
+                    <img id="pfp" src="https://yt3.ggpht.com/_DiGCcjGwJQAZ3zmlyB8TCYuA8O9tDJ9zGNysq5sR0rxwYb6SP5fW8cb3LbfcRwfui0m27oIhA=s88-c-k-c0x00ffffff-no-rj">
+                    <div>
+                        <a href>Minecraft</a> <span style="color: grey;">· 12.6M subscribers</span>
+                        <div style="color: grey;">848,977 views · 6 hours ago</div>
+                    </div>
+                    <button type="button" style="background: green; border-radius: 4px;">Subscribe</button>
+                    
+                    <div style="flex: 1;"></div>
+
+                    <!-- https://www.svgrepo.com/collection/kalai-oval-interface-icons/ -->
+                    <div style="height: 40px; border-radius: 4px; background: #222; display: flex; overflow: hidden;">
+                        <button type="button" style="height: 100%; aspect-ratio: 1; background-image: url('thumbs_up.svg'); background-size: 80%; background-position: center; background-repeat: no-repeat;"></button>
+                        <span style="display: inline-block; height: 100%; background: black; width: 2px;"></span>
+                        <button type="button" style="height: 100%; aspect-ratio: 1; background-image: url('thumbs_down.svg'); background-size: 80%; background-position: center; background-repeat: no-repeat;"></button>
+                    </div>
+                </div>
+    
+                A new weapon is smashing into Minecraft as part of the 1.21 update! Find out more about the heavy-hitting mace and its smash attack from Gameplay Designer Nir and Gameplay Developer Pouya. Check out the <a href="https://github.com/Kazumafan/Oix">repo</a> here. Rumor has it that it’s about to get much harder to obtain in Survival mode, so test it out sooner rather than later…
+            </div>
+        </div>
+
+        <div style="width: 280px;">
+            comments
+        </div>
+    </div>
+    
+    <div id="suggest">
+        <article>
+            <img src="https://64.media.tumblr.com/25d0c3edf7f06af266eb8c67e89a22e7/3b87a20d7f894aad-40/s1280x1920/573bd1b0171b45fc5d77cc41116ac61e4ca46cb8.png">
+            <div id="meta">
+                <strong>Title</strong>
+                <div style="color: grey;">Author</div>
+            </div>
+        </article>
+        <article>
+            <img src="https://64.media.tumblr.com/25d0c3edf7f06af266eb8c67e89a22e7/3b87a20d7f894aad-40/s1280x1920/573bd1b0171b45fc5d77cc41116ac61e4ca46cb8.png">
+            <div id="meta">
+                <strong>Title</strong>
+                <div style="color: grey;">Author</div>
+            </div>
+        </article>
+        <article>
+            <img src="https://64.media.tumblr.com/25d0c3edf7f06af266eb8c67e89a22e7/3b87a20d7f894aad-40/s1280x1920/573bd1b0171b45fc5d77cc41116ac61e4ca46cb8.png">
+            <div id="meta">
+                <strong>Title</strong>
+                <div style="color: grey;">Author</div>
+            </div>
+        </article>
+        <article>
+            <img src="https://64.media.tumblr.com/25d0c3edf7f06af266eb8c67e89a22e7/3b87a20d7f894aad-40/s1280x1920/573bd1b0171b45fc5d77cc41116ac61e4ca46cb8.png">
+            <div id="meta">
+                <strong>Title</strong>
+                <div style="color: grey;">Author</div>
+            </div>
+        </article>
+    </div>
+
+</body>
+</html>

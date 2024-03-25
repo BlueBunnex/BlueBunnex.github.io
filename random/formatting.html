@@ -2,6 +2,19 @@
 <html>
 <head>
   <title>kitsumitsu.de · formatting</title>
+  <style>
+      .demo {
+          width: 800px;
+
+          padding: 2em 1em;
+          margin: 1em 0;
+          
+          line-height: 2;
+          font-family: 'Times New Roman', Times, serif;
+          
+          border: 1px solid grey;
+      }
+  </style>
 </head>
 <body style="font-family: sans-serif;">
 
@@ -10,7 +23,7 @@
     <h2>Font</h2>
     <p>12pt Times New Roman, double spaced.</p>
 
-    <div style="width: 800px; margin: 3em 0; line-height: 2; font-family: 'Times New Roman', Times, serif;">
+    <div class="demo">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lorem sapien, imperdiet ut tempus sed, malesuada ut mi. Suspendisse malesuada condimentum quam id maximus. Nulla vestibulum nibh mollis, malesuada tortor ac, semper augue.
         <br><br>
         Sed interdum viverra rhoncus. Duis dignissim pellentesque convallis. Proin consequat a tellus auctor euismod. Phasellus sed euismod lectus. Nam nec ornare erat. Mauris euismod accumsan venenatis. Curabitur neque lacus, finibus quis interdum quis, aliquet vitae ligula. Nullam cursus ante ipsum, at faucibus orci fringilla viverra.
@@ -21,7 +34,7 @@
     <h2>Header</h2>
     <p>The header should be visible on every page, right aligned. Format and example below.</p>
     
-    <div style="width: 800px; margin: 3em 0; line-height: 2; font-family: 'Times New Roman', Times, serif; display: flex; text-align: right;">
+    <div class="demo" style="display: flex; text-align: right;">
         <div style="flex: 1;">
             [first] [last] [page #]
             <br>
